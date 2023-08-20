@@ -1,0 +1,48 @@
+name: 报错反馈
+description: 游戏报错
+labels: ['bug']
+body:
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 在提问之前...
+      options:
+      - label: 我理解 Issue 是用于反馈和解决问题的，而非吐槽评论区，将尽可能提供更多信息帮助问题解决
+        required: true
+      - label: 我填写了简短且清晰明确的标题，以便开发者在翻阅 issue 列表时能快速确定大致问题。而不是“一个建议”、“卡住了”等
+        required: true
+      - label: 我已查看最新发布版本的更新内容，并未提及该 bug 已被修复的情况
+        required: true
+  - type: textarea
+    id: describe
+    attributes:
+      label: 问题描述
+      description: 尽可能详细描述你的问题，包括但不限于下载的汉化游戏版本等
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 存档 / 代码
+      description: |
+        如果你使用的是 **`html`** 版本，请在报错页面点击 **`export`** 导出存档并上传；
+        如果你使用的是`apk`版本，请在游戏左栏的 **`存档-Export/Import-获取存档数据`** 处获取存档码，复制并以 **`txt`** 文件格式上传
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图
+      description: |
+        请上传报错页面的截图
+    validations:
+      required: false
+  - type: textarea
+    id: others
+    attributes:
+      label: 还有别的吗？
+      description: |
+        复现报错的步骤？触发报错的条件？
+        任何能让我们对你所遇到的问题有更多了解的东西
+    validations:
+      required: false

@@ -1,0 +1,32 @@
+name: 汉化建议
+description: 对汉化文本的建议
+labels: ['enhancement']
+body:
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 在提问之前...
+      options:
+      - label: 我填写了简短且清晰明确的标题，以便开发者在翻阅 issue 列表时能快速确定大致问题。而不是“一个建议”、“卡住了”等
+        required: true
+      - label: 我确定这是对汉化文本内容的建议
+        required: true
+  - type: textarea
+    id: describe
+    attributes:
+      label: 说说你看到的汉化文本内容？
+    validations:
+      required: false
+  - type: textarea
+    id: solution
+    attributes:
+      label: 有什么好的想法？
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: 其他内容
+      description: 关于该需求建议的任何其他相关内容。
+    validations:
+      required: false
