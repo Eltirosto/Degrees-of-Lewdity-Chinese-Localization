@@ -11,6 +11,8 @@
   - [游戏源码仓库][3]
 
 ### 关于本仓库
+-> [本仓库地址][4] <- 
+
 本仓库将会不定期放出游戏的简体中文本地化版本，仅供交流学习，请于下载后 24 小时内删除。
 
 游戏完全免费游玩，严禁将中文本地化版本用作商业盈利用途或公开大肆传播，对于商业盈利或公开传播导致的可能法律后果完全由使用者自行承担，与汉化成员无关。允许在小范围个人之间传播，传播时请附上原作者的相关信息。
@@ -45,3 +47,4 @@
 [1]: https://vrelnir.blogspot.com/
 [2]: https://degreesoflewdity.miraheze.org/wiki/Main_Page
 [3]: https://gitgud.io/Vrelnir/degrees-of-lewdity/-/tree/master/
+[4]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/
