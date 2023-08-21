@@ -35,6 +35,12 @@
 > 
 > __release__: 当前翻译率达到 100%, 没有漏提取的文本，已经充分润色
 
+
+### Star 数
+
+[![Stargazers over time](https://starchart.cc/Eltirosto/Degrees-of-Lewdity-Chinese-Localization.svg)](https://starchart.cc/Eltirosto/Degrees-of-Lewdity-Chinese-Localization)
+
+
 ## 更新日志
 <details>
 <summary>点击展开</summary>
@@ -42,10 +48,13 @@
 >
 > 2023.08.21 
 > - 发布 `dol-0.4.1.7-chs-alpha1.0` 版
-> - 初步完成已提取文本的汉化，尚有部分文本未提取，汉化润色不充分
-> - md5值
->   - `dol-0.4.1.7-chs-alpha1.0.apk: 96cb25efa4f0f5cb0b3709c8f53480df`
->   - `dol-0.4.1.7-chs-alpha1.0.zip: a91bc4d63083597d865879a809e1d194`
+>   - 初步完成已提取文本的汉化，尚有部分文本未提取，汉化润色不充分
+> 
+> 
+> - 发布 `dol-0.4.1.7-chs-alpha1.1` 版
+>   - 修复了衣柜一系列操作报错的问题 [@issue/2][issue2]
+>   - 修复了幽灵战斗报错的问题 [@issue/3][issue3]
+> 
 
 </details>
 
@@ -53,3 +62,6 @@
 [2]: https://degreesoflewdity.miraheze.org/wiki/Main_Page
 [3]: https://gitgud.io/Vrelnir/degrees-of-lewdity/-/tree/master/
 [4]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/
+
+[issue2]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/2
+[issue3]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/3
