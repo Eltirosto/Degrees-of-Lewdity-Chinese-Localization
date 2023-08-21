@@ -15,6 +15,7 @@ body:
     id: describe
     attributes:
       label: 说说你看到的汉化文本内容？
+      description: 请附上截图
     validations:
       required: false
   - type: textarea
