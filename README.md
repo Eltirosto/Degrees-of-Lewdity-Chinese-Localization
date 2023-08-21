@@ -42,8 +42,8 @@
 > - 发布 `dol-0.4.1.7-chs-alpha1.0` 版
 > - 初步完成已提取文本的汉化，尚有部分文本未提取，汉化润色不充分
 > - md5值
->   - dol-0.4.1.7-chs-alpha1.0.apk: 96cb25efa4f0f5cb0b3709c8f53480df
->   - dol-0.4.1.7-chs-alpha1.0.zip: a91bc4d63083597d865879a809e1d194
+>   - `dol-0.4.1.7-chs-alpha1.0.apk: 96cb25efa4f0f5cb0b3709c8f53480df`
+>   - `dol-0.4.1.7-chs-alpha1.0.zip: a91bc4d63083597d865879a809e1d194`
 
 </details>
 
