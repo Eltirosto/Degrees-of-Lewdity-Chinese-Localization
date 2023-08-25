@@ -20,7 +20,7 @@
 **如在游玩过程中遇到任何问题，或对汉化文本有建议，请发布 issue 反馈，反馈时请附上出现问题时的`截图 + 游戏存档文件 / 游戏存档代码`，在其它平台反馈问题可能得不到回应。**
 
 ### 关于游戏发布
-如无特殊情况，本仓库每周一晚上九点将会定期发布新版本，下载请见右侧的 `release`
+如无特殊情况，本仓库每周五晚上九点将会定期发布新版本，下载请见右侧的 `releases`
 
 发布文件格式：
 - `dol-{游戏版本号}-chs-{中文本地化版本号}`
@@ -72,6 +72,13 @@
 >   - 修复了衣柜一系列操作报错的问题 [@issue/2][issue2]
 >   - 修复了幽灵战斗报错的问题 [@issue/3][issue3]
 > 
+> 2023.08.25
+> - 发布 `dol-0.4.1.7-chs-alpha1.2` 版
+>   - 汉化了游戏开局睡衣名称 [@issue/5][issue5]
+>   - 修改了两处文本汉化 [@issue/7][issue7]
+>   - 汉化了博物馆温特说的话 [@issue/9][issue9]
+>   - 修复了一些其他已知问题
+>   - 补充了一些其他已知未汉化内容
 
 </details>
 
@@ -82,3 +89,6 @@
 
 [issue2]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/2
 [issue3]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/3
+[issue5]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/5
+[issue7]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/7
+[issue9]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/9
