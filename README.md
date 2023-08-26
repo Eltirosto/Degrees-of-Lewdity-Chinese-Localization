@@ -79,6 +79,11 @@
 >   - 汉化了博物馆温特说的话 [@issue/9][issue9]
 >   - 修复了一些其他已知问题
 >   - 补充了一些其他已知未汉化内容
+> 
+> 2023.08.26
+> - 发布 `dol-0.4.1.7-chs-alpha1.2.1` 版
+>   - 修复了与镜子相关的问题 [@issue/12][issue12]
+>   - 修复了其它几处已知问题
 
 </details>
 
@@ -92,3 +97,4 @@
 [issue5]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/5
 [issue7]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/7
 [issue9]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/9
+[issue12]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/12
