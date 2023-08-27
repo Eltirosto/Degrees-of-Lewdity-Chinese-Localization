@@ -89,9 +89,14 @@
 > 
 > 
 > - 发布 `dol-0.4.1.7-chs-alpha1.2.2` 版
->   - 修复了镜子涂鸦报错问题
 >   - 修复了部分颜色描述问题
 >   - 修复了部分文本描述问题
+> 
+> 
+> 2023.08.27
+> - 发布 `dol-0.4.1.7-chs-alpha1.2.3` 版
+>   - 修复了初始化人物时使用成就加点报错的问题 [@issue/13][issue13]
+>   - 修复了部分已知问题
 
 </details>
 
@@ -106,3 +111,4 @@
 [issue7]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/7
 [issue9]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/9
 [issue12]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/12
+[issue13]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/13
