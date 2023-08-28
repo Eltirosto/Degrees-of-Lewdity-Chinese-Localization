@@ -97,6 +97,15 @@
 > - 发布 `dol-0.4.1.7-chs-alpha1.2.3` 版
 >   - 修复了初始化人物时使用成就加点报错的问题 [@issue/13][issue13]
 >   - 修复了部分已知问题
+> 
+> 
+> 2023.08.28
+> - 发布 `dol-0.4.1.7-chs-alpha1.2.4` 版
+>   - 修复了理发店报错的问题 [@issue/14][issue14] [@issue/18][issue18]
+>   - 修复了与子女互动的问题 [@issue/15][issue15]
+>   - 修改了实验室文本的汉化 [@issue/16][issue16]
+>   - 修复了初始套装显示问题 [@issue/17][issue17]
+>   - 修复了部分已知问题
 
 </details>
 
@@ -112,3 +121,8 @@
 [issue9]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/9
 [issue12]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/12
 [issue13]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/13
+[issue14]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/14
+[issue15]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/15
+[issue16]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/16
+[issue17]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/17
+[issue18]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/18
