@@ -106,6 +106,13 @@
 >   - 修改了实验室文本的汉化 [@issue/16][issue16]
 >   - 修复了初始套装显示问题 [@issue/17][issue17]
 >   - 修复了部分已知问题
+> 
+> 
+> 2023.08.29
+> - 发布 `dol-0.4.1.7-chs-slpha1.2.5` 版
+>   - 修复了角色栏报错的问题 [@issue/20][issue20]
+>   - 修复了图书馆借书报错的问题 [@issue/21][issue21]
+>   - 修复了一些其他已知问题
 
 </details>
 
@@ -126,3 +133,5 @@
 [issue16]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/16
 [issue17]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/17
 [issue18]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/18
+[issue20]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/20
+[issue21]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/21
