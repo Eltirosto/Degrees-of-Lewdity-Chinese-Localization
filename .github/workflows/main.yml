@@ -77,8 +77,7 @@ jobs:
             manifest_json["scope"] = "/${{ github.event.repository.name }}/"
             manifest_json["start_url"] = "/${{ github.event.repository.name }}/"
             manifest_json["shortcuts"][0]["url"] = "/${{ github.event.repository.name }}/"
-            for icon in manifest_json["icons"]:
-              icon["src"] = icon["src"].replace("icons/", "/${{ github.event.repository.name }}/icons/")
+            manifest_json["icons"][0]["src"] = "/${{ github.event.repository.name }}/icon.png"
             manifest_file.seek(0)
             manifest_file.truncate()
             manifest_file.write(json.dumps(manifest_json, indent=2))
@@ -93,7 +92,6 @@ jobs:
 
   deploy-vercel:
     runs-on: ubuntu-latest
-    if: ${{ secrets.VERCEL_TOKEN != '' && secrets.VERCEL_TEAM_ID != '' && secrets.VERCEL_PROJECT_ID != '' }}
     needs: build
     steps:
       - uses: actions/checkout@v3
