@@ -22,6 +22,8 @@
 ### 关于游戏发布
 如无特殊情况，本仓库每周五晚上九点将会定期发布新版本，下载请见右侧的 `releases`
 
+游戏发布时会自动部署到 [Github Pages][ghpages]
+
 发布文件格式：
 - `dol-{游戏版本号}-chs-{中文本地化版本号}`
 
@@ -120,6 +122,7 @@
 [2]: https://degreesoflewdity.miraheze.org/wiki/Main_Page
 [3]: https://gitgud.io/Vrelnir/degrees-of-lewdity/-/tree/master/
 [4]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/
+[ghpages]: https://eltirosto.github.io/Degrees-of-Lewdity-Chinese-Localization/
 
 [issue2]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/2
 [issue3]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/3
