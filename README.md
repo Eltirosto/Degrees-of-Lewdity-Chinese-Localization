@@ -1,6 +1,13 @@
 # Degrees of Lewdity 中文本地化发布库
 
 ---
+![Static Badge](https://img.shields.io/badge/Author-Vrelnir-purple?link=https%3A%2F%2Fvrelnir.blogspot.com%2F)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/Eltirosto/Degrees-of-Lewdity-Chinese-Localization?link=https%3A%2F%2Fgithub.com%2FEltirosto%2FDegrees-of-Lewdity-Chinese-Localization%2Freleases%2Flatest)
+![GitHub all releases](https://img.shields.io/github/downloads/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/total?link=https%3A%2F%2Fgithub.com%2FEltirosto%2FDegrees-of-Lewdity-Chinese-Localization%2Freleases%2Flatest)
+![GitHub Repo stars](https://img.shields.io/github/stars/Eltirosto/Degrees-of-Lewdity-Chinese-Localization)
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7800082e-5667-4035-bb58-cfda7d6e1e08/deploy-status)](https://app.netlify.com/sites/graceful-starlight-97b8ae/deploys)
 
 ## 简介
 ### 放在前面...
@@ -22,7 +29,7 @@
 ### 关于游戏发布
 如无特殊情况，本仓库每周五晚上九点将会定期发布新版本，下载请见右侧的 `releases`
 
-游戏发布时会自动部署到 [Github Pages][ghpages]
+游戏发布时会自动部署到 [Github Pages][ghpages]，并使用 [Netlify][netlify] 镜像加速。
 
 发布文件格式：
 - `dol-{游戏版本号}-chs-{中文本地化版本号}`
@@ -123,6 +130,7 @@
 [3]: https://gitgud.io/Vrelnir/degrees-of-lewdity/-/tree/master/
 [4]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/
 [ghpages]: https://eltirosto.github.io/Degrees-of-Lewdity-Chinese-Localization/
+[netlify]: https://graceful-starlight-97b8ae.netlify.app/
 
 [issue2]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/2
 [issue3]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/3
