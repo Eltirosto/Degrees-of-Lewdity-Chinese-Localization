@@ -122,6 +122,11 @@
 >   - 修复了角色栏报错的问题 [@issue/20][issue20]
 >   - 修复了图书馆借书报错的问题 [@issue/21][issue21]
 >   - 修复了一些其他已知问题
+>
+>
+> 2023.08.31
+> - 将汉化版同步部署为可在线游玩 / 作为应用安装到本地的 PWA [@issue/22][issue22]
+>   - [Github Pages][ghpages] / [Netlify][netlify]
 
 </details>
 
@@ -146,3 +151,4 @@
 [issue18]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/18
 [issue20]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/20
 [issue21]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/21
+[issue22]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/22
