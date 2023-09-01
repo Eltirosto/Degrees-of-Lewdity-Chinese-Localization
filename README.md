@@ -122,6 +122,23 @@
 >   - 修复了角色栏报错的问题 [@issue/20][issue20]
 >   - 修复了图书馆借书报错的问题 [@issue/21][issue21]
 >   - 修复了一些其他已知问题
+>
+>
+> 2023.08.31
+> - 将汉化版同步部署为可在线游玩 / 作为应用安装到本地的 PWA [@issue/22][issue22]
+>   - [GitHub Pages][ghpages] / [Netlify][netlify]
+> 
+> 
+> 2023.09.01
+> - 发布 `dol-0.4.1.7-chs-alpha1.3.0` 版
+>   - 汉化了一系列内容如下: [@issue/24][issue24]
+>     - 汉化了侧栏衣服及描述
+>     - 汉化了新存档初始套装名称
+>     - 汉化了衣柜服装编辑器
+>     - 汉化了衣柜更衣时错误信息
+>     - 汉化了社交页面 NPC 名称、称号、描述即属性
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
 
 </details>
 
@@ -146,3 +163,5 @@
 [issue18]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/18
 [issue20]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/20
 [issue21]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/21
+[issue22]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/22
+[issue24]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/24
