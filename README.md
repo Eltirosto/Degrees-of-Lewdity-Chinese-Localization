@@ -29,7 +29,7 @@
 ### 关于游戏发布
 如无特殊情况，本仓库每周五晚上九点将会定期发布新版本，下载请见右侧的 `releases`
 
-游戏发布时会自动部署到 [Github Pages][ghpages]，并使用 [Netlify][netlify] 镜像加速。
+游戏发布时会自动部署到 [GitHub Pages][ghpages]，并使用 [Netlify][netlify] 镜像加速。
 
 发布文件格式：
 - `dol-{游戏版本号}-chs-{中文本地化版本号}`
