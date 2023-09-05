@@ -15,7 +15,7 @@ body:
     id: describe
     attributes:
       label: 说说你看到的汉化文本内容？
-      description: 请附上截图 / 存档文件
+      description: 请附上截图以及存档文件，截图需要截完整页面，包括角落中的版本号
     validations:
       required: true
   - type: textarea

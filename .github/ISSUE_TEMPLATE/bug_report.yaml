@@ -34,9 +34,9 @@ body:
     attributes:
       label: 截图
       description: |
-        请上传报错页面的截图
+        请上传报错页面的截图，截图需要截完整页面，包括角落中的版本号
     validations:
-      required: false
+      required: true
   - type: textarea
     id: others
     attributes:
