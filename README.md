@@ -159,6 +159,15 @@
 >   - 汉化了贞操带相关文本 [@issue/38][issue38]
 >   - 修复了一些其他已知问题
 >   - 汉化了部分已知未汉化文本
+> 
+> 
+> 2023.09.10
+> - 发布 `dol-0.4.1.7-chs-alpha1.4.1` 版
+>   - 修复了酒吧接受米奇委托时报错 [@issue/41][issue41]
+>   - 修复了在神殿与悉尼卿卿我我时报错 [@issue/42][issue42]
+>   - 统一了成就和成就加点中的翻译 [@issue/43][issue43]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
 
 </details>
 
@@ -195,3 +204,6 @@
 [issue35]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/35
 [issue36]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/36
 [issue38]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/38
+[issue41]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/41
+[issue42]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/42
+[issue43]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/43
