@@ -166,6 +166,15 @@
 >   - 统一了成就和成就加点中的翻译 [@issue/43][issue43]
 >   - 修复了一些其他已知问题
 >   - 汉化了部分已知未汉化文本
+> 
+> 
+> 2023.09.15
+> - 发布 `dol-0.4.1.7-chs-alpha1.5.0` 版
+>   - 修复了堕落悉尼在带有贞操带情况下在神殿卿卿我我时概率触发报错 [@issue/44][issue44]
+>   - 修复了与罗宾卿卿我我过程中偶尔会触发通用对话的问题 [@issue/45][issue45]
+>   - 修复了在神殿遇到非自愿战斗中报错的问题 [@issue/46][issue46] [@issue/49][issue49]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
 
 </details>
 
@@ -205,3 +214,7 @@
 [issue41]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/41
 [issue42]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/42
 [issue43]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/43
+[issue44]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/44
+[issue45]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/45
+[issue46]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/46
+[issue49]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/49
