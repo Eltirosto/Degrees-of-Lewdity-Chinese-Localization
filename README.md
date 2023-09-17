@@ -27,6 +27,7 @@
 游戏完全免费游玩，严禁将中文本地化版本用作商业盈利用途或公开大肆传播，对于商业盈利或公开传播导致的可能法律后果完全由使用者自行承担，与汉化成员无关。允许在小范围个人之间传播，传播时请附上原作者的相关信息。
 
 **如在游玩过程中遇到任何问题，或对汉化文本有建议，请发布 issue 反馈，反馈时请附上出现问题时的`截图 + 游戏存档文件 / 游戏存档代码`，在其它平台反馈问题可能得不到回应。**
+- __不要删除自己的 `issue`, 方便后来人查阅相关问题__
 
 **请注意，本仓库仅解决由于游戏汉化版本导致的问题**
 - **如果问题在英文版能复现，请去游戏官方 Discord 反映。**
@@ -175,6 +176,16 @@
 >   - 修复了在神殿遇到非自愿战斗中报错的问题 [@issue/46][issue46] [@issue/49][issue49]
 >   - 修复了一些其他已知问题
 >   - 汉化了部分已知未汉化文本
+> 
+> 
+> 2023.09.17
+> - 发布 `dol-0.4.1.7-chs-alpha1.5.1` 版
+>   - 修复了与悉尼卿卿我我过程中偶尔会触发通用对话的问题 [@issue/50][issue50]
+>   - 修复了孤儿院浴室用榨乳器榨乳报错 [@issue/51][issue51]
+>   - 修复了在舞蹈室更换舞蹈服报错 [@issue/52][issue52]
+>   - 修复了更换恋爱对象导致红心消失的问题
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
 
 </details>
 
@@ -218,3 +229,6 @@
 [issue45]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/45
 [issue46]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/46
 [issue49]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/49
+[issue50]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/50
+[issue51]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/51
+[issue52]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/52
