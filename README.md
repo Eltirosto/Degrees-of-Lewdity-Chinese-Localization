@@ -186,6 +186,19 @@
 >   - 修复了更换恋爱对象导致红心消失的问题
 >   - 修复了一些其他已知问题
 >   - 汉化了部分已知未汉化文本
+> 
+> 
+> 2023.09.22
+> - 发布 `dol-0.4.1.7-chs-alpha1.6.0` 版
+>   - 修复了万圣节惠特尼文本缺失问题 [@issue/53][issue53]
+>   - 修复了圣诞表演排练剧情文本错误 [@issue/54][issue54]
+>   - 修复了与<span>标签缺失有关的一系列问题 [@issue/55][issue55] [@issue/56][issue56] [@issue/58][issue58] [@issue/59][issue59] [@issue/63][issue63]
+>   - 修改了惠特尼周日拼酒事件中的文本 [@issue/60][issue60] [@issue/61][issue61]
+>   - 修改了农场帮艾利克斯收快递的文本 [@issue/64][issue64]
+>   - 修复了生下金属触手后，点击查看笔记本报错 [@issue/65][issue65]
+>   - 修复了荒原搜索中的文本问题 [@issue/66][issue66]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
 
 </details>
 
@@ -232,3 +245,16 @@
 [issue50]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/50
 [issue51]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/51
 [issue52]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/52
+
+[issue53]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/53
+[issue54]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/54
+[issue55]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/55
+[issue56]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/56
+[issue58]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/58
+[issue59]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/59
+[issue60]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/60
+[issue61]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/61
+[issue63]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/63
+[issue64]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/64
+[issue65]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/65
+[issue66]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/66
