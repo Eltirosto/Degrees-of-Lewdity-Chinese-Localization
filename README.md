@@ -199,6 +199,15 @@
 >   - 修复了荒原搜索中的文本问题 [@issue/66][issue66]
 >   - 修复了一些其他已知问题
 >   - 汉化了部分已知未汉化文本
+>     
+>
+> 2023.09.29
+> - 发布 `dol-0.4.1.7-chs-alpha1.7.0` 版
+>   - 翻译了部分未翻译文本 [@issue/68][issue68] [@issue/69][issue69] [@issue/71][issue71]
+>   - 改进了部分翻译文本 [@issue/70][issue70] [@issue/72][issue72] [@issue/73][issue73]
+>   - 修复了部分错字别字 [@issue/74][issue74]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
 
 </details>
 
@@ -245,7 +254,6 @@
 [issue50]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/50
 [issue51]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/51
 [issue52]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/52
-
 [issue53]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/53
 [issue54]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/54
 [issue55]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/55
@@ -258,3 +266,11 @@
 [issue64]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/64
 [issue65]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/65
 [issue66]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/66
+
+[issue68]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/68
+[issue69]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/69
+[issue70]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/70
+[issue71]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/71
+[issue72]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/72
+[issue73]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/73
+[issue74]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/74
