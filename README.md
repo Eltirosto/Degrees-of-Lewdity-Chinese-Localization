@@ -208,6 +208,11 @@
 >   - 修复了部分错字别字 [@issue/74][issue74]
 >   - 修复了一些其他已知问题
 >   - 汉化了部分已知未汉化文本
+>     
+>
+> 2023.09.29
+> - 发布 `dol-0.4.1.7-chs-alpha1.7.1` 版
+>   - 修复了 `alpha1.7.0` 无法加载旧存档的问题 [@issue/76][issue76]
 
 </details>
 
@@ -274,3 +279,4 @@
 [issue72]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/72
 [issue73]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/73
 [issue74]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/74
+[issue76]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/76
