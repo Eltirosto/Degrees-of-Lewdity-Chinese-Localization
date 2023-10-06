@@ -238,9 +238,14 @@
 >   - 修改了货物售卖处的翻译问题 [@issue/92][issue92]
 >   - 汉化了学校蠕虫战斗的文本 [@issue/94][issue94]
 >   - 修复了罗宾异装任务的问题 [@issue/95][issue95]
->   - 汉化了幽灵部分遗漏文本 [@issue97][issue97]
+>   - 汉化了幽灵部分遗漏文本 [@issue/97][issue97]
 >   - 修复了一些其他已知问题
 >   - 汉化了部分已知未汉化文本
+>   
+> 
+> - 发布 `dol-0.4.2.6-chs-alpha3.0.1` 版
+>   - 修复了事件跳转错误 [@issue/99][issue99] [@issue/100][issue100]
+>   - 修复了一些其他已知问题
 
 </details>
 
@@ -314,7 +319,6 @@
 [issue86]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/86
 [issue87]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/87
 [issue88]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/88
-
 [issue89]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/89
 [issue91]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/91
 [issue92]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/92
@@ -322,3 +326,5 @@
 [issue94]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/94
 [issue95]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/95
 [issue97]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/97
+[issue99]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/99
+[issue100]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/100
