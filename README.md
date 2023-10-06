@@ -40,15 +40,24 @@
 发布文件格式：
 - `dol-{游戏版本号}-chs-{中文本地化版本号}`
 
-例如：
-- `dol-0.4.1.7-chs-alpha1.0`
+### 关于版本号
+汉化版本号的基本结构是 `chs-x.y.z`，如 `chs-alpha1.7.1`
 
-各版本号含义:
-> __alpha__: 当前翻译率达到 100%, 可能有漏提取的文本，润色不充分
-> 
-> __beta__: 当前翻译率达到 100%, 没有漏提取的文本，润色不充分
-> 
-> __release__: 当前翻译率达到 100%, 没有漏提取的文本，已经充分润色
+游戏版本号的基本结构是 `{游戏版本号}-chs-{汉化版本号}`，如 `0.4.1.7-chs-alpha1.7.1`
+
+汉化版本号的修改遵循如下规则：
+1. `alpha` / `beta` / `release` 分别代表：
+   - `alpha`: 当前翻译率达到 100%, 可能有漏提取的文本，润色不充分
+   - `beta`: 当前翻译率达到 100%, 没有漏提取的文本，润色不充分 
+   - `release`: 当前翻译率达到 100%, 没有漏提取的文本，已经充分润色
+2. 如果游戏版本号发生破坏性更新：如 `0.4.1` => `0.4.2`, 或 `0.4` -> `0.5`，则汉化版本号重置，如：
+   - `0.4.1.7-chs-alpha1.7.1` => `0.4.2.4-chs-alpha1.0.0`
+3. 如果游戏版本号发生小修小补更新：如 `0.4.1.6` => `0.4.1.7`, 或 `0.4.2.0` => `0.4.2.5`，则汉化版本号第一位加一，如：
+   - `0.4.2.4-chs-alpha1.0.0` => `0.4.2.5-chs-alpha2.0.0`
+4. 每周五晚九点定期更新，则汉化版本号第二位加一，如：
+   - `0.4.1.7-chs-alpha1.6.0` => `0.4.1.7-chs-alpha1.7.0`
+5. 出现了导致游戏无法继续进行的恶性问题而临时更新，则汉化版本号末位加一，如：
+   - `0.4.1.7-chs-alpha1.7.0` => `0.4.1.7-chs-alpha1.7.1`
 
 
 ### Star 数
@@ -213,6 +222,24 @@
 > 2023.09.29
 > - 发布 `dol-0.4.1.7-chs-alpha1.7.1` 版
 >   - 修复了 `alpha1.7.0` 无法加载旧存档的问题 [@issue/76][issue76]
+> 
+> 
+> 2023.10.06
+> - 发布 `dol-0.4.2.6-chs-alpha3.0.0` 版
+>   - 游戏本体更新至 `0.4.2.6` 版本
+>   - 修复了有关身体涂鸦无法正确调用 text 文件中的图片问题 [@issue/48][issue48]
+>   - 修复了全角引号导致的几处错误 [@issue/77][issue77] [@issue/78][issue78]
+>   - 汉化了历史考试时老师的名称 [@issue/83][issue83] [@issue/91][issue91]
+>   - 修正了帮助主管处的汉化错误 [@issue/86][issue86]
+>   - 修复了猫转化战斗文本的问题 [@issue/87][issue87]
+>   - 修复了照镜子时的问题 [@issue/88][issue88] [@issue/93][issue93]
+>   - 修复了理发店约会时的问题 [@issue/89][issue89]
+>   - 修改了货物售卖处的翻译问题 [@issue/92][issue92]
+>   - 汉化了学校蠕虫战斗的文本 [@issue/94][issue94]
+>   - 修复了罗宾异装任务的问题 [@issue/95][issue95]
+>   - 汉化了幽灵部分遗漏文本 [@issue97][issue97]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
 
 </details>
 
@@ -271,7 +298,6 @@
 [issue64]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/64
 [issue65]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/65
 [issue66]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/66
-
 [issue68]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/68
 [issue69]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/69
 [issue70]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/70
@@ -280,3 +306,18 @@
 [issue73]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/73
 [issue74]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/74
 [issue76]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/76
+[issue48]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/48
+[issue77]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/77
+[issue78]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/78
+[issue83]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/83
+[issue86]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/86
+[issue87]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/87
+[issue88]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/88
+
+[issue89]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/89
+[issue91]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/91
+[issue92]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/92
+[issue93]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/93
+[issue94]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/94
+[issue95]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/95
+[issue97]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/97
