@@ -9,8 +9,20 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7800082e-5667-4035-bb58-cfda7d6e1e08/deploy-status)](https://app.netlify.com/sites/graceful-starlight-97b8ae/deploys)
 
+---
+## 目录
+* [简介](#简介)
+  * [写在最前](#写在最前)
+  * [关于本仓库](#关于本仓库)
+  * [关于游戏发布](#关于游戏发布)
+  * [关于版本号](#关于版本号)
+* [免责声明](#免责声明)
+* [更新日志](#更新日志)
+
+---
+
 ## 简介
-### 放在前面...
+### 写在最前...
 - <img decoding="async" src="https://gitgud.io/uploads/-/system/user/avatar/9096/avatar.png" width="24"> <b>游戏作者</b> $\color{purple} {Vrelnir}$
   
   - [Vrelnir 的博客][blog]
@@ -33,9 +45,12 @@
 - **如果问题在英文版能复现，请去游戏官方 Discord 反映。**
 
 ### 关于游戏发布
-如无特殊情况，本仓库每周五晚上九点将会定期发布新版本，下载请见右侧的 `releases`
 
-游戏发布时会自动部署到 [GitHub Pages][ghpages]，并使用 [Netlify][netlify] 镜像加速。
+#### 发布下载版
+- 如无特殊情况，本仓库每周五晚上九点将会定期发布新版本，下载请见右侧的 `releases`
+
+#### 在线游玩版
+- 游戏发布时会自动部署到 [GitHub Pages][ghpages]，并使用 [Netlify][netlify] 镜像加速。
 
 发布文件格式：
 - `dol-{游戏版本号}-chs-{中文本地化版本号}`
@@ -59,11 +74,9 @@
 5. 出现了导致游戏无法继续进行的恶性问题而临时更新，则汉化版本号末位加一，如：
    - `0.4.1.7-chs-alpha1.7.0` => `0.4.1.7-chs-alpha1.7.1`
 
-
 ### Star 数
 
 [![Stargazers over time](https://starchart.cc/Eltirosto/Degrees-of-Lewdity-Chinese-Localization.svg)](https://starchart.cc/Eltirosto/Degrees-of-Lewdity-Chinese-Localization)
-
 
 
 ## 免责声明
@@ -81,147 +94,31 @@
 6. 本公告的最终解释权由汉化组享有，未尽事宜均以汉化组采取之行为为准。
 
 
-
 ## 更新日志
 <details>
 <summary>点击展开</summary>
 
->
-> 2023.08.21 
-> - 发布 `dol-0.4.1.7-chs-alpha1.0` 版
->   - 初步完成已提取文本的汉化，尚有部分文本未提取，汉化润色不充分
-> 
-> 
-> - 发布 `dol-0.4.1.7-chs-alpha1.1` 版
->   - 修复了衣柜一系列操作报错的问题 [@issue/2][issue2]
->   - 修复了幽灵战斗报错的问题 [@issue/3][issue3]
-> 
-> 
-> 2023.08.25
-> - 发布 `dol-0.4.1.7-chs-alpha1.2` 版
->   - 汉化了游戏开局睡衣名称 [@issue/5][issue5]
->   - 修改了两处文本汉化 [@issue/7][issue7]
->   - 汉化了博物馆温特说的话 [@issue/9][issue9]
->   - 修复了一些其他已知问题
->   - 补充了一些其他已知未汉化内容
-> 
-> 
-> 2023.08.26
-> - 发布 `dol-0.4.1.7-chs-alpha1.2.1` 版
->   - 修复了与镜子相关的问题 [@issue/12][issue12]
->   - 修复了其它几处已知问题
-> 
-> 
-> - 发布 `dol-0.4.1.7-chs-alpha1.2.2` 版
->   - 修复了部分颜色描述问题
->   - 修复了部分文本描述问题
-> 
-> 
-> 2023.08.27
-> - 发布 `dol-0.4.1.7-chs-alpha1.2.3` 版
->   - 修复了初始化人物时使用成就加点报错的问题 [@issue/13][issue13]
->   - 修复了部分已知问题
-> 
-> 
-> 2023.08.28
-> - 发布 `dol-0.4.1.7-chs-alpha1.2.4` 版
->   - 修复了理发店报错的问题 [@issue/14][issue14] [@issue/18][issue18]
->   - 修复了与子女互动的问题 [@issue/15][issue15]
->   - 修改了实验室文本的汉化 [@issue/16][issue16]
->   - 修复了初始套装显示问题 [@issue/17][issue17]
->   - 修复了部分已知问题
-> 
-> 
-> 2023.08.29
-> - 发布 `dol-0.4.1.7-chs-slpha1.2.5` 版
->   - 修复了角色栏报错的问题 [@issue/20][issue20]
->   - 修复了图书馆借书报错的问题 [@issue/21][issue21]
->   - 修复了一些其他已知问题
->
->
-> 2023.08.31
-> - 将汉化版同步部署为可在线游玩 / 作为应用安装到本地的 PWA [@issue/22][issue22]
->   - [GitHub Pages][ghpages] / [Netlify][netlify]
-> 
-> 
-> 2023.09.01
-> - 发布 `dol-0.4.1.7-chs-alpha1.3.0` 版
->   - 汉化了一系列内容如下: [@issue/24][issue24]
->     - 汉化了侧栏衣服及描述
->     - 汉化了新存档初始套装名称
->     - 汉化了衣柜服装编辑器
->     - 汉化了衣柜更衣时错误信息
->     - 汉化了社交页面 NPC 名称、称号、描述即属性
->   - 修复了一些其他已知问题
->   - 汉化了部分已知未汉化文本
->
-> 
-> 2023.09.08
-> - 发布 `dol-0.4.1.7-chs-alpha1.4.0` 版
->   - 修改了对专有名词的过度翻译 [@issue/28][issue28]
->   - 汉化了种田时的英文文本 [@issue/29][issue29]
->   - 修改了“Athletics”一词汉化为“运动” [@issue/31][issue31]
->   - 汉化了人体餐盘的英文文本 [@issue/34][issue34]
->   - 修改了科学课迟到的错误翻译 [@issue/35][issue35]
->   - 修改了礼顿留堂事件的汉化文本 [@issue/36][issue36]
->   - 汉化了贞操带相关文本 [@issue/38][issue38]
+> 2023.10.09
+> - 发布 `dol-0.4.2.7-chs-alpha4.0.0` 版
+>   - 游戏本体更新至 `0.4.2.7` 版本
+>   - __从本次更新开始安卓版的信息将基于[作者发布的安卓版][android]，因此 `dol-0.4.2.7-chs-alpha4.0.0.apk` 将不会覆盖更新 `dol-0.4.2.6-chs-alpha3.0.1.apk` 及先前的版本，请在更新前提前导出存档并迁移安卓应用__ [@issue/104][issue104]
+>   - 
+>   - 汉化了安卓版本中使用返回键退出游戏时的英文提示 [@issue/84][issue84]
+>   - __修复了部分情况下，旧版 Webview2 无法正确加载汉化版的部分问题 [@issue/98][issue98]__
+>   - 修复与神殿相关的问题 [@issue/101][issue101] [@issue/107][issue107] [@issue/108][issue108]
+>   - 修复与悉尼和贞操带相关的问题 [@issue/102][issue102] [@issue/106][issue106]
+>   - 修复与购买服装相关的问题 [@issue/103][issue103] [@issue/109][issue109] [@issue/112][issue112]
+>   - 修改本仓库更新日志时间线为倒序排列 [@issue/105][issue105]
+>   - 修复左右手写错的问题 [@issue/110][issue110]
+>   - __注：对于在新旧版本间反复载入导出存档可能会导致如 [@issue/111][issue111] 的问题，解决方案请参考评论。__
+>   - 修复了由于语法不匹配导致的与战斗文本相关的一系列问题 [@issue/113][issue113]
 >   - 修复了一些其他已知问题
 >   - 汉化了部分已知未汉化文本
 > 
-> 
-> 2023.09.10
-> - 发布 `dol-0.4.1.7-chs-alpha1.4.1` 版
->   - 修复了酒吧接受米奇委托时报错 [@issue/41][issue41]
->   - 修复了在神殿与悉尼卿卿我我时报错 [@issue/42][issue42]
->   - 统一了成就和成就加点中的翻译 [@issue/43][issue43]
+> 2023.10.06
+> - 发布 `dol-0.4.2.6-chs-alpha3.0.1` 版
+>   - 修复了事件跳转错误 [@issue/99][issue99] [@issue/100][issue100]
 >   - 修复了一些其他已知问题
->   - 汉化了部分已知未汉化文本
-> 
-> 
-> 2023.09.15
-> - 发布 `dol-0.4.1.7-chs-alpha1.5.0` 版
->   - 修复了堕落悉尼在带有贞操带情况下在神殿卿卿我我时概率触发报错 [@issue/44][issue44]
->   - 修复了与罗宾卿卿我我过程中偶尔会触发通用对话的问题 [@issue/45][issue45]
->   - 修复了在神殿遇到非自愿战斗中报错的问题 [@issue/46][issue46] [@issue/49][issue49]
->   - 修复了一些其他已知问题
->   - 汉化了部分已知未汉化文本
-> 
-> 
-> 2023.09.17
-> - 发布 `dol-0.4.1.7-chs-alpha1.5.1` 版
->   - 修复了与悉尼卿卿我我过程中偶尔会触发通用对话的问题 [@issue/50][issue50]
->   - 修复了孤儿院浴室用榨乳器榨乳报错 [@issue/51][issue51]
->   - 修复了在舞蹈室更换舞蹈服报错 [@issue/52][issue52]
->   - 修复了更换恋爱对象导致红心消失的问题
->   - 修复了一些其他已知问题
->   - 汉化了部分已知未汉化文本
-> 
-> 
-> 2023.09.22
-> - 发布 `dol-0.4.1.7-chs-alpha1.6.0` 版
->   - 修复了万圣节惠特尼文本缺失问题 [@issue/53][issue53]
->   - 修复了圣诞表演排练剧情文本错误 [@issue/54][issue54]
->   - 修复了与<span>标签缺失有关的一系列问题 [@issue/55][issue55] [@issue/56][issue56] [@issue/58][issue58] [@issue/59][issue59] [@issue/63][issue63]
->   - 修改了惠特尼周日拼酒事件中的文本 [@issue/60][issue60] [@issue/61][issue61]
->   - 修改了农场帮艾利克斯收快递的文本 [@issue/64][issue64]
->   - 修复了生下金属触手后，点击查看笔记本报错 [@issue/65][issue65]
->   - 修复了荒原搜索中的文本问题 [@issue/66][issue66]
->   - 修复了一些其他已知问题
->   - 汉化了部分已知未汉化文本
->     
->
-> 2023.09.29
-> - 发布 `dol-0.4.1.7-chs-alpha1.7.0` 版
->   - 翻译了部分未翻译文本 [@issue/68][issue68] [@issue/69][issue69] [@issue/71][issue71]
->   - 改进了部分翻译文本 [@issue/70][issue70] [@issue/72][issue72] [@issue/73][issue73]
->   - 修复了部分错字别字 [@issue/74][issue74]
->   - 修复了一些其他已知问题
->   - 汉化了部分已知未汉化文本
->     
->
-> 2023.09.29
-> - 发布 `dol-0.4.1.7-chs-alpha1.7.1` 版
->   - 修复了 `alpha1.7.0` 无法加载旧存档的问题 [@issue/76][issue76]
 > 
 > 
 > 2023.10.06
@@ -241,11 +138,145 @@
 >   - 汉化了幽灵部分遗漏文本 [@issue/97][issue97]
 >   - 修复了一些其他已知问题
 >   - 汉化了部分已知未汉化文本
->   
-> 
-> - 发布 `dol-0.4.2.6-chs-alpha3.0.1` 版
->   - 修复了事件跳转错误 [@issue/99][issue99] [@issue/100][issue100]
+>     
+>
+> 2023.09.29
+> - 发布 `dol-0.4.1.7-chs-alpha1.7.1` 版
+>   - 修复了 `alpha1.7.0` 无法加载旧存档的问题 [@issue/76][issue76]
+>     
+>
+> 2023.09.29
+> - 发布 `dol-0.4.1.7-chs-alpha1.7.0` 版
+>   - 翻译了部分未翻译文本 [@issue/68][issue68] [@issue/69][issue69] [@issue/71][issue71]
+>   - 改进了部分翻译文本 [@issue/70][issue70] [@issue/72][issue72] [@issue/73][issue73]
+>   - 修复了部分错字别字 [@issue/74][issue74]
 >   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+> 
+> 
+> 2023.09.22
+> - 发布 `dol-0.4.1.7-chs-alpha1.6.0` 版
+>   - 修复了万圣节惠特尼文本缺失问题 [@issue/53][issue53]
+>   - 修复了圣诞表演排练剧情文本错误 [@issue/54][issue54]
+>   - 修复了与<span>标签缺失有关的一系列问题 [@issue/55][issue55] [@issue/56][issue56] [@issue/58][issue58] [@issue/59][issue59] [@issue/63][issue63]
+>   - 修改了惠特尼周日拼酒事件中的文本 [@issue/60][issue60] [@issue/61][issue61]
+>   - 修改了农场帮艾利克斯收快递的文本 [@issue/64][issue64]
+>   - 修复了生下金属触手后，点击查看笔记本报错 [@issue/65][issue65]
+>   - 修复了荒原搜索中的文本问题 [@issue/66][issue66]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+> 
+> 
+> 2023.09.17
+> - 发布 `dol-0.4.1.7-chs-alpha1.5.1` 版
+>   - 修复了与悉尼卿卿我我过程中偶尔会触发通用对话的问题 [@issue/50][issue50]
+>   - 修复了孤儿院浴室用榨乳器榨乳报错 [@issue/51][issue51]
+>   - 修复了在舞蹈室更换舞蹈服报错 [@issue/52][issue52]
+>   - 修复了更换恋爱对象导致红心消失的问题
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+> 
+> 
+> 2023.09.15
+> - 发布 `dol-0.4.1.7-chs-alpha1.5.0` 版
+>   - 修复了堕落悉尼在带有贞操带情况下在神殿卿卿我我时概率触发报错 [@issue/44][issue44]
+>   - 修复了与罗宾卿卿我我过程中偶尔会触发通用对话的问题 [@issue/45][issue45]
+>   - 修复了在神殿遇到非自愿战斗中报错的问题 [@issue/46][issue46] [@issue/49][issue49]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+> 
+> 
+> 2023.09.10
+> - 发布 `dol-0.4.1.7-chs-alpha1.4.1` 版
+>   - 修复了酒吧接受米奇委托时报错 [@issue/41][issue41]
+>   - 修复了在神殿与悉尼卿卿我我时报错 [@issue/42][issue42]
+>   - 统一了成就和成就加点中的翻译 [@issue/43][issue43]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+>
+> 
+> 2023.09.08
+> - 发布 `dol-0.4.1.7-chs-alpha1.4.0` 版
+>   - 修改了对专有名词的过度翻译 [@issue/28][issue28]
+>   - 汉化了种田时的英文文本 [@issue/29][issue29]
+>   - 修改了“Athletics”一词汉化为“运动” [@issue/31][issue31]
+>   - 汉化了人体餐盘的英文文本 [@issue/34][issue34]
+>   - 修改了科学课迟到的错误翻译 [@issue/35][issue35]
+>   - 修改了礼顿留堂事件的汉化文本 [@issue/36][issue36]
+>   - 汉化了贞操带相关文本 [@issue/38][issue38]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+> 
+> 
+> 2023.09.01
+> - 发布 `dol-0.4.1.7-chs-alpha1.3.0` 版
+>   - 汉化了一系列内容如下: [@issue/24][issue24]
+>     - 汉化了侧栏衣服及描述
+>     - 汉化了新存档初始套装名称
+>     - 汉化了衣柜服装编辑器
+>     - 汉化了衣柜更衣时错误信息
+>     - 汉化了社交页面 NPC 名称、称号、描述即属性
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+>
+>
+> 2023.08.31
+> - 将汉化版同步部署为可在线游玩 / 作为应用安装到本地的 PWA [@issue/22][issue22]
+>   - [GitHub Pages][ghpages] / [Netlify][netlify]
+> 
+> 
+> 2023.08.29
+> - 发布 `dol-0.4.1.7-chs-slpha1.2.5` 版
+>   - 修复了角色栏报错的问题 [@issue/20][issue20]
+>   - 修复了图书馆借书报错的问题 [@issue/21][issue21]
+>   - 修复了一些其他已知问题
+> 
+> 
+> 2023.08.28
+> - 发布 `dol-0.4.1.7-chs-alpha1.2.4` 版
+>   - 修复了理发店报错的问题 [@issue/14][issue14] [@issue/18][issue18]
+>   - 修复了与子女互动的问题 [@issue/15][issue15]
+>   - 修改了实验室文本的汉化 [@issue/16][issue16]
+>   - 修复了初始套装显示问题 [@issue/17][issue17]
+>   - 修复了部分已知问题
+> 
+> 
+> 2023.08.27
+> - 发布 `dol-0.4.1.7-chs-alpha1.2.3` 版
+>   - 修复了初始化人物时使用成就加点报错的问题 [@issue/13][issue13]
+>   - 修复了部分已知问题
+> 
+> 
+> 2023.08.26
+> - 发布 `dol-0.4.1.7-chs-alpha1.2.2` 版
+>   - 修复了部分颜色描述问题
+>   - 修复了部分文本描述问题
+> 
+> 
+> 2023.08.26
+> - 发布 `dol-0.4.1.7-chs-alpha1.2.1` 版
+>   - 修复了与镜子相关的问题 [@issue/12][issue12]
+>   - 修复了其它几处已知问题
+> 
+> 
+> 2023.08.25
+> - 发布 `dol-0.4.1.7-chs-alpha1.2` 版
+>   - 汉化了游戏开局睡衣名称 [@issue/5][issue5]
+>   - 修改了两处文本汉化 [@issue/7][issue7]
+>   - 汉化了博物馆温特说的话 [@issue/9][issue9]
+>   - 修复了一些其他已知问题
+>   - 补充了一些其他已知未汉化内容
+> 
+> 
+> 2023.08.21 
+> - 发布 `dol-0.4.1.7-chs-alpha1.1` 版
+>   - 修复了衣柜一系列操作报错的问题 [@issue/2][issue2]
+>   - 修复了幽灵战斗报错的问题 [@issue/3][issue3]
+> 
+> 
+> 2023.08.21 
+> - 发布 `dol-0.4.1.7-chs-alpha1.0` 版
+>   - 初步完成已提取文本的汉化，尚有部分文本未提取，汉化润色不充分
 
 </details>
 
@@ -258,6 +289,7 @@
 [github-we]: https://github.com/Eltirosto/Degrees-of-Lewdity-World-Expansion-Chinese-Localization/
 [ghpages]: https://eltirosto.github.io/Degrees-of-Lewdity-Chinese-Localization/
 [netlify]: https://graceful-starlight-97b8ae.netlify.app/
+[android]: https://vrelnir.blogspot.com/?zx=a843afdd9c310383
 
 [issue2]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/2
 [issue3]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/3
@@ -288,6 +320,7 @@
 [issue44]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/44
 [issue45]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/45
 [issue46]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/46
+[issue48]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/48
 [issue49]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/49
 [issue50]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/50
 [issue51]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/51
@@ -312,10 +345,10 @@
 [issue73]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/73
 [issue74]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/74
 [issue76]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/76
-[issue48]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/48
 [issue77]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/77
 [issue78]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/78
 [issue83]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/83
+[issue84]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/84
 [issue86]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/86
 [issue87]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/87
 [issue88]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/88
@@ -326,5 +359,19 @@
 [issue94]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/94
 [issue95]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/95
 [issue97]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/97
+[issue98]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/98
 [issue99]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/99
 [issue100]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/100
+[issue101]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/101
+[issue102]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/102
+[issue103]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/103
+[issue104]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/104
+[issue105]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/105
+[issue106]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/106
+[issue107]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/107
+[issue108]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/108
+[issue109]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/109
+[issue110]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/110
+[issue111]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/111
+[issue112]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/112
+[issue113]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/113
