@@ -11,6 +11,8 @@ body:
         required: true
       - label: 我确定这是对汉化文本内容的建议
         required: true
+      - label: 我在标题开头写明了当前使用的版本号，比如 [0.4.2.7-chs-alpha4.0.0]
+        required: true
   - type: textarea
     id: describe
     attributes:
