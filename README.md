@@ -42,12 +42,12 @@
 - __不要删除自己的 `issue`, 方便后来人查阅相关问题__
 
 **请注意，本仓库仅解决由于游戏汉化版本导致的问题**
-- **如果问题在英文版能复现，请去游戏官方 Discord 反映。**
+- **如果问题在英文版能复现，请去游戏官方 [Discord][discord] 反映。**
 
 ### 关于游戏发布
 
 #### 发布下载版
-- 如无特殊情况，本仓库每周五晚上九点将会定期发布新版本，下载请见右侧的 `releases`
+- 如无特殊情况，本仓库每周五晚上九点将会定期发布新版本，下载请见右侧/底部的 [releases][releases-latest]
 
 #### 在线游玩版
 - 游戏发布时会自动部署到 [GitHub Pages][ghpages]，并使用 [Netlify][netlify] 镜像加速。
@@ -78,6 +78,7 @@
 
 [![Stargazers over time](https://starchart.cc/Eltirosto/Degrees-of-Lewdity-Chinese-Localization.svg)](https://starchart.cc/Eltirosto/Degrees-of-Lewdity-Chinese-Localization)
 
+---
 
 ## 免责声明
 
@@ -93,11 +94,24 @@
 
 6. 本公告的最终解释权由汉化组享有，未尽事宜均以汉化组采取之行为为准。
 
+---
 
 ## 更新日志
 <details>
 <summary>点击展开</summary>
 
+> 2023.10.13
+> - 发布 `dol-0.4.2.7-chs-alpha4.1.0` 版
+>   - 修复了多瑙河街豪宅敲門打工報錯的问题 [@issue/115][issue115]
+>   - 修复了更衣室伏击梅森报错的问题 [@issue/116][issue116]
+>   - 改进了卡在墙壁的错误翻译 [@issue/117][issue117]
+>   - 修复了奶牛農場的文本報錯 [@issue/118][issue118]
+>   - 修复了学校泳池男更衣室与角色交互报错 [@issue/121][issue121]
+>   - 修复了一处汉化文本错误 [@issue/122][issue122]
+>   - 修复了森林裡和黃蜂的場景報錯的问题 [@issue/123][issue123]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+> 
 > 2023.10.09
 > - 发布 `dol-0.4.2.7-chs-alpha4.0.0` 版
 >   - 游戏本体更新至 `0.4.2.7` 版本
@@ -290,6 +304,7 @@
 [ghpages]: https://eltirosto.github.io/Degrees-of-Lewdity-Chinese-Localization/
 [netlify]: https://graceful-starlight-97b8ae.netlify.app/
 [android]: https://vrelnir.blogspot.com/?zx=a843afdd9c310383
+[releases-latest]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/releases/latest
 
 [issue2]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/2
 [issue3]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/3
@@ -375,3 +390,11 @@
 [issue111]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/111
 [issue112]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/112
 [issue113]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/113
+
+[issue115]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/115
+[issue116]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/116
+[issue117]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/117
+[issue118]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/118
+[issue121]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/121
+[issue122]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/122
+[issue123]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/123
