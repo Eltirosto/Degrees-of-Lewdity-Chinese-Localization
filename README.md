@@ -6,9 +6,6 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/total?link=https%3A%2F%2Fgithub.com%2FEltirosto%2FDegrees-of-Lewdity-Chinese-Localization%2Freleases%2Flatest)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Eltirosto/Degrees-of-Lewdity-Chinese-Localization)
 
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7800082e-5667-4035-bb58-cfda7d6e1e08/deploy-status)](https://app.netlify.com/sites/graceful-starlight-97b8ae/deploys)
-
 ---
 ## 目录
 * [简介](#简介)
@@ -50,7 +47,7 @@
 - 如无特殊情况，本仓库每周五晚上九点将会定期发布新版本，下载请见右侧/底部的 [releases][releases-latest]
 
 #### 在线游玩版
-- 游戏发布时会自动部署到 [GitHub Pages][ghpages]，并使用 [Netlify][netlify] 镜像加速。
+- 游戏发布时会自动部署到 [GitHub Pages][ghpages]
 
 发布文件格式：
 - `dol-{游戏版本号}-chs-{中文本地化版本号}`
@@ -99,7 +96,11 @@
 ## 更新日志
 <details>
 <summary>点击展开</summary>
-
+ 
+> 2023.10.15
+> - 因用户流量过大，停止使用 Netlify 镜像部署在线版，以后将仅用 GitHub Pages 部署在线版
+>
+> 
 > 2023.10.13
 > - 发布 `dol-0.4.2.7-chs-alpha4.1.0` 版
 >   - 修复了多瑙河街豪宅敲門打工報錯的问题 [@issue/115][issue115]
