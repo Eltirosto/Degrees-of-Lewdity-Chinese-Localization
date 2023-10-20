@@ -29,14 +29,16 @@
   - [游戏源码仓库][gitgud]
 
 ### 关于本仓库
--> [本仓库地址][github-dol] <- 
+-> [本仓库地址][github-dol] <-
+
+-> [ModLoader 下载地址][modloader]<-
 
 本仓库将会不定期放出游戏的简体中文本地化版本，仅供交流学习，请于下载后 24 小时内删除。如果你未满 18 岁，请勿下载此游戏。仓库本身不含游戏相关内容，仅作为发布地址。**对在其它平台下载的汉化游戏文件不保证安全性，请谨慎下载。**
 
 游戏完全免费游玩，严禁将中文本地化版本用作商业盈利用途或公开大肆传播，对于商业盈利或公开传播导致的可能法律后果完全由使用者自行承担，与汉化成员无关。允许在小范围个人之间传播，传播时请附上原作者的相关信息。
 
-**如在游玩过程中遇到任何问题，或对汉化文本有建议，请发布 issue 反馈，反馈时请附上出现问题时的`截图 + 游戏存档文件 / 游戏存档代码`，在其它平台反馈问题可能得不到回应。**
-- __不要删除自己的 `issue`, 方便后来人查阅相关问题__
+**如在游玩过程中遇到任何问题，或对汉化文本有建议，请[发布 issue][issues] 反馈，反馈时请附上出现问题时的`截图 + 游戏存档文件 / 游戏存档代码`，在其它平台反馈问题可能得不到回应。**
+- **不要删除自己的 `issue`, 方便后来人查阅相关问题**
 
 **请注意，本仓库仅解决由于游戏汉化版本导致的问题**
 - **如果问题在英文版能复现，请去游戏官方 [Discord][discord] 反映。**
@@ -44,7 +46,7 @@
 ### 关于游戏发布
 
 #### 发布下载版
-- 如无特殊情况，本仓库每周五晚上九点将会定期发布新版本，下载请见右侧/底部的 [releases][releases-latest]
+- 如无特殊情况，本仓库北京时间每周五晚上九点将会定期发布新版本，下载请见右侧/底部的 [releases][releases-latest]
 
 #### 在线游玩版
 - 游戏发布时会自动部署到 [GitHub Pages][ghpages]
@@ -97,8 +99,22 @@
 <details>
 <summary>点击展开</summary>
  
+> 2023.10.20
+> - 发布 `dol-0.4.2.7-chs-alpha4.2.0` 版
+>   - 修复了男女更衣室的人称代词问题 [@issue/124][issue124]
+>   - 翻译了设置中未翻译的米奇黑客文本 [@issue/125][issue125]
+>   - 修复了成人用品店中一处文本错字 [@issue/127][issue127]
+>   - 翻译了战斗挣扎选项中一处未翻译文本 [@issue/128][issue128]
+>   - 翻译了技能判定一处未翻译文本 [@issue/129][issue129]
+>   - 改进了性行为相关一处文本措辞 [@issue/130][issue130]
+>   - 修复一处与怀孕相关的问题 [@issue/131][issue131]
+>   - 修复圣诞演出中一处文本错字 [@issue/132][issue132]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+> 
+> 
 > 2023.10.15
-> - 因用户流量过大，停止使用 Netlify 镜像部署在线版，以后将仅用 GitHub Pages 部署在线版
+> - 因用户流量过大，停止使用 Netlify 镜像部署在线版，以后将仅用 [GitHub Pages][ghpages] 部署在线版
 >
 > 
 > 2023.10.13
@@ -112,6 +128,7 @@
 >   - 修复了森林裡和黃蜂的場景報錯的问题 [@issue/123][issue123]
 >   - 修复了一些其他已知问题
 >   - 汉化了部分已知未汉化文本
+> 
 > 
 > 2023.10.09
 > - 发布 `dol-0.4.2.7-chs-alpha4.0.0` 版
@@ -129,6 +146,7 @@
 >   - 修复了一些其他已知问题
 >   - 汉化了部分已知未汉化文本
 > - 修改本仓库更新日志时间线为倒序排列 [@issue/105][issue105]
+> 
 > 
 > 2023.10.06
 > - 发布 `dol-0.4.2.6-chs-alpha3.0.1` 版
@@ -306,6 +324,8 @@
 [netlify]: https://graceful-starlight-97b8ae.netlify.app/
 [android]: https://vrelnir.blogspot.com/?zx=a843afdd9c310383
 [releases-latest]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/releases/latest
+[modloader]: https://github.com/Lyoko-Jeremie/DoLModLoaderBuild/releases
+[issues]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/new/choose
 
 [issue2]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/2
 [issue3]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/3
@@ -391,7 +411,6 @@
 [issue111]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/111
 [issue112]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/112
 [issue113]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/113
-
 [issue115]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/115
 [issue116]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/116
 [issue117]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/117
@@ -399,3 +418,12 @@
 [issue121]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/121
 [issue122]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/122
 [issue123]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/123
+
+[issue124]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/124
+[issue125]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/125
+[issue127]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/127
+[issue128]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/128
+[issue129]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/129
+[issue130]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/130
+[issue131]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/131
+[issue132]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/132
