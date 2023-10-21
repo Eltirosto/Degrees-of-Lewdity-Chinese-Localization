@@ -100,6 +100,8 @@
 <summary>点击展开</summary>
  
 > 2023.10.20
+> - 发布 `dol-0.4.2.7-chs-alpha4.2.1` 版
+>   - 热修了无法查看属性的报错[@issue/133][issue133]
 > - 发布 `dol-0.4.2.7-chs-alpha4.2.0` 版
 >   - 修复了男女更衣室的人称代词问题 [@issue/124][issue124]
 >   - 翻译了设置中未翻译的米奇黑客文本 [@issue/125][issue125]
@@ -418,7 +420,6 @@
 [issue121]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/121
 [issue122]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/122
 [issue123]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/123
-
 [issue124]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/124
 [issue125]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/125
 [issue127]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/127
@@ -427,3 +428,4 @@
 [issue130]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/130
 [issue131]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/131
 [issue132]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/132
+[issue133]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/133
