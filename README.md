@@ -99,6 +99,14 @@
 <details>
 <summary>点击展开</summary>
  
+> 2023.10.27
+> - 发布 `dol-0.4.2.7-chs-alpha4.3.0` 版
+>   - 修复了npc性别滑块设置中间文本出错问题[@issue/139][issue139]
+>   - 修复了染眉颜色选项未汉化的问题[@issue/140][issue140]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+>
+> 
 > 2023.10.20
 > - 发布 `dol-0.4.2.7-chs-alpha4.2.1` 版
 >   - 热修了无法查看属性的报错[@issue/133][issue133]
@@ -429,3 +437,5 @@
 [issue131]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/131
 [issue132]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/132
 [issue133]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/133
+[issue139]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/139
+[issue140]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/140
