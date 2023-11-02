@@ -6,6 +6,10 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/total?link=https%3A%2F%2Fgithub.com%2FEltirosto%2FDegrees-of-Lewdity-Chinese-Localization%2Freleases%2Flatest)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Eltirosto/Degrees-of-Lewdity-Chinese-Localization)
 
+- Discord 交流服务器：
+
+[![](https://dcbadge.vercel.app/api/server/XuyvxfWq)](https://discord.gg/XuyvxfWq)
+
 ---
 ## 目录
 * [简介](#简介)
