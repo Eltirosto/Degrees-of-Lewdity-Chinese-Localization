@@ -98,7 +98,24 @@
 ## 更新日志
 <details>
 <summary>点击展开</summary>
- 
+
+> 2023.11.03
+> - 发布 `dol-0.4.3.2-chs-alpha1.1.0` 版
+>   - 修复了窥视罗宾房间报错 [@issue/144][issue144]
+>   - 改进了统计栏中对衣服的描述 [@issue/149][issue149]
+>   - 修复了悉尼表白词的微小错误 [@issue/151][issue151]
+>   - 修复了PC高潮描述文本細微錯誤 [@issue/153][issue153]
+>   - 修复了遭遇战埋胸文本漏字的问题 [@issue/154][issue154]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+> 
+> 
+> 2023.11.02
+> - 游戏本体更新至 `0.4.3.2` 版本
+>   - 初步汉化完成 `dol-0.4.3.2-chs-alpha1.0.0-pre` 版
+>   - 初步汉化完成 `dol-0.4.3.2-chs-alpha1.0.1-pre` 版
+> 
+> 
 > 2023.10.27
 > - 发布 `dol-0.4.2.7-chs-alpha4.3.0` 版
 >   - 修复了npc性别滑块设置中间文本出错问题[@issue/139][issue139]
@@ -109,7 +126,8 @@
 > 
 > 2023.10.20
 > - 发布 `dol-0.4.2.7-chs-alpha4.2.1` 版
->   - 热修了无法查看属性的报错[@issue/133][issue133]
+>   - 修复了无法查看属性的报错 [@issue/133][issue133] [@issue/134][issue134] [@issue/135][issue135] [@issue/136][issue136] [@issue/137][issue137] [@issue/138][issue138]
+>   
 > - 发布 `dol-0.4.2.7-chs-alpha4.2.0` 版
 >   - 修复了男女更衣室的人称代词问题 [@issue/124][issue124]
 >   - 翻译了设置中未翻译的米奇黑客文本 [@issue/125][issue125]
@@ -437,5 +455,15 @@
 [issue131]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/131
 [issue132]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/132
 [issue133]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/133
+[issue134]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/134
+[issue135]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/135
+[issue136]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/136
+[issue137]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/137
+[issue138]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/138
 [issue139]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/139
 [issue140]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/140
+[issue144]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/144
+[issue149]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/149
+[issue151]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/151
+[issue153]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/153
+[issue154]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/154
