@@ -6,6 +6,10 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/total?link=https%3A%2F%2Fgithub.com%2FEltirosto%2FDegrees-of-Lewdity-Chinese-Localization%2Freleases%2Flatest)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Eltirosto/Degrees-of-Lewdity-Chinese-Localization)
 
+- Discord 交流服务器：
+
+[![](https://dcbadge.vercel.app/api/server/XuyvxfWq)](https://discord.gg/XuyvxfWq)
+
 ---
 ## 目录
 * [简介](#简介)
@@ -100,9 +104,6 @@
 <summary>点击展开</summary>
 
 > 2023.11.03
-> - 游戏本体更新至 `0.4.3.3` 版本
->   - 初步汉化完成 `dol-0.4.3.3-chs-alpha2.0.0-pre` 版
-> 
 > - 发布 `dol-0.4.3.3-chs-alpha2.0.0` 版
 >   - 修复了窥视罗宾房间报错 [@issue/144][issue144]
 >   - 改进了统计栏中对衣服的描述 [@issue/149][issue149]
@@ -112,7 +113,10 @@
 >   - 修复了一些其他已知问题
 >   - 汉化了部分已知未汉化文本
 > 
+> - 游戏本体更新至 `0.4.3.3` 版本
+>   - 初步汉化完成 `dol-0.4.3.3-chs-alpha2.0.0-pre` 版
 > 
+>
 > 2023.11.02
 > - 游戏本体更新至 `0.4.3.2` 版本
 >   - 初步汉化完成 `dol-0.4.3.2-chs-alpha1.0.0-pre` 版
