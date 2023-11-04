@@ -114,6 +114,7 @@
 >   - 改进了黑客交谈文本 [@issue/164][issue164]
 >   - 改进了神殿忏悔室文本 [@issue/165][issue165]
 >   - 汉化了幽灵战斗文本 [@issue/166][issue166]
+>   - 修复了神殿回廊报错 [issue/167][issue167]
 >   - 修复了一些其他已知问题
 >   - 汉化了部分已知未汉化文本
 >
@@ -499,3 +500,6 @@
 [issue161]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/161
 [issue163]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/163
 [issue164]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/164
+[issue165]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/165
+[issue166]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/166
+[issue167]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/167
