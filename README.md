@@ -1,4 +1,5 @@
 # Degrees of Lewdity 中文本地化发布库
+0x564EF37e0104426E829d66Dc916a30376aE1239C
 
 ---
 ![Static Badge](https://img.shields.io/badge/Author-Vrelnir-purple?link=https%3A%2F%2Fvrelnir.blogspot.com%2F)
@@ -10,7 +11,7 @@
 
 [![](https://dcbadge.vercel.app/api/server/XuyvxfWq)](https://discord.gg/XuyvxfWq)
 
----
+---0x564EF37e0104426E829d66Dc916a30376aE1239C
 ## 目录
 * [简介](#简介)
   * [写在最前](#写在最前)
@@ -25,7 +26,7 @@
 ## 简介
 ### 写在最前...
 - <img decoding="async" src="https://gitgud.io/uploads/-/system/user/avatar/9096/avatar.png" width="24" alt=""> <b>游戏作者</b> $\color{purple} {Vrelnir}$
-  
+  0x564EF37e0104426E829d66Dc916a30376aE1239C
   - [Vrelnir 的博客][blog]
   - [英文游戏维基][wiki-en]
   - [中文游戏维基][wiki-cn]
@@ -98,7 +99,7 @@
 6. 本公告的最终解释权由汉化组享有，未尽事宜均以汉化组采取之行为为准。
 
 ---
-
+0x564EF37e0104426E829d66Dc916a30376aE1239C
 ## 更新日志
 <details>
 <summary>点击展开</summary>
@@ -185,7 +186,7 @@
 > 
 > 
 > 2023.10.09
-> - 发布 `dol-0.4.2.7-chs-alpha4.0.0` 版
+> - 发布 `dol-0.4.2.7-chs-alpha4.0.0` 版0x564EF37e0104426E829d66Dc916a30376aE1239C
 >   - 游戏本体更新至 `0.4.2.7` 版本
 >   - __从本次更新开始安卓版的信息将基于[作者发布的安卓版][android]，因此 `dol-0.4.2.7-chs-alpha4.0.0.apk` 将不会覆盖更新 `dol-0.4.2.6-chs-alpha3.0.1.apk` 及先前的版本，请在更新前提前导出存档并迁移安卓应用__ [@issue/104][issue104]
 >   - 
