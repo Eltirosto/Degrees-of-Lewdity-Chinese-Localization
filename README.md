@@ -8,7 +8,7 @@
 
 - Discord 交流服务器：
 
-[![](https://dcbadge.vercel.app/api/server/XuyvxfWq)](https://discord.gg/XuyvxfWq)
+[![](https://dcbadge.vercel.app/api/server/jVeyxwzkCt)](https://discord.gg/jVeyxwzkCt)
 
 ---
 ## 目录
