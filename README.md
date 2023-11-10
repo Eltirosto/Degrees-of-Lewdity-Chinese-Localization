@@ -110,6 +110,9 @@
 <summary>点击展开</summary>
 
 > 2023.11.10
+> - 发布 `dol-0.4.3.3-chs-alpha2.1.1` 版
+>   - 修复了汉化脚本的问题 [@issue/186][issue186] [@issue/187][issue187]
+>   
 > - 发布 `dol-0.4.3.3-chs-alpha2.1.0` 版
 >   - 补充汉化了孤儿院布告板海报 [@issue/170][issue170]
 >   - 修复了服装店新增眼镜名称 [@issue/171][issue171]
@@ -539,3 +542,5 @@
 [issue181]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/181
 [issue183]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/183
 [issue184]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/184
+[issue186]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/186
+[issue187]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/187
