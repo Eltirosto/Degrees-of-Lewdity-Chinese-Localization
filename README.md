@@ -119,6 +119,7 @@
 >   - 改进了悉尼柜台奶昔互动文本 [@issue/176][issue176]
 >   - 修复了拒绝交钱时贝利台词 [@issue/178][issue178]
 >   - 修复了查里工作部分选项文本 [@issue/181][issue181]
+>   - 修复了艾利克斯怀孕相关文本 [@issue/184][issue184]
 >   - 修复了一些其他已知问题
 >   - 汉化了部分已知未汉化文本
 > 
@@ -534,6 +535,5 @@
 [issue175]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/175
 [issue176]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/176
 [issue178]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/178
-[issue180]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/180
 [issue181]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/181
-[issue183]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/183
+[issue184]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/184
