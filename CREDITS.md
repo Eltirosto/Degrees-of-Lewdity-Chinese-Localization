@@ -1,4 +1,4 @@
-## Degrees of Lewdity / 欲度孤儿 贡献者名单
+## Degrees of Lewdity / 欲都孤儿 贡献者名单
 > 20231110
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
