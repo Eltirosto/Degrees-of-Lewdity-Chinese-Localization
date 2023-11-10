@@ -112,8 +112,8 @@
 > 2023.11.11
 > - 发布 `dol-0.4.3.3-chs-alpha2.1.2` 版
 >   - 修复了惠特尼霸凌孤儿时出现的问题 [@issue/189][issue189]
->   - 进一步修复了汉化脚本的问题[@issue/190][issue190]
->   - 修复了悉尼堕落线文本错字[@issue/191][issue191]
+>   - 进一步修复了汉化脚本的问题 [@issue/190][issue190]
+>   - 修复了悉尼堕落线文本错字 [@issue/191][issue191]
 > 
 > 2023.11.10
 > - 发布 `dol-0.4.3.3-chs-alpha2.1.1` 版
@@ -550,3 +550,6 @@
 [issue184]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/184
 [issue186]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/186
 [issue187]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/187
+[issue189]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/189
+[issue190]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/190
+[issue191]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/191
