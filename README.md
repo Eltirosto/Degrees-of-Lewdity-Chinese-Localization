@@ -18,6 +18,7 @@
   * [关于游戏发布](#关于游戏发布)
   * [关于版本号](#关于版本号)
 * [免责声明](#免责声明)
+* [致谢名单](#致谢名单)
 * [更新日志](#更新日志)
 
 ---
@@ -99,25 +100,47 @@
 
 ---
 
+## 致谢名单
+请见 [致谢名单](CREDITS.md)
+
+---
+
 ## 更新日志
 <details>
 <summary>点击展开</summary>
 
+> 2023.11.10
+> - 发布 `dol-0.4.3.3-chs-alpha2.1.0` 版
+>   - 补充汉化了孤儿院布告板海报 [@issue/170][issue170]
+>   - 修复了服装店新增眼镜名称 [@issue/171][issue171]
+>   - 补充汉化了战斗文本 [@issue/173][issue173]
+>   - 补充汉化了成人用品店入店文本 [@issue/174][issue174]
+>   - 改进了寄生虫笔记本部分名词 [@issue/175][issue175]
+>   - 改进了悉尼柜台奶昔互动文本 [@issue/176][issue176]
+>   - 修复了拒绝交钱时贝利台词 [@issue/178][issue178]
+>   - 修复了查里工作部分选项文本 [@issue/181][issue181]
+>   - 修复了艾利克斯怀孕相关文本 [@issue/184][issue184]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+> 
+> 
 > 2023.11.04
 > - 发布 `dol-0.4.3.3-chs-alpha2.0.1` 版
 >   - 删除了悉尼承诺仪式多字 [@issue/156][issue156]
->   - 汉化了兽性未汉化内容 [@issue/157][issue157]
+>   - 补充汉化了兽性未汉化内容 [@issue/157][issue157] [issue/169][issue169]
 >   - 删除了神庙晋升仪式多字 [@issue/158][issue158]
 >   - 修复了成人用品店的報错 [@issue/159][issue159]
 >   - 修复了神庙回廊及态度选项报错 [@issue/161][issue161]
 >   - 改进了英语剧演出文本 [@issue/163][issue163]
 >   - 改进了黑客交谈文本 [@issue/164][issue164]
 >   - 改进了神殿忏悔室文本 [@issue/165][issue165]
->   - 汉化了幽灵战斗文本 [@issue/166][issue166]
+>   - 补充汉化了幽灵战斗文本 [@issue/166][issue166]
 >   - 修复了神殿回廊报错 [issue/167][issue167]
+>   - 补充汉化了幽灵战斗文本 [issue/168][issue168]
 >   - 修复了一些其他已知问题
 >   - 汉化了部分已知未汉化文本
 >
+> 
 > 2023.11.03
 > - 发布 `dol-0.4.3.3-chs-alpha2.0.0` 版
 >   - 修复了窥视罗宾房间报错 [@issue/144][issue144]
@@ -503,3 +526,14 @@
 [issue165]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/165
 [issue166]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/166
 [issue167]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/167
+[issue168]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/168
+[issue169]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/169
+[issue170]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/170
+[issue171]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/171
+[issue173]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/173
+[issue174]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/174
+[issue175]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/175
+[issue176]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/176
+[issue178]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/178
+[issue181]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/181
+[issue184]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/184
