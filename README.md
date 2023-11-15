@@ -5,17 +5,20 @@
 ![GitHub release (with filter)](https://img.shields.io/github/v/release/Eltirosto/Degrees-of-Lewdity-Chinese-Localization?link=https%3A%2F%2Fgithub.com%2FEltirosto%2FDegrees-of-Lewdity-Chinese-Localization%2Freleases%2Flatest)
 ![GitHub all releases](https://img.shields.io/github/downloads/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/total?link=https%3A%2F%2Fgithub.com%2FEltirosto%2FDegrees-of-Lewdity-Chinese-Localization%2Freleases%2Flatest)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Eltirosto/Degrees-of-Lewdity-Chinese-Localization)
+![GitHub issues](https://img.shields.io/github/issues-raw/Eltirosto/Degrees-of-Lewdity-Chinese-Localization)
 
-- Discord 交流服务器：
+汉化版 Discord 交流服务器：
 
 [![](https://dcbadge.vercel.app/api/server/jVeyxwzkCt)](https://discord.gg/jVeyxwzkCt)
 
 ---
+
 ## 目录
+
 * [简介](#简介)
   * [写在最前](#写在最前)
   * [关于本仓库](#关于本仓库)
-  * [关于游戏发布](#关于游戏发布)
+  * [关于游戏发布下载](#关于游戏发布下载)
   * [关于版本号](#关于版本号)
 * [免责声明](#免责声明)
 * [致谢名单](#致谢名单)
@@ -36,28 +39,44 @@
 ### 关于本仓库
 -> [本仓库地址][github-dol] <-
 
--> [ModLoader 下载地址][modloader]<-
+-> [ModLoader 仓库地址][modloader] <-
 
 本仓库将会不定期放出游戏的简体中文本地化版本，仅供交流学习，请于下载后 24 小时内删除。如果你未满 18 岁，请勿下载此游戏。仓库本身不含游戏相关内容，仅作为发布地址。**对在其它平台下载的汉化游戏文件不保证安全性，请谨慎下载。**
 
-游戏完全免费游玩，严禁将中文本地化版本用作商业盈利用途或公开大肆传播，对于商业盈利或公开传播导致的可能法律后果完全由使用者自行承担，与汉化成员无关。允许在小范围个人之间传播，传播时请附上原作者的相关信息。
+游戏完全免费游玩，**<font color=red>严禁</font>**将中文本地化版本**用作商业盈利用途**或**公开大肆传播**，对于商业盈利或公开传播导致的可能法律后果完全由使用者自行承担，与汉化成员无关。
 
-**如在游玩过程中遇到任何问题，或对汉化文本有建议，请[发布 issue][issues] 反馈，反馈时请附上出现问题时的`截图 + 游戏存档文件 / 游戏存档代码`，在其它平台反馈问题可能得不到回应。**
-- **不要删除自己的 `issue`, 方便后来人查阅相关问题**
+如在游玩过程中遇到任何问题，或对汉化文本有建议，请[发布 issue(议题)][issues] 反馈，反馈时请附上出现问题时的**截图 + 游戏存档文件 / 游戏存档代码**，在其它平台反馈问题可能得不到回应。请不要删除自己的议题, 方便后来人查阅相关问题。请注意，本仓库仅解决由于游戏汉化版本导致的问题，如果问题在英文版能复现，请去游戏官方 [Discord][discord] 反映。
 
-**请注意，本仓库仅解决由于游戏汉化版本导致的问题**
-- **如果问题在英文版能复现，请去游戏官方 [Discord][discord] 反映。**
-
-### 关于游戏发布
+### 关于游戏发布下载
 
 #### 发布下载版
-- 如无特殊情况，本仓库北京时间每周五晚上九点将会定期发布新版本，下载请见右侧/底部的 [releases][releases-latest]
+- 如无特殊情况，本仓库北京时间每周五晚上九点将会定期发布新版本，下载请见右侧/底部的 [releases(发行版)][releases-latest]
+- 下载游玩请遵循如下步骤：
+  1. 如果你是第一次下载，请先在本仓库的[发行版][releases-latest]中下载含模组加载器的游戏本体：__DoL-ModLoader-xxx.zip__ 或 __DoL-ModLoader-xxx.apk__，此后除非有重大更新，否则可以不用重复下载
+     - 注意：游戏本体有 4 个版本的文件
+       - DoL-ModLoader-xxx.zip
+       - DoL-ModLoader-xxx-polyfill.zip
+       - DoL-ModLoader-xxx.apk
+       - DoL-ModLoader-xxx-polyfill.apk
+     - `apk` 代表着“安卓应用程序包”，可以直接在安卓系统上安装运行
+     - `zip` 是压缩文件，其中的 `html` 文件是游戏本体，可以在任何浏览器上运行，因此既可以在电脑上运行，也可以在手机等移动设备上运行
+     - 名称中含有“polyfill”的游戏本体意味着针对较旧版本的浏览器内核进行了一定程度的兼容，因此请优先下载**名称中不含 polyfill 的游戏文件**，如果无法正常运行，再下载**名称中含 polyfill 的游戏文件**尝试运行。
+  2. 请在本仓库的[发行版][releases-latest]中下载汉化包：__ModI18N.mod.zip__
+  3. 如果你是第一次下载并运行游戏，需要自己手动加载汉化包：
+     - 请点击游戏屏幕左下角的`Mod管理器`按钮打开加载器界面，如果使用的是电脑，也可以通过快捷键`Alt+M`打开/关闭加载器界面
+     - 请找到`添加/移除Mod`一栏，点击`选择文件`按钮并选中先前下载的汉化包`ModI18N.mod.zip`文件
+     - 请点击旁边的`添加旁加载Mod`按钮，看到页面上显示`Success. 刷新页面后生效`后
+     - 请回到界面顶部点击`重新载入`按钮，如果你在使用浏览器游玩，也可以直接刷新页面
+     - 如果一切正常，现在游戏应该已经汉化
+  4. 如果你已经加载过旧版本的汉化包，现在需要更新，步骤同上
+  5. 如果你想要加载其它模组，步骤同上
+  
 
 #### 在线游玩版
 - 游戏发布时会自动部署到 [GitHub Pages][ghpages]
-
-发布文件格式：
-- `dol-{游戏版本号}-chs-{中文本地化版本号}`
+- 注意
+  - 在线版默认会自动加载汉化包，目前无法卸载
+  - 在线版也可以从你的电脑/手机等设备**本地加载其它模组**，加载方法同[发布下载版](#发布下载版)中的第三步
 
 ### 关于版本号
 汉化版本号的基本结构是 `chs-x.y.z`，如 `chs-alpha1.7.1`
@@ -87,15 +106,10 @@
 ## 免责声明
 
 1. 汉化组认可且负责的汉化版唯一发布渠道为 GitHub（即本仓库），其余渠道均不受认可，汉化组也不对来自其他渠道的汉化版本出现或造成的问题负责。自非官方 GitHub 渠道获取的汉化版可能会被篡改，可能会造成不可预料的后果，请务必以 GitHub 渠道发布的汉化版为准。我们可能不会接受使用非官方发布版本的内容反馈。
-
 2. 汉化组不对任何修改后的汉化版本负责，包括但不限于修改游戏本体 html 文件，使用可能改变游戏内容的模组，使用他人发布的整合包等；汉化组也不会为任何第三方发布的模组版/修改版/魔改版/整合包等背书或担保。请在反馈问题前检查游戏是否已被修改，若被修改请勿提交，我们可能不会接受使用修改版本的内容反馈。
-
 3. 请尽量避免重复报告问题。自 `dol-0.4.1.7-chs-alpha1.2` 版本后，汉化版游戏首页均会含有当前汉化版本号，反馈问题时请确认自己正使用最新版本的汉化版，请不要提交过时版本中出现的问题。鉴于此，推荐使用 GitHub 的 `issue` 系统提交问题，在提交前请自行寻找 `closed issues` 中是否已存在相同问题。
-
 4. 汉化组仅能忠实将原游戏内容以中文呈现，无法对原游戏内容做出更改，亦无法决定将来的内容变更或更新。一切有关更新计划、游戏机制、剧情、角色、世界观等方面的内容均以原作者 Vrelnir 为准。汉化组可能会收集有关问题并向 Vrelnir 反馈，但不做保证，也无法保证 Vrelnir 会回答。
-
 5. 汉化组的职能仅限于汉化游戏文本，以及修复由汉化所导致的游戏问题。对汉化组人员提出的其他任何需求，汉化组方面均有权拒绝。
-
 6. 本公告的最终解释权由汉化组享有，未尽事宜均以汉化组采取之行为为准。
 
 ---
@@ -109,11 +123,35 @@
 <details>
 <summary>点击展开</summary>
 
+> 2023.11.17
+> - 发布 `dol-0.4.3.3-chs-alpha2.2.0` 版
+>   - __从本次更新开始将使用基于 [ModLoader][modloader] 的[新版汉化方式][issue32-comment]__，游玩请遵循如下步骤：
+>     1. 如果你是第一次下载，请先在本仓库的[发行版][releases-latest]中下载含模组加载器的游戏本体：__DoL-ModLoader-xxx.zip__ 或 __DoL-ModLoader-xxx.apk__，此后除非有重大更新，否则可以不用重复下载
+>        - 注意：游戏本体有 4 个版本的文件
+>          - DoL-ModLoader-xxx.zip
+>          - DoL-ModLoader-xxx-polyfill.zip
+>          - DoL-ModLoader-xxx.apk
+>          - DoL-ModLoader-xxx-polyfill.apk
+>        - `apk` 代表着“安卓应用程序包”，可以直接在安卓系统上安装运行
+>        - `zip` 是压缩文件，其中的 `html` 文件是游戏本体，可以在任何浏览器上运行，因此既可以在电脑上运行，也可以在手机等移动设备上运行
+>        - 名称中含有“polyfill”的游戏本体意味着针对较旧版本的浏览器内核进行了一定程度的兼容，因此请优先下载**名称中不含 polyfill 的游戏文件**，如果无法正常运行，再下载**名称中含 polyfill 的游戏文件**尝试运行。
+>     2. 请在本仓库的[发行版][releases-latest]中下载汉化包：__ModI18N.mod.zip__
+>     3. 如果你是第一次下载并运行游戏，需要自己手动加载汉化包：
+>         - 请点击游戏屏幕左下角的`Mod管理器`按钮打开加载器界面，如果使用的是电脑，也可以通过快捷键`Alt+M`打开/关闭加载器界面
+>         - 请找到`添加/移除Mod`一栏，点击`选择文件`按钮并选中先前下载的汉化包`ModI18N.mod.zip`文件
+>         - 请点击旁边的`添加旁加载Mod`按钮，看到页面上显示`Success. 刷新页面后生效`后
+>         - 请回到界面顶部点击`重新载入`按钮，如果你在使用浏览器游玩，也可以直接刷新页面
+>         - 如果一切正常，现在游戏应该已经汉化
+>     4. 如果你已经加载过旧版本的汉化包，现在需要更新，步骤同上
+>     5. 如果你想要加载其它模组，步骤同上
+> 
+> 
 > 2023.11.11
 > - 发布 `dol-0.4.3.3-chs-alpha2.1.2` 版
 >   - 修复了惠特尼霸凌孤儿时出现的问题 [@issue/189][issue189]
 >   - 进一步修复了汉化脚本的问题 [@issue/190][issue190]
 >   - 修复了悉尼堕落线文本错字 [@issue/191][issue191]
+> 
 > 
 > 2023.11.10
 > - 发布 `dol-0.4.3.3-chs-alpha2.1.1` 版
@@ -411,8 +449,12 @@
 [netlify]: https://graceful-starlight-97b8ae.netlify.app/
 [android]: https://vrelnir.blogspot.com/?zx=a843afdd9c310383
 [releases-latest]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/releases/latest
-[modloader]: https://github.com/Lyoko-Jeremie/DoLModLoaderBuild/releases
+[modloader]: https://github.com/Lyoko-Jeremie/sugarcube-2-ModLoader
+[modloader-build]: https://github.com/Lyoko-Jeremie/DoLModLoaderBuild
+[i18n-mod]: https://github.com/Lyoko-Jeremie/Degrees-of-Lewdity_Mod_i18nMod
 [issues]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/new/choose
+
+[issue32-comment]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/32#issuecomment-1754443351
 
 [issue2]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/2
 [issue3]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/3
@@ -433,6 +475,7 @@
 [issue28]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/28
 [issue29]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/29
 [issue31]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/31
+[issue32]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/32
 [issue34]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/34
 [issue35]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/35
 [issue36]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/36
