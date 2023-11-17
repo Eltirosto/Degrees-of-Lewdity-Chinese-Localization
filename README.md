@@ -37,9 +37,9 @@
   - [游戏源码仓库][gitgud]
 
 ### 关于本仓库
--> [本仓库地址][github-dol] <-
-
--> [ModLoader 仓库地址][modloader] <-
+|       本仓库        |    ModLoader    |    ModLoader 自动打包     |     汉化包自动打包      |
+|:----------------:|:---------------:|:---------------------:|:----------------:|
+| [地址][github-dol] | [地址][modloader] | [地址][modloader-build] | [地址][i18n-build] |
 
 本仓库将会不定期放出游戏的简体中文本地化版本，仅供交流学习，请于下载后 24 小时内删除。如果你未满 18 岁，请勿下载此游戏。仓库本身不含游戏相关内容，仅作为发布地址。**对在其它平台下载的汉化游戏文件不保证安全性，请谨慎下载。**
 
@@ -53,7 +53,7 @@
 - 如无特殊情况，本仓库北京时间每周五晚上九点将会定期发布新版本，下载请见右侧/底部的 [releases(发行版)][releases-latest]
 - 下载游玩请遵循如下步骤：
   1. 如果你是第一次下载，请先在本仓库的[发行版][releases-latest]中下载含模组加载器的游戏本体：__DoL-ModLoader-xxx.zip__ 或 __DoL-ModLoader-xxx.apk__，此后除非有重大更新，否则可以不用重复下载
-     - 注意：游戏本体有 4 个版本的文件
+     - 注意：游戏本体有 4 个版本的文件，请根据需要下载对应的文件
        - DoL-ModLoader-xxx.zip
        - DoL-ModLoader-xxx-polyfill.zip
        - DoL-ModLoader-xxx.apk
@@ -74,7 +74,7 @@
 
 #### 在线游玩版
 - 游戏发布时会自动部署到 [GitHub Pages][ghpages]
-- 注意
+- 注意:
   - 在线版默认会自动加载汉化包，目前无法卸载
   - 在线版也可以从你的电脑/手机等设备**本地加载其它模组**，加载方法同[发布下载版](#发布下载版)中的第三步
 
@@ -127,7 +127,7 @@
 > - 发布 `dol-0.4.3.3-chs-alpha2.2.0` 版
 >   - __从本次更新开始将使用基于 [ModLoader][modloader] 的[新版汉化方式][issue32-comment]__，游玩请遵循如下步骤：
 >     1. 如果你是第一次下载，请先在本仓库的[发行版][releases-latest]中下载含模组加载器的游戏本体：__DoL-ModLoader-xxx.zip__ 或 __DoL-ModLoader-xxx.apk__，此后除非有重大更新，否则可以不用重复下载
->        - 注意：游戏本体有 4 个版本的文件
+>        - 注意：游戏本体有 4 个版本的文件，请根据需要下载对应的文件
 >          - DoL-ModLoader-xxx.zip
 >          - DoL-ModLoader-xxx-polyfill.zip
 >          - DoL-ModLoader-xxx.apk
@@ -144,6 +144,11 @@
 >         - 如果一切正常，现在游戏应该已经汉化
 >     4. 如果你已经加载过旧版本的汉化包，现在需要更新，步骤同上
 >     5. 如果你想要加载其它模组，步骤同上
+>   - 修复了神殿找堕落悉尼多字 [@issue/193][issue193]
+>   - 修复了高违规储物柜事件找老师漏字 [@issue/195][issue195]
+>   - 修复了在debug模式下的战斗中出现<<actionsman>>报错 [@issue/196][issue196]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
 > 
 > 
 > 2023.11.11
@@ -452,6 +457,7 @@
 [modloader]: https://github.com/Lyoko-Jeremie/sugarcube-2-ModLoader
 [modloader-build]: https://github.com/Lyoko-Jeremie/DoLModLoaderBuild
 [i18n-mod]: https://github.com/Lyoko-Jeremie/Degrees-of-Lewdity_Mod_i18nMod
+[i18n-build]: https://github.com/NumberSir/DoL-I18n-Build
 [issues]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/new/choose
 
 [issue32-comment]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/32#issuecomment-1754443351
@@ -596,3 +602,6 @@
 [issue189]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/189
 [issue190]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/190
 [issue191]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/191
+[issue193]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/193
+[issue195]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/195
+[issue196]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/196
