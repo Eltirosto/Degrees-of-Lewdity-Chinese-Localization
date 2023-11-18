@@ -123,6 +123,15 @@
 <details>
 <summary>点击展开</summary>
 
+> 2023.11.18
+> - 发布 `dol-0.4.3.3-chs-alpha2.2.1` 版
+>   - 为汉化包添加了汉化版本号
+>   - 在线版提供普通模式和兼容模式两种不同类型，可以根据自身设备选择不同的类型
+>   - 修复了由于脚本问题导致的汉化失效问题 [@issue/200][issue200] [@issue/201][issue201]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+> 
+> 
 > 2023.11.17
 > - 发布 `dol-0.4.3.3-chs-alpha2.2.0` 版
 >   - __从本次更新开始将使用基于 [ModLoader][modloader] 的[新版汉化方式][issue32-comment]__，游玩请遵循如下步骤：
@@ -605,3 +614,5 @@
 [issue193]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/193
 [issue195]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/195
 [issue196]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/196
+[issue200]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/200
+[issue201]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/201
