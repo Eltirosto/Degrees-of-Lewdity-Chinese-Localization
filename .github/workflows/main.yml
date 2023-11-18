@@ -7,8 +7,14 @@ on:
 
 env:
   DOWNLOAD_RELEASE_TEMP_PATH: ${{ github.workspace }}/modloader-temp
-  MODLOADER_HTML_FILENAME: "Degrees of Lewdity VERSION.html.mod.html"
+  #  MODLOADER_HTML_FILENAME: "Degrees of Lewdity VERSION.html.mod-polyfill.html"
   I18NMOD_FILENAME: "ModI18N.mod.zip"
+
+  MODLOADER_HTML_NORMAL_FILENAME: "Degrees of Lewdity VERSION.html.mod.html"
+  MODLOADER_HTML_POLYFILL_FILENAME: "Degrees of Lewdity VERSION.html.mod-polyfill.html"
+
+  MANIFEST_JSON_NORMAL_FILENAME: "manifest-normal.json"
+  MANIFEST_JSON_POLYFILL_FILENAME: "manifest-polyfill.json"
 
   UPLOAD_ARTIFACT_NAME: "ModLoader-Artifact"
   UPLOAD_ARTIFACT_FILEPATH: ${{ github.workspace }}/Modloader-Artifact.zip
@@ -51,26 +57,28 @@ jobs:
       - name: Construct PWA
         run: |
           cp -r .github/pwa/* ${{ env.DOWNLOAD_RELEASE_TEMP_PATH }}
-          mv "${{ env.DOWNLOAD_RELEASE_TEMP_PATH }}/${{ env.MODLOADER_HTML_FILENAME }}" "${{ env.DOWNLOAD_RELEASE_TEMP_PATH }}/index.html"
-
       - name: Modify HTML
         shell: python3 {0}
         run: |
-          with open("${{ env.DOWNLOAD_RELEASE_TEMP_PATH }}/index.html", "r+", encoding="utf-8") as index_html_file:
-            index_html = index_html_file.read()
-            insert_index = index_html.find('<meta charset="UTF-8" />')
-            index_html = index_html[:insert_index] + \
-                "<link rel=\"manifest\" href=\"manifest.json\">\n" + index_html[insert_index:]
-            insert_index = index_html.find('<body>\n\t<div id="init-screen">') + 7
-            index_html = index_html[:insert_index] + \
-                "    <script>\n" + \
-                "        if (typeof navigator.serviceWorker !== 'undefined') {\n" + \
-                "            navigator.serviceWorker.register('sw.js')\n" + \
-                "        }\n" + \
-                "    </script>\n" + index_html[insert_index:]
-            index_html_file.seek(0)
-            index_html_file.truncate()
-            index_html_file.write(index_html)
+          for html_name, manifest_name in zip(
+            ["${{ env.MODLOADER_HTML_NORMAL_FILENAME }}", "${{ env.MODLOADER_HTML_POLYFILL_FILENAME }}"],
+            ["${{ env.MANIFEST_JSON_NORMAL_FILENAME }}", "${{ env.MANIFEST_JSON_POLYFILL_FILENAME }}"]
+          ):
+            with open(f"${{ env.DOWNLOAD_RELEASE_TEMP_PATH }}/{html_name}", "r+", encoding="utf-8") as index_html_file:
+              index_html = index_html_file.read()
+              insert_index = index_html.find('<meta charset="UTF-8" />')
+              index_html = index_html[:insert_index] + \
+                  f"<link rel=\"manifest\" href=\"{manifest_name}\">\n" + index_html[insert_index:]
+              insert_index = index_html.find('<body>\n\t<div id="init-screen">') + 7
+              index_html = index_html[:insert_index] + \
+                  "    <script>\n" + \
+                  "        if (typeof navigator.serviceWorker !== 'undefined') {\n" + \
+                  "            navigator.serviceWorker.register('sw.js')\n" + \
+                  "        }\n" + \
+                  "    </script>\n" + index_html[insert_index:]
+              index_html_file.seek(0)
+              index_html_file.truncate()
+              index_html_file.write(index_html)
 
       - name: Pack Artifact
         run: |
@@ -102,15 +110,17 @@ jobs:
         shell: python3 {0}
         run: |
           import json
-          with open("${{ env.DOWNLOAD_RELEASE_TEMP_PATH }}/manifest.json", "r+", encoding="utf-8") as manifest_file:
-            manifest_json = json.loads(manifest_file.read())
-            manifest_json["scope"] = "/${{ github.event.repository.name }}/"
-            manifest_json["start_url"] = "/${{ github.event.repository.name }}/"
-            manifest_json["shortcuts"][0]["url"] = "/${{ github.event.repository.name }}/"
-            manifest_json["icons"][0]["src"] = "/${{ github.event.repository.name }}/icon.png"
-            manifest_file.seek(0)
-            manifest_file.truncate()
-            manifest_file.write(json.dumps(manifest_json, indent=2))
+          
+          for manifest_name in ["${{ env.MANIFEST_JSON_NORMAL_FILENAME }}", "${{ env.MANIFEST_JSON_POLYFILL_FILENAME }}"]:
+            with open(f"${{ env.DOWNLOAD_RELEASE_TEMP_PATH }}/{manifest_name}", "r+", encoding="utf-8") as manifest_file:
+              manifest_json = json.loads(manifest_file.read())
+              manifest_json["scope"] = "/${{ github.event.repository.name }}/"
+              manifest_json["start_url"] = "/${{ github.event.repository.name }}/"
+              manifest_json["shortcuts"][0]["url"] = "/${{ github.event.repository.name }}/"
+              manifest_json["icons"][0]["src"] = "/${{ github.event.repository.name }}/icon.png"
+              manifest_file.seek(0)
+              manifest_file.truncate()
+              manifest_file.write(json.dumps(manifest_json, indent=2))
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3

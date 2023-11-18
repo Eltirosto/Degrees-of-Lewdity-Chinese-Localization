@@ -1,18 +1,11 @@
 {
   "background_color": "#111111",
-  "description": "Degrees of Lewdity is a text-based erotic sandbox roleplaying game, currently in development by Vrelnir",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "Degrees of Lewdity Simplified Chinese",
-  "orientation": "portrait",
-  "scope": "/",
-  "short_name": "DOL",
-  "start_url": "/",
-  "theme_color": "#230034",
   "categories": [
     "games"
   ],
-  "screenshots": [],
+  "description": "Degrees of Lewdity is a text-based erotic sandbox roleplaying game, currently in development by Vrelnir",
+  "dir": "ltr",
+  "display": "standalone",
   "icons": [
     {
       "purpose": "any",
@@ -21,6 +14,15 @@
       "type": "image/png"
     }
   ],
+  "lang": "zh",
+  "name": "Degrees of Lewdity Simplified Chinese",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "DoL-chs",
+  "start_url": "/",
+  "theme_color": "#230034",
+
+  "screenshots": [],
   "shortcuts": [
     {
       "name": "Main",
@@ -29,7 +31,6 @@
     }
   ],
   "id": "Eltirosto/Degrees-of-Lewdity-Chinese-Localization",
-  "lang": "zh",
   "display_override": [
     "window-controls-overlay",
     "standalone",
