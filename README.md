@@ -13,6 +13,12 @@
 
 ---
 
+<div style="text-align: center; font-size: 24px; font-weight: bold">
+请在下载游玩前首先阅读本说明文档<br>对于在文档中写明的内容仍进行提问的将不作解答
+</div>
+
+---
+
 ## 目录
 
 * [简介](#简介)
@@ -37,7 +43,7 @@
   - [游戏源码仓库][gitgud]
 
 ### 关于本仓库
-|       本仓库        |    ModLoader    |
+|      本仓库地址       |  ModLoader源码地址  |
 |:----------------:|:---------------:|
 | [地址][github-dol] | [地址][modloader] |
 
@@ -49,8 +55,9 @@
 
 ### 关于游戏发布下载
 
-本仓库发布的模组加载器和汉化包，与二者各自打包仓库发布的完全相同。有需要的玩家也可以自行前往对应仓库下载：
-|    ModLoader 自动打包     |     汉化包自动打包      |
+本仓库发布的模组加载器和汉化包，与二者各自打包仓库发布的完全相同。<font color=red>自动打包仓库的更新将比本仓库更新更频繁。</font>有需要的玩家也可以自行前往对应仓库下载：
+
+|    ModLoader自动打包地址    |    汉化包自动打包地址     |
 |:---------------------:|:----------------:|
 | [地址][modloader-build] | [地址][i18n-build] |
 
@@ -128,6 +135,18 @@
 <details>
 <summary>点击展开</summary>
 
+> 2023.11.20
+> - 汉化包更新 `0.4.3.3-chs-alpha2.2.3-pre`
+>   - 改进了汉化包性能 [@issue/203][issue203]
+> 
+> 
+> 2023.11.19
+> - 汉化包更新 `0.4.3.3-chs-alpha2.2.2-pre`
+>   - 修复了起床套装名称显示错误 [@issue/204][issue204] [@issue/206][issue206] [@issue/208][issue208] [@issue/210][issue210]
+>   - 改进了成就提示汉化 [@issue/207][issue207]
+>   - 修复了建设孤儿院阁楼厨房时的剧情文字错误 [@issue/209][issue209]
+> 
+> 
 > 2023.11.18
 > - 发布 `dol-0.4.3.3-chs-alpha2.2.1` 版
 >   - 为汉化包添加了汉化版本号
@@ -621,3 +640,10 @@
 [issue196]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/196
 [issue200]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/200
 [issue201]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/201
+[issue203]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/203
+[issue204]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/204
+[issue206]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/206
+[issue207]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/207
+[issue208]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/208
+[issue209]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/209
+[issue210]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/210
