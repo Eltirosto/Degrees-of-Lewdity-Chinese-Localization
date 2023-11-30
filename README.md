@@ -138,6 +138,15 @@
 <details>
 <summary>点击展开</summary>
 
+> 2023.12.01
+> - 发布 `dol-0.4.3.3-chs-alpha2.4.0` 版
+>   - 模组加载器更新至 v2.8.11
+>   - 修复了转化显示问题 [@issue/212][issue212]
+>   - 修复了纹身显示问题 [@issue/213][issue213] [@issue/217][issue217] [@issue/218][issue218]
+>   - 修复了一些其他已知问题
+>   - 汉化了部分已知未汉化文本
+> 
+> 
 > 2023.11.24
 > - 发布 `dol-0.4.3.3-chs-alpha2.3.0` 版
 >   - 模组加载器更新至 v2.8.9，优化了启动性能
@@ -657,3 +666,7 @@
 [issue208]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/208
 [issue209]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/209
 [issue210]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/210
+[issue212]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/212
+[issue213]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/213
+[issue217]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/217
+[issue218]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/218
