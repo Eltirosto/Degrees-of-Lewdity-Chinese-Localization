@@ -138,6 +138,15 @@
 <details>
 <summary>点击展开</summary>
 
+> 2023.12.08
+> - 发布 `dol-0.4.3.3-chs-alpha2.5.0` 版
+>   - 模组加载器更新至 v2.11.7
+>   - 汉化了未汉化的药片名称 [@issue/224][issue224]
+>   - 修复了统计部分错译 [@issue/225][issue225]
+>   - 汉化了购买性玩具界面赠送对象的角色名称 [@issue/227][issue227]
+>   - 改进了地下墓穴管道和电缆的翻译 [@issue/229][issue229]
+> 
+> 
 > 2023.12.01
 > - 发布 `dol-0.4.3.3-chs-alpha2.4.0` 版
 >   - 模组加载器更新至 v2.8.11
@@ -670,3 +679,7 @@
 [issue213]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/213
 [issue217]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/217
 [issue218]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/218
+[issue224]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/224
+[issue225]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/225
+[issue227]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/227
+[issue229]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/229
