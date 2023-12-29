@@ -122,7 +122,7 @@
 
 ### Star 数
 
-[![Stargazers over time](https://starchart.cc/Eltirosto/Degrees-of-Lewdity-Chinese-Localization.svg)](https://starchart.cc/Eltirosto/Degrees-of-Lewdity-Chinese-Localization)
+[![Star History Chart](https://api.star-history.com/svg?repos=Eltirosto/Degrees-of-Lewdity-Chinese-Localization&type=Date)](https://star-history.com/#Eltirosto/Degrees-of-Lewdity-Chinese-Localization&Date)
 
 ---
 
@@ -146,6 +146,16 @@
 <details>
 <summary>点击展开</summary>
 
+> 2023.12.29
+> - 发布 `dol-0.4.5.2-chs-alpha1.0.0` 版
+>   - 游戏本体更新至 v0.4.5.2
+>   - 模组加载器更新至 v2.13.2
+>   - 修复了房间内药柜与性玩具图片丢失的问题 [@issue/233][issue233]
+>   - 改进了幽灵分裂剧情的汉化文本 [@issue/237][issue237]
+>   - 修复了岛上一处错字 [@issue/239][issue239]
+>   - 改进了血月幽灵剧情对话的汉化文本 [@issue/241][issue241]
+> 
+> 
 > 2023.12.08
 > - 发布 `dol-0.4.3.3-chs-alpha2.5.0` 版
 >   - 汉化了未汉化的药片名称 [@issue/224][issue224]
@@ -716,3 +726,7 @@
 [issue225]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/225
 [issue227]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/227
 [issue229]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/229
+[issue233]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/233
+[issue237]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/237
+[issue239]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/239
+[issue241]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/241
