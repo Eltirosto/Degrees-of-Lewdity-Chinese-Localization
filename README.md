@@ -147,6 +147,10 @@
 <summary>点击展开</summary>
 
 > 2023.12.29
+> - 发布 `dol-0.4.5.3-chs-alpha1.0.2` 版
+>   - 修复了汉化文本与游戏本体版本不一致的问题
+>   - 修复了汉化文本中存在的一个致命问题 [@issue/243][issue243]
+>   
 > - 发布 `dol-0.4.5.3-chs-alpha1.0.0` 版
 >   - 游戏本体更新至 v0.4.5.3
 >   - 模组加载器更新至 v2.13.2
@@ -730,3 +734,4 @@
 [issue237]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/237
 [issue239]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/239
 [issue241]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/241
+[issue243]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/243
