@@ -146,9 +146,23 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.01.05
+> - 发布 `dol-0.4.5.3-chs-alpha1.1.0` 版
+>   - 模组加载器更新至 v2.13.3
+>   - 汉化了忏悔室未汉化的英文单词 [@issue/245][issue245]
+>   - 修复了性玩具图片不显示的问题 [@issue/246][issue246] [@issue/253][issue253]
+>   - 修复了丸吞战斗界面报错的问题 [@issue/247][issue247] [@issue/251][issue251]
+>   - 修复了衣柜服装名称未汉化的问题 [@issue/248][issue248]
+>   - 修复了水烟馆汉化问题 [@issue/249][issue249]
+>   - 修复了海报加载问题 [@issue/250][issue250]
+>   - 汉化了耳中史莱姆特质 [@issue/254][issue254]
+>   - 修复了海盗船“态度”链接问题 [@issue/256][issue256]
+>   - 汉化了购买眼镜时未汉化链接 [@issue/257][issue257]
+> 
+> 
 > 2023.12.29
 > - 发布 `dol-0.4.5.3-chs-alpha1.0.2` 版
->   - 修复了汉化文本与游戏本体版本不一致的问题
+>   - 修复了汉化文本与游戏本体版本不一致的问题 [@issue/244][issue244]
 >   - 修复了汉化文本中存在的一个致命问题 [@issue/243][issue243]
 >   
 > - 发布 `dol-0.4.5.3-chs-alpha1.0.0` 版
@@ -735,3 +749,15 @@
 [issue239]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/239
 [issue241]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/241
 [issue243]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/243
+[issue244]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/244
+[issue245]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/245
+[issue246]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/246
+[issue247]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/247
+[issue248]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/248
+[issue249]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/249
+[issue250]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/250
+[issue251]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/251
+[issue253]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/253
+[issue254]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/254
+[issue256]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/256
+[issue257]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/257
