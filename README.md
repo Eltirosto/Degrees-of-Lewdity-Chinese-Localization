@@ -146,6 +146,15 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.01.12
+> - 发布 `dol-0.4.5.3-chs-alpha1.2.0` 版
+>   - 模组加载器更新至 v2.13.6
+>   - 修复了购买生发配方文本翻译错误 [@issue/258][issue258]
+>   - 汉化了耳史在战斗中被唤醒的文本 [@issue/259][issue259]
+>   - 修复了镜子发型选项报错 [@issue/260][issue260]
+>   - 修复了孤儿院报错 [@issue/261][issue261]
+> 
+> 
 > 2024.01.05
 > - 发布 `dol-0.4.5.3-chs-alpha1.1.1` 版
 >   - 紧急修复了神殿训练室的错误。
@@ -764,3 +773,7 @@
 [issue254]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/254
 [issue256]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/256
 [issue257]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/257
+[issue258]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/258
+[issue259]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/259
+[issue260]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/260
+[issue261]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/261
