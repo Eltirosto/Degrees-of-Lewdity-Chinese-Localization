@@ -788,3 +788,5 @@
 [issue259]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/259
 [issue260]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/260
 [issue261]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/261
+[issue263]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/263
+[issue266]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/266
