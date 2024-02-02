@@ -146,6 +146,12 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.02.02
+> - 发布 `dol-0.4.5.3-chs-alpha1.5.0` 版
+>   - 修复了镀金长矛翻译不一致的问题 [@issue/274][issue274]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.01.26
 > - 发布 `dol-0.4.5.3-chs-alpha1.4.0` 版
 >   - 模组加载器更新至 v2.16.0
@@ -153,6 +159,7 @@
 >   - 修复了孤儿院每日随机事件报错 [@issue/270][issue270]
 >   - 修复了拥有耳中史莱姆时在咖啡馆打工出现的问题 [@issue/271][issue271]
 >   - 修复了一些其他已知问题
+> 
 > 
 > 2024.01.19
 > - 发布 `dol-0.4.5.3-chs-alpha1.3.0` 版
@@ -801,3 +808,4 @@
 [issue266]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/266
 [issue270]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/270
 [issue271]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/271
+[issue274]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/274
