@@ -146,6 +146,16 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.02.10
+> - 发布 `dol-0.4.5.3-chs-alpha1.6.0` 版
+>   - 修复了部分野兽的称呼显示为 undefined 的问题 [@issue/276][issue276]
+>   - 修复了岛屿绳索事件翻译 [@issue/277][issue277]
+>   - 修复了古董“木制面具”的博物馆描述在汉化中的歧义 [@issue/279][issue279]
+>   - 改进了与罗宾卿卿我我选项的翻译 [@issue-dc/3][issue-dc3]
+>   - 改进了海岛、海盗事件的部分翻译 [@issue-dc/4][issue-dc4]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.02.02
 > - 发布 `dol-0.4.5.3-chs-alpha1.5.0` 版
 >   - 修复了镀金长矛翻译不一致的问题 [@issue/274][issue274]
@@ -809,3 +819,9 @@
 [issue270]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/270
 [issue271]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/271
 [issue274]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/274
+[issue276]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/276
+[issue277]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/277
+[issue279]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/279
+
+[issue-dc3]: https://discord.com/channels/1103864219620884560/1203589492565348362
+[issue-dc4]: https://discord.com/channels/1103864219620884560/1205223199412064267
