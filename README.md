@@ -146,13 +146,22 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.02.16
+> - 发布 `dol-0.4.5.3-chs-alpha1.7.0` 版
+>   - 修复了聖誕節孤兒院劇情報錯 [@issue/283][issue283]
+>   - 修复了穿不上服装部分的文本翻译[@issue-dc/3][issue-dc3]
+>   - 修复了一处与幽灵有关的文本漏译[@issue-dc/4][issue-dc4]
+>   - 修复了一处与暴露事件有关的文本翻译[@issue-dc/5][issue-dc5]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.02.10
 > - 发布 `dol-0.4.5.3-chs-alpha1.6.0` 版
 >   - 修复了部分野兽的称呼显示为 undefined 的问题 [@issue/276][issue276]
 >   - 修复了岛屿绳索事件翻译 [@issue/277][issue277]
 >   - 修复了古董“木制面具”的博物馆描述在汉化中的歧义 [@issue/279][issue279]
->   - 改进了与罗宾卿卿我我选项的翻译 [@issue-dc/3][issue-dc3]
->   - 改进了海岛、海盗事件的部分翻译 [@issue-dc/4][issue-dc4]
+>   - 改进了与罗宾卿卿我我选项的翻译 [@issue-dc/1][issue-dc1]
+>   - 改进了海岛、海盗事件的部分翻译 [@issue-dc/2][issue-dc2]
 >   - 修复了一些其他已知问题
 > 
 > 
@@ -822,6 +831,10 @@
 [issue276]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/276
 [issue277]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/277
 [issue279]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/279
+[issue283]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/283
 
-[issue-dc3]: https://discord.com/channels/1103864219620884560/1203589492565348362
-[issue-dc4]: https://discord.com/channels/1103864219620884560/1205223199412064267
+[issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
+[issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
+[issue-dc3]: https://discord.com/channels/1103864219620884560/1206132214782234664
+[issue-dc4]: https://discord.com/channels/1103864219620884560/1207449102397341706
+[issue-dc5]: https://discord.com/channels/1103864219620884560/1207611367834521631
