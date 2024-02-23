@@ -146,6 +146,14 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.02.23
+> - 发布 `dol-0.4.5.3-chs-alpha1.8.0` 版
+>   - 修复了服装特质“马术”和转化内在“雀斑”的汉化问题 [@issue/285][issue285]
+>   - 修复了标题界面一处汉化错误 [@issue/286][issue286]
+>   - 修复了一处约旦对凯拉尔称呼相关的问题 [@issue-dc/6][issue-dc6]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.02.16
 > - 发布 `dol-0.4.5.3-chs-alpha1.7.0` 版
 >   - 修复了聖誕節孤兒院劇情報錯 [@issue/283][issue283]
@@ -832,9 +840,12 @@
 [issue277]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/277
 [issue279]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/279
 [issue283]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/283
+[issue285]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/285
+[issue286]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/286
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
 [issue-dc3]: https://discord.com/channels/1103864219620884560/1206132214782234664
 [issue-dc4]: https://discord.com/channels/1103864219620884560/1207449102397341706
 [issue-dc5]: https://discord.com/channels/1103864219620884560/1207611367834521631
+[issue-dc6]: https://discord.com/channels/1103864219620884560/1208358446827831326
