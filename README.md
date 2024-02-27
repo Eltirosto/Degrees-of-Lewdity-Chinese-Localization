@@ -146,6 +146,13 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.02.28
+> - 发布 `dol-0.4.5.3-chs-alpha1.8.1` 版
+>   - 修复了一处与寄生虫相关的问题 [@issue/287][issue287] [@issue-dc/7][issue-dc7]
+>   - 修正了妓院两处对话翻译 [@issue/288][issue288]
+>   - 修正了触手平原回卧室的选项翻译 [@issue/289][issue289]
+> 
+> 
 > 2024.02.23
 > - 发布 `dol-0.4.5.3-chs-alpha1.8.0` 版
 >   - 修复了服装特质“马术”和转化内在“雀斑”的汉化问题 [@issue/285][issue285]
@@ -842,6 +849,9 @@
 [issue283]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/283
 [issue285]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/285
 [issue286]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/286
+[issue287]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/287
+[issue288]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/288
+[issue289]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/289
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -849,3 +859,4 @@
 [issue-dc4]: https://discord.com/channels/1103864219620884560/1207449102397341706
 [issue-dc5]: https://discord.com/channels/1103864219620884560/1207611367834521631
 [issue-dc6]: https://discord.com/channels/1103864219620884560/1208358446827831326
+[issue-dc7]: https://discord.com/channels/1103864219620884560/1211968856579645521
