@@ -146,6 +146,13 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.03.08
+> - 发布 `dol-0.4.5.3-chs-alpha1.10.0` 版
+>   - 修复了一处与服装相关的翻译问题 [@issue-dc/8][issue-dc8]
+>   - 修复了一处与人称有关的翻译问题 [@issue/291][issue291]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.03.01
 > - 发布 `dol-0.4.5.3-chs-alpha1.9.0` 版
 >   - 推进润色进度至 53%
@@ -858,6 +865,7 @@
 [issue287]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/287
 [issue288]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/288
 [issue289]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/289
+[issue291]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/291
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -866,3 +874,4 @@
 [issue-dc5]: https://discord.com/channels/1103864219620884560/1207611367834521631
 [issue-dc6]: https://discord.com/channels/1103864219620884560/1208358446827831326
 [issue-dc7]: https://discord.com/channels/1103864219620884560/1211968856579645521
+[issue-dc8]: https://discord.com/channels/1103864219620884560/1214116944295493663
