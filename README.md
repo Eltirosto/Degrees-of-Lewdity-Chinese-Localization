@@ -45,9 +45,6 @@
   - [游戏源码仓库][gitgud]
 
 ### 关于本仓库
-|      本仓库地址       |    模组加载器源码地址    |
-|:----------------:|:---------------:|
-| [地址][github-dol] | [地址][modloader] |
 
 本仓库将会不定期放出游戏的简体中文本地化版本，仅供交流学习，请于下载后 24 小时内删除。如果你未满 18 岁，请勿下载此游戏。仓库本身不含游戏相关内容，仅作为发布地址。**对在其它平台下载的汉化游戏文件不保证安全性，请谨慎下载。**
 
@@ -146,6 +143,12 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.03.15
+> - 发布 `dol-0.4.5.3-chs-alpha1.11.0` 版
+>   - 修复了与耳中史莱姆相关的遗漏翻译 [@issue/292][issue292]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.03.08
 > - 发布 `dol-0.4.5.3-chs-alpha1.10.0` 版
 >   - 修复了一处与服装相关的翻译问题 [@issue-dc/8][issue-dc8]
@@ -866,6 +869,7 @@
 [issue288]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/288
 [issue289]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/289
 [issue291]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/291
+[issue292]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/292
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
