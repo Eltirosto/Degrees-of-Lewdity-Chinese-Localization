@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240308
+> 20240315
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -152,7 +152,7 @@
 - whiteofsky
 - SenriYuki
 - 3428580294(Akane)
-- 23tinywishes(23wishes)
+- 23tinywishes(23-li'l-wishes)
 - flowwwwwwwww(天川鹅)
 
 </details>
