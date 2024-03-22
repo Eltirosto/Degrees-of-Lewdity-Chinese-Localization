@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240315
+> 20240322
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -120,7 +120,7 @@
 - Byuzh(白羽之花)
 - und3rgr0vvth
 - YineR0v0(YineR)
-- Maenoko(Mae)
+- Maenoko(Mer)
 - Liano-28
 - Future-R(未来)
 - ORANGEEMF(华夫饼)
@@ -181,6 +181,7 @@
 - Baiyan
 - Biantai456123
 - Bisan
+- Bleph
 - Charl the Internet User
 - ChenItse
 - Chiangchiang
@@ -193,6 +194,7 @@
 - Dr.Benzin
 - Drlaoyang
 - DynamicPageList3 extension
+- Eira
 - Estella Clockwork
 - Eudemonism00
 - F82731848
@@ -207,6 +209,7 @@
 - Haluki81
 - HanedaToMo
 - Hawkmoth
+- Higuas
 - Hiroko
 - Hyphakinshi
 - Iijjj
@@ -340,6 +343,7 @@
 - 117xxx
 - 1235789gzy1
 - 15x3
+- 1diotDoomSpira1
 - 2077930253
 - 2805671972
 - 404bako

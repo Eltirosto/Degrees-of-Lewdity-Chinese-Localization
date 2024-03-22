@@ -143,6 +143,12 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.03.22
+> - 发布 `dol-0.4.5.33-chs-alpha1.12.0` 版
+>   - 修复了多处翻译问题 [@issue/295][issue295]
+>   - 修复了一些其它已知问题
+> 
+> 
 > 2024.03.15
 > - 发布 `dol-0.4.5.3-chs-alpha1.11.0` 版
 >   - 修复了与耳中史莱姆相关的遗漏翻译 [@issue/292][issue292]
@@ -870,6 +876,7 @@
 [issue289]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/289
 [issue291]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/291
 [issue292]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/292
+[issue295]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/295
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
