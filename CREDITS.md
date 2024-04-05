@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240322
+> 20240405
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -154,6 +154,8 @@
 - 3428580294(Akane)
 - 23tinywishes(23-li'l-wishes)
 - flowwwwwwwww(天川鹅)
+- himearl(香草兔兔公爵)
+- MissedHeart(丧心病)
 
 </details>
 
@@ -187,6 +189,7 @@
 - Chiangchiang
 - Cindy531824
 - Creeping
+- DGCK81LNN
 - Ddzzkun
 - Deer
 - DestroyerS
@@ -211,6 +214,7 @@
 - Hawkmoth
 - Higuas
 - Hiroko
+- Hmsterror
 - Hyphakinshi
 - Iijjj
 - JIZ
@@ -218,13 +222,17 @@
 - Kalopsia
 - Khaos423
 - Kinvinyl
+- Kuriyama
+- Kurumi Walnut
 - KylarLoveLoveLove
 - Ladiangory
 - Liuyu1122
 - Lukute
 - Luminescence 516
+- LunaticLegacy
 - LuneFox
 - Luohe
+- LupusXLass1404
 - MOW0
 - MagicalAstrogy
 - Maidlinmo
@@ -249,6 +257,7 @@
 - Orchid712
 - Otokam
 - PONTIFEXJULIAN
+- Pl816098
 - Plm
 - PolarisLin
 - PolliaJ
@@ -290,6 +299,7 @@
 - Ximena520
 - Xioalang2550
 - Ycy.
+- Yukiviyugmail
 - Yukki
 - Yuyu-o
 - Zoe096423
@@ -300,6 +310,7 @@
 - 北极星勾陈一
 - 千纸鹤
 - 卢本伟
+- 咸海顿
 - 哈哈哈
 - 地下室
 - 坏鹅
@@ -312,6 +323,7 @@
 - 惠高木惠
 - 慈
 - 方糖于杯中回转
+- 星涵是蠢狼
 - 昭雪
 - 查查塞维
 - 柳
@@ -322,6 +334,7 @@
 - 琉影
 - 琊樂
 - 电飞鼠
+- 竹子躺着说
 - 羽蝶蝶
 - 翔子
 - 菜地里的大白菜
@@ -357,7 +370,6 @@
 - Benotasheep
 - Cambarila
 - ChenqianZhang
-- Clara174
 - DachuiWong
 - Dahuludemaomi
 - Dr-lian
@@ -384,7 +396,6 @@
 - KaranoAkira
 - Khaos423
 - Kyereach
-- Lanyilane
 - LeavesWind233
 - Lyoko-Jeremie
 - MC-Qim
@@ -492,8 +503,10 @@
 - w1847766036
 - whangb11
 - whosthegi
+- xixia0516
 - xurui165023
 - xzhxtl
+- xzyl4303
 - yatounoneko
 - yimoandloucy
 - yoyoliu9189
