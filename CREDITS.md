@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240405
+> 20240406
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -185,6 +185,7 @@
 - Bisan
 - Bleph
 - Charl the Internet User
+- Cheam
 - ChenItse
 - Chiangchiang
 - Cindy531824
@@ -327,6 +328,7 @@
 - 昭雪
 - 查查塞维
 - 柳
+- 沃尔玛购物袋
 - 沈
 - 沙沙
 - 没水
@@ -363,13 +365,13 @@
 - 4567569
 - 46ZSLSLO6
 - 77676zero
+- ALEXDRAGON555
 - Akizuki1529
 - Aliceven
 - Ark-Two
 - BananaBox9487
 - Benotasheep
 - Cambarila
-- ChenqianZhang
 - DachuiWong
 - Dahuludemaomi
 - Dr-lian
@@ -415,7 +417,6 @@
 - PichuChen
 - Pony-CW
 - PostMeridy
-- PrunusSerrulata
 - Raven-233486
 - Ricoincolor
 - Rxase
@@ -423,6 +424,7 @@
 - Shio84587
 - ShiroArashi
 - ShiroSakurairo
+- SlimFight1
 - TheLostAlice
 - Tobba-13
 - Trenza1ore
@@ -441,6 +443,7 @@
 - arottenpen
 - bb7355608
 - bd-star
+- becifia
 - begentle2662
 - branpurnae
 - caotiyu
@@ -452,12 +455,10 @@
 - ducklord50
 - dufy2000
 - eltociear
-- fengqilantian
 - francescahsu
 - haitun202
 - hedynn
 - hyakuyamikaera
-- inchei
 - kateW223
 - kaze-0
 - kklovehh
@@ -474,16 +475,17 @@
 - mirrormirroronwall
 - morrisan428
 - mzji
-- nagato19981008
 - nekobolo1
 - nerine0
 - orchid712
+- ouo30
 - paikoo
 - qb0071011
 - qwzther
 - rainfall1019
 - reibu
 - ripplelin
+- robot1415
 - ruuu219
 - salagadoola
 - search7
@@ -500,9 +502,7 @@
 - ultrakgh
 - un114514okk
 - unins000
-- w1847766036
 - whangb11
-- whosthegi
 - xixia0516
 - xurui165023
 - xzhxtl

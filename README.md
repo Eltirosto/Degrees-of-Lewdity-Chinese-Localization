@@ -143,6 +143,18 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.04.06
+> - 发布 `dol-0.4.6.6-chs-alpha1.0.1` 版
+>   - 修复了出门遇搭讪报错 [@issue/307][issue307]
+>   - 修复了日志报错 [@issue/308][issue308] [@issue/313][issue313]
+>   - 修正了森林商店长筒袜的翻译 [@issue/310][issue310]
+>   - 再次修正了教会分裂剧情中的一处文本 [@issue/304][issue304]
+>   - 修复了栽赃惠特尼失败的剧情中出现报错 [@issue/312][issue312]
+>   - 修复了额外统计栏报错 [@issue/314][issue314]
+>   - 修复了进入罗宾房间报错/触发罗宾给钱剧情报错 [@issue/311][issue311] [@issue-dc/10][issue-dc10]
+>   - 修复了一些其他已知问题
+> 
+>
 > 2024.04.05
 > - 发布 `dol-0.4.6.6-chs-alpha1.0.0` 版
 >   - 游戏本体更新至 v0.4.6.6
@@ -894,7 +906,6 @@
 [issue291]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/291
 [issue292]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/292
 [issue295]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/295
-
 [issue296]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/295
 [issue299]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/295
 [issue300]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/300
@@ -903,6 +914,13 @@
 [issue303]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/303
 [issue304]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/304
 [issue305]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/305
+[issue307]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/307
+[issue308]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/308
+[issue310]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/310
+[issue311]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/311
+[issue312]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/312
+[issue313]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/313
+[issue314]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/314
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -913,3 +931,4 @@
 [issue-dc7]: https://discord.com/channels/1103864219620884560/1211968856579645521
 [issue-dc8]: https://discord.com/channels/1103864219620884560/1214116944295493663
 [issue-dc9]: https://discord.com/channels/1103864219620884560/1222463768517283891
+[issue-dc10]: https://discord.com/channels/1103864219620884560/1226092955065122836
