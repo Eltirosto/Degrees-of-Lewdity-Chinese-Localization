@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240406
+> 20240408
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -278,6 +278,7 @@
 - Shaun
 - Shuangyuanland
 - Sigmoni
+- Silas el
 - SoraL
 - SpispsW
 - Stagger
@@ -303,6 +304,7 @@
 - Yukiviyugmail
 - Yukki
 - Yuyu-o
+- Zangyou
 - Zoe096423
 - 什么也不会
 - 伊斯
@@ -317,6 +319,7 @@
 - 坏鹅
 - 夜牧
 - 小学生
+- 小微
 - 崇宫白狼
 - 幽灵是一款我的一生挚爱
 - 心宿二
@@ -379,7 +382,6 @@
 - EndlessNull
 - Eudemonism00
 - EvolveCrow
-- FrShepherd
 - FrostNova67204
 - Ghost1420
 - Grizel4
@@ -388,7 +390,6 @@
 - HAL900O
 - HSSkyBoy
 - Ham-desu
-- HanFengRuYue
 - HanHan3z
 - Hankiebutter
 - HotoCocoaco
@@ -402,6 +403,7 @@
 - Lyoko-Jeremie
 - MC-Qim
 - Maenoko
+- Maildd4158
 - MarieilS
 - Meow0x7E
 - Meowmeow030
@@ -420,6 +422,7 @@
 - Raven-233486
 - Ricoincolor
 - Rxase
+- Sharkila
 - Shifinia
 - Shio84587
 - ShiroArashi
@@ -430,6 +433,7 @@
 - Trenza1ore
 - Trkyuu
 - WhiteCloud0106
+- Willy0v0
 - WinterL
 - Xiamufeng-0828
 - XonlookerX
@@ -446,7 +450,6 @@
 - becifia
 - begentle2662
 - branpurnae
-- caotiyu
 - chair4500
 - creeping1023
 - cybergeekboy
@@ -461,12 +464,10 @@
 - hyakuyamikaera
 - kateW223
 - kaze-0
-- kklovehh
 - knepts
 - kusadact
 - linonetwo
 - liwangerde
-- longlongint
 - lzl1lzl
 - macaca1014
 - mark2330
@@ -502,7 +503,10 @@
 - ultrakgh
 - un114514okk
 - unins000
+- waxchian
 - whangb11
+- wx348055736
+- xiaolok29
 - xixia0516
 - xurui165023
 - xzhxtl

@@ -143,10 +143,22 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.04.08
+> - 发布 `dol-0.4.6.6-chs-alpha1.0.2` 版
+>   - 模组加载器更新至 v2.16.2
+>   - 修复了额外统计栏报错 [@issue/318][issue318] [@issue/320][issue320] [@issue/325][issue325]
+>   - 修复了一处与悉尼在百货公司的剧情相关的报错 [@issue/319][issue319] [@issue-dc/11][issue-dc11]
+>   - 汉化了开局成就加成中纹身下拉菜单的文本 [@issue/324][issue324]
+>   - 修复了一处束缚状态下在神殿试炼时的报错 [@issue-dc/12][issue-dc12]
+>   - 修复了特质界面报错 [@issue-dc/13][issue-dc13] [@issue-dc/15][issue-dc15]
+>   - 修复了摄影工作室一处文本问题 [@issue-dc/14][issue-dc14]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.04.06
 > - 发布 `dol-0.4.6.6-chs-alpha1.0.1` 版
 >   - 修复了出门遇搭讪报错 [@issue/307][issue307]
->   - 修复了日志报错 [@issue/308][issue308] [@issue/313][issue313]
+>   - 修复了日志报错 [@issue/308][issue308] [@issue/313][issue313] [@issue/316][issue316]
 >   - 修正了森林商店长筒袜的翻译 [@issue/310][issue310]
 >   - 再次修正了教会分裂剧情中的一处文本 [@issue/304][issue304]
 >   - 修复了栽赃惠特尼失败的剧情中出现报错 [@issue/312][issue312]
@@ -158,7 +170,7 @@
 > 2024.04.05
 > - 发布 `dol-0.4.6.6-chs-alpha1.0.0` 版
 >   - 游戏本体更新至 v0.4.6.6
->   - 模组加载器更新至  v2.16.1
+>   - 模组加载器更新至 v2.16.1
 >   - **从本次更新开始，汉化定期更新由原先的每周五晚上九点改为每月一号晚上九点；英文原版更新或紧急修复恶性错误除外。**
 >   - 修正了与怀孕产寄生虫相关的文本漏译 [@issue/296][issue296]
 >   - 统一了成人用品店的翻译 [@issue/299][issue299]
@@ -921,6 +933,12 @@
 [issue312]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/312
 [issue313]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/313
 [issue314]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/314
+[issue316]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/316
+[issue318]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/318
+[issue319]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/319
+[issue320]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/320
+[issue324]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/324
+[issue325]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/325
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -932,3 +950,8 @@
 [issue-dc8]: https://discord.com/channels/1103864219620884560/1214116944295493663
 [issue-dc9]: https://discord.com/channels/1103864219620884560/1222463768517283891
 [issue-dc10]: https://discord.com/channels/1103864219620884560/1226092955065122836
+[issue-dc11]: https://discord.com/channels/1103864219620884560/1226366047263658004
+[issue-dc12]: https://discord.com/channels/1103864219620884560/1226489229429702738
+[issue-dc13]: https://discord.com/channels/1103864219620884560/1226547363511009372
+[issue-dc14]: https://discord.com/channels/1103864219620884560/1226547363511009372
+[issue-dc15]: https://discord.com/channels/1103864219620884560/1226876190237790269
