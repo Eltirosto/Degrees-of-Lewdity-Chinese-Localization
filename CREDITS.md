@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240408
+> 20240410
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -313,6 +313,7 @@
 - 北极星勾陈一
 - 千纸鹤
 - 卢本伟
+- 咪咪123
 - 咸海顿
 - 哈哈哈
 - 地下室
@@ -363,7 +364,6 @@
 - 15x3
 - 1diotDoomSpira1
 - 2077930253
-- 2805671972
 - 404bako
 - 4567569
 - 46ZSLSLO6
@@ -401,7 +401,6 @@
 - Kyereach
 - LeavesWind233
 - Lyoko-Jeremie
-- MC-Qim
 - Maenoko
 - Maildd4158
 - MarieilS
@@ -414,7 +413,6 @@
 - NumberSir
 - OpheliaSH
 - Otilia0372
-- ParticleG
 - Paul-16098
 - PichuChen
 - Pony-CW
@@ -427,6 +425,7 @@
 - Shio84587
 - ShiroArashi
 - ShiroSakurairo
+- Sleependermasn
 - SlimFight1
 - TheLostAlice
 - Tobba-13
@@ -442,6 +441,7 @@
 - Zero20000
 - Zeta1002
 - Zior2107
+- a845563011
 - aliya2333
 - ann049
 - arottenpen
@@ -457,7 +457,6 @@
 - dambakana
 - ducklord50
 - dufy2000
-- eltociear
 - francescahsu
 - haitun202
 - hedynn
@@ -505,13 +504,13 @@
 - unins000
 - waxchian
 - whangb11
+- whrfssb
 - wx348055736
 - xiaolok29
 - xixia0516
 - xurui165023
 - xzhxtl
 - xzyl4303
-- yatounoneko
 - yimoandloucy
 - yoyoliu9189
 - yuban01652
