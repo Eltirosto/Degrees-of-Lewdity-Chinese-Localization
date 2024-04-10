@@ -143,6 +143,16 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.04.10
+> - 发布 `dol-0.4.6.7-chs-alpha2.0.0` 版
+>   - **从当前版本开始，修改了汉化版本号在游戏内的显示方式，因此之前的旧版本存档升级到当前及以后的汉化版时会出现存档升级提示，为正常现象，点击确认即可**
+>   - 游戏本体更新至 v0.4.6.7
+>   - 修复了成就加点中初始纹身失效 [@issue/328][issue328]
+>   - 修正了咖啡店露出的文本 [@issue/329][issue329]
+>   - 修正了 NPC 属性增减的显示文本 [@issue-dc/16][issue-dc16]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.04.08
 > - 发布 `dol-0.4.6.6-chs-alpha1.0.2` 版
 >   - 模组加载器更新至 v2.16.2
@@ -939,6 +949,8 @@
 [issue320]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/320
 [issue324]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/324
 [issue325]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/325
+[issue328]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/328
+[issue329]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/329
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -955,3 +967,4 @@
 [issue-dc13]: https://discord.com/channels/1103864219620884560/1226547363511009372
 [issue-dc14]: https://discord.com/channels/1103864219620884560/1226547363511009372
 [issue-dc15]: https://discord.com/channels/1103864219620884560/1226876190237790269
+[issue-dc16]: https://discord.com/channels/1103864219620884560/1226905305070440480
