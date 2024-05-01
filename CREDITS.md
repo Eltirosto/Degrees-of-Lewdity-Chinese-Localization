@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240410
+> 20240501
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -127,6 +127,7 @@
 - Abreadpuppy
 - ApostateJulian(ApostateJulian)
 - Stvech
+- emicoto(Lune)
 - geilian
 - MuCL2023(良衣)
 - InvBlaze(Sonar.)
@@ -182,11 +183,13 @@
 - Ayndpa
 - Baiyan
 - Biantai456123
+- Birdmanonline
 - Bisan
 - Bleph
 - Charl the Internet User
 - Cheam
 - ChenItse
+- ChiESe
 - Chiangchiang
 - Cindy531824
 - Creeping
@@ -199,6 +202,7 @@
 - Drlaoyang
 - DynamicPageList3 extension
 - Eira
+- EmailChan
 - Estella Clockwork
 - Eudemonism00
 - F82731848
@@ -306,6 +310,7 @@
 - Yuyu-o
 - Zangyou
 - Zoe096423
+- 不想晚睡
 - 什么也不会
 - 伊斯
 - 佘临
@@ -316,13 +321,16 @@
 - 咪咪123
 - 咸海顿
 - 哈哈哈
+- 回首易染
 - 地下室
 - 坏鹅
 - 夜牧
 - 小学生
+- 小小香日
 - 小微
 - 崇宫白狼
 - 幽灵是一款我的一生挚爱
+- 德鲁伊心水晶剑
 - 心宿二
 - 惊恐地凝视
 - 惠高木惠
@@ -336,10 +344,12 @@
 - 沈
 - 沙沙
 - 没水
+- 流泪猫猫头
 - 狗子
 - 琉影
 - 琊樂
 - 电飞鼠
+- 白木捏猫
 - 竹子躺着说
 - 羽蝶蝶
 - 翔子
@@ -360,10 +370,8 @@
 
 - 0423allenallen
 - 117xxx
-- 1235789gzy1
 - 15x3
 - 1diotDoomSpira1
-- 2077930253
 - 404bako
 - 4567569
 - 46ZSLSLO6
@@ -400,7 +408,6 @@
 - Khaos423
 - Kyereach
 - LeavesWind233
-- Lyoko-Jeremie
 - Maenoko
 - Maildd4158
 - MarieilS
@@ -417,7 +424,6 @@
 - PichuChen
 - Pony-CW
 - PostMeridy
-- Raven-233486
 - Ricoincolor
 - Rxase
 - Sharkila
@@ -427,6 +433,7 @@
 - ShiroSakurairo
 - Sleependermasn
 - SlimFight1
+- Sphaela
 - TheLostAlice
 - Tobba-13
 - Trenza1ore
@@ -439,6 +446,7 @@
 - XyMinxin
 - Yeddaa
 - Zero20000
+- ZeroRing233
 - Zeta1002
 - Zior2107
 - a845563011
@@ -449,6 +457,7 @@
 - bd-star
 - becifia
 - begentle2662
+- blackuoi
 - branpurnae
 - chair4500
 - creeping1023
@@ -458,6 +467,7 @@
 - ducklord50
 - dufy2000
 - francescahsu
+- gn02994106
 - haitun202
 - hedynn
 - hyakuyamikaera
@@ -465,6 +475,7 @@
 - kaze-0
 - knepts
 - kusadact
+- limidafei
 - linonetwo
 - liwangerde
 - lzl1lzl
@@ -473,6 +484,7 @@
 - mengyuxiangsui
 - meowmeowmeowmeowmeomeoww
 - mirrormirroronwall
+- miyakoAki4828
 - morrisan428
 - mzji
 - nekobolo1
@@ -492,9 +504,7 @@
 - sgsfz
 - shanmujiuya
 - sheepog
-- slvai13
 - status102
-- sturnu3
 - thatskysze
 - titituto
 - trlaitioer
@@ -505,6 +515,8 @@
 - waxchian
 - whangb11
 - whrfssb
+- willie9815
+- wozhachengyanhua
 - wx348055736
 - xiaolok29
 - xixia0516
@@ -516,5 +528,9 @@
 - yuban01652
 - zhengxiaoyao0716
 - zmh007007
+- zsbxws
 
 </details>
+
+---
+本游戏的汉化版制作、维护与更新属实不易，十分感谢以上不吝提供帮助、做出贡献的诸位。

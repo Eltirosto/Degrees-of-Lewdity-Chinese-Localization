@@ -143,6 +143,20 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.05.01
+> - 发布 `dol-0.4.7.2-chs-alpha1.0.0` 版
+>   - 游戏本体更新至 v0.4.7.2
+>   - 优化了罗宾创伤线地下妓院对话 [@issue/333][issue333]
+>   - 优化了罗宾异装线医务室剧情 [@issue/334][issue334]
+>   - 汉化了狼窝相关漏抓状态文本 [@issue/337][issue337]
+>   - 汉化了飞行员眼镜次要颜色中的原色 [@issue/338][issue338]
+>   - 优化了罗宾一起洗澡剧情 [@issue/343][issue343]
+>   - 修正了触手平原一处错误翻译 [@issue/345][issue345]
+>   - 修复了一处翻译错字 [@issue/346][issue346]
+>   - 优化了流浪狗收留所相关剧情的翻译 [@issue/347][issue347]
+>   - 修复了耳史莱姆触手选择道路的翻译问题 [@issue-dc/17][issue-dc17]
+>   - 修复了一些其他已知问题
+> 
 > 2024.04.10
 > - 发布 `dol-0.4.6.7-chs-alpha2.0.0` 版
 >   - **从当前版本开始，修改了汉化版本号在游戏内的显示方式，因此之前的旧版本存档升级到当前及以后的汉化版时会出现存档升级提示，为正常现象，点击确认即可**
@@ -951,6 +965,14 @@
 [issue325]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/325
 [issue328]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/328
 [issue329]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/329
+[issue333]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/333
+[issue334]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/334
+[issue337]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/337
+[issue338]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/338
+[issue343]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/343
+[issue345]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/345
+[issue346]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/346
+[issue347]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/347
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -968,3 +990,4 @@
 [issue-dc14]: https://discord.com/channels/1103864219620884560/1226547363511009372
 [issue-dc15]: https://discord.com/channels/1103864219620884560/1226876190237790269
 [issue-dc16]: https://discord.com/channels/1103864219620884560/1226905305070440480
+[issue-dc17]: https://discord.com/channels/1103864219620884560/1228350285546787006
