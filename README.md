@@ -143,6 +143,19 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.05.11
+> - 发布 `dol-0.4.7.5-cchs-alpha2.0.0` 版
+>   - **由于未知原因，polyfill.apk 无法正常启动，因此暂停止发行 polyfill.apk 至问题修复**
+>   - 修复了图片包版本要求的警告信息 [@issue/349][issue349]
+>   - 汉化了新的能力加减值 [@issue/350][issue350]
+>   - 汉化了部分遗漏文本 [@issue/353][issue353]
+>   - 优化了罗宾相关的三处汉化细节 [@issue/354][issue354]
+>   - 汉化了遗漏的售卖物文本 [@issue/355][issue355]
+>   - 修复了幽灵遭遇战报错的问题 [@issue-dc/18][issue-dc18]
+>   - 修复了药柜和服装显示英文的问题 [@issue-dc/19][issue-dc19]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.05.01
 > - 发布 `dol-0.4.7.2-chs-alpha1.0.0` 版
 >   - 游戏本体更新至 v0.4.7.2
@@ -973,6 +986,11 @@
 [issue345]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/345
 [issue346]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/346
 [issue347]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/347
+[issue349]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/349
+[issue350]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/350
+[issue353]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/353
+[issue354]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/354
+[issue355]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/355
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -991,3 +1009,5 @@
 [issue-dc15]: https://discord.com/channels/1103864219620884560/1226876190237790269
 [issue-dc16]: https://discord.com/channels/1103864219620884560/1226905305070440480
 [issue-dc17]: https://discord.com/channels/1103864219620884560/1228350285546787006
+[issue-dc18]: https://discord.com/channels/1103864219620884560/1236361416496119879
+[issue-dc19]: https://discord.com/channels/1103864219620884560/1238176375949627484

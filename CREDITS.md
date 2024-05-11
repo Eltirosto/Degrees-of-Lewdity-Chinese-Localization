@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240501
+> 20240511
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -231,6 +231,7 @@
 - Kurumi Walnut
 - KylarLoveLoveLove
 - Ladiangory
+- Lambda017
 - Liuyu1122
 - Lukute
 - Luminescence 516
@@ -253,6 +254,7 @@
 - Momoku1112
 - MoonSa
 - Morgas
+- N-boMB
 - Nic0t1ner
 - Nigredo420
 - Nina061201
@@ -280,6 +282,7 @@
 - S0870217
 - Selene-Ling
 - Shaun
+- Shirokun2024
 - Shuangyuanland
 - Sigmoni
 - Silas el
@@ -301,6 +304,7 @@
 - Wtl9242006
 - Wutiaomiao
 - Www3077665332
+- Wwy666
 - XSabes
 - Ximena520
 - Xioalang2550
@@ -340,6 +344,7 @@
 - 昭雪
 - 查查塞维
 - 柳
+- 汪明
 - 沃尔玛购物袋
 - 沈
 - 沙沙
@@ -390,6 +395,7 @@
 - EndlessNull
 - Eudemonism00
 - EvolveCrow
+- Fimmm
 - FrostNova67204
 - Ghost1420
 - Grizel4
@@ -450,7 +456,6 @@
 - Zeta1002
 - Zior2107
 - a845563011
-- aliya2333
 - ann049
 - arottenpen
 - bb7355608
@@ -478,7 +483,7 @@
 - limidafei
 - linonetwo
 - liwangerde
-- lzl1lzl
+- luke72927
 - macaca1014
 - mark2330
 - mengyuxiangsui
@@ -490,6 +495,7 @@
 - nekobolo1
 - nerine0
 - orchid712
+- orishimo010
 - ouo30
 - paikoo
 - qb0071011
@@ -504,12 +510,12 @@
 - sgsfz
 - shanmujiuya
 - sheepog
+- si1ence1895
 - status102
 - thatskysze
 - titituto
-- trlaitioer
 - uhohohoho
-- ultrakgh
+- ujhfjosnfksd
 - un114514okk
 - unins000
 - waxchian
