@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240511
+> 20240522
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -292,6 +292,7 @@
 - Star1825
 - Starrrr
 - Strike-AI
+- TEARSTREAK
 - Tinygrox
 - Tlyer
 - Touched
@@ -318,10 +319,12 @@
 - 什么也不会
 - 伊斯
 - 佘临
+- 你看见头了吗？
 - 六黄
 - 北极星勾陈一
 - 千纸鹤
 - 卢本伟
+- 命时
 - 咪咪123
 - 咸海顿
 - 哈哈哈
@@ -339,6 +342,8 @@
 - 惊恐地凝视
 - 惠高木惠
 - 慈
+- 憶97815376461
+- 我是美铝
 - 方糖于杯中回转
 - 星涵是蠢狼
 - 昭雪
@@ -440,10 +445,10 @@
 - Sleependermasn
 - SlimFight1
 - Sphaela
-- TheLostAlice
 - Tobba-13
 - Trenza1ore
 - Trkyuu
+- UphealLaw
 - WhiteCloud0106
 - Willy0v0
 - WinterL
@@ -469,7 +474,6 @@
 - cybergeekboy
 - czjz97
 - dambakana
-- ducklord50
 - dufy2000
 - francescahsu
 - gn02994106
@@ -478,7 +482,6 @@
 - hyakuyamikaera
 - kateW223
 - kaze-0
-- knepts
 - kusadact
 - limidafei
 - linonetwo

@@ -143,16 +143,27 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.05.22
+> - 发布 `dol-0.4.7.5-chs-alpha2.0.1` 版
+>   - 修复了大量汉化错位导致无法显示汉化的问题，请重新下载含 ModLoader 的游戏本体 [@issue/353][issue353] [@issue/356][issue356] [@issue-dc/26][issue-dc26]
+>   - 修复了部分遗漏的汉化内容 [@issue-dc/27][issue-dc27]
+>   - 修复了 <<he>> 显示错误 [@issue-dc/28][issue-dc28]
+>   - 修复了部分汉化问题 [@issue-dc/29][issue-dc29]
+>   - 修复了属性/特质/成就文本缺失标点符号问题 [@issue-dc/30]
+>   - 修复了一些其他已知问题
+>   
+> 
 > 2024.05.11
-> - 发布 `dol-0.4.7.5-cchs-alpha2.0.0` 版
+> - 发布 `dol-0.4.7.5-chs-alpha2.0.0` 版
 >   - **由于未知原因，polyfill.apk 无法正常启动，因此暂停止发行 polyfill.apk 至问题修复**
 >   - 修复了图片包版本要求的警告信息 [@issue/349][issue349]
 >   - 汉化了新的能力加减值 [@issue/350][issue350]
->   - 汉化了部分遗漏文本 [@issue/353][issue353]
 >   - 优化了罗宾相关的三处汉化细节 [@issue/354][issue354]
 >   - 汉化了遗漏的售卖物文本 [@issue/355][issue355]
 >   - 修复了幽灵遭遇战报错的问题 [@issue-dc/18][issue-dc18]
 >   - 修复了药柜和服装显示英文的问题 [@issue-dc/19][issue-dc19]
+>   - 修复了人名汉化修改的问题 [@issue-dc/23][issue-dc23]
+>   - 修复了服装名称显示非汉化的问题 [@issue-dc/24][issue-dc24] [@issue-dc/25][issue-dc25]
 >   - 修复了一些其他已知问题
 > 
 > 
@@ -199,8 +210,9 @@
 >   - 修正了森林商店长筒袜的翻译 [@issue/310][issue310]
 >   - 再次修正了教会分裂剧情中的一处文本 [@issue/304][issue304]
 >   - 修复了栽赃惠特尼失败的剧情中出现报错 [@issue/312][issue312]
->   - 修复了额外统计栏报错 [@issue/314][issue314]
+>   - 修复了额外统计栏报错 [@issue/314][issue314] [@issue-dc/20][issue-dc20]
 >   - 修复了进入罗宾房间报错/触发罗宾给钱剧情报错 [@issue/311][issue311] [@issue-dc/10][issue-dc10]
+>   - 汉化了成就加成页面提示 [@issue-dc/21][issue-dc21]
 >   - 修复了一些其他已知问题
 > 
 >
@@ -986,11 +998,13 @@
 [issue345]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/345
 [issue346]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/346
 [issue347]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/347
+[issue348]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/348
 [issue349]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/349
 [issue350]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/350
 [issue353]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/353
 [issue354]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/354
 [issue355]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/355
+[issue356]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/356
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -1005,9 +1019,20 @@
 [issue-dc11]: https://discord.com/channels/1103864219620884560/1226366047263658004
 [issue-dc12]: https://discord.com/channels/1103864219620884560/1226489229429702738
 [issue-dc13]: https://discord.com/channels/1103864219620884560/1226547363511009372
-[issue-dc14]: https://discord.com/channels/1103864219620884560/1226547363511009372
+[issue-dc14]: https://discord.com/channels/1103864219620884560/1226772082617094228
 [issue-dc15]: https://discord.com/channels/1103864219620884560/1226876190237790269
 [issue-dc16]: https://discord.com/channels/1103864219620884560/1226905305070440480
 [issue-dc17]: https://discord.com/channels/1103864219620884560/1228350285546787006
 [issue-dc18]: https://discord.com/channels/1103864219620884560/1236361416496119879
 [issue-dc19]: https://discord.com/channels/1103864219620884560/1238176375949627484
+[issue-dc20]: https://discord.com/channels/1103864219620884560/1226889246086926488
+[issue-dc21]: https://discord.com/channels/1103864219620884560/1227864626306224158
+[issue-dc22]: https://discord.com/channels/1103864219620884560/1235231125937459220
+[issue-dc23]: https://discord.com/channels/1103864219620884560/1235980825305026662
+[issue-dc24]: https://discord.com/channels/1103864219620884560/1235990617830461471
+[issue-dc25]: https://discord.com/channels/1103864219620884560/1236190295474049065
+[issue-dc26]: https://discord.com/channels/1103864219620884560/1236687860430536735
+[issue-dc27]: https://discord.com/channels/1103864219620884560/1239140397645828106
+[issue-dc28]: https://discord.com/channels/1103864219620884560/1240248380194820167
+[issue-dc29]: https://discord.com/channels/1103864219620884560/1235989969076621374
+[issue-dc30]: https://discord.com/channels/1103864219620884560/1235647296247566337
