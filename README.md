@@ -143,6 +143,13 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.05.24
+> - 发布 `dol-0.4.7.5-chs-alpha2.0.2` 版
+>   - 修复了博物馆场景报错问题 [@issue/359][issue359]
+>   - 修复了日志报错问题 [@issue/360][issue360] [@issue/361][issue361] [@issue-dc/31][issue-dc31]
+>   - 修复了一些其他已知问题
+>   
+> 
 > 2024.05.22
 > - 发布 `dol-0.4.7.5-chs-alpha2.0.1` 版
 >   - 修复了大量汉化错位导致无法显示汉化的问题，请重新下载含 ModLoader 的游戏本体 [@issue/353][issue353] [@issue/356][issue356] [@issue-dc/26][issue-dc26]
@@ -1005,6 +1012,9 @@
 [issue354]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/354
 [issue355]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/355
 [issue356]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/356
+[issue359]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/359
+[issue360]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/360
+[issue361]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/361
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -1036,3 +1046,4 @@
 [issue-dc28]: https://discord.com/channels/1103864219620884560/1240248380194820167
 [issue-dc29]: https://discord.com/channels/1103864219620884560/1235989969076621374
 [issue-dc30]: https://discord.com/channels/1103864219620884560/1235647296247566337
+[issue-dc31]: https://discord.com/channels/1103864219620884560/1243301645018992740

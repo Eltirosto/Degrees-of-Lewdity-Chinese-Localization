@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240522
+> 20240524
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -381,6 +381,7 @@
 - 0423allenallen
 - 117xxx
 - 15x3
+- 1Shirotori
 - 1diotDoomSpira1
 - 404bako
 - 4567569
@@ -395,7 +396,6 @@
 - Cambarila
 - DachuiWong
 - Dahuludemaomi
-- Dr-lian
 - Eleus7
 - EndlessNull
 - Eudemonism00
@@ -513,6 +513,7 @@
 - sgsfz
 - shanmujiuya
 - sheepog
+- shenqide5
 - si1ence1895
 - status102
 - thatskysze
@@ -522,7 +523,6 @@
 - un114514okk
 - unins000
 - waxchian
-- whangb11
 - whrfssb
 - willie9815
 - wozhachengyanhua
