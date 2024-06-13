@@ -99,23 +99,23 @@
   - 在线版也可以从你的电脑/手机等设备**本地加载其它模组**，加载方法同[发布下载版](#发布下载版)中的第三步
 
 ### 关于版本号
-汉化版本号的基本结构是 `chs-x.y.z`，如 `chs-alpha1.7.1`
+汉化版本号的基本结构是 `chs-x.y.z`，如 `chs-1.7.1a`
 
-游戏版本号的基本结构是 `{游戏版本号}-chs-{汉化版本号}`，如 `0.4.1.7-chs-alpha1.7.1`
+游戏版本号的基本结构是 `{游戏版本号}-chs-{汉化版本号}`，如 `0.4.1.7-chs-1.7.1a`
 
 汉化版本号的修改遵循如下规则：
-1. `alpha` / `beta` / `release` 分别代表：
+1. `a` / `b` / `r` 分别代表：
   - `alpha`: 当前翻译率达到 100%, 可能有漏提取的文本，润色不充分
   - `beta`: 当前翻译率达到 100%, 没有漏提取的文本，润色不充分
   - `release`: 当前翻译率达到 100%, 没有漏提取的文本，已经充分润色
 2. 如果游戏版本号发生破坏性更新：如 `0.4.1` => `0.4.2`, 或 `0.4` -> `0.5`，则汉化版本号重置，如：
-  - `0.4.1.7-chs-alpha1.7.1` => `0.4.2.4-chs-alpha1.0.0`
+  - `0.4.1.7-chs-1.7.1a` => `0.4.2.4-chs-1.0.0a`
 3. 如果游戏版本号发生小修小补更新：如 `0.4.1.6` => `0.4.1.7`, 或 `0.4.2.0` => `0.4.2.5`，则汉化版本号第一位加一，如：
-  - `0.4.2.4-chs-alpha1.0.0` => `0.4.2.5-chs-alpha2.0.0`
+  - `0.4.2.4-chs-1.0.0a` => `0.4.2.5-chs-2.0.0-a`
 4. 每月一号晚九点定期更新，则汉化版本号第二位加一，如：
-  - `0.4.1.7-chs-alpha1.6.0` => `0.4.1.7-chs-alpha1.7.0`
+  - `0.4.1.7-chs-1.6.0a` => `0.4.1.7-chs-1.7.0a`
 5. 出现了导致游戏无法继续进行的恶性问题而临时更新，则汉化版本号末位加一，如：
-  - `0.4.1.7-chs-alpha1.7.0` => `0.4.1.7-chs-alpha1.7.1`
+  - `0.4.1.7-chs-1.7.0a` => `0.4.1.7-chs-1.7.1a`
 
 ### Star 数
 
@@ -143,6 +143,21 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.06.13
+> - 发布 `dol-0.5.0.5-chs-1.0.0a` 版
+>   - 游戏本体更新至 v0.5.0.5
+>   - 模组加载器更新至 v2.17.0
+>   - 更改了汉化版本号的命名格式，以符合 SMV 标准
+>   - 大幅优化了汉化模组的加载流程
+>   - 统一了部分物品的汉化名称 [@issue-dc/32][issue-dc32]
+>   - 修复了办公室场景遗漏的汉化文本 [@issue-dc/33][issue-dc33]
+>   - 可能一劳永逸地修复了图片无法正常显示的问题 [@issue/323][issue323] [@issue/362][issue362]
+>   - 修复了图片分离的问题 [@issue/332][issue332] [@issue/363][issue363]
+>   - 修复了关于人行天桥的汉化问题 [@issue/365][issue365]
+>   - 修复了关于综合征的汉化问题 [@issue/366][issue366]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.05.24
 > - 发布 `dol-0.4.7.5-chs-alpha2.0.2` 版
 >   - 修复了博物馆场景报错问题 [@issue/359][issue359]
@@ -993,10 +1008,12 @@
 [issue318]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/318
 [issue319]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/319
 [issue320]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/320
+[issue323]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/323
 [issue324]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/324
 [issue325]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/325
 [issue328]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/328
 [issue329]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/329
+[issue332]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/332
 [issue333]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/333
 [issue334]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/334
 [issue337]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/337
@@ -1015,6 +1032,10 @@
 [issue359]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/359
 [issue360]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/360
 [issue361]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/361
+[issue362]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/362
+[issue363]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/363
+[issue365]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/365
+[issue366]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/366
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -1047,3 +1068,5 @@
 [issue-dc29]: https://discord.com/channels/1103864219620884560/1235989969076621374
 [issue-dc30]: https://discord.com/channels/1103864219620884560/1235647296247566337
 [issue-dc31]: https://discord.com/channels/1103864219620884560/1243301645018992740
+[issue-dc32]: https://discord.com/channels/1103864219620884560/1245631079013027871
+[issue-dc33]: https://discord.com/channels/1103864219620884560/1245632905129103442
