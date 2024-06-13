@@ -172,6 +172,7 @@
 - 100Zhi
 - 1344535564qwa
 - 15727557402zy
+- 259172社
 - 404bk
 - A11216266
 - A29277935
@@ -454,6 +455,7 @@
 - PostMeridy
 - Ricoincolor
 - Rxase
+- Satori114514
 - Sharkila
 - Shifinia
 - Shio84587
