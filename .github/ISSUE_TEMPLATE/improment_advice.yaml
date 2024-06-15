@@ -1,6 +1,6 @@
 name: 汉化建议
 description: 对汉化文本的建议
-labels: ['enhancement']
+labels: ['🧐enhancement']
 body:
   - type: checkboxes
     id: checks
