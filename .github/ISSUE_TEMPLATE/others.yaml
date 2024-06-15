@@ -1,6 +1,6 @@
 name: 其他议题
 description: 提出问题，而不是 bug 反馈或汉化建议
-labels: ['question']
+labels: ['😵question']
 body:
   - type: checkboxes
     id: checks
