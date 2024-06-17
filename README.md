@@ -143,6 +143,15 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.06.18
+> - 发布 `dol-0.5.0.6-chs-2.0.0a` 版
+>   - 模组加载器更新至 v2.17.2
+>   - 修复了更换内衣出错的问题 [@issue/368][issue368] [@issue/369][issue369]
+>   - 修复了温度提示的汉化问题 [@issue/370][issue370]
+>   - 修复了一处汉化问题 [@issue-dc/34][issue-dc34]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.06.13
 > - 发布 `dol-0.5.0.5-chs-1.0.1a` 版
 >   - 模组加载器更新至 v2.17.0-hotfix
@@ -1042,6 +1051,9 @@
 [issue363]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/363
 [issue365]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/365
 [issue366]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/366
+[issue368]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/368
+[issue369]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/369
+[issue370]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/370
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -1076,3 +1088,4 @@
 [issue-dc31]: https://discord.com/channels/1103864219620884560/1243301645018992740
 [issue-dc32]: https://discord.com/channels/1103864219620884560/1245631079013027871
 [issue-dc33]: https://discord.com/channels/1103864219620884560/1245632905129103442
+[issue-dc34]: https://discord.com/channels/1103864219620884560/1251014297736187955

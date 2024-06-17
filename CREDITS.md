@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240613
+> 20240618
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -178,6 +178,7 @@
 - A29277935
 - Abcd0715
 - AceEchoey
+- Afterglow
 - Aiklai
 - Aither
 - Alice nuen
@@ -191,6 +192,7 @@
 - Birdmanonline
 - Bisan
 - Bleph
+- Bowen
 - Charl the Internet User
 - Cheam
 - ChenItse
@@ -237,6 +239,7 @@
 - Kurumi Walnut
 - KylarLoveLoveLove
 - Ladiangory
+- Laiet
 - Lambda017
 - Lifeir
 - Liuyu1122
@@ -246,9 +249,11 @@
 - LuneFox
 - Luohe
 - LupusXLass1404
+- Lzz
 - MOW0
 - MagicalAstrogy
 - Maidlinmo
+- Mango0206
 - Marsz413
 - Mathevellae
 - MediaWiki default
@@ -486,6 +491,7 @@
 - bd-star
 - becifia
 - begentle2662
+- bibibibiye
 - blackuoi
 - branpurnae
 - creeping1023
@@ -513,6 +519,7 @@
 - miyakoAki4828
 - morrisan428
 - mzji
+- nasekaoru202
 - nekobolo1
 - nerine0
 - orchid712
@@ -534,7 +541,6 @@
 - sheepog
 - shenqide5
 - si1ence1895
-- status102
 - thatskysze
 - titituto
 - uhohohoho
