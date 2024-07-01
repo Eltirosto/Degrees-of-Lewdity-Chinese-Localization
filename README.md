@@ -143,6 +143,18 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.07.01
+> - 发布 `dol-0.5.0.6-chs-2.1.0a` 版
+>   - 模组加载器更新至 v2.18.3
+>   - 修复了学习场景⭐不显示的问题 [@issue/362][issue362] [@issue/382][issue382]
+>   - 修复了荒原场景与分裂剧情中汉化问题 [@issue/374][issue374]
+>   - 修复了对于金属触手修饰词的汉化问题 [@issue/378][issue378]
+>   - 修复了一处关于度量衡的汉化问题 [@issue-dc/35][issue-dc35]
+>   - 修复了一处语气汉化问题 [@issue-dc/36][issue-dc36]
+>   - 修复了一处与天气有关的表述问题 [@issue-dc/37][issue-dc37]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.06.18
 > - 发布 `dol-0.5.0.6-chs-2.0.0a` 版
 >   - 模组加载器更新至 v2.17.2
@@ -1054,6 +1066,9 @@
 [issue368]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/368
 [issue369]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/369
 [issue370]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/370
+[issue374]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/374
+[issue378]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/378
+[issue382]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/382
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -1089,3 +1104,6 @@
 [issue-dc32]: https://discord.com/channels/1103864219620884560/1245631079013027871
 [issue-dc33]: https://discord.com/channels/1103864219620884560/1245632905129103442
 [issue-dc34]: https://discord.com/channels/1103864219620884560/1251014297736187955
+[issue-dc35]: https://discord.com/channels/1103864219620884560/1253709200031223850
+[issue-dc36]: https://discord.com/channels/1103864219620884560/1253957406283661332
+[issue-dc37]: https://discord.com/channels/1103864219620884560/1254712825667125310
