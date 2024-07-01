@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240618
+> 20240701
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -152,7 +152,7 @@
 - wmyouff
 - wuruoxi(Elf King)
 - x635(狗墩子)
-- xLuckTlyer
+- xLuckTlyer(钱德勒)
 - xiaojiZack
 - xiawu240(妖魔鬼怪快离开⭐)
 - yifan010
@@ -176,6 +176,7 @@
 - 404bk
 - A11216266
 - A29277935
+- ASDA
 - Abcd0715
 - AceEchoey
 - Afterglow
@@ -187,6 +188,7 @@
 - Artemismitty12321
 - AyW
 - Ayndpa
+- Baijia
 - Baiyan
 - Biantai456123
 - Birdmanonline
@@ -208,6 +210,7 @@
 - Dr.Benzin
 - Drlaoyang
 - DynamicPageList3 extension
+- EdmundZ
 - Eira
 - EmailChan
 - Estella Clockwork
@@ -307,6 +310,7 @@
 - Star1825
 - Starrrr
 - Strike-AI
+- Syv edit
 - TEARSTREAK
 - Tinygrox
 - Tlyer
@@ -328,9 +332,12 @@
 - Xioalang2550
 - Ycy.
 - Yis
+- Ysgaos
 - Yukiviyugmail
 - Yukki
+- YunyouLi
 - Yuyu-o
+- ZDich
 - Zangyou
 - Zoe096423
 - 不想晚睡
@@ -376,6 +383,7 @@
 - 沙沙
 - 没水
 - 流泪猫猫头
+- 涂山某小妖
 - 狗子
 - 琉影
 - 琊樂
@@ -384,6 +392,7 @@
 - 竹子躺着说
 - 羽蝶蝶
 - 翔子
+- 色温
 - 菜地里的大白菜
 - 西里斯小店
 - 轻语的风
@@ -400,15 +409,14 @@
 <details>
 <summary>点击展开</summary>
 
-- 0423allenallen
 - 117xxx
 - 15x3
 - 1Shirotori
 - 1diotDoomSpira1
 - 404bako
 - 4567569
-- 46ZSLSLO6
 - 77676zero
+- ACE-DustofStars
 - ALEXDRAGON555
 - Akizuki1529
 - Aliceven
@@ -418,7 +426,7 @@
 - Cambarila
 - DachuiWong
 - Dahuludemaomi
-- Eleus7
+- EdminZ
 - EndlessNull
 - Eudemonism00
 - EvolveCrow
@@ -434,19 +442,17 @@
 - HanHan3z
 - Hankiebutter
 - HotoCocoaco
-- Imokodesu
 - IzIzuu
-- Kaitwolf
 - KaranoAkira
 - Khaos423
 - Kyereach
 - LeavesWind233
 - Maenoko
 - Maildd4158
-- MarieilS
 - Meow0x7E
 - Meowmeow030
 - Minaduki-Shigure
+- Moliyi
 - Neeeo26
 - Nep-Timeline
 - NkeoPatch
@@ -469,11 +475,11 @@
 - Sleependermasn
 - SlimFight1
 - Sphaela
+- TillMist
 - Tobba-13
 - Trenza1ore
 - Trkyuu
 - UphealLaw
-- WhiteCloud0106
 - Willy0v0
 - WinterL
 - Xiamufeng-0828
@@ -485,6 +491,7 @@
 - Zeta1002
 - Zior2107
 - a845563011
+- ahhiisme
 - ann049
 - arottenpen
 - bb7355608
@@ -503,6 +510,7 @@
 - gn02994106
 - haitun202
 - hedynn
+- hphhh222
 - hyakuyamikaera
 - kateW223
 - kaze-0
@@ -526,6 +534,7 @@
 - orishimo010
 - ouo30
 - paikoo
+- please-enter-a-username
 - qb0071011
 - qwzther
 - rainfall1019
@@ -551,12 +560,15 @@
 - whrfssb
 - willie9815
 - wozhachengyanhua
+- wuyuzegang
 - wx348055736
 - xiaolok29
+- xiaxuede
 - xixia0516
 - xurui165023
 - xzhxtl
 - xzyl4303
+- y5353030
 - yimoandloucy
 - yoyoliu9189
 - yuban01652
