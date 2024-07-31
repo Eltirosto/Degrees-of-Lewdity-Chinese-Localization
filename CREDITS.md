@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240701
+> 20240801
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -14,6 +14,7 @@
 - 502y
 - 730891196longaotian(阿雨🌧)
 - A-kia
+- AEEESEEEA(虚空)
 - Abreadpuppy
 - Aeserchengzi
 - Airiowo6181(Airi_owo)
@@ -43,6 +44,7 @@
 - FourtyThree413
 - Future-R(未来)
 - Gamez4Alpaca
+- HCPTangHY
 - HamTario0337
 - InvBlaze(Sonar.)
 - KNKswn
@@ -172,10 +174,12 @@
 - 100Zhi
 - 1344535564qwa
 - 15727557402zy
+- 1tt1e 1219
 - 259172社
 - 404bk
 - A11216266
 - A29277935
+- ALLEN&ALFRED
 - ASDA
 - Abcd0715
 - AceEchoey
@@ -183,6 +187,7 @@
 - Aiklai
 - Aither
 - Alice nuen
+- Alicekawaiiiii
 - Alouette
 - Aoilen
 - Artemismitty12321
@@ -190,11 +195,13 @@
 - Ayndpa
 - Baijia
 - Baiyan
+- Beambook
 - Biantai456123
 - Birdmanonline
 - Bisan
 - Bleph
 - Bowen
+- Capaletric
 - Charl the Internet User
 - Cheam
 - ChenItse
@@ -205,6 +212,7 @@
 - DGCK81LNN
 - Ddzzkun
 - Deer
+- DeformedGodComplex
 - DestroyerS
 - DmsHunk
 - Dr.Benzin
@@ -216,6 +224,7 @@
 - Estella Clockwork
 - Eudemonism00
 - F82731848
+- FCSfish
 - Fgftgh
 - Flammis023
 - Fox hezi02
@@ -224,8 +233,10 @@
 - GhostMiku117
 - GraySparrow
 - Gurgle
+- HaBai
 - Haluki81
 - HanedaToMo
+- Happy1041
 - Hawkmoth
 - Higuas
 - Hiroko
@@ -234,6 +245,7 @@
 - Iijjj
 - JIZ
 - K2496745900
+- Kacastic
 - Kalopsia
 - Khaos423
 - Kinvinyl
@@ -297,12 +309,14 @@
 - RobinSuKi
 - RonseThurro
 - S0870217
+- Sakuya
 - Selene-Ling
 - Shaun
 - Shirokun2024
 - Shuangyuanland
 - Sigmoni
 - Silas el
+- Site098
 - SkyF
 - SoraL
 - SpispsW
@@ -315,8 +329,10 @@
 - Tinygrox
 - Tlyer
 - Touched
+- Upghs2336
 - Valanthe
 - Vampile
+- Vanco
 - WT4D
 - WakaWakaMaya
 - Whimilk
@@ -331,14 +347,17 @@
 - Ximena520
 - Xioalang2550
 - Ycy.
+- Yilinshe
 - Yis
 - Ysgaos
 - Yukiviyugmail
 - Yukki
 - YunyouLi
 - Yuyu-o
+- ZBIRDzzZ
 - ZDich
 - Zangyou
+- Zero499
 - Zoe096423
 - 不想晚睡
 - 什么也不会
@@ -350,6 +369,7 @@
 - 千纸鹤
 - 卢本伟
 - 叶工叶
+- 吗喽
 - 命时
 - 咪咪123
 - 咸海顿
@@ -392,6 +412,7 @@
 - 竹子躺着说
 - 羽蝶蝶
 - 翔子
+- 老大喵
 - 色温
 - 菜地里的大白菜
 - 西里斯小店
@@ -417,6 +438,7 @@
 - 4567569
 - 77676zero
 - ACE-DustofStars
+- AEEESEEEA
 - ALEXDRAGON555
 - Akizuki1529
 - Aliceven
@@ -424,6 +446,7 @@
 - BananaBox9487
 - Benotasheep
 - Cambarila
+- Capaletric
 - DachuiWong
 - Dahuludemaomi
 - EdminZ
@@ -435,7 +458,6 @@
 - Ghost1420
 - Grizel4
 - GuHaiYin
-- Gularo
 - HAL900O
 - HSSkyBoy
 - Ham-desu
@@ -464,7 +486,10 @@
 - PichuChen
 - Pony-CW
 - PostMeridy
+- Qkat9
+- RL3461
 - Ricoincolor
+- Riderdmyf
 - Rxase
 - Satori114514
 - Sharkila
@@ -499,6 +524,7 @@
 - becifia
 - begentle2662
 - bibibibiye
+- blackteawww
 - blackuoi
 - branpurnae
 - creeping1023
@@ -513,7 +539,6 @@
 - hphhh222
 - hyakuyamikaera
 - kateW223
-- kaze-0
 - kusadact
 - limidafei
 - linonetwo
@@ -535,7 +560,6 @@
 - ouo30
 - paikoo
 - please-enter-a-username
-- qb0071011
 - qwzther
 - rainfall1019
 - reibu
@@ -545,6 +569,7 @@
 - ryou1016
 - salagadoola
 - scarywhale
+- sgj123456
 - sgsfz
 - shanmujiuya
 - sheepog
