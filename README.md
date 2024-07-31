@@ -143,6 +143,28 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.08.01
+> - 发布 `dol-0.5.1.3-chs-1.0.0a` 版
+>   - 游戏本体更新至 v0.5.1.3
+>   - 模组加载器更新至 v2.18.10
+>   - 再次汉化了存档读档界面
+>   - 修复了与惠特尼相关的一处问题 [@issue-dc/38][issue-dc38]
+>   - 修复了与物品名称相关的一处问题 [@issue-dc/39][issue-dc39]
+>   - 修复了与惠特尼相关的一处汉化问题 [@issue-dc/40][issue-dc40]
+>   - 修复了与哈比相关的一处汉化问题 [@issue-dc/41][issue-dc41]
+>   - 修复了与礼顿相关的一处汉化问题 [@issue-dc/42][issue-dc42]
+>   - 修复了与猫舞步相关的问题 [@issue/387][issue387]
+>   - 汉化了两处未汉化文本 [@issue/388][issue388]
+>   - 修复了与公寓区事件相关的一处汉化问题 [@issue/390][issue390]
+>   - 修正了一处人称代词问题 [@issue/391][issue391]
+>   - 修改了关于丸吞的汉化文本 [@issue/392][issue392]
+>   - 修改了关于帚石楠的译名 [@issue/393][issue393]
+>   - 修改了关于分裂剧情的汉化文本 [@issue/395][issue395]
+>   - 修改了关于怀表的译名 [@issue/396][issue396]
+>   - 修改了关于市政厅任务相关的汉化文本 [@issue-dc/43][issue-dc43]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.07.01
 > - 发布 `dol-0.5.0.6-chs-2.1.0a` 版
 >   - 模组加载器更新至 v2.18.3
@@ -1069,6 +1091,14 @@
 [issue374]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/374
 [issue378]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/378
 [issue382]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/382
+[issue387]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/387
+[issue388]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/388
+[issue390]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/390
+[issue391]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/391
+[issue392]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/392
+[issue393]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/393
+[issue395]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/395
+[issue396]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/396
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -1107,3 +1137,9 @@
 [issue-dc35]: https://discord.com/channels/1103864219620884560/1253709200031223850
 [issue-dc36]: https://discord.com/channels/1103864219620884560/1253957406283661332
 [issue-dc37]: https://discord.com/channels/1103864219620884560/1254712825667125310
+[issue-dc38]: https://discord.com/channels/1103864219620884560/1257976332797739009
+[issue-dc39]: https://discord.com/channels/1103864219620884560/1263836927488954448
+[issue-dc40]: https://discord.com/channels/1103864219620884560/1258472883097829478
+[issue-dc41]: https://discord.com/channels/1103864219620884560/1263689742348849152
+[issue-dc42]: https://discord.com/channels/1103864219620884560/1263818619054325821
+[issue-dc43]: https://discord.com/channels/1103864219620884560/1267278973830824089
