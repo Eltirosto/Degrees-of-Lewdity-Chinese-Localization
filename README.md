@@ -143,6 +143,18 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.09.02
+> - 发布 `dol-0.5.1.3-chs-1.1.0a` 版
+>   - 模组加载器更新至 v2.18.16
+>   - 修复了与猫转化跳舞相关的问题 [@issue/401][issue401] [@issue/407][issue407] [@issue/410][issue410] [@issue/418][issue418] [@issue-dc/47][issue-dc47]
+>   - 修复了一处汉化问题 [@issue/404][issue404]
+>   - 修复了属性框中孩子数量显示问题 [@issue/414][issue414]
+>   - 汉化了艾弗里新约会事件遗漏内容 [@issue-dc/44][issue-dc44]
+>   - 汉化了药柜界面遗漏文本 [@issue-dc/45][issue-dc45]
+>   - 汉化了监狱洗衣房场景遗漏文本 [@issue-dc/46][issue-dc46]
+>   - 修复了一些其他已知问题
+>   
+> 
 > 2024.08.01
 > - 发布 `dol-0.5.1.3-chs-1.0.0a` 版
 >   - 游戏本体更新至 v0.5.1.3
@@ -1099,6 +1111,12 @@
 [issue393]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/393
 [issue395]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/395
 [issue396]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/396
+[issue401]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/401
+[issue404]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/404
+[issue407]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/407
+[issue410]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/410
+[issue414]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/414
+[issue418]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/418
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -1143,3 +1161,7 @@
 [issue-dc41]: https://discord.com/channels/1103864219620884560/1263689742348849152
 [issue-dc42]: https://discord.com/channels/1103864219620884560/1263818619054325821
 [issue-dc43]: https://discord.com/channels/1103864219620884560/1267278973830824089
+[issue-dc44]: https://discord.com/channels/1103864219620884560/1270332496646504584
+[issue-dc45]: https://discord.com/channels/1103864219620884560/1274019444271878176
+[issue-dc46]: https://discord.com/channels/1103864219620884560/1275094163771363509
+[issue-dc47]: https://discord.com/channels/1103864219620884560/1279838348747473026

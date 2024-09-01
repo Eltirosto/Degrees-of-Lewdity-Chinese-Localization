@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240801
+> 20240902
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -42,7 +42,7 @@
 - DarkWimd
 - Flos0310
 - FourtyThree413
-- Future-R(未来)
+- Future-R(未来(最近在忙))
 - Gamez4Alpaca
 - HCPTangHY
 - HamTario0337
@@ -102,6 +102,7 @@
 - acizaa(Dreaming)
 - aflbdmp
 - amekachan
+- aria-chan-trans(Aria)
 - bfwqzj
 - cat5230(彭猫猫)
 - catdexe(Mamon)
@@ -174,8 +175,10 @@
 - 100Zhi
 - 1344535564qwa
 - 15727557402zy
+- 19543739060lwj
 - 1tt1e 1219
 - 259172社
+- 2Bdada
 - 404bk
 - A11216266
 - A29277935
@@ -185,6 +188,7 @@
 - AceEchoey
 - Afterglow
 - Aiklai
+- Ailiina
 - Aither
 - Alice nuen
 - Alicekawaiiiii
@@ -209,6 +213,7 @@
 - Chiangchiang
 - Cindy531824
 - Creeping
+- DAX666
 - DGCK81LNN
 - Ddzzkun
 - Deer
@@ -234,6 +239,7 @@
 - GraySparrow
 - Gurgle
 - HaBai
+- HaiTsuru
 - Haluki81
 - HanedaToMo
 - Happy1041
@@ -244,11 +250,14 @@
 - Hyphakinshi
 - Iijjj
 - JIZ
+- Jjjxj
 - K2496745900
 - Kacastic
 - Kalopsia
+- Kanelink
 - Khaos423
 - Kinvinyl
+- Kkkkjl
 - Kkoun
 - Kuriyama
 - Kurumi Walnut
@@ -256,7 +265,9 @@
 - Ladiangory
 - Laiet
 - Lambda017
+- Leonithas
 - Lifeir
+- LittleJinTRE
 - Liuyu1122
 - Lukute
 - Luminescence 516
@@ -306,6 +317,7 @@
 - Rhine
 - Rhy-cea
 - Ricoincolor
+- RobbinA
 - RobinSuKi
 - RonseThurro
 - S0870217
@@ -323,12 +335,15 @@
 - Stagger
 - Star1825
 - Starrrr
+- Stasi
 - Strike-AI
+- Sulisu
 - Syv edit
 - TEARSTREAK
 - Tinygrox
 - Tlyer
 - Touched
+- USB mw
 - Upghs2336
 - Valanthe
 - Vampile
@@ -337,8 +352,11 @@
 - WakaWakaMaya
 - Whimilk
 - WhiteSprite
+- William531204
 - Wisjdhap
+- Wit
 - Wit-prophet
+- Wmyth22
 - Wtl9242006
 - Wutiaomiao
 - Www3077665332
@@ -378,7 +396,10 @@
 - 回首易染
 - 地下室
 - 坏鹅
+- 垃圾
 - 夜牧
+- 孑虚乌有在逃中
+- 季度
 - 小学生
 - 小小香日
 - 小微
@@ -391,17 +412,20 @@
 - 慈
 - 憶97815376461
 - 我是美铝
+- 拳皇贞德
 - 方糖于杯中回转
 - 星涵是蠢狼
 - 昭雪
 - 柠檬面包
 - 查查塞维
 - 柳
+- 次哦
 - 汪明
 - 沃尔玛购物袋
 - 沈
 - 沙沙
 - 没水
+- 泡鲁玛
 - 流泪猫猫头
 - 涂山某小妖
 - 狗子
@@ -409,12 +433,15 @@
 - 琊樂
 - 电飞鼠
 - 白木捏猫
+- 福灵剂-0
 - 竹子躺着说
+- 笠
 - 羽蝶蝶
 - 翔子
 - 老大喵
 - 色温
 - 菜地里的大白菜
+- 蒸蒸日上撅撅镇
 - 西里斯小店
 - 轻语的风
 - 阿利森沃桑
@@ -423,6 +450,7 @@
 - 零环零理想
 - 霜蓝梦凝
 - 音银
+- 鱼干不咸不要钱
 
 </details>
 
@@ -434,6 +462,7 @@
 - 15x3
 - 1Shirotori
 - 1diotDoomSpira1
+- 283952
 - 404bako
 - 4567569
 - 77676zero
@@ -441,11 +470,11 @@
 - AEEESEEEA
 - ALEXDRAGON555
 - Akizuki1529
-- Aliceven
 - Ark-Two
 - BananaBox9487
 - Benotasheep
-- Cambarila
+- Brandoyifang
+- CRSWMYHJ
 - Capaletric
 - DachuiWong
 - Dahuludemaomi
@@ -453,18 +482,18 @@
 - EndlessNull
 - Eudemonism00
 - EvolveCrow
+- FLCnhzmry
 - Fimmm
 - FrostNova67204
+- Fuyuhana
 - Ghost1420
-- Grizel4
+- Gionaqiaonai
 - GuHaiYin
 - HAL900O
 - HSSkyBoy
 - Ham-desu
 - HanHan3z
 - Hankiebutter
-- HotoCocoaco
-- IzIzuu
 - KaranoAkira
 - Khaos423
 - Kyereach
@@ -475,7 +504,8 @@
 - Meowmeow030
 - Minaduki-Shigure
 - Moliyi
-- Neeeo26
+- MorningLights
+- Nemunemu233
 - Nep-Timeline
 - NkeoPatch
 - NormanDSG
@@ -483,6 +513,7 @@
 - OpheliaSH
 - Otilia0372
 - Paul-16098
+- Pewds233
 - PichuChen
 - Pony-CW
 - PostMeridy
@@ -491,6 +522,7 @@
 - Ricoincolor
 - Riderdmyf
 - Rxase
+- SYK1494715212
 - Satori114514
 - Sharkila
 - Shifinia
@@ -501,15 +533,14 @@
 - SlimFight1
 - Sphaela
 - TillMist
-- Tobba-13
 - Trenza1ore
 - Trkyuu
 - UphealLaw
 - Willy0v0
-- WinterL
 - Xiamufeng-0828
 - XonlookerX
 - XyMinxin
+- Ydm2
 - Yeddaa
 - Zero20000
 - ZeroRing233
@@ -531,6 +562,7 @@
 - cybergeekboy
 - czjz97
 - dambakana
+- dizzyfall258
 - dufy2000
 - francescahsu
 - gn02994106
@@ -539,7 +571,6 @@
 - hphhh222
 - hyakuyamikaera
 - kateW223
-- kusadact
 - limidafei
 - linonetwo
 - liwangerde
@@ -550,8 +581,8 @@
 - meowmeowmeowmeowmeomeoww
 - mirrormirroronwall
 - miyakoAki4828
+- monakaJP
 - morrisan428
-- mzji
 - nasekaoru202
 - nekobolo1
 - nerine0
@@ -570,13 +601,13 @@
 - salagadoola
 - scarywhale
 - sgj123456
-- sgsfz
 - shanmujiuya
 - sheepog
 - shenqide5
 - si1ence1895
 - thatskysze
 - titituto
+- toritorisuki
 - uhohohoho
 - ujhfjosnfksd
 - un114514okk
@@ -594,12 +625,12 @@
 - xzhxtl
 - xzyl4303
 - y5353030
+- yanm66
 - yimoandloucy
 - yoyoliu9189
 - yuban01652
 - yundixx
 - zhengxiaoyao0716
-- zmh007007
 - zsbxws
 
 </details>
