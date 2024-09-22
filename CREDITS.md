@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240902
+> 20240922
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -120,7 +120,7 @@
 - geilian
 - gn02994106(Ruby)
 - himearl(香草兔兔公爵)
-- incrediblechou
+- incrediblechou(SVC)
 - infinitylose(天玄)
 - k9563461(Dorothy79)
 - kinshisan(菌丝)
@@ -253,12 +253,14 @@
 - Jjjxj
 - K2496745900
 - Kacastic
+- Kadmz
 - Kalopsia
 - Kanelink
 - Khaos423
 - Kinvinyl
 - Kkkkjl
 - Kkoun
+- Koooooi
 - Kuriyama
 - Kurumi Walnut
 - KylarLoveLoveLove
@@ -311,6 +313,7 @@
 - PrunusSerrulata
 - Purelewd
 - Purelewd1
+- Q299814377
 - Qing Jue
 - R18gWhen
 - Redesilow
@@ -353,6 +356,7 @@
 - Whimilk
 - WhiteSprite
 - William531204
+- Wintergreen
 - Wisjdhap
 - Wit
 - Wit-prophet
@@ -419,6 +423,7 @@
 - 柠檬面包
 - 查查塞维
 - 柳
+- 桉肆
 - 次哦
 - 汪明
 - 沃尔玛购物袋
@@ -439,6 +444,7 @@
 - 羽蝶蝶
 - 翔子
 - 老大喵
+- 老白干
 - 色温
 - 菜地里的大白菜
 - 蒸蒸日上撅撅镇
@@ -446,6 +452,7 @@
 - 轻语的风
 - 阿利森沃桑
 - 阿白的小宝存
+- 陈泽
 - 陌年微凉
 - 零环零理想
 - 霜蓝梦凝
@@ -464,20 +471,22 @@
 - 1diotDoomSpira1
 - 283952
 - 404bako
-- 4567569
 - 77676zero
 - ACE-DustofStars
 - AEEESEEEA
 - ALEXDRAGON555
 - Akizuki1529
 - Ark-Two
+- Arueee
 - BananaBox9487
 - Benotasheep
 - Brandoyifang
 - CRSWMYHJ
 - Capaletric
+- CocLucia
 - DachuiWong
 - Dahuludemaomi
+- DankerBobcat127
 - EdminZ
 - EndlessNull
 - Eudemonism00
@@ -519,7 +528,6 @@
 - PostMeridy
 - Qkat9
 - RL3461
-- Ricoincolor
 - Riderdmyf
 - Rxase
 - SYK1494715212
@@ -560,11 +568,12 @@
 - branpurnae
 - creeping1023
 - cybergeekboy
-- czjz97
 - dambakana
 - dizzyfall258
 - dufy2000
 - francescahsu
+- gengaixingming
+- ghost
 - gn02994106
 - haitun202
 - hedynn
@@ -574,6 +583,7 @@
 - limidafei
 - linonetwo
 - liwangerde
+- luckydeer136
 - luke72927
 - macaca1014
 - mark2330
@@ -627,6 +637,7 @@
 - y5353030
 - yanm66
 - yimoandloucy
+- yinleirenlxy
 - yoyoliu9189
 - yuban01652
 - yundixx

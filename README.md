@@ -143,6 +143,15 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.09.22
+> - 发布 `dol-0.5.2.8-chs-5.0.3a` 版
+>   - 游戏本体更新至 v0.5.2.8
+>   - 模组加载器更新至 v0.20.1
+>   - 修复了与艾弗里四人打牌场景的两处问题 [@issue/424][issue424] [@issue-dc/48][issue-dc48]
+>   - 修复了作弊页面相关的大量问题
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.09.02
 > - 发布 `dol-0.5.1.3-chs-1.1.0a` 版
 >   - 模组加载器更新至 v2.18.16
@@ -1117,6 +1126,7 @@
 [issue410]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/410
 [issue414]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/414
 [issue418]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/418
+[issue424]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/418
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -1165,3 +1175,4 @@
 [issue-dc45]: https://discord.com/channels/1103864219620884560/1274019444271878176
 [issue-dc46]: https://discord.com/channels/1103864219620884560/1275094163771363509
 [issue-dc47]: https://discord.com/channels/1103864219620884560/1279838348747473026
+[issue-dc48]: https://discord.com/channels/1103864219620884560/1280813406210887735
