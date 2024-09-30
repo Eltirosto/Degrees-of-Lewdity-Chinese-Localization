@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240922
+> 20240930
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -42,7 +42,7 @@
 - DarkWimd
 - Flos0310
 - FourtyThree413
-- Future-R(未来(最近在忙))
+- Future-R(未来)
 - Gamez4Alpaca
 - HCPTangHY
 - HamTario0337
@@ -249,6 +249,7 @@
 - Hmsterror
 - Hyphakinshi
 - Iijjj
+- Isla
 - JIZ
 - Jjjxj
 - K2496745900
@@ -348,6 +349,7 @@
 - Touched
 - USB mw
 - Upghs2336
+- Utsuho
 - Valanthe
 - Vampile
 - Vanco
@@ -466,7 +468,6 @@
 <summary>点击展开</summary>
 
 - 117xxx
-- 15x3
 - 1Shirotori
 - 1diotDoomSpira1
 - 283952
@@ -550,6 +551,7 @@
 - XyMinxin
 - Ydm2
 - Yeddaa
+- Zed660033
 - Zero20000
 - ZeroRing233
 - Zeta1002
@@ -580,6 +582,7 @@
 - hphhh222
 - hyakuyamikaera
 - kateW223
+- liangchengjiuren
 - limidafei
 - linonetwo
 - liwangerde

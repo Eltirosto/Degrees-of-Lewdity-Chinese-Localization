@@ -143,6 +143,13 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.09.30
+> - 发布 `dol-0.5.2.8-chs-5.1.0a` 版
+>   - 修复了鹰塔看向塔外时出现报错 [@issue/427][issue427]
+>   - 修复了作弊菜单相关问题 [@issue/428][issue428]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.09.22
 > - 发布 `dol-0.5.2.8-chs-5.0.4a` 版
 >   - 游戏本体更新至 v0.5.2.8
@@ -1126,7 +1133,9 @@
 [issue410]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/410
 [issue414]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/414
 [issue418]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/418
-[issue424]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/418
+[issue424]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/424
+[issue427]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/427
+[issue428]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/428
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
