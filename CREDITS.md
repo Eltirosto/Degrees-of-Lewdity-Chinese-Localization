@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20240930
+> 20241101
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -28,7 +28,6 @@
 - Byuzh(白羽之花)
 - CH3CHClCOOCH2CH3(Yugoslavia)
 - CKRainbow(CKRainbow)
-- Catwillow
 - CharnelKan
 - CherubKuar(kuar考爾)
 - CheungJY
@@ -206,6 +205,7 @@
 - Bleph
 - Bowen
 - Capaletric
+- Celialapin
 - Charl the Internet User
 - Cheam
 - ChenItse
@@ -215,10 +215,12 @@
 - Creeping
 - DAX666
 - DGCK81LNN
+- DavidX
 - Ddzzkun
 - Deer
 - DeformedGodComplex
 - DestroyerS
+- Dknife
 - DmsHunk
 - Dr.Benzin
 - Drlaoyang
@@ -247,9 +249,11 @@
 - Higuas
 - Hiroko
 - Hmsterror
+- Huangxiaoan10
 - Hyphakinshi
 - Iijjj
 - Isla
+- IyLer
 - JIZ
 - Jjjxj
 - K2496745900
@@ -272,6 +276,7 @@
 - Lifeir
 - LittleJinTRE
 - Liuyu1122
+- Lizo
 - Lukute
 - Luminescence 516
 - LunaticLegacy
@@ -326,6 +331,7 @@
 - RonseThurro
 - S0870217
 - Sakuya
+- Sanbizes
 - Selene-Ling
 - Shaun
 - Shirokun2024
@@ -344,6 +350,7 @@
 - Sulisu
 - Syv edit
 - TEARSTREAK
+- Taiyuan
 - Tinygrox
 - Tlyer
 - Touched
@@ -358,6 +365,7 @@
 - Whimilk
 - WhiteSprite
 - William531204
+- Wingcrae
 - Wintergreen
 - Wisjdhap
 - Wit
@@ -373,6 +381,7 @@
 - Ycy.
 - Yilinshe
 - Yis
+- Yonehana
 - Ysgaos
 - Yukiviyugmail
 - Yukki
@@ -382,6 +391,7 @@
 - ZDich
 - Zangyou
 - Zero499
+- Zhuzi322
 - Zoe096423
 - 不想晚睡
 - 什么也不会
@@ -404,6 +414,8 @@
 - 坏鹅
 - 垃圾
 - 夜牧
+- 天川紫
+- 太阳背后的绅士
 - 孑虚乌有在逃中
 - 季度
 - 小学生
@@ -411,8 +423,10 @@
 - 小微
 - 崇宫白狼
 - 幽灵是一款我的一生挚爱
+- 张献忠
 - 德鲁伊心水晶剑
 - 心宿二
+- 悉尼很可爱
 - 惊恐地凝视
 - 惠高木惠
 - 慈
@@ -439,12 +453,14 @@
 - 琉影
 - 琊樂
 - 电飞鼠
+- 白思清
 - 白木捏猫
 - 福灵剂-0
 - 竹子躺着说
 - 笠
 - 羽蝶蝶
 - 翔子
+- 老公前夫在天堂
 - 老大喵
 - 老白干
 - 色温
@@ -472,11 +488,9 @@
 - 1diotDoomSpira1
 - 283952
 - 404bako
-- 77676zero
 - ACE-DustofStars
 - AEEESEEEA
 - ALEXDRAGON555
-- Akizuki1529
 - Ark-Two
 - Arueee
 - BananaBox9487
@@ -529,14 +543,15 @@
 - PostMeridy
 - Qkat9
 - RL3461
+- ReyADis
 - Riderdmyf
 - Rxase
 - SYK1494715212
 - Satori114514
+- SevenHDoll
 - Sharkila
 - Shifinia
 - Shio84587
-- ShiroArashi
 - ShiroSakurairo
 - Sleependermasn
 - SlimFight1
@@ -546,11 +561,11 @@
 - Trkyuu
 - UphealLaw
 - Willy0v0
+- Wingcrae
 - Xiamufeng-0828
 - XonlookerX
 - XyMinxin
 - Ydm2
-- Yeddaa
 - Zed660033
 - Zero20000
 - ZeroRing233
@@ -560,7 +575,6 @@
 - ahhiisme
 - ann049
 - arottenpen
-- bb7355608
 - bd-star
 - becifia
 - begentle2662
@@ -570,14 +584,13 @@
 - branpurnae
 - creeping1023
 - cybergeekboy
-- dambakana
 - dizzyfall258
 - dufy2000
+- fengjixuanhen
 - francescahsu
 - gengaixingming
 - ghost
 - gn02994106
-- haitun202
 - hedynn
 - hphhh222
 - hyakuyamikaera
@@ -589,10 +602,12 @@
 - luckydeer136
 - luke72927
 - macaca1014
+- manbck
 - mark2330
 - mengyuxiangsui
 - meowmeowmeowmeowmeomeoww
 - mirrormirroronwall
+- miumiu99-dol
 - miyakoAki4828
 - monakaJP
 - morrisan428
@@ -621,6 +636,7 @@
 - thatskysze
 - titituto
 - toritorisuki
+- tutuzi618
 - uhohohoho
 - ujhfjosnfksd
 - un114514okk

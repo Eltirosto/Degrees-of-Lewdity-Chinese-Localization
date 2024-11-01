@@ -143,6 +143,15 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.11.01
+> - 发布 `dol-0.5.2.8-chs-5.2.0a` 版
+>   - 模组加载器更新至 v2.26.1
+>   - 修复了神殿入会时，角色性别器官文本错误 [@issue/436][issue436]
+>   - 修复了作弊菜单翻译问题 [@issue/438][issue438]
+>   - 修复了陷害颈手枷事件结束判定出错问题 [@issue/441][issue441]
+>   - 修复了一些其它已知问题
+> 
+> 
 > 2024.09.30
 > - 发布 `dol-0.5.2.8-chs-5.1.0a` 版
 >   - 修复了鹰塔看向塔外时出现报错 [@issue/427][issue427]
@@ -153,7 +162,7 @@
 > 2024.09.22
 > - 发布 `dol-0.5.2.8-chs-5.0.4a` 版
 >   - 游戏本体更新至 v0.5.2.8
->   - 模组加载器更新至 v0.20.1
+>   - 模组加载器更新至 v2.20.1
 >   - 修复了与艾弗里四人打牌场景的两处问题 [@issue/424][issue424] [@issue-dc/48][issue-dc48]
 >   - 修复了作弊页面相关的大量问题
 >   - 修复了一些其他已知问题
@@ -1136,6 +1145,9 @@
 [issue424]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/424
 [issue427]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/427
 [issue428]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/428
+[issue436]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/436
+[issue438]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/438
+[issue441]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/441
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
