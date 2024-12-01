@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20241101
+> 20241201
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -181,6 +181,8 @@
 - 404bk
 - A11216266
 - A29277935
+- A330420
+- A471301194
 - ALLEN&ALFRED
 - ASDA
 - Abcd0715
@@ -194,6 +196,7 @@
 - Alouette
 - Aoilen
 - Artemismitty12321
+- Asgore
 - AyW
 - Ayndpa
 - Baijia
@@ -225,6 +228,7 @@
 - Dr.Benzin
 - Drlaoyang
 - DynamicPageList3 extension
+- Echoaround
 - EdmundZ
 - Eira
 - EmailChan
@@ -236,6 +240,7 @@
 - Flammis023
 - Fox hezi02
 - FungiEggroll
+- Fxsh
 - Ghost08
 - GhostMiku117
 - GraySparrow
@@ -260,6 +265,7 @@
 - Kacastic
 - Kadmz
 - Kalopsia
+- Kamoeth
 - Kanelink
 - Khaos423
 - Kinvinyl
@@ -274,9 +280,13 @@
 - Lambda017
 - Leonithas
 - Lifeir
+- Lingqishi1995
 - LittleJinTRE
 - Liuyu1122
 - Lizo
+- Llang
+- LonZzz
+- LoopSpiner
 - Lukute
 - Luminescence 516
 - LunaticLegacy
@@ -288,12 +298,14 @@
 - MagicalAstrogy
 - Maidlinmo
 - Mango0206
+- Maomaoooo
 - Marsz413
 - Mathevellae
 - MediaWiki default
 - Meguri
 - Mian rouge
 - Mihotel
+- Military border.
 - MiraiMirai
 - Mist007
 - Miyako4828
@@ -304,13 +316,16 @@
 - Morgas
 - N-boMB
 - Nic0t1ner
+- NightRain
 - Nigredo420
 - Nina061201
 - NoDFB
 - Nonavere
 - Number Sir
+- OAOa
 - Orchid712
 - Otokam
+- OwOx
 - PONTIFEXJULIAN
 - Pl816098
 - Plm
@@ -319,6 +334,7 @@
 - PrunusSerrulata
 - Purelewd
 - Purelewd1
+- Putini
 - Q299814377
 - Qing Jue
 - R18gWhen
@@ -354,6 +370,7 @@
 - Tinygrox
 - Tlyer
 - Touched
+- Trlaitioer
 - USB mw
 - Upghs2336
 - Utsuho
@@ -362,6 +379,7 @@
 - Vanco
 - WT4D
 - WakaWakaMaya
+- Weems
 - Whimilk
 - WhiteSprite
 - William531204
@@ -379,6 +397,7 @@
 - Ximena520
 - Xioalang2550
 - Ycy.
+- Yesnoaaa
 - Yilinshe
 - Yis
 - Yonehana
@@ -392,12 +411,16 @@
 - Zangyou
 - Zero499
 - Zhuzi322
+- Zino
 - Zoe096423
+- ZuoYu
 - 不想晚睡
 - 什么也不会
 - 伊斯
 - 佘临
 - 你看见头了吗？
+- 倾娥
+- 八月
 - 六黄
 - 北极星勾陈一
 - 千纸鹤
@@ -409,6 +432,7 @@
 - 咸海顿
 - 哈哈哈
 - 啊什么黄油就不能认真玩了？
+- 四月温秋
 - 回首易染
 - 地下室
 - 坏鹅
@@ -417,6 +441,7 @@
 - 天川紫
 - 太阳背后的绅士
 - 孑虚乌有在逃中
+- 字杨名小五
 - 季度
 - 小学生
 - 小小香日
@@ -455,6 +480,7 @@
 - 电飞鼠
 - 白思清
 - 白木捏猫
+- 白羊
 - 福灵剂-0
 - 竹子躺着说
 - 笠
@@ -467,6 +493,7 @@
 - 菜地里的大白菜
 - 蒸蒸日上撅撅镇
 - 西里斯小店
+- 轻灵
 - 轻语的风
 - 阿利森沃桑
 - 阿白的小宝存
@@ -491,10 +518,10 @@
 - ACE-DustofStars
 - AEEESEEEA
 - ALEXDRAGON555
+- AnnAnn1017
 - Ark-Two
 - Arueee
 - BananaBox9487
-- Benotasheep
 - Brandoyifang
 - CRSWMYHJ
 - Capaletric
@@ -502,6 +529,7 @@
 - DachuiWong
 - Dahuludemaomi
 - DankerBobcat127
+- DeepDark010
 - EdminZ
 - EndlessNull
 - Eudemonism00
@@ -517,15 +545,13 @@
 - HSSkyBoy
 - Ham-desu
 - HanHan3z
-- Hankiebutter
 - KaranoAkira
-- Khaos423
 - Kyereach
 - LeavesWind233
 - Maenoko
 - Maildd4158
-- Meow0x7E
 - Meowmeow030
+- MillianaEP
 - Minaduki-Shigure
 - Moliyi
 - MorningLights
@@ -551,7 +577,6 @@
 - SevenHDoll
 - Sharkila
 - Shifinia
-- Shio84587
 - ShiroSakurairo
 - Sleependermasn
 - SlimFight1
@@ -562,15 +587,12 @@
 - UphealLaw
 - Willy0v0
 - Wingcrae
-- Xiamufeng-0828
 - XonlookerX
 - XyMinxin
 - Ydm2
 - Zed660033
-- Zero20000
 - ZeroRing233
 - Zeta1002
-- Zior2107
 - a845563011
 - ahhiisme
 - ann049
@@ -582,6 +604,7 @@
 - blackteawww
 - blackuoi
 - branpurnae
+- bwhmtyp
 - creeping1023
 - cybergeekboy
 - dizzyfall258
@@ -595,6 +618,7 @@
 - hphhh222
 - hyakuyamikaera
 - kateW223
+- kinogi
 - liangchengjiuren
 - limidafei
 - linonetwo
@@ -614,6 +638,7 @@
 - nasekaoru202
 - nekobolo1
 - nerine0
+- newbie-forever
 - orchid712
 - orishimo010
 - ouo30

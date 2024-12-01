@@ -143,6 +143,19 @@
 <details>
 <summary>点击展开</summary>
 
+> 2024.12.01
+> - 发布 `dol-0.5.2.8-chs-5.3.0a` 版
+>   - 模组加载器更新至 v2.26.10
+>   - 修复了一处与冬天跳舞相关的未翻译文本 [@issue/443][issue443]
+>   - 修复了一处与艾利克斯对话相关的汉化文本错误 [@issue/447][issue447]
+>   - 修复了多处翻译错误 [@issue-dc/49][issue-dc49]
+>   - 修复了一处与精神病院剧情相关的汉化问题 [@issue-dc/50][issue-dc50]
+>   - 修改了多处翻译内容 [@issue-dc/51][issue-dc51]
+>   - 修复了一处公园与惠特尼剧情相关的汉化文本错误 [@issue-dc/52][issue-dc52]
+>   - 修复了一处与抢劫相关的汉化文本错误 [@issue-dc/53][issue-dc53]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.11.01
 > - 发布 `dol-0.5.2.8-chs-5.2.0a` 版
 >   - 模组加载器更新至 v2.26.1
@@ -1148,6 +1161,8 @@
 [issue436]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/436
 [issue438]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/438
 [issue441]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/441
+[issue443]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/443
+[issue447]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/447
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -1197,3 +1212,8 @@
 [issue-dc46]: https://discord.com/channels/1103864219620884560/1275094163771363509
 [issue-dc47]: https://discord.com/channels/1103864219620884560/1279838348747473026
 [issue-dc48]: https://discord.com/channels/1103864219620884560/1280813406210887735
+[issue-dc49]: https://discord.com/channels/1103864219620884560/1302839633192681484
+[issue-dc50]: https://discord.com/channels/1103864219620884560/1306732324788113439
+[issue-dc51]: https://discord.com/channels/1103864219620884560/1308732048453664778
+[issue-dc52]: https://discord.com/channels/1103864219620884560/1302533942213349397
+[issue-dc53]: https://discord.com/channels/1103864219620884560/1301941992019853414
