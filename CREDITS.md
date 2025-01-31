@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20241201
+> 20250131
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -52,6 +52,7 @@
 - Khaos423(Mr.Lamb)
 - Lemonadestars(柠檬水)
 - LeoLiao96(LeoLiao96)
+- LetDrummerKickit(月を探して)
 - Liano-28
 - Lynndaisy
 - MOm0M(MOM0M)
@@ -128,6 +129,7 @@
 - mao0316
 - maxnb233
 - minami29(minami)
+- misaka2047
 - miyako4828(miyako4828)
 - omvjro(+++嫉妒)
 - onefrogxx
@@ -169,6 +171,16 @@
 <details>
 <summary>点击展开</summary>
 
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
 - +++嫉妒
 - 05 Guured
 - 100Zhi
@@ -195,6 +207,7 @@
 - Alicekawaiiiii
 - Alouette
 - Aoilen
+- Artemis Yang
 - Artemismitty12321
 - Asgore
 - AyW
@@ -224,9 +237,11 @@
 - DeformedGodComplex
 - DestroyerS
 - Dknife
+- Dlmily
 - DmsHunk
 - Dr.Benzin
 - Drlaoyang
+- Dwvwvvwvwb
 - DynamicPageList3 extension
 - Echoaround
 - EdmundZ
@@ -236,6 +251,8 @@
 - Eudemonism00
 - F82731848
 - FCSfish
+- FXIZ
+- Fei qiu
 - Fgftgh
 - Flammis023
 - Fox hezi02
@@ -271,13 +288,16 @@
 - Kinvinyl
 - Kkkkjl
 - Kkoun
+- Kochiya kotomi
 - Koooooi
+- Kouno Toushi
 - Kuriyama
 - Kurumi Walnut
 - KylarLoveLoveLove
 - Ladiangory
 - Laiet
 - Lambda017
+- Leaf03
 - Leonithas
 - Lifeir
 - Lingqishi1995
@@ -303,10 +323,12 @@
 - Mathevellae
 - MediaWiki default
 - Meguri
+- MiaK
 - Mian rouge
 - Mihotel
 - Military border.
 - MiraiMirai
+- Misaka25K
 - Mist007
 - Miyako4828
 - Momo(afk)
@@ -336,6 +358,7 @@
 - Purelewd1
 - Putini
 - Q299814377
+- Qian ge
 - Qing Jue
 - R18gWhen
 - Redesilow
@@ -379,6 +402,7 @@
 - Vanco
 - WT4D
 - WakaWakaMaya
+- Weare
 - Weems
 - Whimilk
 - WhiteSprite
@@ -409,6 +433,7 @@
 - ZBIRDzzZ
 - ZDich
 - Zangyou
+- Zephyrs052
 - Zero499
 - Zhuzi322
 - Zino
@@ -416,6 +441,7 @@
 - ZuoYu
 - 不想晚睡
 - 什么也不会
+- 令雨不是零
 - 伊斯
 - 佘临
 - 你看见头了吗？
@@ -440,6 +466,7 @@
 - 夜牧
 - 天川紫
 - 太阳背后的绅士
+- 好方
 - 孑虚乌有在逃中
 - 字杨名小五
 - 季度
@@ -456,11 +483,14 @@
 - 惠高木惠
 - 慈
 - 憶97815376461
+- 我刚睡醒
 - 我是美铝
 - 拳皇贞德
+- 斯德哥爾摩重度患者
 - 方糖于杯中回转
 - 星涵是蠢狼
 - 昭雪
+- 板蓝根
 - 柠檬面包
 - 查查塞维
 - 柳
@@ -475,12 +505,14 @@
 - 流泪猫猫头
 - 涂山某小妖
 - 狗子
+- 猫头鹰玩偶
 - 琉影
 - 琊樂
 - 电飞鼠
 - 白思清
 - 白木捏猫
 - 白羊
+- 神鸟方铭
 - 福灵剂-0
 - 竹子躺着说
 - 笠
@@ -490,11 +522,13 @@
 - 老大喵
 - 老白干
 - 色温
+- 芸
 - 菜地里的大白菜
 - 蒸蒸日上撅撅镇
 - 西里斯小店
 - 轻灵
 - 轻语的风
+- 迟云
 - 阿利森沃桑
 - 阿白的小宝存
 - 陈泽
@@ -502,6 +536,8 @@
 - 零环零理想
 - 霜蓝梦凝
 - 音银
+- 风息云淡
+- 风间 雫
 - 鱼干不咸不要钱
 
 </details>
@@ -544,7 +580,6 @@
 - HAL900O
 - HSSkyBoy
 - Ham-desu
-- HanHan3z
 - KaranoAkira
 - Kyereach
 - LeavesWind233
@@ -623,6 +658,7 @@
 - limidafei
 - linonetwo
 - liwangerde
+- loflfo
 - luckydeer136
 - luke72927
 - macaca1014
@@ -647,7 +683,6 @@
 - qwzther
 - rainfall1019
 - reibu
-- ripplelin
 - robot1415
 - ruuu219
 - ryou1016
@@ -658,6 +693,7 @@
 - sheepog
 - shenqide5
 - si1ence1895
+- sm1234xt
 - thatskysze
 - titituto
 - toritorisuki
@@ -675,6 +711,8 @@
 - xiaolok29
 - xiaxuede
 - xixia0516
+- xlx-165
+- xuguanpeng
 - xurui165023
 - xzhxtl
 - xzyl4303
@@ -684,8 +722,10 @@
 - yinleirenlxy
 - yoyoliu9189
 - yuban01652
+- yukko12345
 - yundixx
 - zhengxiaoyao0716
+- zombie0424
 - zsbxws
 
 </details>
