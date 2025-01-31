@@ -9,7 +9,7 @@
 
 汉化版 Discord 交流服务器：
 
-[![](https://dcbadge.vercel.app/api/server/jVeyxwzkCt)](https://discord.gg/jVeyxwzkCt)
+[![](https://dcbadge.vercel.app/api/server/jVeyxwzkCt)](https://discord.gg/Cj6U9PpYQA)
 
 ---
 
@@ -143,6 +143,19 @@
 <details>
 <summary>点击展开</summary>
 
+> 2025.01.31
+> - 发布 `dol-0.5.3.7-chs-1.0.0a` 版
+>   - 游戏本体更新至 v0.5.3.7
+>   - 模组加载器更新至 v2.26.12
+>   - 修复了一处与惠特尼上课剧情相关的汉化文本问题 [@issue/451][issue451]
+>   - 修复了一处与伦恩交易剧情相关的汉化文本问题 [@issue/454][issue454]
+>   - 修复了一处与惠特尼喷泉场景剧情相关的未汉化问题 [@issue-dc/54][issue-dc54]
+>   - 修复了一处与耳中史莱姆相关的汉化问题 [@issue-dc/55][issue-dc55]
+>   - 修复了一处与数学竞赛剧情相关的汉化问题 [@issue-dc/56][issue-dc56]
+>   - 修复了一处于小巷遭遇事件相关的汉化问题 [@issue-dc/57][issue-dc57]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2024.12.01
 > - 发布 `dol-0.5.2.8-chs-5.3.0a` 版
 >   - 模组加载器更新至 v2.26.10
@@ -1163,6 +1176,8 @@
 [issue441]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/441
 [issue443]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/443
 [issue447]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/447
+[issue451]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/451
+[issue454]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/454
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -1217,3 +1232,7 @@
 [issue-dc51]: https://discord.com/channels/1103864219620884560/1308732048453664778
 [issue-dc52]: https://discord.com/channels/1103864219620884560/1302533942213349397
 [issue-dc53]: https://discord.com/channels/1103864219620884560/1301941992019853414
+[issue-dc54]: https://discord.com/channels/1103864219620884560/1317436868094332969
+[issue-dc55]: https://discord.com/channels/1103864219620884560/1314189607625297960
+[issue-dc56]: https://discord.com/channels/1103864219620884560/1334136296951517185
+[issue-dc57]: https://discord.com/channels/1103864219620884560/1332653339975880734
