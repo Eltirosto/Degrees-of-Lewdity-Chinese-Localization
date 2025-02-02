@@ -9,7 +9,7 @@
 
 汉化版 Discord 交流服务器：
 
-[![](https://dcbadge.vercel.app/api/server/jVeyxwzkCt)](https://discord.gg/Cj6U9PpYQA)
+[![](https://dcbadge.vercel.app/api/server/WZ23YF9bSY)](https://discord.gg/WZ23YF9bSY)
 
 ---
 
@@ -143,6 +143,16 @@
 <details>
 <summary>点击展开</summary>
 
+> 2025.02.02
+> - 发布 `dol-0.5.3.7-chs-1.0.1a` 版
+>   - 模组加载器更新至 v2.27.0
+>     - **修复了 v2.26.12 中加载模组后无法卸载的问题，请玩家尽快从上一版本更新到当前版本**
+>   - 修复了游戏厅打赌剧情的一处问题 [@issue/459][issue459]
+>   - 修复了告解厅剧情的一处问题 [@issue/461][issue461]
+>   - 修复了一处翻译错误 [@issue-dc/58][issue-dc58]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2025.01.31
 > - 发布 `dol-0.5.3.7-chs-1.0.0a` 版
 >   - 游戏本体更新至 v0.5.3.7
@@ -252,7 +262,7 @@
 > 2024.06.13
 > - 发布 `dol-0.5.0.5-chs-1.0.1a` 版
 >   - 模组加载器更新至 v2.17.0-hotfix
->   - 修复了 v2.17.0 版本中存在的换行错位恶性 bug，该 bug 将导致许多 mod 加载出错，请玩家尽快从上一版本更新到当前版本
+>     - **修复了 v2.17.0 版本中存在的换行错位恶性 bug，该 bug 将导致许多 mod 加载出错，请玩家尽快从上一版本更新到当前版本**
 >   - 去除了错误添加的 NPC 名称性别差分
 >   - 修复了一些其他已知问题
 >   
@@ -1178,6 +1188,8 @@
 [issue447]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/447
 [issue451]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/451
 [issue454]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/454
+[issue459]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/459
+[issue461]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/461
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -1236,3 +1248,4 @@
 [issue-dc55]: https://discord.com/channels/1103864219620884560/1314189607625297960
 [issue-dc56]: https://discord.com/channels/1103864219620884560/1334136296951517185
 [issue-dc57]: https://discord.com/channels/1103864219620884560/1332653339975880734
+[issue-dc58]: https://discord.com/channels/1103864219620884560/1335127699932581979
