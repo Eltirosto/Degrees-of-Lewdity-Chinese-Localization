@@ -1,11 +1,12 @@
 ## 欲都孤儿 贡献者名单
-> 20250131
+> 20250202
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
 
 - 0-V-O
 - 0Mr-Wolf0
+- 121090445(蝴蝶终将死)
 - 127inch
 - 2113693481(G4466)
 - 23tinywishes(23-li'l-wishes)
@@ -336,6 +337,7 @@
 - MoonSa
 - MoonWX
 - Morgas
+- Mwt 823
 - N-boMB
 - Nic0t1ner
 - NightRain
@@ -430,6 +432,7 @@
 - Yukki
 - YunyouLi
 - Yuyu-o
+- Yyn12251
 - ZBIRDzzZ
 - ZDich
 - Zangyou
@@ -630,6 +633,7 @@
 - Zeta1002
 - a845563011
 - ahhiisme
+- andyfrankbloop
 - ann049
 - arottenpen
 - bd-star
