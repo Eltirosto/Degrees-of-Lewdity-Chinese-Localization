@@ -143,6 +143,27 @@
 <details>
 <summary>点击展开</summary>
 
+> 2025.03.02
+> - 发布 `dol-0.5.3.7-chs-1.1.0` 版
+>   - 模组加载器更新至 v2.28.1
+>   - 修复了与意大利面相关的汉化问题 [@issue/460][issue460]
+>   - 修复了惠特尼相关剧情出错的问题 [@issue/462][issue462]
+>   - 修复了作弊菜单的性别外观无选中显示的问题 [@issue/463][issue463]
+>   - 修复了惠特尼相关剧情在公园场景出错的问题 [@issue/464][issue464] [@issue/465][issue465] [@issue-dc/59][issue-dc59]
+>   - 修复了森林商店圣诞裙的提示文本缺失问题 [@issue/467][issue467]
+>   - 修复了罗宾相关剧情文本翻译不通顺的问题 [@issue/469][issue469]
+>   - 修复了角色设置时描述词不一致统一的问题 [@issue/470][issue470]
+>   - 修复了伊甸相关剧情文本汉化问题 [@issue/471][issue471]
+>   - 修复了泳池相关剧情文本汉化问题 [@issue/472][issue472]
+>   - 修复了部分文本汉化问题 [@issue/473][issue473]
+>   - 修复了部分文本汉化问题 [@issue/475][issue475]
+>   - 修复了公园场景缺失汉化的问题 [@issue/477][issue477]
+>   - 修复了蛇窝场景出错的问题 [@issue-dc/60][issue-dc60]
+>   - 修复了惠特尼相关剧情出错的问题 [@issue-dc/61][issue-dc61]
+>   - 修复了西里斯相关剧情出错的问题 [@issue-dc/62][issue-dc62]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2025.02.02
 > - 发布 `dol-0.5.3.7-chs-1.0.1a` 版
 >   - 模组加载器更新至 v2.27.0
@@ -1189,7 +1210,20 @@
 [issue451]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/451
 [issue454]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/454
 [issue459]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/459
+[issue460]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/460
 [issue461]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/461
+[issue462]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/462
+[issue463]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/463
+[issue464]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/464
+[issue465]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/465
+[issue467]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/467
+[issue469]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/469
+[issue470]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/470
+[issue471]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/471
+[issue472]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/472
+[issue473]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/473
+[issue475]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/475
+[issue477]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/477
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -1249,3 +1283,7 @@
 [issue-dc56]: https://discord.com/channels/1103864219620884560/1334136296951517185
 [issue-dc57]: https://discord.com/channels/1103864219620884560/1332653339975880734
 [issue-dc58]: https://discord.com/channels/1103864219620884560/1335127699932581979
+[issue-dc59]: https://discord.com/channels/1103864219620884560/1337401847224205375
+[issue-dc60]: https://discord.com/channels/1103864219620884560/1339518266955006012
+[issue-dc61]: https://discord.com/channels/1103864219620884560/1340592358991069235
+[issue-dc62]: https://discord.com/channels/1103864219620884560/1341975044905238538

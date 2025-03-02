@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20250202
+> 20250302
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -59,7 +59,7 @@
 - MOm0M(MOM0M)
 - Maenoko(Mer)
 - Messiahyurika0717(蓝洋雨)
-- MissedHeart(丧心病)
+- MissedHeart(丧心)
 - Mizunotsuki
 - MorLen-molan
 - MuCL2023(良衣)
@@ -182,6 +182,7 @@
 -  
 -  
 -  
+-  
 - +++嫉妒
 - 05 Guured
 - 100Zhi
@@ -192,6 +193,7 @@
 - 259172社
 - 2Bdada
 - 404bk
+- 9ty9aku
 - A11216266
 - A29277935
 - A330420
@@ -228,10 +230,13 @@
 - ChenItse
 - ChiESe
 - Chiangchiang
+- Chikus
 - Cindy531824
+- CocoPto
 - Creeping
 - DAX666
 - DGCK81LNN
+- Damazti3rd
 - DavidX
 - Ddzzkun
 - Deer
@@ -247,11 +252,14 @@
 - Echoaround
 - EdmundZ
 - Eira
+- Eldegoss
 - EmailChan
+- Ensadc
 - Estella Clockwork
 - Eudemonism00
 - F82731848
 - FCSfish
+- FLLFFL
 - FXIZ
 - Fei qiu
 - Fgftgh
@@ -290,11 +298,14 @@
 - Kkkkjl
 - Kkoun
 - Kochiya kotomi
+- Konjac
 - Koooooi
+- KotomiKochiya
 - Kouno Toushi
 - Kuriyama
 - Kurumi Walnut
 - KylarLoveLoveLove
+- LONGKONG
 - Ladiangory
 - Laiet
 - Lambda017
@@ -314,6 +325,7 @@
 - LuneFox
 - Luohe
 - LupusXLass1404
+- Lyjjl
 - Lzz
 - MOW0
 - MagicalAstrogy
@@ -325,6 +337,7 @@
 - MediaWiki default
 - Meguri
 - MiaK
+- Miami
 - Mian rouge
 - Mihotel
 - Military border.
@@ -345,6 +358,7 @@
 - Nina061201
 - NoDFB
 - Nonavere
+- NotAracham
 - Number Sir
 - OAOa
 - Orchid712
@@ -364,6 +378,7 @@
 - Qing Jue
 - R18gWhen
 - Redesilow
+- RetuEase
 - Rhine
 - Rhy-cea
 - Ricoincolor
@@ -378,6 +393,7 @@
 - Shirokun2024
 - Shuangyuanland
 - Sigmoni
+- Signalblue
 - Silas el
 - Site098
 - SkyF
@@ -389,6 +405,7 @@
 - Stasi
 - Strike-AI
 - Sulisu
+- Sxtcrt
 - Syv edit
 - TEARSTREAK
 - Taiyuan
@@ -398,6 +415,7 @@
 - Trlaitioer
 - USB mw
 - Upghs2336
+- Urasekai
 - Utsuho
 - Valanthe
 - Vampile
@@ -414,6 +432,7 @@
 - Wisjdhap
 - Wit
 - Wit-prophet
+- Wit.1
 - Wmyth22
 - Wtl9242006
 - Wutiaomiao
@@ -442,15 +461,18 @@
 - Zino
 - Zoe096423
 - ZuoYu
+- Zzz777
 - 不想晚睡
 - 什么也不会
 - 令雨不是零
 - 伊斯
 - 佘临
+- 余晖
 - 你看见头了吗？
 - 倾娥
 - 八月
 - 六黄
+- 冰墓
 - 北极星勾陈一
 - 千纸鹤
 - 卢本伟
@@ -542,6 +564,7 @@
 - 风息云淡
 - 风间 雫
 - 鱼干不咸不要钱
+- 鸽子作者
 
 </details>
 
@@ -550,6 +573,7 @@
 <summary>点击展开</summary>
 
 - 117xxx
+- 123gjyy
 - 1Shirotori
 - 1diotDoomSpira1
 - 283952
@@ -561,15 +585,16 @@
 - Ark-Two
 - Arueee
 - BananaBox9487
+- BluexBerry6475
 - Brandoyifang
 - CRSWMYHJ
 - Capaletric
 - CocLucia
 - DachuiWong
-- Dahuludemaomi
 - DankerBobcat127
 - DeepDark010
 - EdminZ
+- Eleus7
 - EndlessNull
 - Eudemonism00
 - EvolveCrow
@@ -583,11 +608,12 @@
 - HAL900O
 - HSSkyBoy
 - Ham-desu
-- KaranoAkira
+- Jemella7
 - Kyereach
 - LeavesWind233
 - Maenoko
 - Maildd4158
+- Melicha114
 - Meowmeow030
 - MillianaEP
 - Minaduki-Shigure
@@ -596,7 +622,6 @@
 - Nemunemu233
 - Nep-Timeline
 - NkeoPatch
-- NormanDSG
 - NumberSir
 - OpheliaSH
 - Otilia0372
@@ -618,6 +643,7 @@
 - ShiroSakurairo
 - Sleependermasn
 - SlimFight1
+- SnapSora
 - Sphaela
 - TillMist
 - Trenza1ore
@@ -636,6 +662,8 @@
 - andyfrankbloop
 - ann049
 - arottenpen
+- asdll555
+- bamfmiddle2
 - bd-star
 - becifia
 - begentle2662
@@ -645,7 +673,6 @@
 - branpurnae
 - bwhmtyp
 - creeping1023
-- cybergeekboy
 - dizzyfall258
 - dufy2000
 - fengjixuanhen
@@ -658,6 +685,7 @@
 - hyakuyamikaera
 - kateW223
 - kinogi
+- len0112
 - liangchengjiuren
 - limidafei
 - linonetwo
@@ -691,6 +719,7 @@
 - ruuu219
 - ryou1016
 - salagadoola
+- scarletea
 - scarywhale
 - sgj123456
 - shanmujiuya
@@ -698,7 +727,7 @@
 - shenqide5
 - si1ence1895
 - sm1234xt
-- thatskysze
+- sugy491366
 - titituto
 - toritorisuki
 - tutuzi618
