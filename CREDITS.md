@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20250302
+> 20250401
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -172,17 +172,6 @@
 <details>
 <summary>点击展开</summary>
 
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
 - +++嫉妒
 - 05 Guured
 - 100Zhi
@@ -209,6 +198,7 @@
 - Alice nuen
 - Alicekawaiiiii
 - Alouette
+- Andy861112
 - Aoilen
 - Artemis Yang
 - Artemismitty12321
@@ -245,6 +235,7 @@
 - Dknife
 - Dlmily
 - DmsHunk
+- Dolpc
 - Dr.Benzin
 - Drlaoyang
 - Dwvwvvwvwb
@@ -286,6 +277,7 @@
 - Isla
 - IyLer
 - JIZ
+- Jingheimoan
 - Jjjxj
 - K2496745900
 - Kacastic
@@ -332,6 +324,7 @@
 - Maidlinmo
 - Mango0206
 - Maomaoooo
+- MaplebrichLeaf
 - Marsz413
 - Mathevellae
 - MediaWiki default
@@ -352,6 +345,7 @@
 - Morgas
 - Mwt 823
 - N-boMB
+- NAmaomao
 - Nic0t1ner
 - NightRain
 - Nigredo420
@@ -376,8 +370,10 @@
 - Q299814377
 - Qian ge
 - Qing Jue
+- Qsx0391
 - R18gWhen
 - Redesilow
+- Remilia
 - RetuEase
 - Rhine
 - Rhy-cea
@@ -396,6 +392,7 @@
 - Signalblue
 - Silas el
 - Site098
+- Sk2to3
 - SkyF
 - SoraL
 - SpispsW
@@ -441,6 +438,8 @@
 - XSabes
 - Ximena520
 - Xioalang2550
+- Xirfyi75
+- YaoJiuQi
 - Ycy.
 - Yesnoaaa
 - Yilinshe
@@ -547,6 +546,7 @@
 - 老大喵
 - 老白干
 - 色温
+- 花愛雪
 - 芸
 - 菜地里的大白菜
 - 蒸蒸日上撅撅镇
@@ -600,7 +600,6 @@
 - EvolveCrow
 - FLCnhzmry
 - Fimmm
-- FrostNova67204
 - Fuyuhana
 - Ghost1420
 - Gionaqiaonai
@@ -611,6 +610,7 @@
 - Jemella7
 - Kyereach
 - LeavesWind233
+- MCxiaoai
 - Maenoko
 - Maildd4158
 - Melicha114
@@ -623,7 +623,6 @@
 - Nep-Timeline
 - NkeoPatch
 - NumberSir
-- OpheliaSH
 - Otilia0372
 - Paul-16098
 - Pewds233
@@ -660,8 +659,6 @@
 - a845563011
 - ahhiisme
 - andyfrankbloop
-- ann049
-- arottenpen
 - asdll555
 - bamfmiddle2
 - bd-star
@@ -680,9 +677,9 @@
 - gengaixingming
 - ghost
 - gn02994106
-- hedynn
 - hphhh222
 - hyakuyamikaera
+- ilokju
 - kateW223
 - kinogi
 - len0112
