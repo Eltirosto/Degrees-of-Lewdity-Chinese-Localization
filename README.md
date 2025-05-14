@@ -143,6 +143,20 @@
 <details>
 <summary>点击展开</summary>
 
+> 2025.05.14
+> - 发布 `dol-0.5.4.9-chs-1.0.0a` 版
+>   - 游戏本体更新至 v0.5.4.9
+>   - 模组加载器更新至 v2.33.0
+>   - **截止本次更新时仍有三处暂时已知且无力修复的问题，预计在未来的汉化更新中修复：**
+>     - **服装店的部分服装无法修改“图案”**
+>     - **部分战斗场景中目标敌人的名称为英文**
+>     - **部分小图标（主要为转化）无法正常显示**
+>   - 修复了部分文本连接处多出空格的问题
+>   - 优化了部分人物名称、物品名称的显示逻辑 
+>   - 修复了神殿忏悔室悉尼事件报错 [@issue/426][issue426]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2025.04.01
 > - 发布 `dol-0.5.3.7-chs-1.2.0a` 版
 >   - 模组加载器更新至 v2.29.0
@@ -1223,6 +1237,7 @@
 [issue414]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/414
 [issue418]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/418
 [issue424]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/424
+[issue426]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/426
 [issue427]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/427
 [issue428]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/428
 [issue436]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/436
