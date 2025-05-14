@@ -144,6 +144,13 @@
 <summary>点击展开</summary>
 
 > 2025.05.14
+> - 发布 `dol-0.5.4.9-chs-1.0.1a` 版
+>   - 修复了服装店的部分服装无法修改“图案”的问题
+>   - 修正了玩具店汉化文本错误 [@issue/494][issue494]
+>   - 修复了一些其他已知问题
+> 
+> 
+> 2025.05.14
 > - 发布 `dol-0.5.4.9-chs-1.0.0a` 版
 >   - 游戏本体更新至 v0.5.4.9
 >   - 模组加载器更新至 v2.33.0
@@ -1271,6 +1278,7 @@
 [issue486]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/486
 [issue487]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/487
 [issue489]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/489
+[issue494]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/494
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
