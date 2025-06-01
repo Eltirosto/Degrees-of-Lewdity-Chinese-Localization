@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20250515
+> 20250601
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -116,7 +116,7 @@
 - dya3506(dya3506)
 - edabchann(edab)
 - emicoto(Lune)
-- flowwwwwwwww(天川鹅)
+- flowwwwwwwww(落花生)
 - fower151
 - gagadog
 - geilian
@@ -190,6 +190,7 @@
 - 05 Guured
 - 100Zhi
 - 1344535564qwa
+- 1509418354z
 - 15727557402zy
 - 19543739060lwj
 - 1tt1e 1219
@@ -280,6 +281,8 @@
 - GTH520
 - Ghost08
 - GhostMiku117
+- GnOr
+- Gold-wx
 - GraySparrow
 - Gurgle
 - HaBai
@@ -298,6 +301,7 @@
 - Isla
 - IyLer
 - JIZ
+- Jiangjieshi
 - Jingheimoan
 - Jjjxj
 - K2496745900
@@ -345,6 +349,7 @@
 - MagicalAstrogy
 - Maidlinmo
 - Mango0206
+- MangoJelly
 - Maomaoooo
 - MaplebrichLeaf
 - Marsz413
@@ -381,6 +386,7 @@
 - OAOa
 - Orchid712
 - Otokam
+- OwOQAQAwA
 - OwOx
 - PONTIFEXJULIAN
 - PeryFox
@@ -418,6 +424,7 @@
 - Silas el
 - Site098
 - Sk2to3
+- Skipod
 - SkyF
 - SoraL
 - SpispsW
@@ -467,6 +474,7 @@
 - Ximena520
 - Xioalang2550
 - Xirfyi75
+- YangXiao5
 - YaoJiuQi
 - Ycy.
 - Yesnoaaa
@@ -492,6 +500,7 @@
 - Zzz777
 - 不列颠皇家拉屎委员会
 - 不想晚睡
+- 不理
 - 什么也不会
 - 令雨不是零
 - 伊斯
@@ -556,11 +565,13 @@
 - 汪明
 - 沃尔玛购物袋
 - 沈
+- 沉默时代
 - 沙沙
 - 没水
 - 泡鲁玛
 - 流泪猫猫头
 - 涂山某小妖
+- 燎原
 - 狗子
 - 猫头鹰玩偶
 - 琉影
@@ -578,6 +589,7 @@
 - 老公前夫在天堂
 - 老大喵
 - 老白干
+- 耶耶耶
 - 色温
 - 花愛雪
 - 芸
@@ -607,7 +619,6 @@
 <details>
 <summary>点击展开</summary>
 
-- 117xxx
 - 123gjyy
 - 1902520039
 - 1Shirotori
@@ -655,6 +666,7 @@
 - Minaduki-Shigure
 - Moliyi
 - MorningLights
+- Nekofoxmiu
 - Nemunemu233
 - Nep-Timeline
 - NkeoPatch
@@ -708,6 +720,7 @@
 - creeping1023
 - dizzyfall258
 - dufy2000
+- fcy10012
 - fengjixuanhen
 - francescahsu
 - ganhao88688
@@ -740,7 +753,6 @@
 - nekobolo1
 - nerine0
 - newbie-forever
-- orchid712
 - orishimo010
 - ouo30
 - paikoo
