@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20250601
+> 20250630
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -194,6 +194,7 @@
 - 15727557402zy
 - 19543739060lwj
 - 1tt1e 1219
+- 2403428122a
 - 259172社
 - 2Bdada
 - 404bk
@@ -205,20 +206,24 @@
 - ALLEN&ALFRED
 - ASDA
 - Abcd0715
+- Access
 - AceEchoey
 - Afterglow
 - Aiklai
 - Ailiina
+- Aisiling
 - Aither
 - Alice nuen
 - Alicekawaiiiii
 - Alouette
 - Andy861112
 - Aoilen
+- AokiUtage
 - Artemis Yang
 - Artemismitty12321
 - Asgore
 - Aucunkeine
+- Awee
 - AyW
 - Ayndpa
 - BV1yp4y1x7Sb
@@ -254,6 +259,7 @@
 - Dlmily
 - DmsHunk
 - Dolpc
+- Doughnut
 - Dr.Benzin
 - Drlaoyang
 - Dwvwvvwvwb
@@ -285,6 +291,7 @@
 - Gold-wx
 - GraySparrow
 - Gurgle
+- H019019
 - HaBai
 - HaiTsuru
 - Haluki81
@@ -301,6 +308,7 @@
 - Isla
 - IyLer
 - JIZ
+- Jack DOL
 - Jiangjieshi
 - Jingheimoan
 - Jjjxj
@@ -325,7 +333,10 @@
 - LONGKONG
 - Ladiangory
 - Laiet
+- LalunRrosmarin
 - Lambda017
+- Laognf
+- LarryL
 - Leaf03
 - Leonithas
 - Lifeir
@@ -366,6 +377,7 @@
 - Misaka25K
 - Mist007
 - Miyako4828
+- MochaAD
 - Momo(afk)
 - Momoku1112
 - MoonSa
@@ -443,6 +455,7 @@
 - Tomato200803
 - Touched
 - Trlaitioer
+- Tsunhui217
 - USB mw
 - UnknownMZ
 - Upghs2336
@@ -478,6 +491,7 @@
 - YaoJiuQi
 - Ycy.
 - Yesnoaaa
+- Yilan520
 - Yilinshe
 - Yis
 - Yonehana
@@ -501,7 +515,9 @@
 - 不列颠皇家拉屎委员会
 - 不想晚睡
 - 不理
+- 乄
 - 什么也不会
+- 仇夏
 - 令雨不是零
 - 伊斯
 - 佘临
@@ -530,6 +546,7 @@
 - 坏鹅
 - 垃圾
 - 夜牧
+- 大胯粉碎者
 - 天川紫
 - 太阳背后的绅士
 - 好方
@@ -571,6 +588,7 @@
 - 泡鲁玛
 - 流泪猫猫头
 - 涂山某小妖
+- 煎饼
 - 燎原
 - 狗子
 - 猫头鹰玩偶
@@ -590,12 +608,14 @@
 - 老大喵
 - 老白干
 - 耶耶耶
+- 肉欲大入
 - 色温
 - 花愛雪
 - 芸
 - 菜地里的大白菜
 - 蒸蒸日上撅撅镇
 - 西里斯小店
+- 象牙幽灵抄抄我的
 - 轻灵
 - 轻语的风
 - 迟云
@@ -625,6 +645,7 @@
 - 1diotDoomSpira1
 - 283952
 - 404bako
+- 466153334
 - ACE-DustofStars
 - AEEESEEEA
 - ALEXDRAGON555
@@ -655,15 +676,16 @@
 - HSSkyBoy
 - Ham-desu
 - Jemella7
-- Kyereach
+- Kagamine-Rinrin
 - LeavesWind233
+- Likefu1
+- LitcheKing
 - MCxiaoai
 - Maenoko
 - Maildd4158
 - Melicha114
 - Meowmeow030
 - MillianaEP
-- Minaduki-Shigure
 - Moliyi
 - MorningLights
 - Nekofoxmiu
@@ -727,11 +749,13 @@
 - gengaixingming
 - ghost
 - gn02994106
+- godfandog
 - hphhh222
 - hyakuyamikaera
 - ilokju
 - kateW223
 - kinogi
+- lemon1119
 - len0112
 - liangchengjiuren
 - limidafei
@@ -743,7 +767,6 @@
 - macaca1014
 - manbck
 - mark2330
-- mengyuxiangsui
 - meowmeowmeowmeowmeomeoww
 - mirrormirroronwall
 - miumiu99-dol
@@ -756,10 +779,10 @@
 - orishimo010
 - ouo30
 - paikoo
+- pcwindy
 - please-enter-a-username
 - qwzther
 - rainfall1019
-- reibu
 - robot1415
 - ruuu219
 - ryou1016
@@ -770,6 +793,7 @@
 - shanmujiuya
 - sheepog
 - shenqide5
+- shovel25231
 - si1ence1895
 - sm1234xt
 - sugy491366

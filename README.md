@@ -143,6 +143,24 @@
 <details>
 <summary>点击展开</summary>
 
+> 2025.07.01
+> - 发布 `dol-0.5.4.9-chs-1.2.0a` 版
+>   - 修复了与衣柜相关的问题 [@issue/499][issue499] [@issue/500][issue500] [@issue/501][issue501] [@issue/504][issue504] [@issue/506][issue506] [@issue-dc/81][issue-dc81] [@issue-dc/82][issue-dc82]
+>   - 翻译了漏译的纹身文本 [@issue-dc/77][issue-dc77]
+>   - 修正了属性文本错误 [@issue-dc/78][issue-dc78]
+>   - 修正了狐化相关文本错误 [@issue-dc/79][issue-dc79]
+>   - 翻译了漏译的头饰文本 [@issue-dc/80][issue-dc80]
+>   - 修复了悉尼图书馆剧情相关问题 [@issue-dc/83][issue-dc83]
+>   - 修复了绝望轮回用餐随机事件相关问题 [@issue-dc/84][issue-dc84]
+>   - 翻译了自愿遭遇文本漏译 [@issue-dc/85][issue-dc85]
+>   - 翻译了镇内内衣随机事件文本漏译 [@issue-dc/86][issue-dc86]
+>   - 修正了惠特尼相关剧情文本翻译 [@issue-dc/87][issue-dc87] [@issue-dc/88][issue-dc88]
+>   - 翻译了孤儿院大厅事件文本漏译 [@issue-dc/89][issue-dc89]
+>   - 修正了神殿译名错误 [@issue-dc/90][issue-dc90]
+>   - 修正了鹰塔剧情文本错误 [@issue-dc/91][issue-dc91]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2025.06.01
 > - 发布 `dol-0.5.4.9-chs-1.1.0a` 版
 >   - 进一步修复了一些与“绝望轮回”相关的问题
@@ -1297,6 +1315,12 @@
 [issue487]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/487
 [issue489]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/489
 [issue494]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/494
+[issue499]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/499
+[issue500]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/500
+[issue501]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/501
+[issue504]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/504
+[issue506]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/506
+
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
 [issue-dc2]: https://discord.com/channels/1103864219620884560/1205223199412064267
@@ -1374,3 +1398,20 @@
 [issue-dc74]: https://discord.com/channels/1103864219620884560/1373848620943671366
 [issue-dc75]: https://discord.com/channels/1103864219620884560/1375852235921162330
 [issue-dc76]: https://discord.com/channels/1103864219620884560/1376245315765534902
+[issue-dc77]: https://discord.com/channels/1103864219620884560/1383571387167539270
+[issue-dc78]: https://discord.com/channels/1103864219620884560/1380524950838055003
+[issue-dc79]: https://discord.com/channels/1103864219620884560/1379800208182870186
+[issue-dc80]: https://discord.com/channels/1103864219620884560/1379207318759145503
+[issue-dc81]: https://discord.com/channels/1103864219620884560/1378806944613138533
+[issue-dc82]: https://discord.com/channels/1103864219620884560/1378995055498494002
+[issue-dc83]: https://discord.com/channels/1103864219620884560/1379763194385530920
+[issue-dc84]: https://discord.com/channels/1103864219620884560/1376201470436966471
+[issue-dc85]: https://discord.com/channels/1103864219620884560/1374540646605389854
+[issue-dc86]: https://discord.com/channels/1103864219620884560/1374304745531113482
+[issue-dc87]: https://discord.com/channels/1103864219620884560/1379302867399217162
+[issue-dc88]: https://discord.com/channels/1103864219620884560/1380178771784761525
+[issue-dc89]: https://discord.com/channels/1103864219620884560/1380537469128278096
+[issue-dc90]: https://discord.com/channels/1103864219620884560/1386602409500999771
+[issue-dc91]: https://discord.com/channels/1103864219620884560/1386760060209856572
+[issue-dc92]: 
+[issue-dc93]: 
