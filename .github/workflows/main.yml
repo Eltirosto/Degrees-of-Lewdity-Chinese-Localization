@@ -21,9 +21,16 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      matrix:
+        os: [ubuntu-latest]
+
+    runs-on: ${{ matrix.os }}
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Make Directories
         run: |
@@ -31,7 +38,7 @@ jobs:
 
       - id: getI18NRelease
         name: Download I18N Mod
-        uses: robinraju/release-downloader@v1.8
+        uses: robinraju/release-downloader@v1
         with:
           repository: "NumberSir/DoL-I18n-Build"
           latest: true
@@ -39,7 +46,7 @@ jobs:
 
       - id: getModLoaderRelease
         name: Download ModLoader Build
-        uses: robinraju/release-downloader@v1.8
+        uses: robinraju/release-downloader@v1
         with:
           repository: "Lyoko-Jeremie/DoLModLoaderBuild"
           latest: true
@@ -57,6 +64,7 @@ jobs:
       - name: Construct PWA
         run: |
           cp -r .github/pwa/* ${{ env.DOWNLOAD_RELEASE_TEMP_PATH }}
+
       - name: Modify HTML
         shell: python3 {0}
         run: |
@@ -91,10 +99,18 @@ jobs:
           path: ${{ env.UPLOAD_ARTIFACT_FILEPATH }}
 
   deploy-github:
-    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      matrix:
+        os: [ubuntu-latest]
+
+    runs-on: ${{ matrix.os }}
+
     needs: build
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Download Artifact
         uses: actions/download-artifact@v4
@@ -123,7 +139,7 @@ jobs:
               manifest_file.write(json.dumps(manifest_json, indent=2))
 
       - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v3
+        uses: crazy-max/ghaction-github-pages@v4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -132,11 +148,19 @@ jobs:
           target_branch: gh-pages
 
   post-build:
-    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      matrix:
+        os: [ubuntu-latest]
+
+    runs-on: ${{ matrix.os }}
+
     if: ${{ always() }}
+
     needs: [build, deploy-github]
+
     steps:
       - name: Cleanup
-        uses: geekyeggo/delete-artifact@v2
+        uses: geekyeggo/delete-artifact@v5
         with:
           name: ${{ env.UPLOAD_ARTIFACT_NAME }}
