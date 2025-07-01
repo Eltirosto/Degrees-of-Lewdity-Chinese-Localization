@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20250630
+> 20250701
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -673,7 +673,6 @@
 - Gionaqiaonai
 - GuHaiYin
 - HAL900O
-- HSSkyBoy
 - Ham-desu
 - Jemella7
 - Kagamine-Rinrin
@@ -720,6 +719,7 @@
 - UphealLaw
 - Willy0v0
 - Wingcrae
+- Wyhemm
 - XonlookerX
 - XyMinxin
 - Ydm2
