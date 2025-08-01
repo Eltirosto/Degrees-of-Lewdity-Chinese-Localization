@@ -143,6 +143,18 @@
 <details>
 <summary>点击展开</summary>
 
+> 2025.08.01
+> - 发布 `dol-0.5.4.9-chs-1.3.0a` 版
+>   - 模组加载器更新至 v2.60.1
+>   - 修正了画像故事相关剧情文本翻译 [@issue/511][issue511]
+>   - 翻译了漏译的宫内寄生虫描述文本 [@issue-dc/92][issue-dc92]
+>   - 修复了黑狼新事件相关文本翻译问题 [@issue-dc/93][issue-dc93]
+>   - 改进了与凯拉尔、悉尼等剧情相关文本的翻译 [@issue-dc/94][issue-dc94] [@issue-dc/95][issue-dc95] [@issue-dc/96][issue-dc96] [@issue-dc/97][issue-dc97]
+>   - 翻译了漏译的耳中史莱姆相关剧情文本 [@issue-dc/98][issue-dc98]
+>   - 修正了惠特尼相关剧情文本问题 [@issue-dc/99][issue-dc99]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2025.07.01
 > - 发布 `dol-0.5.4.9-chs-1.2.0a` 版
 >   - 修复了与衣柜相关的问题 [@issue/499][issue499] [@issue/500][issue500] [@issue/501][issue501] [@issue/504][issue504] [@issue/506][issue506] [@issue-dc/81][issue-dc81] [@issue-dc/82][issue-dc82]
@@ -1320,6 +1332,7 @@
 [issue501]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/501
 [issue504]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/504
 [issue506]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/506
+[issue511]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/511
 
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
@@ -1413,5 +1426,11 @@
 [issue-dc89]: https://discord.com/channels/1103864219620884560/1380537469128278096
 [issue-dc90]: https://discord.com/channels/1103864219620884560/1386602409500999771
 [issue-dc91]: https://discord.com/channels/1103864219620884560/1386760060209856572
-[issue-dc92]: 
-[issue-dc93]: 
+[issue-dc92]: https://discord.com/channels/1103864219620884560/1389595427971792996
+[issue-dc93]: https://discord.com/channels/1103864219620884560/1396552273357963556
+[issue-dc94]: https://discord.com/channels/1103864219620884560/1393881988238278806
+[issue-dc95]: https://discord.com/channels/1103864219620884560/1393885194343157790
+[issue-dc96]: https://discord.com/channels/1103864219620884560/1393885687908143155
+[issue-dc97]: https://discord.com/channels/1103864219620884560/1393886343423070249
+[issue-dc98]: https://discord.com/channels/1103864219620884560/1394231971634348082
+[issue-dc99]: https://discord.com/channels/1103864219620884560/1396120616611876904

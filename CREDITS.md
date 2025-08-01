@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20250701
+> 20250801
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -208,11 +208,13 @@
 - Abcd0715
 - Access
 - AceEchoey
+- Acloud
 - Afterglow
 - Aiklai
 - Ailiina
 - Aisiling
 - Aither
+- Alecithin
 - Alice nuen
 - Alicekawaiiiii
 - Alouette
@@ -234,6 +236,8 @@
 - Birdmanonline
 - Bisan
 - Bleph
+- BlueWasabi
+- Bonnie9895
 - Bowen
 - Capaletric
 - Celialapin
@@ -247,9 +251,11 @@
 - Cindy531824
 - CocoPto
 - Creeping
+- Csh
 - DAX666
 - DGCK81LNN
 - Damazti3rd
+- Dangwan
 - DavidX
 - Ddzzkun
 - Deer
@@ -323,6 +329,7 @@
 - Kkkkjl
 - Kkoun
 - Kochiya kotomi
+- Koishi114514
 - Konjac
 - Koooooi
 - KotomiKochiya
@@ -383,6 +390,7 @@
 - MoonSa
 - MoonWX
 - Morgas
+- Motoori Era
 - Mwt 823
 - N-boMB
 - NAmaomao
@@ -410,6 +418,7 @@
 - Purelewd
 - Purelewd1
 - Putini
+- Pyy
 - Q299814377
 - Qian ge
 - Qing Jue
@@ -456,6 +465,7 @@
 - Touched
 - Trlaitioer
 - Tsunhui217
+- TuShanmxy
 - USB mw
 - UnknownMZ
 - Upghs2336
@@ -468,6 +478,7 @@
 - WakaWakaMaya
 - Weare
 - Weems
+- Wendy159
 - Whimilk
 - WhiteSprite
 - William531204
@@ -484,6 +495,7 @@
 - Www3077665332
 - Wwy666
 - XSabes
+- Xiapu
 - Ximena520
 - Xioalang2550
 - Xirfyi75
@@ -499,12 +511,15 @@
 - Yukiviyugmail
 - Yukki
 - YunyouLi
+- Yuying
 - Yuyu-o
 - Yyn12251
 - Yzqy5522
 - ZBIRDzzZ
 - ZDich
 - Zangyou
+- Zbf
+- Zelwin loveU
 - Zephyrs052
 - Zero499
 - Zhuzi322
@@ -512,6 +527,7 @@
 - Zoe096423
 - ZuoYu
 - Zzz777
+- コードネーム夏洛克
 - 不列颠皇家拉屎委员会
 - 不想晚睡
 - 不理
@@ -528,6 +544,7 @@
 - 八月
 - 六黄
 - 冰墓
+- 加号没有偷懒
 - 北极星勾陈一
 - 千纸鹤
 - 千织
@@ -566,6 +583,7 @@
 - 惠高木惠
 - 慈
 - 憶97815376461
+- 我不想上学我想直接退休
 - 我刚睡醒
 - 我是美铝
 - 拳皇贞德
@@ -574,6 +592,8 @@
 - 星涵是蠢狼
 - 昭雪
 - 板蓝根
+- 枫
+- 柒悠
 - 柠檬面包
 - 查查塞维
 - 柳
@@ -588,6 +608,7 @@
 - 泡鲁玛
 - 流泪猫猫头
 - 涂山某小妖
+- 渐起涟漪
 - 煎饼
 - 燎原
 - 狗子
@@ -607,6 +628,7 @@
 - 老公前夫在天堂
 - 老大喵
 - 老白干
+- 老鼠一隻
 - 耶耶耶
 - 肉欲大入
 - 色温
@@ -614,6 +636,7 @@
 - 芸
 - 菜地里的大白菜
 - 蒸蒸日上撅撅镇
+- 蚊子
 - 西里斯小店
 - 象牙幽灵抄抄我的
 - 轻灵
@@ -697,7 +720,6 @@
 - Pewds233
 - PichuChen
 - Pony-CW
-- PostMeridy
 - Qkat9
 - RL3461
 - ReyADis
@@ -722,6 +744,7 @@
 - Wyhemm
 - XonlookerX
 - XyMinxin
+- Y1uki
 - Ydm2
 - Zed660033
 - ZeroRing233
@@ -730,6 +753,7 @@
 - ahhiisme
 - andyfrankbloop
 - asdll555
+- axuehe
 - bamfmiddle2
 - bd-star
 - becifia
@@ -765,6 +789,7 @@
 - luckydeer136
 - luke72927
 - macaca1014
+- magicchuchu
 - manbck
 - mark2330
 - meowmeowmeowmeowmeomeoww
@@ -778,7 +803,6 @@
 - newbie-forever
 - orishimo010
 - ouo30
-- paikoo
 - pcwindy
 - please-enter-a-username
 - qwzther
