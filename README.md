@@ -143,6 +143,19 @@
 <details>
 <summary>点击展开</summary>
 
+> 2025.09.01
+> - 发布 `dol-0.5.4.9-chs-1.4.0a` 版
+>   - 模组加载器更新至 v2.60.1-fixbsa
+>   - 修复了苍白幽灵附身 NPC 遭遇战出错的问题 [@issue-dc/101][issue-dc101]
+>   - 翻译了漏译的学校短裙文本 [@issue-dc/102][issue-dc102]
+>   - 改进了家具店两处道具的翻译 [@issue-dc/103][issue-dc103]
+>   - 修正了部分剧情文本的翻译 [@issue-dc/104][issue-dc104]
+>   - 修正了人称代词交叠的文本翻译 [@issue-dc/105][issue-dc105]
+>   - 改进了一处成就文本的翻译 [@issue-dc/106][issue-dc106]
+>   - 翻译了漏译的耳中史莱姆相关剧情文本 [@issue-dc/107][issue-dc107]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2025.08.01
 > - 发布 `dol-0.5.4.9-chs-1.3.0a` 版
 >   - 模组加载器更新至 v2.60.1
@@ -1434,3 +1447,10 @@
 [issue-dc97]: https://discord.com/channels/1103864219620884560/1393886343423070249
 [issue-dc98]: https://discord.com/channels/1103864219620884560/1394231971634348082
 [issue-dc99]: https://discord.com/channels/1103864219620884560/1396120616611876904
+[issue-dc101]: https://discord.com/channels/1103864219620884560/1402187662110232687
+[issue-dc102]: https://discord.com/channels/1103864219620884560/1402630540871336097
+[issue-dc103]: https://discord.com/channels/1103864219620884560/1400892612432498779
+[issue-dc104]: https://discord.com/channels/1103864219620884560/1393881988238278806
+[issue-dc105]: https://discord.com/channels/1103864219620884560/1403088689428566187
+[issue-dc106]: https://discord.com/channels/1103864219620884560/1403163843328213023
+[issue-dc107]: https://discord.com/channels/1103864219620884560/1409336272060809217

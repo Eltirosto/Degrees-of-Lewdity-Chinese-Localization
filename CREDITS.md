@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20250801
+> 20250901
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -199,10 +199,12 @@
 - 2Bdada
 - 404bk
 - 9ty9aku
+- A1066160186
 - A11216266
 - A29277935
 - A330420
 - A471301194
+- AABb1221
 - ALLEN&ALFRED
 - ASDA
 - Abcd0715
@@ -241,6 +243,7 @@
 - Bowen
 - Capaletric
 - Celialapin
+- Charil
 - Charl the Internet User
 - Cheam
 - ChenItse
@@ -309,6 +312,7 @@
 - Hmsterror
 - Huangxiaoan10
 - Hyphakinshi
+- Icc
 - Iijjj
 - Init
 - Isla
@@ -337,6 +341,7 @@
 - Kuriyama
 - Kurumi Walnut
 - KylarLoveLoveLove
+- LLLLouise
 - LONGKONG
 - Ladiangory
 - Laiet
@@ -354,6 +359,7 @@
 - Llang
 - LonZzz
 - LoopSpiner
+- Lotusmoon
 - Lukute
 - Luminescence 516
 - LunaticLegacy
@@ -385,6 +391,7 @@
 - Mist007
 - Miyako4828
 - MochaAD
+- Moliqiu1
 - Momo(afk)
 - Momoku1112
 - MoonSa
@@ -432,10 +439,12 @@
 - Ricoincolor
 - RobbinA
 - RobinSuKi
+- Roboko
 - RonseThurro
 - S0870217
 - Sakuya
 - Sanbizes
+- Sanwu114514
 - Selene-Ling
 - Shaun
 - Shirokun2024
@@ -515,6 +524,7 @@
 - Yuyu-o
 - Yyn12251
 - Yzqy5522
+- ZANY79
 - ZBIRDzzZ
 - ZDich
 - Zangyou
@@ -526,10 +536,12 @@
 - Zino
 - Zoe096423
 - ZuoYu
+- Zyh
 - Zzz777
 - コードネーム夏洛克
 - 不列颠皇家拉屎委员会
 - 不想晚睡
+- 不爱吃鱼
 - 不理
 - 乄
 - 什么也不会
@@ -539,6 +551,7 @@
 - 佘临
 - 余晖
 - 你看见头了吗？
+- 倒吊人
 - 倾娥
 - 克祖亞
 - 八月
@@ -562,6 +575,7 @@
 - 地下室
 - 坏鹅
 - 垃圾
+- 塔塔木
 - 夜牧
 - 大胯粉碎者
 - 天川紫
@@ -579,6 +593,7 @@
 - 德鲁伊心水晶剑
 - 心宿二
 - 悉尼很可爱
+- 悉尼的缔结
 - 惊恐地凝视
 - 惠高木惠
 - 慈
@@ -599,6 +614,7 @@
 - 柳
 - 桉肆
 - 次哦
+- 池言
 - 汪明
 - 沃尔玛购物袋
 - 沈
@@ -608,6 +624,7 @@
 - 泡鲁玛
 - 流泪猫猫头
 - 涂山某小妖
+- 涅白不缁
 - 渐起涟漪
 - 煎饼
 - 燎原
@@ -655,6 +672,7 @@
 - 风间 雫
 - 鱼干不咸不要钱
 - 鸽子作者
+- 鼠宝
 
 </details>
 
