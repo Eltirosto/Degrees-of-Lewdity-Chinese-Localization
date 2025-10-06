@@ -143,6 +143,16 @@
 <details>
 <summary>点击展开</summary>
 
+> 2025.10.06
+> - 发布 `dol-0.5.5.9-chs-3.0.12a` 版
+>   - 游戏本体更新至 v0.5.5.9
+>   - 模组加载器更新至 v2.60.2
+>   - 改进了凯拉尔庄园剧情文本的翻译 [@issue/515][issue515]
+>   - 修正了妓院演出剧情文本的翻译 [@issue/516][issue516]
+>   - 修正了惠特尼相关剧情文本的翻译 [@issue-dc/108][issue-dc108]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2025.09.01
 > - 发布 `dol-0.5.4.9-chs-1.4.0a` 版
 >   - 模组加载器更新至 v2.60.1-fixbsa
@@ -1346,6 +1356,8 @@
 [issue504]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/504
 [issue506]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/506
 [issue511]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/511
+[issue515]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/515
+[issue516]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/516
 
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
@@ -1454,3 +1466,4 @@
 [issue-dc105]: https://discord.com/channels/1103864219620884560/1403088689428566187
 [issue-dc106]: https://discord.com/channels/1103864219620884560/1403163843328213023
 [issue-dc107]: https://discord.com/channels/1103864219620884560/1409336272060809217
+[issue-dc108]: https://discord.com/channels/1103864219620884560/1423881144721477652

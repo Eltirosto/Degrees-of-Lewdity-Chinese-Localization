@@ -1,12 +1,12 @@
 ## 欲都孤儿 贡献者名单
-> 20250901
+> 20251006
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
 
 - 0-V-O
 - 0Mr-Wolf0
-- 121090445(蝴蝶终将死)
+- 121090445(Barriek)
 - 127inch
 - 2113693481(G4466)
 - 23tinywishes(23-li'l-wishes)
@@ -22,6 +22,7 @@
 - Albedoui
 - AnselCl(Quintillus)
 - ApostateJulian(ApostateJulian)
+- AshoreFall(Ashore)
 - Barkatze
 - BiologyRainbow
 - Bl-XY(噬星鸽)
@@ -68,7 +69,7 @@
 - Nana027777777(骨头便当)
 - Nephthelana(Benzene)
 - NiuTuran(辰未)
-- Noirou(I.R.S.A.R)
+- Not-a-DonJuanist
 - NumberSir(Number_Sir)
 - ORANGEEMF(华夫饼)
 - OracleMystic
@@ -93,6 +94,7 @@
 - Urped
 - VincentHDLee(V)
 - Violetahere
+- VogelJyn(Tauben)
 - WARMASTER-LEAns(净尘)
 - Weinear
 - XDCirno9
@@ -116,7 +118,6 @@
 - dya3506(dya3506)
 - edabchann(edab)
 - emicoto(Lune)
-- flowwwwwwwww(落花生)
 - fower151
 - gagadog
 - geilian
@@ -174,21 +175,10 @@
 <details>
 <summary>点击展开</summary>
 
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
--  
 - +++嫉妒
 - 05 Guured
 - 100Zhi
+- 101de9
 - 1344535564qwa
 - 1509418354z
 - 15727557402zy
@@ -212,6 +202,7 @@
 - AceEchoey
 - Acloud
 - Afterglow
+- Agatha Carlyle
 - Aiklai
 - Ailiina
 - Aisiling
@@ -225,6 +216,8 @@
 - AokiUtage
 - Artemis Yang
 - Artemismitty12321
+- ArtisTodd
+- As12d
 - Asgore
 - Aucunkeine
 - Awee
@@ -287,9 +280,11 @@
 - FCSfish
 - FLLFFL
 - FXIZ
+- Featherhell
 - Fei qiu
 - Fgftgh
 - Flammis023
+- Flow talk page manager
 - Fox hezi02
 - FungiEggroll
 - Fxsh
@@ -300,6 +295,7 @@
 - Gold-wx
 - GraySparrow
 - Gurgle
+- Gwynbleiddd
 - H019019
 - HaBai
 - HaiTsuru
@@ -360,6 +356,7 @@
 - LonZzz
 - LoopSpiner
 - Lotusmoon
+- Lovelyu0
 - Lukute
 - Luminescence 516
 - LunaticLegacy
@@ -367,6 +364,7 @@
 - Luohe
 - LupusXLass1404
 - Luvi
+- Luzzy
 - Lyjjl
 - Lzz
 - MOW0
@@ -445,6 +443,7 @@
 - Sakuya
 - Sanbizes
 - Sanwu114514
+- Schwarzkatze
 - Selene-Ling
 - Shaun
 - Shirokun2024
@@ -561,6 +560,7 @@
 - 北极星勾陈一
 - 千纸鹤
 - 千织
+- 南希
 - 卢本伟
 - 叶工叶
 - 吗喽
@@ -584,9 +584,12 @@
 - 孑虚乌有在逃中
 - 字杨名小五
 - 季度
+- 孤濯
+- 安亚
 - 小学生
 - 小小香日
 - 小微
+- 小黄
 - 崇宫白狼
 - 幽灵是一款我的一生挚爱
 - 张献忠
@@ -606,6 +609,7 @@
 - 方糖于杯中回转
 - 星涵是蠢狼
 - 昭雪
+- 暗影無形
 - 板蓝根
 - 枫
 - 柒悠
@@ -625,6 +629,7 @@
 - 流泪猫猫头
 - 涂山某小妖
 - 涅白不缁
+- 清姬酱大胜利
 - 渐起涟漪
 - 煎饼
 - 燎原
@@ -632,6 +637,7 @@
 - 猫头鹰玩偶
 - 琉影
 - 琊樂
+- 用户不存在
 - 电飞鼠
 - 白思清
 - 白木捏猫
@@ -653,6 +659,7 @@
 - 芸
 - 菜地里的大白菜
 - 蒸蒸日上撅撅镇
+- 薇薇
 - 蚊子
 - 西里斯小店
 - 象牙幽灵抄抄我的
@@ -671,6 +678,7 @@
 - 风息云淡
 - 风间 雫
 - 鱼干不咸不要钱
+- 鸟之诗
 - 鸽子作者
 - 鼠宝
 
@@ -690,10 +698,10 @@
 - ACE-DustofStars
 - AEEESEEEA
 - ALEXDRAGON555
+- Anahita-C
 - AnnAnn1017
 - Ark-Two
 - Arueee
-- BananaBox9487
 - BluexBerry6475
 - Brandoyifang
 - CRSWMYHJ
@@ -717,7 +725,6 @@
 - Ham-desu
 - Jemella7
 - Kagamine-Rinrin
-- LeavesWind233
 - Likefu1
 - LitcheKing
 - MCxiaoai
@@ -766,7 +773,6 @@
 - Ydm2
 - Zed660033
 - ZeroRing233
-- Zeta1002
 - a845563011
 - ahhiisme
 - andyfrankbloop
@@ -775,7 +781,6 @@
 - bamfmiddle2
 - bd-star
 - becifia
-- begentle2662
 - bibibibiye
 - blackteawww
 - blackuoi
@@ -853,6 +858,7 @@
 - wuwota
 - wuyuzegang
 - wx348055736
+- xiaohuangrenAM
 - xiaolok29
 - xiaxuede
 - xixia0516
