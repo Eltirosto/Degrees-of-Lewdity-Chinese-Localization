@@ -30,7 +30,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Make Directories
         run: |
@@ -93,7 +93,7 @@ jobs:
           7z a ${{ env.UPLOAD_ARTIFACT_FILEPATH }} ${{ env.DOWNLOAD_RELEASE_TEMP_PATH }}/*
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ${{ env.UPLOAD_ARTIFACT_NAME }}
           path: ${{ env.UPLOAD_ARTIFACT_FILEPATH }}
@@ -110,10 +110,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Download Artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v6
         with:
           name: ${{ env.UPLOAD_ARTIFACT_NAME }}
 
