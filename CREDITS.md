@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20251006
+> 20251214
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -59,6 +59,8 @@
 - Lynndaisy
 - MOm0M(MOM0M)
 - Maenoko(Mer)
+- MaplebirchLeaf
+- Melicha114
 - Messiahyurika0717(蓝洋雨)
 - MissedHeart(丧心)
 - Mizunotsuki
@@ -80,6 +82,7 @@
 - PrunusSerrulata(PrunusSerrulata)
 - REI0909(怜)
 - Ramiel-s
+- RandyLuaW(燃灯琉璃)
 - Saltedfish1g
 - SatoriKochiya
 - SenriYuki
@@ -195,6 +198,7 @@
 - A330420
 - A471301194
 - AABb1221
+- AI03141
 - ALLEN&ALFRED
 - ASDA
 - Abcd0715
@@ -214,6 +218,7 @@
 - Andy861112
 - Aoilen
 - AokiUtage
+- Arisu QAQ
 - Artemis Yang
 - Artemismitty12321
 - ArtisTodd
@@ -223,6 +228,7 @@
 - Awee
 - AyW
 - Ayndpa
+- Ayusai13
 - BV1yp4y1x7Sb
 - Baijia
 - Baiyan
@@ -235,6 +241,7 @@
 - Bonnie9895
 - Bowen
 - Capaletric
+- Ccb114514
 - Celialapin
 - Charil
 - Charl the Internet User
@@ -260,6 +267,7 @@
 - Dknife
 - Dlmily
 - DmsHunk
+- DolAaJi
 - Dolpc
 - Doughnut
 - Dr.Benzin
@@ -272,6 +280,7 @@
 - Eira
 - Eldegoss
 - EmailChan
+- Emily102101081
 - Ensadc
 - Estella Clockwork
 - Eudemonism00
@@ -286,6 +295,7 @@
 - Flammis023
 - Flow talk page manager
 - Fox hezi02
+- Frederica
 - FungiEggroll
 - Fxsh
 - GTH520
@@ -318,18 +328,22 @@
 - Jiangjieshi
 - Jingheimoan
 - Jjjxj
+- Judy1233456
 - K2496745900
 - Kacastic
 - Kadmz
+- Kaidezhishang
 - Kalopsia
 - Kamoeth
 - Kanelink
 - Khaos423
 - Kinvinyl
+- Kirayue
 - Kkkkjl
 - Kkoun
 - Kochiya kotomi
 - Koishi114514
+- Koishiiiiiiiii
 - Konjac
 - Koooooi
 - KotomiKochiya
@@ -345,14 +359,17 @@
 - Lambda017
 - Laognf
 - LarryL
+- LazyCat718
 - Leaf03
 - Leonithas
 - Lifeir
 - Lingqishi1995
+- Little One
 - LittleJinTRE
 - Liuyu1122
 - Lizo
 - Llang
+- Lnlts
 - LonZzz
 - LoopSpiner
 - Lotusmoon
@@ -377,6 +394,7 @@
 - Marsz413
 - Mathevellae
 - MediaWiki default
+- MediocreBlackMage
 - Meguri
 - MiaK
 - Miami
@@ -441,6 +459,7 @@
 - RonseThurro
 - S0870217
 - Sakuya
+- Saltywww
 - Sanbizes
 - Sanwu114514
 - Schwarzkatze
@@ -451,6 +470,7 @@
 - Sigmoni
 - Signalblue
 - Silas el
+- Sirrrrr
 - Site098
 - Sk2to3
 - Skipod
@@ -460,6 +480,7 @@
 - Stagger
 - Star1825
 - Starrrr
+- Startear
 - Stasi
 - Strike-AI
 - Sulisu
@@ -482,11 +503,13 @@
 - Valanthe
 - Vampile
 - Vanco
+- Verior
 - WT4D
 - WakaWakaMaya
 - Weare
 - Weems
 - Wendy159
+- Whenever
 - Whimilk
 - WhiteSprite
 - William531204
@@ -507,6 +530,7 @@
 - Ximena520
 - Xioalang2550
 - Xirfyi75
+- YOULINGJUN DOL
 - YangXiao5
 - YaoJiuQi
 - Ycy.
@@ -516,6 +540,7 @@
 - Yis
 - Yonehana
 - Ysgaos
+- Yuanver
 - Yukiviyugmail
 - Yukki
 - YunyouLi
@@ -553,6 +578,7 @@
 - 倒吊人
 - 倾娥
 - 克祖亞
+- 克迩瑞
 - 八月
 - 六黄
 - 冰墓
@@ -561,6 +587,7 @@
 - 千纸鹤
 - 千织
 - 南希
+- 卡戎
 - 卢本伟
 - 叶工叶
 - 吗喽
@@ -571,11 +598,13 @@
 - 哈哈哈
 - 啊什么黄油就不能认真玩了？
 - 四月温秋
+- 回
 - 回首易染
 - 地下室
 - 坏鹅
 - 垃圾
 - 塔塔木
+- 多玩
 - 夜牧
 - 大胯粉碎者
 - 天川紫
@@ -607,11 +636,14 @@
 - 拳皇贞德
 - 斯德哥爾摩重度患者
 - 方糖于杯中回转
+- 旷世灬水
 - 星涵是蠢狼
 - 昭雪
+- 是剑猫啊
 - 暗影無形
 - 板蓝根
 - 枫
+- 枫叶叶
 - 柒悠
 - 柠檬面包
 - 查查塞维
@@ -633,12 +665,15 @@
 - 渐起涟漪
 - 煎饼
 - 燎原
+- 狂三
 - 狗子
 - 猫头鹰玩偶
+- 玉米大王
 - 琉影
 - 琊樂
 - 用户不存在
 - 电飞鼠
+- 男娘入侵
 - 白思清
 - 白木捏猫
 - 白羊
@@ -662,6 +697,7 @@
 - 薇薇
 - 蚊子
 - 西里斯小店
+- 討厭組合包
 - 象牙幽灵抄抄我的
 - 轻灵
 - 轻语的风
@@ -672,11 +708,14 @@
 - 阿蒙3673
 - 陈泽
 - 陌年微凉
+- 雁棲
 - 零环零理想
 - 霜蓝梦凝
+- 韩信
 - 音银
 - 风息云淡
 - 风间 雫
+- 飞起爱
 - 鱼干不咸不要钱
 - 鸟之诗
 - 鸽子作者
@@ -712,10 +751,10 @@
 - DeepDark010
 - EdminZ
 - Eleus7
-- EndlessNull
 - Eudemonism00
 - EvolveCrow
 - FLCnhzmry
+- Fe-debuff
 - Fimmm
 - Fuyuhana
 - Ghost1420
@@ -740,7 +779,6 @@
 - Nep-Timeline
 - NkeoPatch
 - NumberSir
-- Otilia0372
 - Paul-16098
 - Pewds233
 - PichuChen
@@ -751,24 +789,23 @@
 - Riderdmyf
 - Rxase
 - SYK1494715212
+- Sacred-Evil
 - Satori114514
 - SevenHDoll
 - Sharkila
-- Shifinia
 - ShiroSakurairo
+- SilowArisu
 - Sleependermasn
 - SlimFight1
 - SnapSora
 - Sphaela
 - TillMist
 - Trenza1ore
-- Trkyuu
 - UphealLaw
 - Willy0v0
 - Wingcrae
 - Wyhemm
 - XonlookerX
-- XyMinxin
 - Y1uki
 - Ydm2
 - Zed660033
@@ -778,6 +815,7 @@
 - andyfrankbloop
 - asdll555
 - axuehe
+- ayanorz-cloud
 - bamfmiddle2
 - bd-star
 - becifia
@@ -797,11 +835,16 @@
 - ghost
 - gn02994106
 - godfandog
+- haitun202
 - hphhh222
 - hyakuyamikaera
+- iau713713713-crypto
 - ilokju
+- istkburgerking
+- iwndgqowkrbyw
 - kateW223
 - kinogi
+- kuri4002
 - lemon1119
 - len0112
 - liangchengjiuren
@@ -811,6 +854,7 @@
 - loflfo
 - luckydeer136
 - luke72927
+- m1100300108
 - macaca1014
 - magicchuchu
 - manbck
@@ -822,7 +866,6 @@
 - morrisan428
 - nasekaoru202
 - nekobolo1
-- nerine0
 - newbie-forever
 - orishimo010
 - ouo30
@@ -838,14 +881,15 @@
 - scarywhale
 - sgj123456
 - shanmujiuya
-- sheepog
 - shenqide5
 - shovel25231
+- shugu2731-blip
 - si1ence1895
 - sm1234xt
 - sugy491366
 - titituto
 - toritorisuki
+- tracyj520520-byte
 - tutuzi618
 - uhohohoho
 - ujhfjosnfksd
@@ -864,14 +908,12 @@
 - xixia0516
 - xlx-165
 - xuguanpeng
-- xurui165023
 - xzhxtl
 - xzyl4303
 - y5353030
 - yanm66
 - yimoandloucy
 - yinleirenlxy
-- yoyoliu9189
 - yuban01652
 - yukko12345
 - yundixx
