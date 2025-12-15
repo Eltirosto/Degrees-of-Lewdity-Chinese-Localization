@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20251214
+> 20251215
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -332,6 +332,7 @@
 - K2496745900
 - Kacastic
 - Kadmz
+- Kagamine rinrin
 - Kaidezhishang
 - Kalopsia
 - Kamoeth
