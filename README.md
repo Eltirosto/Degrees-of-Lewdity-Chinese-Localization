@@ -212,6 +212,17 @@
 <details>
 <summary>点击展开</summary>
 
+> 2025.12.28
+> - 发布 `dol-0.5.7.7-chs-3.0.1a` 版
+>   - 模组加载器更新至 v2.101.1
+>   - 修复了怀孕设置相关问题 [@issue/534][issue534]
+>   - 修正了狐灵面具翻译问题 [@issue-dc/129][issue-dc129]
+>   - 修正了妓院剧情相关文本的汉化 [@issue-dc/130][issue-dc130]
+>   - 修正了神殿剧情相关文本的汉化 [@issue-dc/131][issue-dc131]
+>   - 修复了血月苍白史莱姆剧情相关的问题 [@issue-dc/132][issue-dc132]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2025.12.15
 > - 发布 `dol-0.5.6.10-chs-0.1.3a` 版
 >   - 修复了更新衣服中文的功能导致的模组服装弹窗提示问题
@@ -1473,6 +1484,7 @@
 [issue526]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/526
 [issue527]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/527
 [issue528]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/528
+[issue534]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/534
 
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
@@ -1602,3 +1614,7 @@
 [issue-dc126]: https://discord.com/channels/1103864219620884560/1430982312312705186
 [issue-dc127]: https://discord.com/channels/1103864219620884560/1449668844003266570
 [issue-dc128]: https://discord.com/channels/1103864219620884560/1449715334369120308
+[issue-dc129]: https://discord.com/channels/1103864219620884560/1450457923082911897
+[issue-dc130]: https://discord.com/channels/1103864219620884560/1451206767869558884
+[issue-dc131]: https://discord.com/channels/1103864219620884560/1451470971675345089
+[issue-dc132]: https://discord.com/channels/1103864219620884560/1453331617014874262

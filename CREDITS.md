@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20251215
+> 20251228
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -20,6 +20,7 @@
 - Aeserchengzi
 - Airiowo6181(Airi_owo)
 - Albedoui
+- Anahita-C(纯纯)
 - AnselCl(Quintillus)
 - ApostateJulian(ApostateJulian)
 - AshoreFall(Ashore)
@@ -188,6 +189,7 @@
 - 19543739060lwj
 - 1tt1e 1219
 - 2403428122a
+- 2403428122a1
 - 259172社
 - 2Bdada
 - 404bk
@@ -230,6 +232,7 @@
 - Ayndpa
 - Ayusai13
 - BV1yp4y1x7Sb
+- Bad apple
 - Baijia
 - Baiyan
 - Beambook
@@ -247,6 +250,7 @@
 - Charl the Internet User
 - Cheam
 - ChenItse
+- CherryQWQ
 - ChiESe
 - Chiangchiang
 - Chikus
@@ -282,6 +286,7 @@
 - EmailChan
 - Emily102101081
 - Ensadc
+- Ephra1982
 - Estella Clockwork
 - Eudemonism00
 - F.melody
@@ -338,6 +343,7 @@
 - Kamoeth
 - Kanelink
 - Khaos423
+- Ki2333
 - Kinvinyl
 - Kirayue
 - Kkkkjl
@@ -408,6 +414,7 @@
 - Mist007
 - Miyako4828
 - MochaAD
+- Molee
 - Moliqiu1
 - Momo(afk)
 - Momoku1112
@@ -580,6 +587,7 @@
 - 倾娥
 - 克祖亞
 - 克迩瑞
+- 兔子是素的
 - 八月
 - 六黄
 - 冰墓
@@ -594,6 +602,7 @@
 - 吗喽
 - 命乌
 - 命时
+- 咕咕月
 - 咪咪123
 - 咸海顿
 - 哈哈哈
@@ -672,6 +681,7 @@
 - 玉米大王
 - 琉影
 - 琊樂
+- 琛
 - 用户不存在
 - 电飞鼠
 - 男娘入侵
@@ -717,6 +727,7 @@
 - 风息云淡
 - 风间 雫
 - 飞起爱
+- 鬼鬼鬼鬼刀
 - 鱼干不咸不要钱
 - 鸟之诗
 - 鸽子作者
@@ -758,13 +769,13 @@
 - Fe-debuff
 - Fimmm
 - Fuyuhana
-- Ghost1420
 - Gionaqiaonai
 - GuHaiYin
 - HAL900O
 - Ham-desu
 - Jemella7
 - Kagamine-Rinrin
+- KulfVolk
 - Likefu1
 - LitcheKing
 - MCxiaoai
@@ -826,6 +837,7 @@
 - branpurnae
 - bwhmtyp
 - creeping1023
+- dfs3251
 - dizzyfall258
 - dufy2000
 - fcy10012
@@ -856,7 +868,6 @@
 - luckydeer136
 - luke72927
 - m1100300108
-- macaca1014
 - magicchuchu
 - manbck
 - mark2330
