@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欲都孤儿 - 下载页面</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            /* Light Theme (Default) */
+            --base-bg: #F2F2F7;
+            --base-gray-cool: #F9F9FB;
+            --surface-white: rgba(255, 255, 255, 0.6);
+            --surface-white-solid: rgba(255, 255, 255, 0.85);
+            --text-primary: #1C1C1E;
+            --text-secondary: #6B6B6F;
+            --text-tertiary: #8E8E93;
+            --accent-primary: #1C1C1E;
+            --accent-primary-hover: #2C2C2E;
+            --accent-secondary: #06B6D4;
+            --accent-secondary-hover: #0891B2;
+            --accent-warning: #FF9500;
+            --accent-danger: #FF3B30;
+            --discord-color: #5865F2;
+            --baidu-color: #3C8CFF;
+            --wiki-color: #FF6B6B;
+            --border-light: rgba(255, 255, 255, 0.6);
+            --border-outer: rgba(209, 209, 214, 0.4);
+            --border-subtle: rgba(0, 0, 0, 0.06);
+            --shadow-float: 0 24px 48px -12px rgba(0, 0, 0, 0.08);
+            --shadow-card: 0 12px 32px -8px rgba(0, 0, 0, 0.06);
+            --shadow-inset: inset 0 2px 4px rgba(0, 0, 0, 0.04);
+            --icon-bg: rgba(0, 0, 0, 0.04);
+            --table-header-bg: #1C1C1E;
+            --table-header-text: #FFFFFF;
+            --radius-md: 16px;
+            --radius-lg: 20px;
+            --radius-xl: 28px;
+            --radius-2xl: 40px;
+        }
+
+        [data-theme="dark"] {
+            --base-bg: #1C1C1E;
+            --base-gray-cool: #2C2C2E;
+            --surface-white: rgba(44, 44, 46, 0.8);
+            --surface-white-solid: rgba(44, 44, 46, 0.95);
+            --text-primary: #F5F5F7;
+            --text-secondary: #A1A1A6;
+            --text-tertiary: #6E6E73;
+            --accent-primary: #F5F5F7;
+            --accent-primary-hover: #FFFFFF;
+            --accent-secondary: #22D3EE;
+            --accent-secondary-hover: #67E8F9;
+            --accent-warning: #FFB340;
+            --accent-danger: #FF453A;
+            --discord-color: #7289DA;
+            --baidu-color: #5AA0FF;
+            --wiki-color: #FF8080;
+            --border-light: rgba(255, 255, 255, 0.1);
+            --border-outer: rgba(255, 255, 255, 0.08);
+            --border-subtle: rgba(255, 255, 255, 0.06);
+            --shadow-float: 0 24px 48px -12px rgba(0, 0, 0, 0.4);
+            --shadow-card: 0 12px 32px -8px rgba(0, 0, 0, 0.3);
+            --shadow-inset: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+            --icon-bg: rgba(255, 255, 255, 0.08);
+            --table-header-bg: #3A3A3C;
+            --table-header-text: #F5F5F7;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+            background: var(--base-bg);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Theme Toggle */
+        .theme-toggle {
+            position: fixed;
+            top: 24px;
+            right: 24px;
+            z-index: 1001;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--surface-white-solid);
+            backdrop-filter: blur(40px);
+            -webkit-backdrop-filter: blur(40px);
+            padding: 8px;
+            border-radius: 50px;
+            border: 1px solid var(--border-outer);
+            box-shadow: var(--shadow-card);
+        }
+
+        .theme-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            color: var(--text-tertiary);
+        }
+
+        .theme-btn:hover {
+            background: var(--icon-bg);
+        }
+
+        .theme-btn.active {
+            background: var(--accent-primary);
+            color: var(--base-bg);
+        }
+
+        .theme-btn i {
+            width: 20px;
+            height: 20px;
+            stroke-width: 2;
+        }
+
+        /* Header */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(242, 242, 247, 0.8);
+            backdrop-filter: blur(40px);
+            -webkit-backdrop-filter: blur(40px);
+            border-bottom: 1px solid var(--border-outer);
+            padding: 16px 0;
+            transition: background-color 0.3s ease;
+        }
+
+        [data-theme="dark"] header {
+            background: rgba(28, 28, 30, 0.8);
+        }
+
+        .header-inner {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .logo {
+            width: 40px;
+            height: 40px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow-card);
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .logo-text {
+            font-size: 1.25rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+        }
+
+        /* Main Content */
+        .main-content {
+            padding: 40px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        /* Glass Card */
+        .glass-card {
+            background: var(--surface-white);
+            backdrop-filter: blur(50px);
+            -webkit-backdrop-filter: blur(50px);
+            border-radius: var(--radius-2xl);
+            padding: 40px;
+            border: 1px solid var(--border-light);
+            box-shadow:
+                var(--shadow-card),
+                inset 0 1px 0 var(--border-light),
+                0 0 0 1px var(--border-outer);
+        }
+
+        /* Section Label & Title */
+        .section-label {
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            margin-bottom: 8px;
+        }
+
+        .section-title {
+            font-size: 1.75rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 24px;
+        }
+
+        .section-subtitle {
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+            color: var(--text-primary);
+            margin: 32px 0 16px;
+        }
+
+        /* Description Text */
+        .description {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .highlight {
+            color: var(--accent-secondary);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .highlight:hover {
+            text-decoration: underline;
+        }
+
+        .danger-text {
+            color: var(--accent-danger);
+            font-weight: 700;
+        }
+
+        /* Collapsible Explanation */
+        .collapsible {
+            background: var(--surface-white-solid);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border-outer);
+            overflow: hidden;
+            margin-bottom: 24px;
+            box-shadow: var(--shadow-card);
+        }
+
+        .collapsible-header {
+            padding: 20px 24px;
+            background: var(--icon-bg);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.2s ease;
+            user-select: none;
+        }
+
+        .collapsible-header:hover {
+            background: rgba(0, 0, 0, 0.06);
+        }
+
+        [data-theme="dark"] .collapsible-header:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .collapsible-header:active {
+            transform: scale(0.995);
+        }
+
+        .collapsible-header h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .collapsible-header h3 i {
+            width: 20px;
+            height: 20px;
+            color: var(--text-secondary);
+            stroke-width: 1.5;
+        }
+
+        .toggle-icon {
+            width: 20px;
+            height: 20px;
+            color: var(--text-tertiary);
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            stroke-width: 2;
+        }
+
+        .collapsible-header.expanded .toggle-icon {
+            transform: rotate(180deg);
+        }
+
+        .collapsible-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .collapsible-content.expanded {
+            max-height: 3000px;
+        }
+
+        .collapsible-inner {
+            padding: 24px;
+            border-top: 1px solid var(--border-outer);
+        }
+
+        /* Explanation Grid */
+        .explanation-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+        }
+
+        .explanation-card {
+            background: var(--surface-white);
+            border-radius: var(--radius-md);
+            padding: 20px;
+            border: 1px solid var(--border-outer);
+            transition: all 0.2s ease;
+        }
+
+        .explanation-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-card);
+        }
+
+        .explanation-card .file-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border-outer);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .explanation-card .file-title i {
+            width: 18px;
+            height: 18px;
+            color: var(--text-secondary);
+            stroke-width: 1.5;
+        }
+
+        .explanation-card .file-description {
+            font-size: 0.9rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
+
+        .explanation-card .file-description img {
+            margin: 12px 0;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-card);
+        }
+
+        /* Button Group */
+        .button-group {
+            display: flex;
+            gap: 16px;
+            margin-top: 32px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 14px 28px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            letter-spacing: -0.01em;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            border: none;
+            cursor: pointer;
+            box-shadow: var(--shadow-card);
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        .btn-primary {
+            background: var(--accent-primary);
+            color: var(--base-bg);
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-primary-hover);
+            box-shadow: var(--shadow-float);
+        }
+
+        .btn-secondary {
+            background: var(--accent-secondary);
+            color: #FFFFFF;
+        }
+
+        [data-theme="dark"] .btn-secondary {
+            color: #1C1C1E;
+        }
+
+        .btn-secondary:hover {
+            background: var(--accent-secondary-hover);
+            box-shadow: var(--shadow-float);
+        }
+
+        .btn i {
+            width: 18px;
+            height: 18px;
+            stroke-width: 2;
+        }
+
+        /* Download Table */
+        .table-wrapper {
+            overflow-x: auto;
+            margin-top: 20px;
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border-outer);
+            background: var(--surface-white-solid);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 700px;
+        }
+
+        thead {
+            background: var(--table-header-bg);
+        }
+
+        th {
+            padding: 18px 20px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.85rem;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            color: var(--table-header-text);
+        }
+
+        tbody tr {
+            border-bottom: 1px solid var(--border-outer);
+            transition: background 0.15s ease;
+        }
+
+        tbody tr:last-child {
+            border-bottom: none;
+        }
+
+        tbody tr:hover {
+            background: rgba(0, 0, 0, 0.02);
+        }
+
+        td {
+            padding: 18px 20px;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .file-name {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .hash-value {
+            font-family: 'SF Mono', 'Fira Code', monospace;
+            font-size: 0.8rem;
+            color: var(--accent-warning);
+            word-break: break-all;
+            background: rgba(255, 149, 0, 0.08);
+            padding: 6px 10px;
+            border-radius: 8px;
+        }
+
+        .download-links a {
+            color: var(--accent-secondary);
+            font-weight: 600;
+            text-decoration: none;
+            margin-right: 12px;
+            white-space: nowrap;
+        }
+
+        .download-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Update Log */
+        .update-log {
+            background: rgba(0, 0, 0, 0.02);
+            border-radius: var(--radius-md);
+            padding: 20px 24px;
+            margin-bottom: 24px;
+            border: 1px solid var(--border-outer);
+        }
+
+        .update-log p {
+            font-size: 0.95rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+
+        /* Links Grid */
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 20px;
+            margin-top: 24px;
+        }
+
+        .link-card {
+            background: var(--surface-white-solid);
+            border-radius: var(--radius-xl);
+            padding: 28px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid var(--border-outer);
+            box-shadow: var(--shadow-card);
+        }
+
+        .link-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-float);
+        }
+
+        .link-card-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+            box-shadow: var(--shadow-inset);
+        }
+
+        .link-card-icon i {
+            width: 26px;
+            height: 26px;
+            stroke-width: 1.5;
+        }
+
+        .link-card-icon svg {
+            width: 26px;
+            height: 26px;
+        }
+
+        .link-card.discord .link-card-icon {
+            background: rgba(88, 101, 242, 0.12);
+        }
+
+        .link-card.discord .link-card-icon svg {
+            fill: var(--discord-color);
+        }
+
+        .link-card.baidu .link-card-icon {
+            background: transparent;
+        }
+
+        .link-card.baidu .link-card-icon svg {
+            border-radius: 6px;
+        }
+
+        .link-card.wiki .link-card-icon {
+            background: rgba(255, 107, 107, 0.12);
+        }
+
+        .link-card.wiki .link-card-icon i {
+            color: var(--wiki-color);
+        }
+
+        .link-card h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+        }
+
+        .link-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 12px 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        .link-btn:active {
+            transform: scale(0.95);
+        }
+
+        .link-card.discord .link-btn {
+            background: rgba(88, 101, 242, 0.12);
+            color: var(--discord-color);
+            border: 1px solid rgba(88, 101, 242, 0.3);
+        }
+
+        .link-card.discord .link-btn:hover {
+            background: var(--discord-color);
+            color: #FFFFFF;
+        }
+
+        .link-card.baidu .link-btn {
+            background: rgba(60, 140, 255, 0.12);
+            color: var(--baidu-color);
+            border: 1px solid rgba(60, 140, 255, 0.3);
+        }
+
+        .link-card.baidu .link-btn:hover {
+            background: var(--baidu-color);
+            color: #FFFFFF;
+        }
+
+        .link-card.wiki .link-btn {
+            background: rgba(255, 107, 107, 0.12);
+            color: var(--wiki-color);
+            border: 1px solid rgba(255, 107, 107, 0.3);
+        }
+
+        .link-card.wiki .link-btn:hover {
+            background: var(--wiki-color);
+            color: #FFFFFF;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 32px 24px;
+            color: var(--text-tertiary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border-outer);
+            margin-top: 24px;
+        }
+
+        footer p {
+            font-weight: 500;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .theme-toggle {
+                top: 16px;
+                right: 16px;
+                padding: 6px;
+            }
+
+            .theme-btn {
+                width: 36px;
+                height: 36px;
+            }
+
+            .container {
+                padding: 0 16px;
+            }
+
+            .main-content {
+                padding: 24px 0;
+                gap: 24px;
+            }
+
+            .glass-card {
+                padding: 28px 20px;
+                border-radius: var(--radius-xl);
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .links-grid {
+                grid-template-columns: 1fr;
+            }
+
+            th, td {
+                padding: 14px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Theme Toggle -->
+<div class="theme-toggle">
+    <button class="theme-btn" id="theme-light" title="浅色模式">
+        <i data-lucide="sun"></i>
+    </button>
+    <button class="theme-btn" id="theme-system" title="跟随系统">
+        <i data-lucide="monitor"></i>
+    </button>
+    <button class="theme-btn" id="theme-dark" title="深色模式">
+        <i data-lucide="moon"></i>
+    </button>
+</div>
+
+<header>
+    <div class="container">
+        <div class="header-inner">
+            <div class="logo">
+                <img src="https://gitgud.io/uploads/-/system/user/avatar/9096/avatar.png" alt="Logo">
+            </div>
+            <div class="logo-text">欲都孤儿 · 下载</div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="main-content">
+
+        <!-- Intro Section -->
+        <section class="glass-card">
+            <span class="section-label">DOWNLOAD</span>
+            <h2 class="section-title">简要说明</h2>
+
+            <p class="description">
+                本页面将会不定期更新 DoL / 欲都孤儿的简体中文本地化版本下载链接，仅供交流学习，请于下载后 24 小时内删除。如果你未满 18 岁，请勿下载此游戏。<strong>对在其它平台下载的汉化游戏文件不保证安全性，请谨慎下载。</strong>
+            </p>
+            <p class="description">
+                <strong>本游戏完全免费游玩</strong>，<span class="danger-text">严禁</span>将中文本地化版本用作商业盈利用途或公开大肆传播，对于商业盈利或公开传播导致的可能法律后果完全由使用者自行承担，与汉化成员无关。
+            </p>
+            <p class="description">
+                如在游玩过程中遇到任何问题，或对汉化文本有建议，请<a class="highlight" href="https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/new/choose">在此处</a>反馈，反馈时请附上出现问题时的截图及游戏存档文件，在其它平台反馈问题可能得不到回应。<strong>请注意，反馈处仅解决由游戏汉化版本导致的问题</strong>，如果问题在英文版能复现，请去<a class="highlight" href="https://discord.gg/VznUtEh">英文版官方 Discord 服务器</a>反映。
+            </p>
+
+            <!-- File Explanation Collapsible -->
+            <h3 class="section-subtitle">下载文件的含义</h3>
+            <div class="collapsible">
+                <div class="collapsible-header" id="file-toggle">
+                    <h3>
+                        <i data-lucide="file-archive"></i>
+                        点击查看 文件名称详细说明
+                    </h3>
+                    <i data-lucide="chevron-down" class="toggle-icon"></i>
+                </div>
+                <div class="collapsible-content" id="file-content">
+                    <div class="collapsible-inner">
+                        <div class="explanation-grid">
+                            <div class="explanation-card">
+                                <div class="file-title">
+                                    <i data-lucide="file-archive"></i>
+                                    DoL-ModLoader-xxx.<span class="highlight">zip</span>
+                                </div>
+                                <p class="file-description">注入模组加载器的 DoL 游戏本体，需要<span class="highlight">首先解压</span>出 HTML 文件，然后<span class="highlight">在浏览器中</span>打开 HTML 文件游玩。<span class="highlight">自身不包含图片和汉化</span></p>
+                            </div>
+                            <div class="explanation-card">
+                                <div class="file-title">
+                                    <i data-lucide="smartphone"></i>
+                                    DoL-ModLoader-xxx.<span class="highlight">apk</span>
+                                </div>
+                                <p class="file-description">使用汉化组统一签名的安卓应用程序包，可以直接在<span class="highlight">安卓系统</span>上安装、更新与运行。<span class="highlight">自身不包含图片和汉化</span></p>
+                            </div>
+                            <div class="explanation-card">
+                                <div class="file-title">
+                                    <i data-lucide="shield"></i>
+                                    DoL-ModLoader-xxx-<span class="highlight">polyfill</span>.xxx
+                                </div>
+                                <p class="file-description">其余同上，针对较旧版本的浏览器内核进行了一定程度的兼容，当名称中<span class="highlight">不含</span> polyfill 的游戏本体无法正常运行时，请下载名称中<span class="highlight">含</span> polyfill 的文件运行。</p>
+                            </div>
+                            <div class="explanation-card">
+                                <div class="file-title">
+                                    <i data-lucide="languages"></i>
+                                    ModI18N-xxx.mod.zip
+                                </div>
+                                <p class="file-description">"汉化包"，包含完整的游戏汉化文本，需要通过模组加载器加载以实现游戏汉化</p>
+                            </div>
+                            <div class="explanation-card">
+                                <div class="file-title">
+                                    <i data-lucide="image"></i>
+                                    GameOriginalImagePack-xxx.mod.zip
+                                </div>
+                                <p class="file-description">"图片包"，包含完整的游戏图片文件，需要通过模组加载器加载以在游戏内显示图片</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tutorial Collapsible -->
+            <h3 class="section-subtitle">如何加载汉化包与图片包</h3>
+            <div class="collapsible">
+                <div class="collapsible-header" id="tutorial-toggle">
+                    <h3>
+                        <i data-lucide="book-open"></i>
+                        点击查看 加载模组说明
+                    </h3>
+                    <i data-lucide="chevron-down" class="toggle-icon"></i>
+                </div>
+                <div class="collapsible-content" id="tutorial-content">
+                    <div class="collapsible-inner">
+                        <div class="explanation-grid">
+                            <div class="explanation-card">
+                                <div class="file-title">
+                                    <i data-lucide="download"></i>
+                                    如果首次下载及安装模组
+                                </div>
+                                <p class="file-description">
+                                    1. 请点击游戏屏幕左下角的<span class="highlight">Mod管理器</span>按钮打开加载器界面，如果使用的是电脑，也可以通过快捷键<span class="highlight"> Alt+M </span>打开/关闭加载器界面
+                                    <br><br>
+                                    <img src="tp1.jpg" alt="步骤1" style="width: 60%; max-width: 300px;">
+                                    <br><br>
+                                    2. 请找到<span class="highlight">添加/移除Mod</span>一栏，点击<span class="highlight">选择文件</span>按钮并选中先前下载的汉化包<span class="highlight">ModI18N-xxx.mod.zip</span>文件
+                                    <br><br>
+                                    3. 请点击旁边的<span class="highlight">添加旁加载Mod</span>按钮，看到页面上显示<span class="highlight">Success. 刷新页面后生效</span>后
+                                    <br><br>
+                                    4. 再次点击<span class="highlight">选择文件</span>按钮并选中先前下载的图片包<span class="highlight">GameOriginalImagePack.mod.zip</span>文件
+                                    <br><br>
+                                    5. 再次点击旁边的<span class="highlight">添加旁加载Mod</span>按钮，看到页面上显示<span class="highlight">Success. 刷新页面后生效</span>后
+                                    <br><br>
+                                    <img src="tp2.jpg" alt="步骤2" style="width: 60%; max-width: 300px;">
+                                    <br><br>
+                                    6. 请回到界面顶部点击<span class="highlight">重新载入</span>按钮，如果你在使用浏览器游玩，也可以直接刷新页面
+                                    <br><br>
+                                    <img src="tp3.jpg" alt="步骤3" style="width: 60%; max-width: 300px;">
+                                    <br><br>
+                                    7. 如果一切正常，现在游戏应该已经有汉化和图片
+                                    <br><br>
+                                    8. 如果仍然没有汉化或没有图片，请在Mod管理器界面顶部检查是否启用了<span class="highlight">安全模式</span>，如果启用了，请禁用安全模式后，点击<span class="highlight">重新载入</span>按钮或直接刷新页面。
+                                </p>
+                            </div>
+                            <div class="explanation-card">
+                                <div class="file-title">
+                                    <i data-lucide="refresh-cw"></i>
+                                    如果需要更新已经安装过的模组
+                                </div>
+                                <p class="file-description">
+                                    1. 打开模组加载器
+                                    <br><br>
+                                    2. 在<span class="highlight">添加/移除Mod</span>一栏，点击<span class="highlight">选择文件</span>选中新的模组文件
+                                    <br><br>
+                                    3. 点击旁边的<span class="highlight">添加旁加载Mod</span>按钮，看到页面上显示<span class="highlight">Success. 刷新页面后生效</span>后
+                                    <br><br>
+                                    4. 重复添加所有需要更新的模组
+                                    <br><br>
+                                    5. 请回到界面顶部点击<span class="highlight">重新载入</span>按钮，如果你在使用浏览器游玩，也可以直接刷新页面
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-group">
+                <a href="https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization" class="btn btn-primary" target="_blank">
+                    <i data-lucide="github"></i>
+                    返回仓库
+                </a>
+                <a href="index.html" class="btn btn-secondary" target="_blank">
+                    <i data-lucide="play"></i>
+                    在线游玩
+                </a>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+        <section class="glass-card">
+            <span class="section-label">LATEST RELEASE</span>
+            <h2 class="section-title">最新版下载</h2>
+            <p class="description">此处仅列出最新汉化版，如需下载旧版本游戏请查看<a class="highlight" href="https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/releases">历史发布页面</a></p>
+
+            <h3 class="section-subtitle">更新日志</h3>
+            <div class="update-log">
+                <p>
+                    发布 dol-0.5.6.10-chs-0.1.2a 版<br>
+                    修复了更新衣服中文的功能导致的模组服装弹窗提示问题<br>
+                    修复了神殿忏悔室一处翻译问题 <a class="highlight" href="https://discord.com/channels/1103864219620884560/1449668844003266570">@issue-dc/127</a><br>
+                    修复了一处与衣柜显示相关的问题 <a class="highlight" href="https://discord.com/channels/1103864219620884560/1449715334369120308">@issue-dc/128</a><br>
+                    修复了一些其他已知问题
+                </p>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>下载地址</th>
+                        <th>文件名</th>
+                        <th>SHA256</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="download-links">
+                            <a href="https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/releases/download/v0.5.6.10-chs-0.1.3a/ModI18N-0.5.6.10-chs-0.1.3a.mod.zip">GitHub</a>
+                            <a href="https://ghfast.top/https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/releases/download/v0.5.6.10-chs-0.1.3a/ModI18N-0.5.6.10-chs-0.1.3a.mod.zip">镜像</a>
+                        </td>
+                        <td class="file-name">ModI18N-0.5.6.10-chs-0.1.3a.mod.zip</td>
+                        <td><span class="hash-value">a1b2c3d4e5f67890123456789abcdef0123456789abcdef0123456789abcdef</span></td>
+                    </tr>
+                    <tr>
+                        <td class="download-links">
+                            <a href="https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/releases/download/v0.5.6.10-chs-0.1.3a/GameOriginalImagePack-0.5.6.10.mod.zip">GitHub</a>
+                            <a href="https://ghfast.top/https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/releases/download/v0.5.6.10-chs-0.1.3a/GameOriginalImagePack-0.5.6.10.mod.zip">镜像</a>
+                        </td>
+                        <td class="file-name">GameOriginalImagePack-0.5.6.10.mod.zip</td>
+                        <td><span class="hash-value">a1b2c3d4e5f67890123456789abcdef0123456789abcdef0123456789abcdef</span></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Links Section -->
+        <section class="glass-card">
+            <span class="section-label">COMMUNITY</span>
+            <h2 class="section-title">相关链接</h2>
+
+            <div class="links-grid">
+                <div class="link-card discord">
+                    <div class="link-card-icon">
+                        <!-- Discord Official Logo -->
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/>
+                        </svg>
+                    </div>
+                    <h3>汉化版 Discord 服务器</h3>
+                    <a href="https://discord.gg/WZ23YF9bSY" target="_blank" class="link-btn">加入 Discord</a>
+                </div>
+
+                <div class="link-card baidu">
+                    <div class="link-card-icon">
+                        <!-- Tieba (百度贴吧) Official Logo -->
+                        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <rect height="62" rx="6" style="fill:#4053a0" width="62" x="1" y="1"/>
+                            <path d="M57,1H7A6,6,0,0,0,1,7V17A22,22,0,0,0,23,39H41A22,22,0,0,0,63,17V7A6,6,0,0,0,57,1Z" style="fill:#4d64bf"/>
+                            <path d="M57,1H7A6,6,0,0,0,1,7v4A6,6,0,0,1,7,5H57a6,6,0,0,1,6,6V7A6,6,0,0,0,57,1Z" style="fill:#5e7beb"/>
+                            <path d="M57,59H7a6,6,0,0,1-6-6v4a6,6,0,0,0,6,6H57a6,6,0,0,0,6-6V53A6,6,0,0,1,57,59Z" style="fill:#31407a"/>
+                            <rect height="12" rx="4" style="fill:#fff" width="8" x="44" y="24"/>
+                            <rect height="12" rx="4" style="fill:#fff" width="8" x="12" y="24"/>
+                            <ellipse cx="26" cy="17" rx="5" ry="7" style="fill:#fff"/>
+                            <ellipse cx="40" cy="17" rx="5" ry="7" style="fill:#fff"/>
+                            <path d="M42.322,37.322l-1.716-1.716a14,14,0,0,1-2.622-3.638L37.9,31.8a6.733,6.733,0,0,0-4.465-3.638,6.479,6.479,0,0,0-7.222,3.42l-.2.39a14,14,0,0,1-2.623,3.639l-1.712,1.712a3.648,3.648,0,0,1-1.324.877,8.393,8.393,0,0,0-5.2,6.2A8.008,8.008,0,0,0,23,54h.319a11.976,11.976,0,0,0,3.3-.462l.988-.282a16,16,0,0,1,8.792,0l.988.282a11.976,11.976,0,0,0,3.3.462h.045A8.184,8.184,0,0,0,48.9,47.3a8.353,8.353,0,0,0-5.253-9.1A3.629,3.629,0,0,1,42.322,37.322Z" style="fill:#fff"/>
+                            <path d="M28.5,39.5H26a5.5,5.5,0,0,0,0,11h4A1.5,1.5,0,0,0,31.5,49V35h-3Zm0,8H26a2.5,2.5,0,0,1,0-5h2.5Z" style="fill:#4053a0"/>
+                            <path d="M39.5,40v7.5H36a.5.5,0,0,1-.5-.5V40h-3v7A3.5,3.5,0,0,0,36,50.5h5A1.5,1.5,0,0,0,42.5,49V40Z" style="fill:#4053a0"/>
+                            <rect height="1" style="fill:#31407a" width="3" x="28.5" y="35"/>
+                            <path d="M23.551,45.5A2.5,2.5,0,0,0,26,48.5h2.5v-1H26A2.5,2.5,0,0,1,23.551,45.5Z" style="fill:#31407a"/>
+                            <path d="M26,40.5h2.5v-1H26A5.506,5.506,0,0,0,20.5,45c0,.169.01.335.025.5A5.506,5.506,0,0,1,26,40.5Z" style="fill:#31407a"/>
+                            <path d="M36,48.5h3.5v-1H36a.5.5,0,0,1-.5-.5v1A.5.5,0,0,0,36,48.5Z" style="fill:#31407a"/>
+                            <rect height="1" style="fill:#31407a" width="3" x="39.5" y="40"/>
+                            <rect height="1" style="fill:#31407a" width="3" x="32.5" y="40"/>
+                            <path d="M48,36a4,4,0,0,1-4-4v3a4,4,0,0,0,8,0V32A4,4,0,0,1,48,36Z" style="fill:#31407a"/>
+                            <path d="M20,35V32a4,4,0,0,1-8,0v3a4,4,0,0,0,8,0Z" style="fill:#31407a"/>
+                            <path d="M26,27c2.761,0,5-3.134,5-7a9.664,9.664,0,0,0-.118-1.5C30.391,21.644,28.393,24,26,24s-4.391-2.356-4.882-5.5A9.664,9.664,0,0,0,21,20C21,23.866,23.239,27,26,27Z" style="fill:#31407a"/>
+                            <path d="M40,27c2.761,0,5-3.134,5-7a9.664,9.664,0,0,0-.118-1.5C44.391,21.644,42.393,24,40,24s-4.391-2.356-4.882-5.5A9.664,9.664,0,0,0,35,20C35,23.866,37.239,27,40,27Z" style="fill:#31407a"/>
+                            <path d="M40.726,54h-.045a11.976,11.976,0,0,1-3.3-.462l-.988-.282a16,16,0,0,0-8.792,0l-.988.282a11.976,11.976,0,0,1-3.3.462H23a8,8,0,0,1-7.854-6.53A8,8,0,0,0,23,57h.319a11.976,11.976,0,0,0,3.3-.462l.988-.282a16,16,0,0,1,8.792,0l.988.282a11.976,11.976,0,0,0,3.3.462h.045A8.184,8.184,0,0,0,48.9,50.3a8.281,8.281,0,0,0-.04-2.808A8.194,8.194,0,0,1,40.726,54Z" style="fill:#31407a"/>
+                        </svg>
+                    </div>
+                    <h3>百度贴吧</h3>
+                    <a href="https://tieba.baidu.com/f?kw=dol" target="_blank" class="link-btn">访问贴吧</a>
+                </div>
+
+                <div class="link-card wiki">
+                    <div class="link-card-icon">
+                        <i data-lucide="book-marked"></i>
+                    </div>
+                    <h3>中文维基</h3>
+                    <a href="https://degreesoflewditycn.miraheze.org/" target="_blank" class="link-btn">访问维基</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <p>© 2023 欲都孤儿汉化组 · 本页面托管于 GitHub Pages</p>
+    </div>
+</footer>
+
+<script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+
+    // Collapsible functionality
+    function setupCollapsible(toggleId, contentId) {
+        const toggle = document.getElementById(toggleId);
+        const content = document.getElementById(contentId);
+
+        toggle.addEventListener('click', function() {
+            content.classList.toggle('expanded');
+            this.classList.toggle('expanded');
+        });
+    }
+
+    setupCollapsible('file-toggle', 'file-content');
+    setupCollapsible('tutorial-toggle', 'tutorial-content');
+
+    // Theme Management
+    const ThemeManager = {
+        STORAGE_KEY: 'dol-theme-preference',
+
+        init() {
+            this.lightBtn = document.getElementById('theme-light');
+            this.systemBtn = document.getElementById('theme-system');
+            this.darkBtn = document.getElementById('theme-dark');
+
+            // Load saved preference or default to system
+            const saved = localStorage.getItem(this.STORAGE_KEY) || 'system';
+            this.setTheme(saved);
+
+            // Event listeners
+            this.lightBtn.addEventListener('click', () => this.setTheme('light'));
+            this.systemBtn.addEventListener('click', () => this.setTheme('system'));
+            this.darkBtn.addEventListener('click', () => this.setTheme('dark'));
+
+            // Listen for system theme changes
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+                if (localStorage.getItem(this.STORAGE_KEY) === 'system') {
+                    this.applyTheme(e.matches ? 'dark' : 'light');
+                }
+            });
+        },
+
+        setTheme(preference) {
+            localStorage.setItem(this.STORAGE_KEY, preference);
+
+            // Update button states
+            this.lightBtn.classList.toggle('active', preference === 'light');
+            this.systemBtn.classList.toggle('active', preference === 'system');
+            this.darkBtn.classList.toggle('active', preference === 'dark');
+
+            // Apply actual theme
+            if (preference === 'system') {
+                const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                this.applyTheme(isDark ? 'dark' : 'light');
+            } else {
+                this.applyTheme(preference);
+            }
+        },
+
+        applyTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+        }
+    };
+
+    // Initialize theme manager
+    ThemeManager.init();
+</script>
+
+</body>
+</html>
