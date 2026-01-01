@@ -43,6 +43,7 @@ jobs:
           repository: "NumberSir/DoL-I18n-Build"
           latest: true
           fileName: "ModI18N-*.mod.zip"
+          token: ${{ secrets.REPO_TOKEN }}
 
       - id: getModLoaderRelease
         name: Download ModLoader Build
@@ -51,6 +52,7 @@ jobs:
           repository: "Lyoko-Jeremie/DoLModLoaderBuild"
           latest: true
           fileName: "DoL-ModLoader-*.zip"
+          token: ${{ secrets.REPO_TOKEN }}
 
       - name: Extract Modloader Build
         run: |
