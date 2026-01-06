@@ -207,6 +207,15 @@
 <details>
 <summary>点击展开</summary>
 
+> 2026.01.06
+> - 发布 `dol-0.5.7.9-chs-5.0.2a` 版
+>   - 游戏本体更新至 v0.5.7.9
+>   - 修复了森林商店与格威岚剧情相关的问题 [@issue-dc/133][issue-dc133]
+>   - 修复了咖啡馆与格威岚剧情相关的问题 [@issue-dc/134][issue-dc134]
+>   - 修正了荒原便车事件相关文本 [@issue-dc/135][issue-dc135]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2026.01.02
 > - 发布 `dol-0.5.7.8-chs-4.0.3a` 版
 >   - 游戏本体更新至 v0.5.7.8
@@ -1615,3 +1624,6 @@
 [issue-dc130]: https://discord.com/channels/1103864219620884560/1451206767869558884
 [issue-dc131]: https://discord.com/channels/1103864219620884560/1451470971675345089
 [issue-dc132]: https://discord.com/channels/1103864219620884560/1453331617014874262
+[issue-dc133]: https://discord.com/channels/1103864219620884560/1456107565996970128
+[issue-dc134]: https://discord.com/channels/1103864219620884560/1456577639383957525
+[issue-dc135]: https://discord.com/channels/1103864219620884560/1456444423045910780
