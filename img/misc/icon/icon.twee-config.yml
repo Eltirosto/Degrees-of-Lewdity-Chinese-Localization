@@ -1,0 +1,2049 @@
+aliases:
+  decoration:
+    img: &img
+      border: 1px
+      borderStyle: dashed dashed dashed
+    unused: &unused
+      border: 0px
+sugarcube-2:
+  macros:
+    alleyicon:
+      description: |-
+        Prints an alley icon based on time of day
+
+        ![day](./alley.png)
+        ![dusk](./alley_dusk.png)
+        ![night](./alley_night.png)
+        ![dawn](./alley_dawn.png)
+      tags: ["img"]
+    animalicon:
+      description: |-
+        Prints an animal icon
+
+        ![chicken](./chicken.png)
+        ![cow](./cow.png)
+        ![dog](./dog.png)
+        ![horse](./horse.png)
+        ![horse_pick](./horse_pick.png)
+        ![pig](./pig.png)
+        ![rat](./rat.png)
+
+        `<<animalicon iconName>>`
+        - **iconName**: `string` - filename (not including `animal_` prefix or `.png` extension)
+          - `"chicken"` | `"cow"` | `"dog"` | `"horse"` | `"horse_pick"` | `"pig"` | `"rat"`
+      parameters:
+        - '"chicken"|"cow"|"dog"|"horse"|"horse_pick"|"pig"|"rat"'
+      tags: ["img"]
+    antiqueicon:
+      description: |-
+        Prints an antique icon
+
+        ![arrow](./antiques/antique_arrow.png)
+        ![artillery](./antiques/antique_artillery.png)
+        ![bailey](./antiques/antique_bailey.png)
+        ![bell](./antiques/antique_bell.png)
+        ![brass_statuette](./antiques/antique_brass_statuette.png)
+        ![bucket](./antiques/antique_bucket.png)
+        ![bullet](./antiques/antique_bullet.png)
+        ![candlestick](./antiques/antique_candlestick.png)
+        ![cane](./antiques/antique_cane.png)
+        ![chastity](./antiques/antique_chastity.png)
+        ![chocolate](./antiques/antique_chocolate.png)
+        ![copper_coin](./antiques/antique_copper_coin.png)
+        ![copper_compass](./antiques/antique_copper_compass.png)
+        ![copper_ring](./antiques/antique_copper_ring.png)
+        ![coral_ring](./antiques/antique_coral_ring.png)
+        ![crystal](./antiques/antique_crystal.png)
+        ![crystal_pink](./antiques/antique_crystal_pink.png)
+        ![cup](./antiques/antique_cup.png)
+        ![cutlass](./antiques/antique_cutlass.png)
+        ![dagger](./antiques/antique_dagger.png)
+        ![diamond](./antiques/antique_diamond.png)
+        ![dildo](./antiques/antique_dildo.png)
+        ![disc](./antiques/antique_disc.png)
+        ![fetish](./antiques/antique_fetish.png)
+        ![figurine](./antiques/antique_figurine.png)
+        ![forest_gem](./antiques/antique_forest_gem.png)
+        ![gold_brooch](./antiques/antique_gold_brooch.png)
+        ![gold_coin](./antiques/antique_gold_coin.png)
+        ![gold_compass](./antiques/antique_gold_compass.png)
+        ![gold_necklace](./antiques/antique_gold_necklace.png)
+        ![gold_ring](./antiques/antique_gold_ring.png)
+        ![grenade](./antiques/antique_grenade.png)
+        ![horn](./antiques/antique_horn.png)
+        ![horn_2](./antiques/antique_horn_2.png)
+        ![hourglass](./antiques/antique_hourglass.png)
+        ![incense](./antiques/antique_incense.png)
+        ![islander_arrow](./antiques/antique_islander_arrow.png)
+        ![islander_mask](./clothes/islander_mask.png)
+        ![ivory_box](./antiques/antique_ivory_box.png)
+        ![ivory_necklace](./clothes/ivory_necklace.png)
+        ![ivory_statuette](./antiques/antique_ivory_statuette.png)
+        ![map](./antiques/antique_map.png)
+        ![rusted_cutlass](./antiques/antique_rusted_cutlass.png)
+        ![silver_blade](./antiques/antique_silver_blade.png)
+        ![silver_brooch](./antiques/antique_silver_brooch.png)
+        ![silver_coin](./antiques/antique_silver_coin.png)
+        ![silver_compass](./antiques/antique_silver_compass.png)
+        ![silver_crown](./antiques/antique_silver_crown.png)
+        ![silver_dagger](./antiques/antique_silver_dagger.png)
+        ![silver_goblet](./antiques/antique_silver_goblet.png)
+        ![silver_manacle](./antiques/antique_silver_manacle.gif)
+        ![silver_mask](./antiques/antique_silver_mask.png)
+        ![silver_ring](./antiques/antique_silver_ring.png)
+        ![snuffer](./antiques/antique_snuffer.png)
+        ![talisman](./clothes/holy_pendant.png)
+        ![tea](./antiques/antique_tea.png)
+        ![trilobite](./antiques/antique_trilobite.png)
+        ![watch](./antiques/antique_watch.gif)
+        ![whip](./antiques/antique_whip.png)
+
+        `<<antiqueicon iconName?>>`
+        - **iconName** _optional_: `string` - filename (not including `antique_` namespace or `.png` extension)
+          - `"arrow"` | `"artillery"` | `"bailey"` | `"bell"` | `"brass_statuette"` | `"bucket"` |  `"bullet"` | `"candlestick"` | `"cane"` | `"chastity"` | `"chocolate"` | `"copper_coin"` | `"copper_ring"` | `"coral_ring"` | `"crystal_pink"` | `"crystal"` | `"cup"` | `"cutlass"` | `"dagger"` | `"dildo"` | `"disc"` | `"fetish"` | `"figurine"` | `"forest_gem"` | `"gold_brooch"` | `"gold_coin"` | `"gold_necklace"` | `"gold_ring"` |`"grenade"` | `"horn"` | `"horn_2"` | `"hourglass"` | `"incense"` | `"islander_arrow"` | `"islander_mask"` | `"ivory_box"` | `"ivory_statuette"` | `"map"` | `"rusted_cutlass"` | `"shell"` | `"silver_blade"` | `"silver_brooch"` | `"silver_coin"` | `"silver_compass"` | `"silver_crown"` | `"silver_dagger"` | `"silver_goblet"` | `"silver_manacle"` | `"silver_mask"` | `"silver_ring"` | `"snuffer"` | `"talisman"` | `"tea"` | `"trilobite"` | `"watch"` | `"whip"`
+      parameters:
+        - '|+ "arrow"|"artillery"|"bailey"|"bell"|"brass_statuette"|"bucket"|"bullet"|"candlestick"|"cane"|"chastity"|"chocolate"|"copper_coin"|"copper_compass"|"copper_ring"|"coral_ring"|"crystal_pink"|"crystal"|"cup"|"cutlass"|"dagger"|"diamond"|"dildo"|"disc"|"fetish"|"figurine"|"forest_gem"|"gold_brooch"|"gold_coin"|"gold_compass"|"gold_necklace"|"gold_ring"|"grenade"|"horn"|"horn_2"|"hourglass"|"incense"|"islander_arrow"|"islander_mask"|"ivory_box"|"ivory_statuette"|"map"|"rusted_cutlass"|"shell"|"silver_blade"|"silver_brooch"|"silver_coin"|"silver_compass"|"silver_crown"|"silver_dagger"|"silver_goblet"|"silver_manacle"|"silver_mask"|"silver_ring"|"snuffer"|"talisman"|"tea"|"trilobite"|"watch"|"whip"'
+      tags: ["img"]
+    arcadeicon:
+      description: "![arcadeicon](./arcade.gif)"
+      tags: ["img"]
+    assignmenticon:
+      description: "![assignmenticon](./assignment.png)"
+      tags: ["img"]
+    asylumicon:
+      description: |-
+        Prints an asylum icon
+
+        ![door](./asylum_door.png)
+        ![wardrobe](./asylum_wardrobe.png)
+        ![cell](./asylum_cell.png)
+        ![bed](./hospital_bed.png)
+        ![default](./hospital_bed.png)
+
+        `<<asylumicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"door"` | `"wardrobe"` | `"cell"` | `"bed"` | `default`
+      parameters:
+        - '|+ "door"|"wardrobe"|"cell"|"bed"'
+      tags: ["img"]
+    barbicon:
+      description: "![barbicon](./barb.png)"
+      tags: ["img"]
+    baskicon:
+      description: "![baskicon](./bask.png)"
+      tags: ["img"]
+    bathroomicon:
+      description: |-
+        Prints a bathroom icon
+
+        !["soap"](./soap.png)
+        ![shower](./shower.gif)
+        ![sink](./sink.png)
+        ![bath](./bath.png)
+        ![robe](./clothes/bathrobe.png)
+        ![shave](./shave.png)
+        ![toilet](./toilet.png)
+        ![toothbrush](./toothbrush.png)
+        ![default](./bathroom.png)
+
+        `<<bathroomicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"soap"` | `"shower"` | `"sink"` | `"bath"` | `"robe"` | `"shave"` | `"toilet"` | `"toothbrush"` | `default`
+      parameters:
+        - '|+ "soap"|"shower"|"sink"|"bath"|"robe"|"shave"|"toilet"|"toothbrush"'
+      tags: ["img"]
+    beachicon:
+      description: |-
+        Prints a beach icon
+
+        ![seaweed](./seaweed.png)
+        ![rocks](./sea_rocks.png)
+        ![default](./beach.gif)
+
+        `<<beachicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"seaweed"` | `"rocks"` | `default`
+      parameters:
+        - '|+ "seaweed"|"rocks"'
+      tags: ["img"]
+    bedicon:
+      description: |-
+        Prints a bed icon
+
+        ![zzz](./zzz.png)
+        ![single](./furniture/bed.png)
+        ![double](./furniture/doublebed.png)
+        ![deluxe](./furniture/doublebeddeluxe.png)
+        ![eden](./bededen.png)
+        ![farm](./farm_pcbed.png)
+        ![alex](./farm_alexli.png)
+        ![exotic](./furniture/doublebedexotic.png)
+        ![hospital](./hospital_bed.png)
+        ![kylar](./kylars_bed.png)
+        ![parents](./kylars_parents.gif)
+        ![wicker](./furniture/doublebedwicker.png)
+        ![yellow](./furniture/doublebedyellow.png)
+        ![gwylanpet](./bedgwylanpet.png)
+        ![default](./bed.png)
+
+        `<<bedicon iconName?>>`
+        - **iconName** _optional_: `string` - type
+          - `"zzz"` | `"single"` | `"double"` | `"deluxe"` | `"eden"` | `"farm"` | `"alex"` | `"exotic"` | `"hospital"` | `"kylar"` | `"parents"` | `"wicker"` | `"yellow"` | `default`
+      parameters:
+        - '|+ "zzz"|"single"|"double"|"deluxe"|"eden"|"farm"|"alex"|"exotic"|"hospital"|"kylar"|"parents"|"wicker"|"yellow"|"default"'
+      tags: ["img"]
+    bedroomicon:
+      description: "![bedroomicon](./bedroom.png)"
+      tags: ["img"]
+    bedroomtablechairicon:
+      description: |-
+        Prints a composite icon of chair and table based on what the player owns and how it is decorated
+
+        ![furnitureicon](./furniture/table.png)
+        ![chair](./furniture/basicChair.png)
+      tags: ["img"]
+    birdicon:
+      description: |-
+        Prints an icon relative to birdTower directory
+
+        ![birdicon](./antiques/antique_bullet.png)
+        ![birdicon](./birdTower/belly_hawk.png)
+        ![birdicon](./birdTower/bracelet.png)
+        ![birdicon](./birdTower/child_hawk.png)
+        ![birdicon](./birdTower/child_hawks.png)
+        ![birdicon](./birdTower/cooking_pot.png)
+        ![birdicon](./birdTower/cooking_pot_boil.gif)
+        ![birdicon](./birdTower/drying_rack_enclosed.png)
+        ![birdicon](./birdTower/drying_rack_makeshift.png)
+        ![birdicon](./birdTower/fabric.png)
+        ![birdicon](./birdTower/feather.png)
+        ![birdicon](./birdTower/firepit_bonfire_4.gif)
+        ![birdicon](./birdTower/firepit_makeshift_2.gif)
+        ![birdicon](./birdTower/firepit_robust_2.gif)
+        ![birdicon](./actions/flight_land.png)
+        ![birdicon](./birdTower/hawk_egg_one.png)
+        ![birdicon](./birdTower/hawk_egg_three.png)
+        ![birdicon](./birdTower/hawk_egg_two.png)
+        ![birdicon](./birdTower/junk.png)
+        ![birdicon](./actions/kiss_greathawk_beast.png)
+        ![birdicon](./actions/kiss_greathawk_monster.png)
+        ![birdicon](./birdTower/leaf.png)
+        ![birdicon](./birdTower/lurker_dead.png)
+        ![birdicon](./birdTower/lurker_leather.png)
+        ![birdicon](./birdTower/lurker_netted.png)
+        ![birdicon](./birdTower/mirror_tower.png)
+        ![birdicon](./birdTower/mirror_tower_decor.png)
+        ![birdicon](./birdTower/necklace.png)
+        ![birdicon](./birdTower/nest_cushioned.png)
+        ![birdicon](./birdTower/nest_cushioned_eggs.png)
+        ![birdicon](./birdTower/nest_luxurious.png)
+        ![birdicon](./birdTower/nest_luxurious_decor.png)
+        ![birdicon](./birdTower/nest_luxurious_eggs.png)
+        ![birdicon](./birdTower/nest_padded.png)
+        ![birdicon](./birdTower/nest_padded_eggs.png)
+        ![birdicon](./birdTower/nest_wood.png)
+        ![birdicon](./birdTower/nest_wood_eggs.png)
+        ![birdicon](./birdTower/ornate_telescope.png)
+        ![birdicon](./birdTower/perch_blood.png)
+        ![birdicon](./birdTower/perch_blood_decor.png)
+        ![birdicon](./birdTower/perch_dawn.png)
+        ![birdicon](./birdTower/perch_dawn_decor.png)
+        ![birdicon](./birdTower/perch_day.png)
+        ![birdicon](./birdTower/perch_day_decor.png)
+        ![birdicon](./birdTower/perch_dusk.png)
+        ![birdicon](./birdTower/perch_dusk_decor.png)
+        ![birdicon](./actions/perch_get_up.png)
+        ![birdicon](./birdTower/perch_night.png)
+        ![birdicon](./birdTower/perch_night_decor.png)
+        ![birdicon](./birdTower/perch_rain.png)
+        ![birdicon](./birdTower/perch_rain_decor.png)
+        ![birdicon](./birdTower/perch_snow.png)
+        ![birdicon](./birdTower/perch_snow_decor.png)
+        ![birdicon](./birdTower/prepare_hunt_dawn.gif)
+        ![birdicon](./birdTower/prepare_hunt_day.gif)
+        ![birdicon](./birdTower/prepare_hunt_dusk.gif)
+        ![birdicon](./birdTower/prepare_hunt_night.gif)
+        ![birdicon](./birdTower/rain_pool.gif)
+        ![birdicon](./birdTower/rain_pool_heated.gif)
+        ![birdicon](./birdTower/ring.png)
+        ![birdicon](./birdTower/silver_bar.gif)
+        ![birdicon](./birdTower/snare_bait.png)
+        ![birdicon](./birdTower/snare_lurker.gif)
+        ![birdicon](./birdTower/snare_no_bait.png)
+        ![birdicon](./birdTower/socialise_question.png)
+        ![birdicon](./birdTower/stick.png)
+        ![birdicon](./birdTower/tarp.png)
+        ![birdicon](./birdTower/toolbox.png)
+        ![birdicon](./birdTower/tower.png)
+        ![birdicon](./birdTower/trap_door.png)
+        ![birdicon](./birdTower/trap_door_locked.png)
+        ![birdicon](./birdTower/wallet.png)
+        ![birdicon](./birdTower/wardrobe_tower.png)
+        ![birdicon](./birdTower/wardrobe_tower_decor.png)
+        ![birdicon](./birdTower/watch.png)
+        ![birdicon](./birdTower/wood.png)
+
+        `<<birdIcon iconFileName>>`
+        - **iconFileName**: `string` - filename relative to birdTower directory (not including extension)
+        - `"antiques\antique_bullet"` | `"belly_hawk"` | `"bracelet"` | `"child_hawk"` | `"child_hawks"` | `"cooking_pot"` | `"cooking_pot_boil"` | `"drying_rack_enclosed"` | `"drying_rack_makeshift"` | `"fabric"` | `"feather"` | `"firepit_bonfire_4"` | `"firepit_makeshift_2"` | `"firepit_robust_2"` | `"flight_land"` | `"hawk_egg_one"` | `"hawk_egg_three"` | `"hawk_egg_two"` | `"junk"` | `"kiss_greathawk_beast"` | `"kiss_greathawk_monster"` | `"leaf"` | `"lurker_dead"` | `"lurker_leather"` | `"lurker_netted"` | `"mirror_tower"` | `"mirror_tower_decor"` | `"necklace"` | `"nest_cushioned"` | `"nest_cushioned_eggs"` | `"nest_luxurious"` | `"nest_luxurious_decor"` | `"nest_luxurious_eggs"` | `"nest_padded"` | `"nest_padded_eggs"` | `"nest_wood"` | `"nest_wood_eggs"` | `"ornate_telescope"` | `"perch_blood"` | `"perch_blood_decor"` | `"perch_dawn"` | `"perch_dawn_decor"` | `"perch_day"` | `"perch_day_decor"` | `"perch_dusk"` | `"perch_dusk_decor"` | `"perch_get_up"` | `"perch_night"` | `"perch_night_decor"` | `"perch_rain"` | `"perch_rain_decor"` | `"perch_snow"` | `"perch_snow_decor"` | `"prepare_hunt_dawn"` | `"prepare_hunt_day"` | `"prepare_hunt_dusk"` | `"prepare_hunt_night"` | `"rain_pool"` | `"rain_pool_heated"` | `"ring"` | `"silver_bar"` | `"snare_bait"` | `"snare_lurker"` | `"snare_no_bait"` | `"socialise_question"` | `"stick"` | `"tarp"` | `"toolbox"` | `"tower"` | `"trap_door"` | `"trap_door_locked"` | `"wallet"` | `"wardrobe_tower"` | `"wardrobe_tower_decor"` | `"watch"` | `"wood"`
+      parameters:
+        - "text|string"
+      tags: ["img"]
+    brothelicon:
+      description: |-
+        Prints a brothel icon
+
+        ![gloryhole](./actions/gloryhole.png)
+        ![stage](./stage.png)
+        ![default](./brothel.gif)
+
+        `<<brothelicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"gloryhole"` | `"stage"` | `default`
+      parameters:
+        - '|+ "gloryhole"|"stage"'
+      tags: ["img"]
+    busicon:
+      description: "![busicon](./bus.png)"
+      tags: ["img"]
+    busstationicon:
+      description: "![busstationicon](./busstation.png)"
+      tags: ["img"]
+    cafeicon:
+      description: "![cafeicon](./cafe.png)"
+      tags: ["img"]
+    caveicon:
+      description: |-
+        Prints a cave icon
+
+        `east` is flipped via css
+
+        ![left](./actions/caveleft.png)
+        ![right](./actions/caveright.png)
+        ![north](./actions/cavenorth.png)
+        ![south](./actions/cavesouth.png)
+        ![west](./actions/cavedeeper.png)
+        ![east](./actions/cavedeeper.png)
+        ![sea](./actions/cavesea.png)
+        ![torch](./torch.gif)
+        ![treasure](./treasure_chest.png)
+        ![default](./actions/cavedeeper.png)
+
+        `<<caveicon iconName?>>`
+        - **iconName** _optional_: `string` - destination
+          - `"left"` | `"right"` | `"north"` | `"south"` | `"west"` | `"east"` | `"sea"` | `"torch"` | `"treasure"` | `default`
+      parameters:
+        - '|+ "left"|"right"|"north"|"south"|"west"|"east"|"sea"|"torch"|"treasure"'
+      tags: ["img"]
+    chaleticon:
+      description: "![chaleticon](./chalet.png)"
+      tags: ["img"]
+    changingroomicon:
+      description: "![changingroomicon](./changingroom.png)"
+      tags: ["img"]
+    childicon:
+      description: |-
+        Prints a child toy icon
+
+        ![baby doll](./childToys/baby_doll.png)
+        ![blocks](./childToys/blocks.png)
+        ![blue baby rattle](./childToys/blue_baby_rattle.png)
+        ![blue dummy](./childToys/blue_dummy.png)
+        ![blue toy racecar](./childToys/blue_toy_racecar.png)
+        ![chew ball](./childToys/chew_ball.png)
+        ![chew bone](./childToys/chew_bone.png)
+        ![clear dummy](./childToys/clear_dummy.png)
+        ![clown](./childToys/clown.png)
+        ![crib](./childToys/crib.png)
+        ![dummy](./childToys/dummy.png)
+        ![green baby rattle](./childToys/green_baby_rattle.png)
+        ![green dummy](./childToys/green_dummy.png)
+        ![green robot](./childToys/green_robot.png)
+        ![green toy racecar](./childToys/green_toy_racecar.png)
+        ![hot rod toy car](./childToys/hot_rod_toy_car.png)
+        ![limousine toy car](./childToys/limousine_toy_car.png)
+        ![mr teddy](./childToys/mr_teddy.png)
+        ![mrs teddy](./childToys/mrs_teddy.png)
+        ![pink baby rattle](./childToys/pink_baby_rattle.png)
+        ![pink dummy](./childToys/pink_dummy.png)
+        ![pink mini toy car](./childToys/pink_mini_toy_car.png)
+        ![red baby rattle](./childToys/red_baby_rattle.png)
+        ![red dummy](./childToys/red_dummy.png)
+        ![red robot](./childToys/red_robot.png)
+        ![rope](./childToys/rope.png)
+        ![squeaky chicken](./childToys/squeaky_chicken.png)
+        ![squeaky sheep](./childToys/squeaky_sheep.png)
+        ![teddy bear](./childToys/teddy_bear.png)
+        ![toycar](./childToys/toycar.png)
+        ![white dummy](./childToys/white_dummy.png)
+        ![yellow baby](./childToys/yellow_baby_rattle.png)
+        ![yellow dummy](./childToys/yellow_dummy.png)
+
+        `<<childicon iconName>>`
+        - **iconName**: `string` - filename relative to childToys directory (not including `.png` extension)
+         - `"baby doll"` | `"blocks"` | `"blue baby rattle"` | `"blue dummy"` | `"blue toy racecar"` | `"chew ball"` | `"chew bone"` | `"clear dummy"` | `"clown"` | `"crib"` | `"dummy"` | `"green baby rattle"` | `"green dummy"` | `"green robot"` | `"green toy racecar"` | `"hot rod toy car"` | `"limousine toy car"` | `"mr teddy"` | `"mrs teddy"` | `"pink baby rattle"` | `"pink dummy"` | `"pink mini toy car"` | `"red baby rattle"` | `"red dummy"` | `"red robot"` | `"rope"` | `"squeaky chicken"` | `"squeaky sheep"` | `"teddy bear"` | `"toycar"` | `"white dummy"` | `"yellow baby rattle"` | `"yellow dummy"`
+      parameters:
+        - '"baby doll"|"babyrattle"|"blocks"|"blue baby rattle"|"blue dummy"|"blue toy racecar"|"chew ball"|"chew bone"|"clear dummy"|"clown"|"crib"|"dummy"|"green baby rattle"|"green dummy"|"green robot"|"green toy racecar"|"hot rod toy car"|"limousine toy car"|"mr teddy"|"mrs teddy"|"pink baby rattle"|"pink dummy"|"pink mini toy car"|"red baby rattle"|"red dummy"|"red robot"|"rope"|"squeaky chicken"|"squeaky sheep"|"teddy bear"|"toycar"|"white dummy"|"yellow baby rattle"|"yellow dummy"'
+      tags: ["img"]
+    childrenicon:
+      description: "Prints an icon of the player's child using their child id."
+      tags: ["img"]
+    choreicon:
+      description: |-
+        Prints a chore icon
+
+        ![fix](./hammer_nails.png)
+        ![litter](./litter.png)
+        ![rubbish](./rubbish.png)
+        ![sweep](./broom_dustpan.png)
+        ![trashcan](./landfill.png)
+        ![trim](./shears.gif)
+        ![wash](./sponge.png)
+        ![default](./broom_dustpan.png)
+
+        `<<edenicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"fix"` | `"litter"` | `"rubbish"` | `"sweep"` | `"trim"` | `"trashcan"` | `"wash"` | `default`
+      parameters:
+        - '|+ "fix"|"litter"|"rubbish"|"sweep"|"trashcan"|"trim"|"wash"'
+      tags: ["img"]
+    clifficon:
+      description: "![clifficon](./cliff.png)"
+      tags: ["img"]
+    clothingcategoryicon:
+      description: |-
+        Prints a clothing category icon
+
+        `<<clothingcategoryicon iconName>>`
+        - **iconName**: `string` - filename relative to category directory (not including `.png` extension)
+          - `"all(alt)"` | `"all"` | `"face"` | `"feet"` | `"genitals"` | `"hand"` | `"handheld"` | `"head"` | `"legs"` | `"lower"` | `"neck"` | `"outfit"` | `"overoutfit"` | `"strapon"` | `"underlower"` | `"underoutfit"` | `"underupper"` | `"upper"`
+
+        ![all(alt)](%workspaceDir%/img/ui/clothes/categories/all(alt).png)
+        ![all](%workspaceDir%/img/ui/clothes/categories/all.png)
+        ![face](%workspaceDir%/img/ui/clothes/categories/face.png)
+        ![feet](%workspaceDir%/img/ui/clothes/categories/feet.png)
+        ![genitals](%workspaceDir%/img/ui/clothes/categories/genitals.png)
+        ![hand](%workspaceDir%/img/ui/clothes/categories/hand.png)
+        ![handheld](%workspaceDir%/img/ui/clothes/categories/handheld.png)
+        ![head](%workspaceDir%/img/ui/clothes/categories/head.png)
+        ![legs](%workspaceDir%/img/ui/clothes/categories/legs.png)
+        ![lower](%workspaceDir%/img/ui/clothes/categories/lower.png)
+        ![neck](%workspaceDir%/img/ui/clothes/categories/neck.png)
+        ![outfit](%workspaceDir%/img/ui/clothes/categories/outfit.png)
+        ![overoutfit](%workspaceDir%/img/ui/clothes/categories/overoutfit.png)
+        ![strapon](%workspaceDir%/img/ui/clothes/categories/strapon.png)
+        ![underlower](%workspaceDir%/img/ui/clothes/categories/underlower.png)
+        ![underoutfit](%workspaceDir%/img/ui/clothes/categories/underoutfit.png)
+        ![underupper](%workspaceDir%/img/ui/clothes/categories/underupper.png)
+        ![upper](%workspaceDir%/img/ui/clothes/categories/upper.png)
+      parameters:
+        - '"all(alt)"|"all"|"face"|"feet"|"genitals"|"hand"|"handheld"|"head"|"legs"|"lower"|"neck"|"outfit"|"overoutfit"|"strapon"|"underlower"|"underoutfit"|"underupper"|"upper"'
+      tags: ["img"]
+    clothingicon:
+      description: |-
+        Prints a clothing icon modified to passed in Clothes object
+
+        `<<clothingicon item type>>`
+        - **item**: `object` - Clothes object to be looked up
+        - **type**: `string` - category type
+          - `%clothesTypesDesc%`
+
+        ![clothingicon](./clothes/sweater.png)
+      parameters:
+        - var &+ %clothesTypes%
+      tags: ["img"]
+    coastalpathicon:
+      description: |-
+        Prints a coastal path icon based on time of day
+
+        ![day](./coastalpath_day.png)
+        ![dusk](./coastalpath_dusk.png)
+        ![night](./coastalpath_night.png)
+        ![dawn](./coastalpath_dawn.png)
+      tags: ["img"]
+    compoundicon:
+      description: "![compoundicon](./compound.gif)"
+      tags: ["img"]
+    condomicon:
+      description: |-
+        Prints a condom icon
+
+        ![machine](./condom_machine.png)
+        ![default](./condom.png)
+
+        `<<condomicon iconName?>>`
+        - **iconName** _optional_: `string` - type
+          - `"machine"` | `default`
+      parameters:
+        - '|+ "machine"'
+      tags: ["img"]
+    connudatusicon:
+      description: "![connudatusicon](./connudatus.png)"
+      tags: ["img"]
+    cosmeticsicon:
+      description: |-
+        Prints a cosmetics icon
+
+        ![blusher](./blusher.png)
+        ![contacts](./contacts.png)
+        ![dyes](./dye.png)
+        ![mascara](./mascara.png)
+        ![eyeshadow](./eyeshadow.png)
+        ![sunscreen](./sunscreen.png)
+        ![default](./cosmetics.gif)
+
+        `<<cosmeticsicon iconName?>>`
+        - **iconName** _optional_: `string` - type
+          - `"blusher"` | `"contacts"` | `"dyes"` | `"mascara"` | `"eyeshadow"` | `"sunscreen"` | `default`
+      parameters:
+        - '|+ "blusher"|"contacts"|"dyes"|"mascara"|"eyeshadow"|"sunscreen"'
+      tags: ["img"]
+    couchicon:
+      description: "![couchicon](./couch_relax.png)"
+      tags: ["img"]
+    crimeicon:
+      description: |-
+        Prints a crime icon
+
+        ![black box](./blackbox.gif)
+        ![mark](./mark.gif)
+        ![safe](./safe.gif)
+        ![plunder](./actions/plunder.png)
+        ![shackles](./shackles.png)
+        ![default](./actions/crime.png)
+
+        `<<crimeicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"black box"` | `"mark"` | `"safe"` | `"plunder"` | `"shackles"` | `default`
+      parameters:
+        - '|+ "black box"|"mark"|"safe"|"plunder"|"shackles"'
+      tags: ["img"]
+    dancestudioicon:
+      description: "![dancestudioicon](./dancestudio.png)"
+      tags: ["img"]
+    danubeicon:
+      description: "![danubeicon](./danube.png)"
+      tags: ["img"]
+    daydreamicon:
+      description: "![daydreamicon](./daydream.png)"
+      tags: ["img"]
+    demonicon:
+      description: "![demonicon](%workspaceDir%/img/ui/sym_demon_purity.png)"
+      tags: ["img"]
+    deskchairicon:
+      description: |-
+        Prints a composite icon of chair and desk
+
+        ![furnitureicon](./furniture/desk.png)
+        ![chair](./furniture/basicChair.png)
+      tags: ["img"]
+    distracticon:
+      description: |-
+        ![default](./distract-base.png)
+
+        `<<distracticon colour?>>`
+        - **colour** _optional_: `string` - defaults to red
+      parameters:
+        - '|+ "red"|"green"|"blue"'
+      tags: ["img"]
+    docksicon:
+      description: "![docksicon](./docks.png)"
+      tags: ["img"]
+    domusicon:
+      description: "![domusicon](./domus.png)"
+      tags: ["img"]
+    dooricon:
+      description: |-
+        Prints a door icon
+
+        ![basement](./basement_door.png)
+        ![danube](./danube_house.png)
+        ![domus](./domus_house.png)
+        ![doren](./doren_flat.png)
+        ![locked](./padlocked_door.png)
+        ![open](./flat_door_open.png)
+        ![orphanage](./orphanage_doors.png)
+        ![trapdoor](./trapdoor.png)
+        ![default](./flat_door.png)
+
+        `<<dooricon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"basement"` | `"danube"` | `"domus"` | `"doren"` | `"locked"` | `"open"` | `"orphanage"` | `"trapdoor"` | `default`
+      parameters:
+        - '|+ "basement"|"danube"|"domus"|"doren"|"locked"|"open"|"orphanage"|"trapdoor"'
+      tags: ["img"]
+    dorenflaticon:
+      description: "![dorenflaticon](./dorenflat.png)"
+      tags: ["img"]
+    dressasyouwereicon:
+      description: "![dressasyouwereicon](./clothes/serafuku.png)"
+      tags: ["img"]
+    eaticon:
+      description: "![eaticon](./eat.png)"
+      tags: ["img"]
+    edenicon:
+      description: |-
+        Prints an Eden location icon
+
+        ![coat stand](./coatstand.png)
+        ![curtains](./curtains.png)
+        ![rug](./rug.png)
+        ![scarf](./clothes/scarf.png)
+        ![salve](./salve.png)
+        ![supplies](./supplies.png)
+        ![target](./target.png)
+        ![default](./cabin.png)
+
+        `<<edenicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"coat stand"` | `"curtains"` | `"rug"` | `"scarf"` | `"salve"` | `"soap"` | `"supplies"` | `"target"` | `default`
+      parameters:
+        - '|+ "coat
+          stand"|"curtains"|"rug"|"scarf"|"salve"|"soap"|"supplies"|"target"'
+      tags: ["img"]
+    elkicon:
+      description: "![elkicon](./elk.png)"
+      tags: ["img"]
+    englishicon:
+      description: "![englishicon](./english.png)"
+      tags: ["img"]
+    entertownicon:
+      description: |-
+        Prints a town icon based on time of day
+
+        ![night](./town_night.png)
+        ![default](./town.png)
+      tags: ["img"]
+    entranceicon:
+      description: "![entranceicon](./actions/entrance.png)"
+      tags: ["img"]
+    exerciseicon:
+      description: "![exerciseicon](./physique.png)"
+      tags: ["img"]
+    exiticon:
+      description: "![exiticon](./actions/exit.png)"
+      tags: ["img"]
+    factoryicon:
+      description: "![factoryicon](./factory.gif)"
+      tags: ["img"]
+    farmicon:
+      description: |-
+        Prints a farm icon
+
+        ![alexbed](./farm_alexbed.png)
+        ![alexdesk](./farm_alexdesk.png)
+        ![barn](./barn.png)
+        ![clear yard](./clearyard.gif)
+        ![cottage](./cottage.png)
+        ![grass](./grass.png)
+        ![kennel](./kennel.png)
+        ![lab](./farm_lab.gif)
+        ![milk](./milk_machine.png)
+        ![bucket](./milk_bucket.png)
+        ![meadow](./meadow.png)
+        ![relax](./farm_alexrelax.png)
+        ![tv](./TV.gif)
+        ![parasitebarn](./farm_parasitebarn.png)
+        ![default](./farmlands.png)
+
+        `<<farmicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"alexbed"` | `"alexdesk"` | `"barn"` | `"clear yard"` | `"cottage"` | `"grass"` | `"kennel"` | `"lab"` | `"meadow"` | `"milk"` | `"bucket"` | `"relax"` | `"tv"` | `"parasitebarn"` | `default`
+      parameters:
+        - '|+ "barn"|"alexbed"|"alexdesk"|"clear yard"|"cottage"|"grass"|"kennel"|"lab"|"meadow"|"milk"|"bucket"|"relax"|"tv"|"parasitebarn"'
+      tags: ["img"]
+    femaleicon:
+      description: "![femaleicon](./female.png)"
+      tags: ["img"]
+    fenceicon:
+      description: "![fenceicon](./fence.gif)"
+      tags: ["img"]
+    fishtankicon:
+      description: |-
+        Prints a fish tank icon based on what the player owns and how it is decorated
+
+        ![Small Fish Tank](./tank_small.gif)
+        ![Fish Tank](./tank_medium.gif)
+
+        ![Large Standard Decorations](./tank_large_decor.gif)
+        ![Large Exotic Decorations](./tank_large_exotic.gif)
+        ![Large Fish Tank](./tank_large.gif)
+
+        ![Huge Standard Decorations](./tank_huge_decor.gif)
+        ![Huge Exotic Decorations](./tank_huge_exotic.gif)
+        ![Huge Fish Tank](./tank_huge.gif)
+
+        ![default](./tank_medium.gif)
+      tags: ["img"]
+    flatsicon:
+      description: "![flats](./flats.png)"
+      tags: ["img"]
+    foodicon:
+      description: |-
+        Prints a food icon
+
+        ![autumnale](./food/autumnale.png)
+        ![beer](./food/beer.png)
+        ![beerbottle](./food/beerbottle.png)
+        ![buns](./food/creambun.png)
+        ![cocoa](./food/cocoa.png)
+        ![coffee](./food/coffee.png)
+        ![creambun](./food/creambun.png)
+        ![crepes](./food/crepes.png)
+        ![eat](./food/eat.png)
+        ![fruitsalad](./food/fruitsalad.png)
+        ![fruityale](./food/fruityale.png)
+        ![gingerbread](./food/gingerbread.png)
+        ![halloween](./food/halloween.png)
+        ![lemonade](./food/lemonade.png)
+        ![milkshake](./food/milkshake.png)
+        ![pancakes](./food/pancakes.png)
+        ![popcorn](./food/popcorn.png)
+        ![shandy](./food/shandy.png)
+        ![strawberrylemonade](./food/strawberrylemonade.png)
+        ![sweets](./food/sweets.png)
+        ![winterale](./food/winterale.png)
+
+        `<<foodicon iconName?>>`
+        - **iconName** _optional_: `string` - filename (not including `food/` directory or `.png` extension)
+          - `"autumnale"` | `"beer"` | `"beerbottle"` | `"buns"` | `"cocoa"` | `"coffee"` | `"creambun"` | `"crepes"` | `"eat"` | `"fruitsalad"` | `"fruityale"` | `"gingerbread"` | `"halloween"` | `"lemonade"` | `"milkshake"` | `"pancakes"` | `"popcorn"` | `"shandy"` | `"strawberrylemonade"` | `"sweets"` | `"winterale"`
+      parameters:
+        - '|+ "autumnale"|"beer"|"beerbottle"|"buns"|"cocoa"|"coffee"|"creambun"|"crepes"|"eat"|"fruitsalad"|"fruityale"|"gingerbread"|"halloween"|"lemonade"|"milkshake"|"pancakes"|"popcorn"|"shandy"|"strawberrylemonade"|"sweets"|"winterale"'
+      tags: ["img"]
+    foresticon:
+      description: |-
+        Prints a forest icon
+
+        ![bush](./bush.png)
+        ![churchyard](./churchyard.png)
+        ![river](./river.png)
+        ![bog](./bog.png)
+        ![garden](./forest_garden_spring.png)
+        ![default](./forest.png)
+
+        `<<foresticon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"bush"` | `"churchyard"` | `"river"` | `"bog"` | `"garden"` |  `default`
+      parameters:
+        - '|+ "bush"|"churchyard"|"river"|"bog"'
+      tags: ["img"]
+    forestroadicon:
+      description: |-
+        Prints a forest road icon
+
+        ![deep](./forest_road_deep.png)
+        ![secret](./forest_road_secret.png)
+        ![town](./forest_road_town.png)
+
+        `<<forestroadicon iconName>>`
+        - **iconName**: `string` - filename (not including `forest_road` namespace or `.png` extension)
+          - `"deep"` | `"secret"` | `"town"`
+      parameters:
+        - '"deep"|"secret"|"town"'
+      tags: ["img"]
+    furnitureicon:
+      description: |-
+        Prints an icon relative to furniture directory
+
+        ![desk](./furniture/desk.png)
+        ![chairDesk](./furniture/chairDesk.png)
+        ![chair](./furniture/chair.png)
+        ![calendar](./furniture/calendar.png)
+        ![bunnySucculent](./furniture/bunnySucculent.png)
+        ![bed](./furniture/bed.png)
+        ![basicChairDesk](./furniture/basicChairDesk.png)
+        ![bearplushie](./furniture/bearplushie.png)
+        ![bannerlewd](./furniture/bannerlewd.png)
+        ![basicChair](./furniture/basicChair.png)
+        ![bannerfestive](./furniture/bannerfestive.png)
+        ![armoirecarved](./furniture/armoirecarved.png)
+        ![banner](./furniture/banner.png)
+        ![armoire](./furniture/armoire.png)
+        ![armchairegg](./furniture/armchairegg.png)
+        ![armchaireggDesk](./furniture/armchaireggDesk.png)
+        ![armchairDesk](./furniture/armchairDesk.png)
+        ![armchair](./furniture/armchair.png)
+        ![wallpaper_vines](./furniture/wallpaper_vines.png)
+        ![wallpaper_wavy](./furniture/wallpaper_wavy.png)
+        ![wallpaper_tentacles](./furniture/wallpaper_tentacles.png)
+        ![wallpaper_trees](./furniture/wallpaper_trees.png)
+        ![wallpaper_hearts](./furniture/wallpaper_hearts.png)
+        ![wallpaper_plainwhite](./furniture/wallpaper_plainwhite.png)
+        ![wallpaper_custom](./furniture/wallpaper_custom.png)
+        ![wallpaper_dol](./furniture/wallpaper_dol.png)
+        ![wallpaper_cow_girls](./furniture/wallpaper_cow_girls.png)
+        ![wallpaper_cowgirls](./furniture/wallpaper_cowgirls.png)
+        ![wallpaper_crosses](./furniture/wallpaper_crosses.png)
+        ![wallpaper_starry](./furniture/wallpaper_starry.png)
+        ![wallpaper_deep_sea](./furniture/wallpaper_deep_sea.png)
+        ![wallpaper_flames](./furniture/wallpaper_flames.png)
+        ![wallpaper_beach](./furniture/wallpaper_beach.png)
+        ![wallpaper_bears](./furniture/wallpaper_bears.png)
+        ![poster_dol](./furniture/poster_dol.png)
+        ![poster_puppy](./furniture/poster_puppy.png)
+        ![poster_cow_girl](./furniture/poster_cow_girl.png)
+        ![poster_cowgirl](./furniture/poster_cowgirl.png)
+        ![poster_cat](./furniture/poster_cat.png)
+        ![jar](./furniture/jar.png)
+        ![wallpaper](./furniture/wallpaper.png)
+        ![doublebedyellow](./furniture/doublebedyellow.png)
+        ![catalogue](./furniture/catalogue.png)
+        ![wardrobeorganiser](./furniture/wardrobeorganiser.png)
+        ![wardrobebasic](./furniture/wardrobebasic.png)
+        ![wardrobe](./furniture/wardrobe.png)
+        ![table](./furniture/table.png)
+        ![swivelChairDesk](./furniture/swivelChairDesk.png)
+        ![swivelChair](./furniture/swivelChair.png)
+        ![stool](./furniture/stool.png)
+        ![stoolDesk](./furniture/stoolDesk.png)
+        ![singlebeddeluxe](./furniture/singlebeddeluxe.png)
+        ![singlebed](./furniture/singlebed.png)
+        ![shellChairDesk](./furniture/shellChairDesk.png)
+        ![shellChair](./furniture/shellChair.png)
+        ![painting](./furniture/painting.png)
+        ![poster](./furniture/poster.png)
+        ![owlplushie](./furniture/owlplushie.png)
+        ![marbletable](./furniture/marbletable.png)
+        ![flower](./furniture/flower.png)
+        ![doublebedwicker](./furniture/doublebedwicker.png)
+        ![doublebedexotic](./furniture/doublebedexotic.png)
+        ![doublebed](./furniture/doublebed.png)
+        ![doublebeddeluxe](./furniture/doublebeddeluxe.png)
+        ![deskMidcentury](./furniture/deskMidcentury.png)
+        ![deskGlass](./furniture/deskGlass.png)
+        ![deskAntique](./furniture/deskAntique.png)
+
+        `<<furnitureicon iconFileName>>`
+        - **iconName**: `string` - filename (not including extension)
+          - "desk" | "chairDesk" | "chair" | "calendar" | "bunnySucculent" | "bed" | "basicChairDesk" | "bearplushie" | "bannerlewd" | "basicChair" | "bannerfestive" | "armoirecarved" | "banner" | "armoire" | "armchairegg" | "armchaireggDesk" | "armchairDesk" | "armchair" | "wallpaper_vines" | "wallpaper_wavy" | "wallpaper_tentacles" | "wallpaper_trees" | "wallpaper_hearts" | "wallpaper_plainwhite" | "wallpaper_custom" | "wallpaper_dol" | "wallpaper_cow_girls" | "wallpaper_cowgirls" | "wallpaper_crosses" | "wallpaper_starry" | "wallpaper_deep_sea" | "wallpaper_flames" | "wallpaper_beach" | "wallpaper_audience" | "wallpaper_bears" | "poster_dol" | "poster_puppy" | "poster_cow_girl" | "poster_cowgirl" | "poster_cat" | "jar" | "wallpaper" | "doublebedyellow" | "catalogue" | "wardrobeorganiser" | "wardrobebasic" | "wardrobe" | "table" | "swivelChairDesk" | "swivelChair" | "stool" | "stoolDesk" | "singlebeddeluxe" | "singlebed" | "shellChairDesk" | "shellChair" | "painting" | "poster" | "owlplushie" | "marbletable" | "flower" | "doublebedwicker" | "doublebedexotic" | "doublebed" | "doublebeddeluxe" | "deskMidcentury" | "deskGlass" | "deskAntique"
+      parameters:
+        - "text|string"
+      tags: ["img"]
+    gameicon:
+      description: |-
+        Prints a composite game icon
+
+        ![controller](./robin_controller.png)
+        ![cards](./game_cards.gif)
+        ![cards2](./game_acc_cards.gif)
+        ![cards_](./game_cards_bet.gif)
+        ![cards_0](./game_acc_cards_0.gif)
+        ![cards_1](./game_acc_cards_1.gif)
+        ![cards_2](./game_acc_cards_2.gif)
+        ![dice](./dice.png)
+
+        `<<gameicon iconName>>`
+        - **iconName**: `string` - type of game
+          - `"controller"` | `"cards"` | `"cards_0"` | `"cards_1"` | `"cards_2"` | `"dice"`
+      parameters:
+        - '"controller"|"cards"|"cards_0"|"cards_1"|"cards_2"|"dice"'
+      tags: ["img"]
+    gardenicon:
+      description: |-
+        Prints a garden icon
+
+        ![fertiliser](./fertiliser.png)
+        ![flower](./flower.png)
+        ![kylar](./kylars_garden.png)
+        ![overgrown](./kylars_garden_messy.png)
+        ![plot](./gardenplot.png)
+        ![strangled](./gardenstrangled.png)
+        ![tangled](./gardentangled.png)
+        ![till](./till.png)
+        ![water](./watering_can.gif)
+        ![weeds](./gardenweeds.png)
+        ![default](./garden.png)
+
+        `<<gardenicon iconName?>>`
+        - **iconName** _optional_: `string` - object
+          - `"fertiliser"` | `"flower"` | `"kylar"` | `"overgrown"` | `"plot"` | `"strangled"` | `"tangled"` | `"till"` | `"water"` | `"weeds"` | `default`
+      parameters:
+        - '|+ "fertiliser"|"flower"|"kylar"|"overgrown"|"plot"|"strangled"|"tangled"|"till"|"water"|"weeds"'
+      tags: ["img"]
+    getinicon:
+      description: "![getinicon](./get_in.png)"
+      tags: ["img"]
+    getouticon:
+      description: |-
+        Prints a get out icon
+
+        ![dig](./dig.png)
+        ![hole](./get_out_hole.png)
+        ![default](./get_out.png)
+
+        `<<getouticon iconName?>>`
+        - **iconName** _optional_: `string` - state
+          - `"dig"` | `"hole"` | `default`
+      parameters:
+        - '|+ "dig"|"hole"'
+      tags: ["img"]
+    gifticon:
+      description: |-
+        Prints a gift icon
+
+        ![balloons](./balloons.png)
+        ![christmas](./gift_christmas.png)
+        ![christmas hat](./clothes/christmas_hat.png)
+        ![gothic](./clothes/gothic_gown.png)
+        ![hunting](./clothes/hunting_coat.png)
+        ![kimono](./clothes/kimono.png)
+        ![love](./gift_li.png)
+        ![wrapping](./wrapping.png)
+        ![shirt](./clothes/t-shirt.png)
+        ![sundress](./clothes/sundress.png)
+        ![tuxedo](./clothes/tuxedo_jacket.png)
+        ![valentine](./gift_vday.png)
+        ![default](./gift_christmas.png)
+
+        `<<gifticon iconName?>>`
+        - **iconName** _optional_: `string` - type
+          - `"balloons"` | `"christmas"` | `"christmas hat"` | `"gothic"` | `"hunting"` | `"kimono"` | `"love"` | `"wrapping"` | `"shirt"` | `"sundress"` | `"tuxedo"` | `"valentine"` | `"default"`
+      parameters:
+        - '|+ "balloons"|"christmas"|"christmas hat"|"gothic"|"hunting"|"kimono"|"love"|"wrapping"|"shirt"|"sundress"|"tuxedo"|"valentine"|"default"'
+      tags: ["img"]
+    glideicon:
+      description: |-
+        Prints a glide icon
+
+        `west` is flipped via css
+
+        ![west](./wing.png)
+        ![default](./wing.png)
+
+        `<<glideicon iconName?>>`
+        - **iconName** _optional_: `string` - direction
+          - `"west"` | `default`
+      parameters:
+        - '|+ "west"|"east"'
+      tags: ["img"]
+    hairdressericon:
+      description: |-
+        Prints a heels icon
+
+        ![chair](./hairdresser_chair.png)
+        ![gel](./hairgel.png)
+        ![hairspray](./hairspray.png)
+        ![default](./hairdresser.gif)
+
+        `<<heelsicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"chair"` | `"gel"` | `"hairspray"` | `default`
+      parameters:
+        - '|+ "chair"|"gel"|"hairspray"'
+      tags: ["img"]
+    harvesticon:
+      description: "![harvesticon](./harvest.png)"
+      tags: ["img"]
+    hcicon:
+      description: |-
+        Prints an icon for the hc scene
+
+        ![bandages](./bandages.png)
+        ![bones](./bones.png)
+        ![bucket](./bucket.png)
+        ![clutter](./clothes/rag_top.png)
+        ![food](./tending/porridge.png)
+        ![herbs](./birdTower/leaf.png)
+        ![manacles_skin](./manacles_skin.png)
+        ![manacles_front](./manacles.gif)
+        ![prisoner](./manacles.gif)
+        ![prison gruel](./tending/porridge.png)
+        ![snuffer](./snuffer.png)
+        ![torch](./torch.gif)
+        ![torch_burnt](./torch_burnt.png)
+        ![torch_unlit](./torch_unlit.png)
+        ![stolen food](./tending/salmon_wellington.png)
+        ![stolen fruit](./tending/plum.png)
+        ![sheets](./clothes/bedsheet.png)
+        ![witchblooms](./tending/witchbloom.png)
+
+        `<<hcicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"bandages"` | `"bones"` | `"bucket"` | `"clutter"` | `"food"` | `"herbs"` | `"manacles_skin"` | `"manacles_front"` | `"prisoner"` | `"prison gruel"` | `"stolen food"` | `"stolen fruit"` | `"sheets"` | `"snuffer"` | `"torch"` | `"torch_burnt"` | `"torch_unlit"` | `"witchblooms"` | `default`
+      parameters:
+        - '|+ "bandages"|"bones"|"bucket"|"clutter"|"food"|"herbs"|"manacles_skin"|"manacles_front"|"prisoner"|"prison gruel"|"snuffer"|"stolen food"|"stolen fruit"|"sheets"|"witchblooms"|"torch"|"torch_burnt"|"torch_unlit"'
+      tags: ["img"]
+    heelsicon:
+      description: |-
+        Prints a heels icon
+
+        ![hobble](./actions/hobbleheels.png)
+        ![default](./exerciseheels.png)
+
+        `<<heelsicon iconName?>>`
+        - **iconName** _optional_: `string` - state
+          - `"hobble"` | `default`
+      parameters:
+        - '|+ "hobble"'
+      tags: ["img"]
+    highicon:
+      description: "![highicon](./high.png)"
+      tags: ["img"]
+    historyicon:
+      description: "![historyicon](./history.png)"
+      tags: ["img"]
+    homeicon:
+      description: "![homeicon](./orphanage.png)"
+      tags: ["img"]
+    hospitalicon:
+      description: "![hospitalicon](./hospital.png)"
+      tags: ["img"]
+    hypnosisicon:
+      description: |-
+        prints a hypnosis icon
+
+        ![default](%workspaceDir%/img/ui/hypnosis.png)
+        ![inline](%workspaceDir%/img/ui/hypnosis_small.png)
+        ![animated](%workspaceDir%/img/ui/hypnosis.gif)
+        ![inline animated](%workspaceDir%/img/ui/hypnosis_small.gif)
+      tags: ["img"]
+    ind:
+      description: |-
+        ![indent](./indent.png)
+
+        Blank indent icon to align links without icons
+      tags: ["img"]
+    investigateicon:
+      description: "![investigateicon](./investigate.png)"
+      tags: ["img"]
+    islandicon:
+      description: |-
+        Prints an island icon
+
+        ![explore](./actions/explore.png)
+        ![mask](./clothes/islander_mask.png)
+        ![nuts](./nuts.png)
+        ![default](./island.png)
+
+        `<<islandicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"explore"` | `"mask"` | `"nuts"` | `default`
+      parameters:
+        - '|+ "explore"|"mask"|"nuts"'
+      tags: ["img"]
+    kitchenicon:
+      description: |-
+        Prints a kitchen icon.
+
+        ![messy](./kitchen_messy.png)
+        ![pot](./kitchen_pot.png)
+        ![pot_antique](./kitchen_pot_antique.png)
+        ![pot_brass](./kitchen_pot_brass.png)
+        ![pot_brass_messy](./kitchen_pot_brass_messy.png)
+        ![pot_clean](./kitchen_pot_antique.png)
+        ![pot_dirty](./kitchen_pot_antique.png)
+        ![range](./kitchen_range.png)
+        ![soup](./kitchen_soup.png)
+        ![stove](./kitchen_stove.png)
+        ![stove_farm](./kitchen_stove_farm.png)
+        ![stove_old](./kitchen_stove_old.png)
+        ![default](./kitchen_pot.png)
+
+        `<<kitchenicon iconName?>>`
+        - **iconName** _optional_: `string`
+          - `"messy"` | `"pot"` | `"pot_antique"` | `"pot_brass"` | `"pot_brass_messy"` | `"pot_clean"` | `"pot_dirty"` | `"pot_messy"` | `"range"` | `"soup"` | `"stove"`| `"stove_farm"`| `"stove_old"`| `default`
+      parameters:
+        - '|+ "messy"|"pot_antique"|"pot_brass"|"pot_brass_messy"|"pot_clean"|"pot_dirty"|"pot_messy"|"range"|"soup"|"stove"|"stove_farm"|"stove_old"'
+      tags: ["img"]
+    kylarmanoricon:
+      description: |-
+        Prints a Kylar's manor location icon
+
+        ![chair](./kylars_chair.png)
+        ![hall](./kylars_hall.png)
+        ![lab](./kylars_lab.png)
+        ![grounds](./kylars_grounds.png)
+        ![pipe](./kylars_pipe.gif)
+        ![default](./kylars_manor.png)
+
+        `<<kylarsicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"chair"` | `"hall"` | `"lab"` | `"grounds"` | `"pipe"` | `default`
+      parameters:
+        - '|+ "chair"|"hall"|"lab"|"grounds"|"pipe"'
+      tags: ["img"]
+    laddericon:
+      description: "![laddericon](./ladder.png)"
+      tags: ["img"]
+    lakeicon:
+      description: |-
+        Prints a lake icon
+
+        ![campfire](./campfire.gif)
+        ![dock](./lake_dock.png)
+        ![field office](./field_office.png)
+        ![fishing](./fishing.png)
+        ![firepit](./birdTower/firepit_bonfire_4.gif)
+        ![meditate](./actions/meditate.png)
+        ![plinth](./plinth.png)
+        ![pond](./pond.png)
+        ![pond twigs](./pond_twig.png)
+        ![pots](./pots.png)
+        ![skate](./clothes/ice_skates.png)
+        ![waterfall](./waterfall_lake.png)
+        ![default](./lake.png)
+
+        `<<lakeicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"campfire"` | `"dock"` | `"field office"` | `"fishing"` | `"firepit"` | `"meditate"` | `"plinth"` | `"pond"` | `"pond twigs"` | `"pots"` | `"skate"` | `"waterfall"` | `default`
+      parameters:
+        - '|+ "campfire"|"dock"|"field office"|"fishing"|"firepit"|"meditate"|"plinth"|"pond"|"pond twigs"|"pots"|"skate"|"waterfall"'
+      tags: ["img"]
+    landfillicon:
+      description: "![landfillicon](./rubbish.png)"
+      tags: ["img"]
+    lockericon:
+      description: |-
+        Prints a locker icon
+
+        ![put in](./putinlocker.png)
+        ![default](./locker.png)
+
+        `<<lockericon iconName?>>`
+        - **iconName** _optional_: `string` - state
+          - `"put in"` | `default`
+      parameters:
+        - '|+ "put in"'
+      tags: ["img"]
+    lockicon:
+      description: |-
+        Prints a lock-related icon
+
+        ![bronze key](./key_bronze.png)
+        ![gate](./gate.png)
+        ![iron key](./key_iron.png)
+        ![key](./key_cabinet.png)
+        ![old key](./key_old.png)
+        ![pick](./lockpick.png)
+        ![unlock](./padlock_unlocked.png)
+        ![default](./padlock.png)
+
+        `<<lockicon iconName?>>`
+        - **iconName** _optional_: `string` - state
+          - `"bronze key"` | `"iron key"` | `"key"` | `"old key"` | `"pick"` | `"unlock"` | "gate" | `default`
+      parameters:
+        - '|+ "bronze key"|"gate"|"iron key"|"key"|"old key"|"pick"|"unlock"'
+      tags: ["img"]
+    lofticon:
+      description: "![lofticon](./loft.png)"
+      tags: ["img"]
+    loitericon:
+      description: "![loitericon](./loiter.gif)"
+      tags: ["img"]
+    loveicon:
+      description: |-
+       Prints a love-related icon
+
+        ![kiss](./actions/kiss.png)
+        ![hug](./actions/hug.png)
+        ![default](%workspaceDir%/img/ui/love_interest.png)
+
+        `<<loveicon iconName?>>`
+        - **iconName** _optional_: `string` - state
+          - `"kiss"` | `"hug"` | `default`
+      tags: ["img"]
+    main_hall_icon:
+      description: |-
+        Current mainhall icon depending on holiday
+
+        ![default](./mainhall.png)
+        ![halloween](./mainhall_halloween.png)
+        ![christmas](./mainhall_christmas.png)
+      tags: ["img"]
+    maleicon:
+      description: "![maleicon](./male.png)"
+      tags: ["img"]
+    mathicon:
+      description: "![mathicon](./math.png)"
+      tags: ["img"]
+    mericon:
+      description: "![mericon](./mer.png)"
+      tags: ["img"]
+    mirroricon:
+      description: |-
+        Prints an island icon
+
+        ![blood](./mirrorblood.gif)
+        ![home](./mirrorhome.png)
+        ![school](./mirrorschool.png)
+        ![temple](./mirrortemple.png)
+        ![default](./mirror.png)
+
+        `<<mirroricon iconName?>>`
+        - **iconName** _optional_: `string` - type
+          - `"blood"` | `"home"` | `"school"` | `"school"` | `default`
+      parameters:
+        - '|+ "blood"|"home"|"school"|"school"'
+      tags: ["img"]
+    mooricon:
+      description: |-
+        Prints a moor icon
+
+        ![remy](./estate.png)
+        ![remy cottage](./remy_cottage.png)
+        ![default](./moor.png)
+
+        `<<mooricon iconName>>`
+        - **iconName**: `"remy"` | `"remy cottage"` |`default`
+      parameters:
+        - '|+ "nest"|"perch"|"sing"|"rainwater"|"remy"|"remy cottage"|"tower"|"firepit"'
+      tags: ["img"]
+    museumicon:
+      description: |-
+        Prints a museum icon
+
+        ![horse](./museum_horse.png)
+        ![duck](./museum_duck.png)
+        ![default](./museum.png)
+
+        `<<museumicon iconName>>`
+        - **iconName**: `string` - filename (not including extension)
+          - `"files"` | `default`
+      parameters:
+        - '|+ "horse"|"duck"'
+      tags: ["img"]
+    mysteryicon:
+      description: "![mysteryicon](./ask.png)"
+      tags: ["img"]
+    nightingaleicon:
+      description: "![nightingaleicon](./nightingale.png)"
+      tags: ["img"]
+    oakicon:
+      description: "![oakicon](./danube_oak.png)"
+      tags: ["img"]
+    officebuildingicon:
+      description: "![officebuildingicon](./office_building.png)"
+      tags: ["img"]
+    officeicon:
+      description: |-
+        Prints an office icon
+
+        ![files](./filing_cabinet.png)
+        ![default](./office.png)
+
+        `<<officeicon iconName>>`
+        - **iconName**: `string` - filename (not including extension)
+          - `"files"` | `default`
+      parameters:
+        - '|+ "files"'
+      tags: ["img"]
+    oliveicon:
+      description: "![oliveicon](./oliveNew.png)"
+      tags: ["img"]
+    oxfordicon:
+      description: "![oxfordicon](./oxford.png)"
+      tags: ["img"]
+    parkicon:
+      description: |-
+        Prints a park icon
+
+        ![fountain](./fountain.png)
+        ![default](./park.gif)
+
+        `<<parkicon iconName>>`
+        - **iconName**: `string` - filename (not including `prison_` namespace or `.png` extension)
+          - `"fountain"` | `default`
+      parameters:
+        - '|+ "fountain"'
+      tags: ["img"]
+    peppersprayicon:
+      description: "![peppersprayicon](./spray.png)"
+      tags: ["img"]
+    petshopicon:
+      description: |-
+        Prints a pet shop icon
+
+        ![brush](./kennel_brush.png)
+        ![cage](./cage.png)
+        ![chew](./chewtoy.png)
+        ![decor](./tank_decor.png)
+        ![decor exotic](./tank_decor_exotic.png)
+        ![dog bowl](./dog_bowl.png)
+        ![dog food](./dog_bowl_food.png)
+        ![dog leash](./dog_leash.png)
+        ![feeder](./automatic_feeder.gif)
+        ![tanks](./tanks.png)
+        ![tank small](./tank_small.gif)
+        ![tank medium](./tank_medium.gif)
+        ![tank large](./tank_large.gif)
+        ![tank huge](./tank_huge.gif)
+        ![treat](./dogtreat.png)
+        ![default](./petshop.png)
+
+        `<<petshopicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"brush"` | `"cage"` | `"chew"` | `"decor"` | `"decor exotic"` | `"dog bowl"` | `"dog food"` | `"dog leash"` | `"feeder"` | `"tanks"` | `"tank small"` | `"tank medium"` | `"tank large"` | `"tank huge"` | `"treat"` | `default`
+      parameters:
+        - '|+ "brush"|"cage"|"chew"|"decor"|"decor exotic"|"dog bowl"|"dog food"|"dog leash"|"feeder"|"tanks"|"tank small"|"tank medium"|"tank large"|"tank huge"|"treat"'
+      tags: ["img"]
+    photographystudioicon:
+      description: "![photographystudioicon](./camera.png)"
+      tags: ["img"]
+    pillicon:
+      description: |-
+        Prints a composite pill icon
+
+        ![breastEnlarge](./smalluparrow.png)![breast](./pillbreast.png)
+        ![breastReduce](./smalldownarrow.png)![breast](./pillbreast.png)
+        ![breastBlock](./smallcross.png)![breast](./pillbreast.png)
+        ![penisEnlarge](./smalluparrow.png)![penis](./pillpenis.png)
+        ![penisReduce](./smalldownarrow.png)![penis](./pillpenis.png)
+        ![penisBlock](./smallcross.png)![penis](./pillpenis.png)
+        ![bottomEnlarge](./smalluparrow.png)![bottom](./pillbottom.png)
+        ![bottomReduce](./smalldownarrow.png)![bottom](./pillbottom.png)
+        ![bottomBlock](./smallcross.png)![bottom](./pillbottom.png)
+
+        ![fertility](./fertility_booster.png)
+        ![contraceptive](./contraceptive_pills.png)
+        ![morningAfter](./morningAfter.png)
+        ![blue](./pillblue.png)
+        ![stimulant](./stimulant.png)
+        ![default](./pill_collection.png)
+
+        `<<pillicon iconName?>>`
+        - **iconName** _optional_: `string` - type
+          - `"breastEnlarge"` | `"breastReduce"` | `"breastBlock"` | `"penisEnlarge"` | `"penisReduce"` | `"penisBlock"` | `"bottomEnlarge"` | `"bottomReduce"` | `"bottomBlock"` | `"fertility"` | `"contraceptive"` | `"morningAfter"` | `"blue"` | `"stimulant"` | `default`
+      parameters:
+        - '|+
+          "breastEnlarge"|"breastReduce"|"breastBlock"|"penisEnlarge"|"penisReduce"|"penisBlock"|"bottomEnlarge"|"bottomReduce"|"bottomBlock"|"fertility"|"contraceptive"|"morningAfter"|"blue"|"stimulant"'
+      tags: ["img"]
+    pilloryicon:
+      description: "![pilloryicon](./watch_pillory.png)"
+      tags: ["img"]
+    policeicon:
+      description: "![policeicon](./police.png)"
+      tags: ["img"]
+    poundicon:
+      description: |-
+        Prints a pound icon based on weather
+
+        ![clear](./pound.png)
+        ![rain](./pound_rust.png)
+      tags: ["img"]
+    pregnancyicon:
+      description: |-
+        Prints composite icon of specified type of pregnancy
+
+        `<<pregnancyicon iconType?>>`
+        - **iconType** _optional_: `string` - type of pregnancy to generate icon for
+          - `"player"` | `"Great Hawk"` | `"npc"`
+          - Defaults to `"npc"`
+      parameters:
+        - '|+ "player"|"Great Hawk"|"npc"'
+    pregnancytesticon:
+      description: "![pregnancytesticon](./pregnancy_test.gif)"
+      tags: ["img"]
+    prisonicon:
+      description: |-
+        Prints a prison icon
+
+        ![bed](./prison_bed.png)
+        ![canteen](./prison_canteen.png)
+        ![cell](./prison_cell.png)
+        ![chest](./prison_chest.png)
+        ![clothingselection](./prison_clothingselection.png)
+        ![code](./prison_code.png)
+        ![door](./prison_door.png)
+        ![hammer](./prison_hammer.png)
+        ![laundry](./prison_laundry.png)
+        ![laundry_work](./prison_laundry_work.png)
+        ![lift](./prison_lift.png)
+        ![man](./prison_man.png)
+        ![medical](./prison_medical.png)
+        ![medical_door](./prison_medical_door.png)
+        ![medical_work](./prison_medical_work.png)
+        ![mirror](./prison_mirror.png)
+        ![plaque](./prison_plaque.png)
+        ![puppy](./prison_puppy.png)
+        ![rope](./prison_rope.png)
+        ![run](./prison_run.png)
+        ![wardrobe](./prison_wardrobe.png)
+        ![woman](./prison_woman.png)
+
+        `<<prisonicon iconName>>`
+        - **iconName**: `string` - filename (not including `prison_` namespace or `.png` extension)
+          - `"bed"` | `"canteen"` | `"cell"` | `"chest"` | `"clothingselection"` | `"code"` | `"door"` | `"hammer"` | `"laundry"` | `"laundry_work"` | `"lift"` | `"man"` | `"medical"` | `"medical_door"` | `"medical_work"` | `"mirror"` | `"plaque"` | `"puppy"` | `"rope"` | `"run"` | `"wardrobe"` | `"woman"`
+        parameters:
+          - '"bed"|"canteen"|"cell"|"chest"|"clothingselection"|"code"|"door"|"hammer"|"laundry"|"laundry_work"|"lift"|"man"|"medical"|"medical_door"|"medical_work"|"mirror"|"plaque"|"puppy"|"rope"|"run"|"wardrobe"|"woman"'
+      tags: ["img"]
+    procedureicon:
+      description: |-
+        Prints a procedure icon
+
+        ![breast enlarge](./breastEnlarge.png)
+        ![breast reduce](./breastReduce.png)
+        ![penis enlarge](./penisEnlarge.png)
+        ![penis reduce](./penisReduce.png)
+        ![parasite](./antiParasiteCream.png)
+        ![paternity](./paternityTest.png)
+
+        `<<procedureicon iconName>>`
+        - **iconName**: `string` - type
+          - `"breast enlarge"` | `"breast reduce"` | `"penis enlarge"` | `"penis reduce"` | `"parasite"` | `"paternity"`
+      parameters:
+        - '"breast enlarge"|"breast reduce"|"penis enlarge"|"penis reduce"|"parasite"|"paternity"'
+      tags: ["img"]
+    pubicon:
+      description: "![pubicon](./pub.png)"
+      tags: ["img"]
+    rebuyicon:
+      description: |-
+        Prints a rebuy icon
+
+        ![disable](./rebuy_disabled.png)
+        ![default](./rebuy.png)
+
+        `<<rebuyicon iconName?>>`
+        - **iconName** _optional_: `string` - state
+          - `"disable"` | `default`
+      parameters:
+        - '|+ "disable"|"enable"'
+      tags: ["img"]
+    refuseicon:
+      description: "![refuseicon](./refuse.png)"
+      tags: ["img"]
+    relaxicon:
+      description: "![relaxicon](./actions/relax.png)"
+      tags: ["img"]
+    roadicon:
+      description: |-
+        Displays road icon based on time of day and presence of bloodmoon
+
+        ![roadnight_blood](./roadnight_blood.png)
+        ![day](./roadday.png)
+        ![night](./roadnight.png)
+        ![dawn](./roaddawn.png)
+        ![dusk](./roaddusk.png)
+        ![default](./roadday.png)
+      tags: ["img"]
+    robinicon:
+      description: |-
+        Prints a Robin icon
+
+        ![cocoa](./robin_cocoa.png)
+        ![lemonade](./robin_lemonade.png)
+        ![controller](./robin_controller.png)
+
+        `<<robinicon iconName?>>`
+        - **iconName** _optional_: `string` - filename (not including `robin_` namespace or `.png` extension)
+          - `"cocoa"` | `"lemonade"` | `"controller"`
+      parameters:
+        - '"cocoa"|"lemonade"|"controller"'
+      tags: ["img"]
+    runicon:
+      description: |-
+        Prints a run icon
+
+        `west` is flipped via css
+
+        ![west](./run.png)
+        ![default](./run.png)
+
+        `<<runicon iconName?>>`
+        - **iconName** _optional_: `string` - direction
+          - `"west"` | `default`
+      parameters:
+        - '|+ "west"|"east"'
+      tags: ["img"]
+    scarleticon:
+      description: "![scarleticon](./scarletNew.png)"
+      tags: ["img"]
+    schoolicon:
+      description: |-
+        Prints a school icon
+
+        ![building](./schoolnew.png)
+        ![courtyard](./actions/school_courtyard.png)
+        ![hallways](./hallways.png)
+        ![headdesk](./headdesk.png)
+        ![infirmary](./infirmary.png)
+        ![library](./library.png)
+        ![library desk](./library_desk.png)
+        ![stump](./stump.png)
+        ![default](./school.png)
+
+        `<<schoolicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"building"` | `"courtyard"` | `"hallways"` | `"headdesk"` | `"infirmary"` | `"library"` | `"library desk"` | `"stump"` | `default`
+      parameters:
+        - '|+ "building"|"courtyard"|"hallways"|"headdesk"|"infirmary"|"library"|"library desk"|"stump"'
+      tags: ["img"]
+    scienceicon:
+      description: |-
+        Prints a science icon
+
+        ![pink lichen](./lichen_pink.png)
+        ![white lichen](./lichen_white.png)
+        ![violet lichen](./lichen_violet.png)
+        ![purple lichen](./lichen_purple.png)
+        ![default](./science.png)
+
+        `<<scienceicon iconName?>>`
+        - **iconName** _optional_: `string` - item
+          - `"pink lichen"` | `"white lichen"` | `"violet lichen"` | `"purple lichen"` | `default`
+      parameters:
+        - '|+ "pink lichen"|"white lichen"|"violet lichen"|"purple lichen"'
+      tags: ["img"]
+    sewericon:
+      description: |-
+        Prints a sewer icon
+
+        ![algae](./algae.png)
+        ![breeze](./breeze.png)
+        ![drain](./drain_ocean.png)
+        ![litter](./litter.png)
+        ![main](./sewermain.png)
+        ![mud](./mud.png)
+        ![wood](./log.png)
+        ![webs](./webs.png)
+        ![rubble](./rubble.png)
+        ![rubbish](./rubbish.png)
+        ![ruins](./ruins.png)
+        ![scrap](./scrap.png)
+        ![sculpture](./sculpture.png)
+        ![smuggler](./smuggler.png)
+        ![waterfall](./waterfall.png)
+        ![default](./sewer.png)
+
+        `<<sewericon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"algae"` | "breeze"` | `"drain"` | `"litter"` | `"main"` | `"mud"` | `"wood"` | `"webs"` | `"rubble"` | `"rubbish"` | `"ruins"` | `"scrap"` | `"sculpture"` | `"smuggler"` | `"waterfall"` | `default`
+      parameters:
+        - '|+ "algae"|"breeze"|"drain"|"litter"|"main"|"mud"|"wood"|"webs"|"rubble"|"rubbish"|"ruins"|"scrap"|"sculpture"|"smuggler"|"waterfall"'
+      tags: ["img"]
+    sextoysicon:
+      description: |-
+        Prints a sextoy icon
+
+        ![anal beads](./sexToys/analbeads.png)
+        ![dildo](./sexToys/dildo.png)
+        ![horse strap-on](./sexToys/strap-on_horse_cock.png)
+        ![knotted strap-on](./sexToys/strap-on_knotted_cock.png)
+        ![lube](./sexToys/lube.png)
+        ![pump](./sexToys/handheld_pump.png)
+        ![smalldildo](./sexToys/dildo_small.png)
+        ![strap-on](./sexToys/strap-on.png)
+        ![stroker](./sexToys/onahole.png)
+        ![flogger](./sexToys/flogger.png)
+        ![paddle](./sexToys/paddle.png)
+        ![candle](./sexToys/candle.png)
+        ![tickler](./sexToys/tickler.png)
+        ![default](./sexToys/bulletvibe.png)
+
+        `<<sextoysicon iconName?>>`
+        - **iconName** _optional_: `string` - type
+          - `"anal beads"` | `"dildo"` | `"horse strap-on"` | `"knotted strap-on"` | `"lube"` | `"pump"` | `"smalldildo"` | `"strap-on"` | `"stroker"` | `"flogger"` | `"paddle"` | `"candle"` | `"tickler"` | `"default"`
+      parameters:
+        - '|+ "anal beads"|"dildo"|"horse strap-on"|"knotted strap-on"|"lube"|"pump"|"smalldildo"|"strap-on"|"stroker"|"flogger"|"paddle"|"candle"|"tickler"|"default"'
+      tags: ["img"]
+    shavestyleicon:
+      description: |-
+        Prints a shave icon modified by player pc's skin colour and penis existence.
+
+        ![balls_m](./shave_balls_m.png)
+        ![clean_f](./shave_clean_f.png)
+        ![clean_m](./shave_clean_m.png)
+        ![heart_f](./shave_heart_f.png)
+        ![heart_m](./shave_heart_m.png)
+        ![strip_f](./shave_strip_f.png)
+        ![strip_m](./shave_strip_m.png)
+        ![triangle_f](./shave_triangle_f.png)
+        ![triangle_m](./shave_triangle_m.png)
+        ![trim_f](./shave_trim_f.png)
+        ![trim_m](./shave_trim_m.png)
+
+        `<<shavestyleicon style>>`
+        - **style**: `string` - filename (not including `shave_` namespace, gender qualifier, or `.png` extension)
+          - `"balls"` | `"clean"` | `"heart"` | `"strip"` | `"triangle"` | `"trim"`
+      parameters:
+        - '"balls"|"clean"|"heart"|"strip"|"triangle"|"trim"'
+      tags: ["img"]
+    shopHuntIcon:
+      description: |-
+        Prints an icon related to the shop hunt sequence
+    shopicon:
+      description: |-
+        Prints a shop icon
+
+        ![adult](./adultshop.gif)
+        ![closed](./closedstore.png)
+        ![clothing](./clothingshop.png)
+        ![dilapidated](./dilapidatedshop.png)
+        ![forest](./forestshop.png)
+        ![tailor](./tailorThread.png)
+        ![tattoo](./tattoo.png)
+        ![toy](./toyshop.png)
+        ![register](./cash_register.png)
+        ![default](./shopping_centre.png)
+
+        `<<shopicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"adult"` | `"closed"` | `"clothing"` | `"dilapidated"` | `"forest"` | `"tailor"` | `"tattoo"` | `"toy"` | `"register"` | `default`
+      parameters:
+        - '|+ "adult"|"closed"|"clothing"|"dilapidated"|"forest"|"tailor"|"tattoo"|"toy"|"register"'
+      tags: ["img"]
+    skinicon:
+      description: |-
+        Prints a composite icon modified by pc's skin colour
+
+        ![banish_skin](./banish_skin.png)
+        ![banish_front](./banish_front.png)
+        ![chef_skin](./chef_hands.png)
+        ![chef_front](./chef_bowl.png)
+        ![give_skin](./give_hand.png)
+        ![give_front](./give_tray.png)
+        ![waiter_skin](./waiter_arm.png)
+        ![waiter_front](./waiter_platter.png)
+        ![hitchhike_skin](./hitchhike_thumb.png)
+        ![hitchhike_front](./hitchhike_car.png)
+        ![masturbate_skin_1](./masturbation_penis.gif)
+        ![masturbate_skin_2](./masturbation_vagina.gif)
+        ![strip_skin](./strip_skin.png)
+        ![strip_front](./strip_undies.png)
+        ![pray_skin](./pray_hands.png)
+        ![pray_front](./pray.png)
+        ![breastEnlarge_skin](./breast_enlarge_skin.png)
+        ![breastEnlarge_front](./breast_enlarge_arrows.png)
+        ![breastReduce_skin](./breast_reduce_skin.png)
+        ![breastReduce_front](./breast_reduce_arrows.png)
+        ![penisEnlarge_skin](./penis_enlarge_skin.png)
+        ![penisEnlarge_front](./penis_enlarge_arrows.png)
+        ![penisReduce_skin](./penis_reduce_skin.png)
+        ![penisReduce_front](./penis_reduce_arrows.png)
+        ![wash_skin](./wash_skin.png)
+        ![wash_front](./wash_bubbles.png)
+        ![manacles_skin](./manacles_skin.png)
+        ![manacles_front](./manacles_front.png)
+        ![wraith_skin](./wraith_skin.png)
+        ![wraith_front](./wraith_front.png)
+
+        `<<skinicon type>>`
+        - **type**: `string` - type of icon to compose
+          - `"banish"`| `"chef"` | `"give"` | `"waiter"` | `"hitchhike"` | `"masturbate"` | `"strip"` | `"pray"` | `"breastEnlarge"` | `"breastReduce"` | `"penisEnlarge"` | `"penisReduce"` | `"wash"` | `"manacles"` | `"wraith"`
+      parameters:
+        - "text|string"
+      tags: ["img"]
+    skyscrapericon:
+      description: |-
+        Prints an icon for Avery's skyscraper
+
+        ![bloodmoon](./skyscraper_bloodmoon.gif)
+        ![construction](./skyscraper_construction.gif)
+        ![fire](./skyscraper_fire.gif)
+        ![ruins](./skyscraper_ruins.gif)
+        ![night](./skyscraper_night.gif)
+        ![default](./skyscraper_day.gif)
+
+        `<<skyscrapericon iconName?>>`
+        - **iconName** _optional_: `string`
+          - `"bloodmoon"` | `"construction"` | `"fire"` | `"ruins"` | `"night"` | `default`
+      parameters:
+        - '|+ "bloodmoon"|"construction"|"fire"|"ruins"|"night"'
+      tags: ["img"]
+    smokeicon:
+      description: "![cig](./cig.png)"
+      tags: ["img"]
+    sneakicon:
+      description: "![sneakicon](./sneak.png)"
+      tags: ["img"]
+    socialiseicon:
+      description: |-
+        Prints a socialise icon
+
+        ![angry](./socialise_angry.png)
+        ![breakdown](./socialise_breakdown.png)
+        ![party](./solocup.png)
+        ![dance](./dance.gif)
+        ![volleyball](./volleyball.png)
+        ![cinema](./ticket.png)
+        ![ask](./birdTower/socialise_question.png)
+        ![dance](./dance.gif)
+        ![default](./socialise.png)
+
+        `<<socialiseicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"angry"` |`"breakdown"` | `"party"` | `"dance"` | `"volleyball"` | `"cinema"` | `"ask"` | `"dance"` | `default`
+      parameters:
+        - '|+ "angry"|"breakdown"|"party"|"volleyball"|"cinema"|"dance"|"ask"'
+      tags: ["img"]
+    spaicon:
+      description: |-
+        Prints a spa icon
+
+        ![massage](./spa.gif)
+        ![tanning](./tanning.png)
+        ![default](./spa.png)
+
+        `<<spaicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"massage"` | `"tanning"` | `default`
+      parameters:
+        - '|+ "massage"|"tanning"'
+      tags: ["img"]
+    stairsicon:
+      description: |-
+        Prints a stairs icon
+
+        ![up](./actions/stairsup.png)
+        ![down](./actions/stairsdown.png)
+        ![default](./actions/stairsdownup.png)
+        ![up prison](./actions/stairsupprison.png)
+        ![down prison](./actions/stairsdownprison.png)
+        ![downup prison](./actions/stairsdownupprison.png)
+
+        `<<stairsicon iconName? location?>>`
+        - **iconName** _optional_: `string` - direction
+          - `"up"` | `"down"` | `default`
+        - **location** _optional_: `string` - location
+          - `"prison"` | `default`
+      parameters:
+        - '|+ "up"|"down"|"downup" |+ "prison"'
+      tags: ["img"]
+    stallicon:
+      description: |-
+        Prints a stall icon
+
+        ![balloon](./stall_balloon.png)
+        ![open](./stall_open.png)
+        ![default](./stall.png)
+
+        `<<stallicon iconName?>>`
+        - **iconName** _optional_: `string` - state
+          - `"balloon"` | `"open"` | `default`
+      parameters:
+        - '|+ "balloon"|"open"'
+      tags: ["img"]
+    starfishicon:
+      description: "![starfishicon](./starfish.png)"
+      tags: ["img"]
+    steedicon:
+      description: |-
+        Displays the saddle icon in different colours when choosing or owning a steed
+      tags: ["img"]
+    stripclubicon:
+      description: "![stripclubicon](./stripclub.gif)"
+      tags: ["img"]
+    supermarketicon:
+      description: |-
+        ![cart](./supermarket_cart.png)
+        ![basket](./supermarket_basket.png)
+
+        `<<supermarketicon iconName?>>`
+        - **iconName** _optional_: `string` - item
+          - `"cart"` | `"basket"`
+          - Defaults to `"basket"`
+      parameters:
+        - '|+ "cart"|"basket"'
+      tags: ["img"]
+    swimicon:
+      description: |-
+        Prints a swim icon
+
+        `back` is flipped via css
+
+        ![back](./actions/swim.png)
+        ![break](./actions/breakice.png)
+        ![dive](./actions/dive.png)
+        ![down](./actions/swimdown.png)
+        ![leave](./actions/leavewater.png)
+        ![up](./actions/swimup.png)
+        ![default](./actions/swim.png)
+
+        `<<swimicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"back"` | `"break"` | `"dive"` | `"down"` | `"leave"` | `"up"` | `default`
+      parameters:
+        - '|+ "back"|"break"|"dive"|"down"|"leave"|"up"'
+      tags: ["img"]
+    swimmingicon:
+      description: "![swimmingicon](./swimming.png)"
+      tags: ["img"]
+    symbol:
+      description: |-
+        Prints one of the symbols used in the UI
+
+        ![awareness](%workspaceDir%/img/ui/sym_awareness.png)
+        ![beauty](%workspaceDir%/img/ui/sym_beauty.png)
+        ![confidence](%workspaceDir%/img/ui/sym_confidence.png)
+        ![corruption](%workspaceDir%/img/ui/tf_demon.png)
+        ![deviancy](%workspaceDir%/img/ui/sym_deviancy.png)
+        ![dominance](%workspaceDir%/img/ui/sym_dominance.png)
+        ![exhibitionism](%workspaceDir%/img/ui/sym_exhibitionism.png)
+        ![jealousy](%workspaceDir%/img/ui/sym_jealousy.png)
+        ![love](%workspaceDir%/img/ui/sym_love.png)
+        ![physique](%workspaceDir%/img/ui/sym_physique.png)
+        ![purity](%workspaceDir%/img/ui/tf_angel.png)
+        ![rage](%workspaceDir%/img/ui/sym_rage.png)
+        ![trauma](%workspaceDir%/img/ui/sym_trauma.png)
+
+        `<<symbol iconName?>>`
+        - **iconName** : `string` - filename (not including `sym_` namespace or `.png` extension)
+          - `"awareness"` | `"beauty"` | `"confidence"` | `"corruption"` | `"deviancy"` |  `"dominance"` | `"exhibitionism"` | `"jealousy"` | `"love"`| `"physique"` | `"promiscuity"/"lust"` | `"purity"` | `"rage"` | `"trauma"/"willpower"/"fear"`
+      parameters:
+        - '|+ "awareness"|"beauty"|"confidence"|"deviancy"|"dominance"|"exhibitionism"|"jealousy"|"love"|"lust"|"physique"|"promiscuity"|"rage"|"trauma"|"willpower"|"fear"'
+      tags: ["img"]
+    techicon:
+      description: |-
+        Prints a technology- or electronics-related icon
+
+        ![camera](./camera.png)
+        ![computer](./computer.png)
+        ![email](./email.png)
+        ![lightbulb](./lightbulb.gif)
+        ![monitors](./monitors.png)
+        ![radio](./radio.png)
+        ![torch](./torch.png)
+        ![usb](./usb.png)
+        ![vcam](./vcam.png)
+        ![default](./computer.png)
+
+        `<<techicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - ``"camera"` | `"computer"` | `"email"` | `"lightbulb"` | `"monitors"` | `"radio"` |  `"torch"` | `"usb"` | `"vcam"` | `default`
+      parameters:
+        - '|+ "camera"|"computer"|"email"|"lightbulb"|"monitors"|"radio"|"torch"|"usb"|"vcam"'
+      tags: ["img"]
+    templeicon:
+      description: |-
+        Prints a temple icon
+
+        `garden night` is dynamic based on time of day
+
+        ![altar](./altar.gif)
+        ![baton](./baton.png)
+        ![chastity](./padlock.png)
+        ![chastity release](./padlock_unlocked.png)
+        ![cloister](./cloister.png)
+        ![confession](./confessional.png)
+        ![garden night](./temple_garden_night.png)![garden daydefault](./temple_garden.png)
+        ![pew](./pew.png)
+        ![pray](./pray.png)
+        ![prayer room](./prayer_room.png)
+        ![quarters](./quarters.png)
+        ![statue](./statue_low.png)
+        ![quarters](./quarters.png)
+        ![trial](./trial_of_purity.gif)
+        ![trialcontinue](./trial_continue.gif)
+        ![trialbail](./trial_jump.gif)
+        ![virginity](./virginity_test.png)
+        ![whip](./whip.png)
+        ![default](./wolf.png)
+
+        `<<templeicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"altar"` | `"baton"` | `"chastity"` | `"chastity release"` | `"cloister"` | `"confession"` | `"garden"` | `"pew"` | `"pray"` | `"prayer room"` | `"statue"` | `"statue"` | `"statue"` | `"quarters"` | `"trial"` | `"trialcontinue"` | `"trialbail"` | `"virginity"` | `"whip"` | `default`
+      parameters:
+        - '|+ "altar"|"baton"|"chastity"|"chastity release"|"cloister"|"confession"|"garden"|"pew"|"pray"|"prayer room"|"statue"|"quarters"|"trial"|"trialcontinue"|"trialbail"|"virginity"|"whip"'
+      tags: ["img"]
+    tendingicon:
+      description: |-
+        Prints a tending icon
+
+        ![apple](.\tending\apple.png)
+        ![babybottle](.\tending\babybottle.png)
+        ![banana](.\tending\banana.png)
+        ![basket](.\tending\basket.png)
+        ![bird_egg](.\tending\bird_egg.png)
+        ![blackberry](.\tending\blackberry.png)
+        ![blood_lemon](.\tending\blood_lemon.gif)
+        ![breast_milk](.\tending\breast_milk.png)
+        ![breastmilk](.\tending\breastmilk.png)
+        ![broccoli](.\tending\broccoli.png)
+        ![cabbage](.\tending\cabbage.png)
+        ![carnation](.\tending\carnation.png)
+        ![carrot](.\tending\carrot.png)
+        ![chicken_egg](.\tending\chicken_egg.png)
+        ![daisy](.\tending\daisy.png)
+        ![egg](.\tending\egg.png)
+        ![garlic](.\tending\garlic.png)
+        ![ghostshroom](.\tending\ghostshroom.png)
+        ![lemon](.\tending\lemon.png)
+        ![lily](.\tending\lily.png)
+        ![lotus](.\tending\lotus.png)
+        ![milk](.\tending\milk.png)
+        ![mushroom_aphrodisiac](.\tending\mushroom_aphrodisiac.png)
+        ![mushroom](.\tending\mushroom.png)
+        ![onion](.\tending\onion.png)
+        ![orange](.\tending\orange.png)
+        ![orchid](.\tending\orchid.png)
+        ![oyster_pearl](.\tending\oyster_pearl.png)
+        ![peach](.\tending\peach.png)
+        ![pear](.\tending\pear.png)
+        ![pink_rose](.\tending\pink_rose.png)
+        ![plum](.\tending\plum.png)
+        ![plumeria](.\tending\plumeria.png)
+        ![poppy](.\tending\poppy.png)
+        ![potato](.\tending\potato.png)
+        ![red_rose](.\tending\red_rose.png)
+        ![saints_crown](.\tending\saints_crown.png)
+        ![semenbottle](.\tending\semenbottle.png)
+        ![sharks teeth](./tending/sharks_teeth.png)
+        ![strange_flower](.\tending\strange_flower.png)
+        ![strawberry](.\tending\strawberry.png)
+        ![truffle](.\tending\truffle.png)
+        ![tulip](.\tending\tulip.png)
+        ![turnip](.\tending\turnip.png)
+        ![white_rose](.\tending\white_rose.png)
+        ![wild_honeycomb](.\tending\wild_honeycomb.png)
+        ![wolfshroom](.\tending\wolfshroom.png)
+        ![basket](.\basket.png)
+
+        `<<tendingIcon iconName?>>`
+        - **iconName** _optional_: `string` - filename relative to tending directory (not including extension)
+          - `"apple"` | `"babybottle"` | `"banana"` | `"basket"` | `"bird_egg"` | `"blackberry"` | `"blood_lemon"` | `"blood_lemon"` | `"breast_milk"` | `"breastmilk"` | `"broccoli"` | `"cabbage"` | `"carnation"` | `"carrot"` | `"chicken_egg"` | `"daisy"` | `"egg"` | `"garlic"` | `"ghostshroom"` | `"lemon"` | `"lily"` | `"lotus"` | `"milk"` | `"mushroom_aphrodisiac"` | `"mushroom"` | `"onion"` | `"orange"` | `"orchid"` | `"oyster_pearl"` | `"peach"` | `"pear"` | `"pink_rose"` | `"plum"` | `"plumeria"` | `"poppy"` | `"potato"` | `"red_rose"` | `"saints_crown"` | `"semenbottle"` | `"sharks teeth"` | `"strange_flower"` | `"strawberry"` | `"truffle"` | `"tulip"` | `"turnip"` | `"white_rose"` | `"wild_honeycomb"` | `"wolfshroom"` | `default`
+      parameters:
+        - '|+ text|string'
+
+      tags: ["img"]
+    tentacleicon:
+      description: |-
+        Prints a tentacle plains icon
+
+        `east` is flipped via css
+
+        ![north](./tentanorth.png)
+        ![south](./tentasouth.png)
+        ![west](./tentadeeper.png)
+        ![east](./tentadeeper.png)
+        ![default](./tentadeeper.png)
+
+        `<<tentacleicon iconName?>>`
+        - **iconName** _optional_: `string` - direction
+          - `"north"` | `"south"` | `"west"` | `"east"` | `default`
+      parameters:
+        - '|+ "north"|"south"|"west"|"east"'
+      tags: ["img"]
+    tficon:
+      description: |-
+        Prints a composite transformation icon
+
+        ![angel](%workspaceDir%/img/ui/tf_angel.png)
+        ![fallenangel](%workspaceDir%/img/ui/tf_fallenangel.png)
+        ![demon](%workspaceDir%/img/ui/tf_demon.png)
+        ![wolf](./tf_wolf.png)
+        ![cat](./tf_cat.png)
+        ![cow](./tf_cow.png)
+        ![fox](./tf_fox.png)
+        ![bird](./tf_bird.png)
+
+        `<<tficon tfType>>`
+        - **tfType**: `string` - Type of tf to print
+          - `"angel"` | `"fallenangel"` | `"demon"` | `"wolf"` | `"cat"` | `"cow"` | `"fox"` | `"bird"`
+      parameters:
+        - '"angel"|"fallenangel"|"demon"|"wolf"|"cat"|"cow"|"fox"|"bird"'
+    towelicon:
+      description: "![towelicon](./clothes/towel.png)"
+      tags: ["img"]
+    townhallicon:
+      description: "![townhallicon](./town_hall.png)"
+      tags: ["img"]
+    undobindingsicon:
+      description: "![undobindingsicon](./bindings.png)"
+      tags: ["img"]
+    venticon:
+      decoration:
+        <<:
+          - *img
+          - *unused
+      description: |-
+        Prints a vent icon
+
+        ![eyes](./vent_eyes.png)
+        ![default](./vent.png)
+
+        `<<venticon iconName?>>`
+        - **iconName** _optional_: `string` - variant
+          - `"eyes"` | `default`
+      parameters:
+        - '|+ "eyes"'
+      tags: ["img"]
+    walkicon:
+      description: |-
+        Prints a walk icon
+
+        `west` is flipped via css
+
+        ![west](./walk.png)
+        ![default](./walk.png)
+
+        `<<walkicon iconName?>>`
+        - **iconName** _optional_: `string` - direction
+          - `"west"` | `default`
+      parameters:
+        - '|+ "west"|"east"'
+      tags: ["img"]
+    wardrobeicon:
+      description: "![wardrobeicon](./wardrobe.png)"
+      tags: ["img"]
+    watericon:
+      description: |-
+        Prints a composite water icon of `deco` + `waterbase`
+
+        Usage:
+        `<<watericon "watertype[_location or _specialstate]">>`
+        The `_location` and `_specialstate` are optional.
+        Examples:
+        `<<watericon "waterfall">>`
+        `<<watericon "waterfall_wolfcave">>`
+        `<<watericon "pond_frozen">>`
+
+        Available waterbase:
+        ![waterfall](./waterfall_base.gif)
+        ![waterside](./waterside_base.gif)
+        ![stream](./stream_base.gif)
+        ![pond](./pond_base.gif)
+
+        Available deco types:
+        | waterbase  | deco options         |
+        |------------|----------------------|
+        | waterfall  | "rock", "rockgreen"  |
+        | waterside  | "soil"               |
+        | stream     | "grass", "rock"      |
+        | pond       | "grass"              |
+      tags: ["img"]
+    weatherIcon:
+      description: |-
+        Prints an icon based on the weather and time of day
+
+        ![blood_clouds](./weather/blood_clouds.png)
+        ![day_clear](./weather/day_clear.png)
+        ![night_snow](./weather/night_snow.png)
+      tags: ["img"]
+    windowicon:
+      description: |-
+        Prints an icon of a bird knocking on the window
+
+        `<<windowicon>>`
+      tags: ["img"]
+    wolfcaveicon:
+      description: |-
+        Prints a wolf cave icon
+
+        ![pup](./wolfpup.png)
+        ![sleep](./wolfsleep.png)
+        ![stream](./stream.png)
+        ![black dog](./blackdog.png)
+        ![bw](./blackwolf.png)
+        ![entrance](./wolfcave_entrance.png)
+        ![inside](./wolfcave_inside.png)
+        ![outside](./wolfcave_outside.png)
+        ![pupsden](./wolfcave_pupsden.png)
+        ![hole](./wolfcave_hole.png)
+        ![wolf](./wolf_brown.png)
+        ![wolf play](./wolf_brown_play.png)
+        ![ferocity](%workspaceDir%/img/ui/wolfferocity.png)
+        ![harmony](%workspaceDir%/img/ui/wolfharmony.png)
+        ![default](./wolves.png)
+
+        `<<wolfcaveicon iconName?>>`
+        - **iconName** _optional_: `string` - interest point
+          - `"pup"` | `"sleep"` | `"stream"` | `"black dog"` | `"bw"` | `"ferocity"` | `"harmony"` | `"wolf"` | `"wolf play"` | `"inside"` | `"outside"` | `"pupsden"` | `"entrance"` | `"hole"` | `"children"` | `default`
+      parameters:
+        - '|+ "pup"|"sleep"|"stream"|"black dog"|"bw"|"ferocity"|"harmony"|"wolf"|"wolf play"|"inside"|"outside"|"pupsden"|"entrance"|"hole"|"children"'
+      tags: ["img"]
+    wolficon:
+      description: "![wolficon](./wolf.png)"
+      tags: ["img"]
+    wraithicon:
+      description: "![wraithicon](./wraith.png)"
+      tags: ["img"]
