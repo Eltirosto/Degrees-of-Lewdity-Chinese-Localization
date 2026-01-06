@@ -10,8 +10,11 @@ env:
   #  MODLOADER_HTML_FILENAME: "Degrees of Lewdity VERSION.html.mod-polyfill.html"
   I18NMOD_FILENAME: "ModI18N.mod.zip"
 
-  MODLOADER_HTML_NORMAL_FILENAME: "Degrees of Lewdity VERSION.html.mod.html"
-  MODLOADER_HTML_POLYFILL_FILENAME: "Degrees of Lewdity VERSION.html.mod-polyfill.html"
+  MODLOADER_HTML_NORMAL_FILENAME: "Degrees of Lewdity VERSION.html.sc2patch.html.mod.html"
+  MODLOADER_HTML_POLYFILL_FILENAME: "Degrees of Lewdity VERSION.html.sc2patch.html.mod-polyfill.html"
+  
+  MODLOADER_HTML_NORMAL_RESULT_FILENAME: "Degrees of Lewdity VERSION.html.mod.html"
+  MODLOADER_HTML_POLYFILL_RESULT_FILENAME: "Degrees of Lewdity VERSION.html.mod-polyfill.html"
 
   MANIFEST_JSON_NORMAL_FILENAME: "manifest-normal.json"
   MANIFEST_JSON_POLYFILL_FILENAME: "manifest-polyfill.json"
@@ -70,6 +73,8 @@ jobs:
       - name: Modify HTML
         shell: python3 {0}
         run: |
+          import shutil
+          
           for html_name, manifest_name in zip(
             ["${{ env.MODLOADER_HTML_NORMAL_FILENAME }}", "${{ env.MODLOADER_HTML_POLYFILL_FILENAME }}"],
             ["${{ env.MANIFEST_JSON_NORMAL_FILENAME }}", "${{ env.MANIFEST_JSON_POLYFILL_FILENAME }}"]
@@ -89,6 +94,9 @@ jobs:
               index_html_file.seek(0)
               index_html_file.truncate()
               index_html_file.write(index_html)
+          
+          shutil.move(f"${{ env.DOWNLOAD_RELEASE_TEMP_PATH }}/${{ env.MODLOADER_HTML_NORMAL_FILENAME }}", f"${{ env.DOWNLOAD_RELEASE_TEMP_PATH }}/${{ env.MODLOADER_HTML_NORMAL_RESULT_FILENAME }}")
+          shutil.move(f"${{ env.DOWNLOAD_RELEASE_TEMP_PATH }}/${{ env.MODLOADER_HTML_POLYFILL_FILENAME }}", f"${{ env.DOWNLOAD_RELEASE_TEMP_PATH }}/${{ env.MODLOADER_HTML_POLYFILL_RESULT_FILENAME }}")
 
       - name: Pack Artifact
         run: |
