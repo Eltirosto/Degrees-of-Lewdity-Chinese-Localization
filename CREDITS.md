@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20260106
+> 20260201
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -243,6 +243,8 @@
 - BlueWasabi
 - Bonnie9895
 - Bowen
+- Busuanzi
+- C635190850
 - Capaletric
 - Ccb114514
 - Celialapin
@@ -256,8 +258,10 @@
 - Chikus
 - Chocolate Moss
 - Cindy531824
+- Clean
 - CocoPto
 - Creeping
+- Crumb fish
 - Csh
 - DAX666
 - DGCK81LNN
@@ -267,6 +271,7 @@
 - Ddzzkun
 - Deer
 - DeformedGodComplex
+- Deperens
 - DestroyerS
 - Dknife
 - Dlmily
@@ -321,6 +326,7 @@
 - Higuas
 - Hiroko
 - Hmsterror
+- Hs90419a
 - Huangxiaoan10
 - Hyphakinshi
 - Icc
@@ -332,6 +338,7 @@
 - Jack DOL
 - Jiangjieshi
 - Jingheimoan
+- Jitm
 - Jjjxj
 - Judy1233456
 - K2496745900
@@ -391,6 +398,7 @@
 - Luzzy
 - Lyjjl
 - Lzz
+- MCxiaoai
 - MOW0
 - MagicalAstrogy
 - Maidlinmo
@@ -450,6 +458,7 @@
 - Purelewd1
 - Putini
 - Pyy
+- Q1453160001
 - Q299814377
 - Qian ge
 - Qing Jue
@@ -474,6 +483,7 @@
 - Selene-Ling
 - Shaun
 - Shirokun2024
+- Shirokun2026
 - Shuangyuanland
 - Sigmoni
 - Signalblue
@@ -540,6 +550,7 @@
 - Xirfyi75
 - YOULINGJUN DOL
 - YangXiao5
+- Yanyan1
 - YaoJiuQi
 - Ycy.
 - Yesnoaaa
@@ -580,6 +591,7 @@
 - 仇夏
 - 令雨不是零
 - 伊斯
+- 伊沃鸽子
 - 佘临
 - 余晖
 - 你看见头了吗？
@@ -588,6 +600,7 @@
 - 克祖亞
 - 克迩瑞
 - 兔子是素的
+- 八十岁老头夜袭寡妇村
 - 八月
 - 六黄
 - 冰墓
@@ -753,7 +766,6 @@
 - ALEXDRAGON555
 - Anahita-C
 - AnnAnn1017
-- Ark-Two
 - Arueee
 - BluexBerry6475
 - Brandoyifang
@@ -772,7 +784,6 @@
 - Fimmm
 - Fuyuhana
 - Gionaqiaonai
-- GuHaiYin
 - HAL900O
 - Ham-desu
 - Jemella7
@@ -786,6 +797,7 @@
 - Melicha114
 - Meowmeow030
 - MillianaEP
+- Minta15
 - Moliyi
 - MorningLights
 - Nekofoxmiu
@@ -813,6 +825,7 @@
 - SlimFight1
 - SnapSora
 - Sphaela
+- Stellablackxjevin
 - TillMist
 - Trenza1ore
 - UphealLaw
@@ -896,6 +909,7 @@
 - sgj123456
 - shanmujiuya
 - shenqide5
+- shirokun2024
 - shovel25231
 - shugu2731-blip
 - si1ence1895
@@ -907,7 +921,6 @@
 - tutuzi618
 - uhohohoho
 - ujhfjosnfksd
-- un114514okk
 - unins000
 - waxchian
 - whrfssb

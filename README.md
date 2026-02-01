@@ -207,6 +207,15 @@
 <details>
 <summary>点击展开</summary>
 
+> 2026.02.01
+> - 发布 `dol-0.5.7.9-chs-5.1.0a` 版
+> - 修正了遭遇战相关剧情文本 [@issue-dc/136][issue-dc136]
+> - 修正了一处文本错译 [@issue-dc/137][issue-dc137]
+> - 修复了与科学课剧情相关的一处问题 [@issue-dc/138][issue-dc138]
+> - 修复了食堂罗宾剧情相关文本缺少主语的问题 [@issue/535][issue535]
+> - 修复了一些其他已知问题
+> 
+> 
 > 2026.01.06
 > - 发布 `dol-0.5.7.9-chs-5.0.2a` 版
 >   - 游戏本体更新至 v0.5.7.9
@@ -1491,6 +1500,7 @@
 [issue527]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/527
 [issue528]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/528
 [issue534]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/534
+[issue535]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/535
 
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
@@ -1627,3 +1637,6 @@
 [issue-dc133]: https://discord.com/channels/1103864219620884560/1456107565996970128
 [issue-dc134]: https://discord.com/channels/1103864219620884560/1456577639383957525
 [issue-dc135]: https://discord.com/channels/1103864219620884560/1456444423045910780
+[issue-dc136]: https://discord.com/channels/1103864219620884560/1459843164754939964
+[issue-dc137]: https://discord.com/channels/1103864219620884560/1462517185502249126
+[issue-dc138]: https://discord.com/channels/1103864219620884560/1466993396043485299
