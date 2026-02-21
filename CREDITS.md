@@ -1,14 +1,12 @@
 ## 欲都孤儿 贡献者名单
-> 20260201
+> 20260222
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
 
-- 0-V-O
 - 0Mr-Wolf0
 - 121090445(Barriek)
 - 127inch
-- 2113693481(G4466)
 - 23tinywishes(23-li'l-wishes)
 - 27844
 - 3428580294(Akane)
@@ -18,18 +16,15 @@
 - AEEESEEEA(虚空)
 - Abreadpuppy
 - Aeserchengzi
-- Airiowo6181(Airi_owo)
 - Albedoui
 - Anahita-C(纯纯)
 - AnselCl(Quintillus)
 - ApostateJulian(ApostateJulian)
 - AshoreFall(Ashore)
-- Barkatze
 - BiologyRainbow
 - Bl-XY(噬星鸽)
 - Blakuout
 - Byuzh(白羽之花)
-- CH3CHClCOOCH2CH3(Yugoslavia)
 - CKRainbow(CKRainbow)
 - CharnelKan
 - CherubKuar(kuar考爾)
@@ -39,7 +34,6 @@
 - ClameCyrus
 - CountsC(COUNTC)
 - Crow153
-- CyanAngle(魔女不会魔法)
 - CytP-code
 - DarkWimd
 - Flos0310
@@ -47,10 +41,7 @@
 - Future-R(未来)
 - Gamez4Alpaca
 - HCPTangHY
-- HamTario0337
-- InvBlaze(Sonar.)
 - KNKswn
-- KPTKJC
 - Kagamine-Rinrin(Kagamine_Lilly)
 - Khaos423(Mr.Lamb)
 - Lemonadestars(柠檬水)
@@ -62,12 +53,8 @@
 - Maenoko(Mer)
 - MaplebirchLeaf
 - Melicha114
-- Messiahyurika0717(蓝洋雨)
 - MissedHeart(丧心)
-- Mizunotsuki
-- MorLen-molan
 - MuCL2023(良衣)
-- NNann1111
 - Na2OF4
 - Nana027777777(骨头便当)
 - Nephthelana(Benzene)
@@ -76,9 +63,8 @@
 - NumberSir(Number_Sir)
 - ORANGEEMF(华夫饼)
 - OracleMystic
-- PIKACA2221
+- PIKACA2221(Hlinc)
 - Peri-Yao
-- Pingu12657
 - PlutoShu2530
 - PrunusSerrulata(PrunusSerrulata)
 - REI0909(怜)
@@ -97,10 +83,8 @@
 - Umineko233(UMINEKO)
 - Urped
 - VincentHDLee(V)
-- Violetahere
 - VogelJyn(Tauben)
 - WARMASTER-LEAns(净尘)
-- Weinear
 - XDCirno9
 - XiangQixing(启星)
 - YineR0v0(YineR)
@@ -109,25 +93,19 @@
 - ZerxZ(深淵の鴿子)
 - acizaa(Dreaming)
 - aflbdmp
-- amekachan
 - aria-chan-trans(Aria)
-- bfwqzj
 - cat5230(彭猫猫)
 - catdexe(Mamon)
 - chary0079
 - chazi152
-- chenshifu1145
 - cphxj123(北极星)
 - drugl007
-- dya3506(dya3506)
 - edabchann(edab)
-- emicoto(Lune)
 - fower151
 - gagadog
 - geilian
 - gn02994106(Ruby)
 - himearl(香草兔兔公爵)
-- incrediblechou(SVC)
 - infinitylose(天玄)
 - k9563461(Dorothy79)
 - kinshisan(菌丝)
@@ -141,7 +119,6 @@
 - omvjro(+++嫉妒)
 - onefrogxx
 - pangbaibai27(pangb)
-- panzian0212
 - polarmail(智)
 - qlyxqlyx(阿泠)
 - qwedc001(Eric Guo)
@@ -151,11 +128,7 @@
 - soupdumpling420
 - spaghetti-22
 - sqbsayori
-- szbenyx(test)
-- tiankong-sky
-- touttie
 - und3rgr0vvth
-- vilandsea
 - vvkbbg
 - wangba12345(31769636)
 - waveyl(wave)
@@ -163,7 +136,6 @@
 - whiteofsky
 - wmyouff
 - wuruoxi(Elf King)
-- x635(狗墩子)
 - xLuckTlyer(钱德勒)
 - xiaojiZack
 - xiawu240(妖魔鬼怪快离开⭐)
@@ -184,6 +156,7 @@
 - 100Zhi
 - 101de9
 - 1344535564qwa
+- 13sammy
 - 1509418354z
 - 15727557402zy
 - 19543739060lwj
@@ -193,6 +166,7 @@
 - 259172社
 - 2Bdada
 - 404bk
+- 774109a
 - 9ty9aku
 - A1066160186
 - A11216266
@@ -246,6 +220,7 @@
 - Busuanzi
 - C635190850
 - Capaletric
+- Cat 02
 - Ccb114514
 - Celialapin
 - Charil
@@ -263,7 +238,9 @@
 - Creeping
 - Crumb fish
 - Csh
+- CtastrophE25
 - DAX666
+- DBF300
 - DGCK81LNN
 - Damazti3rd
 - Dangwan
@@ -304,6 +281,7 @@
 - Fgftgh
 - Flammis023
 - Flow talk page manager
+- Foggy520
 - Fox hezi02
 - Frederica
 - FungiEggroll
@@ -314,6 +292,7 @@
 - GnOr
 - Gold-wx
 - GraySparrow
+- Guize
 - Gurgle
 - Gwynbleiddd
 - H019019
@@ -378,9 +357,12 @@
 - Leonithas
 - Lifeir
 - Lingqishi1995
+- Linley
+- Linshide
 - Little One
 - LittleJinTRE
 - Liuyu1122
+- Lixingyi0823
 - Lizo
 - Llang
 - Lnlts
@@ -482,6 +464,7 @@
 - Schwarzkatze
 - Selene-Ling
 - Shaun
+- Shelly0m0
 - Shirokun2024
 - Shirokun2026
 - Shuangyuanland
@@ -582,6 +565,7 @@
 - Zyh
 - Zzz777
 - コードネーム夏洛克
+- 一只雷鸟
 - 不列颠皇家拉屎委员会
 - 不想晚睡
 - 不爱吃鱼
@@ -648,6 +632,7 @@
 - 德鲁伊心水晶剑
 - 心宿二
 - 悉尼很可爱
+- 悉尼的爱人－触手的苗床
 - 悉尼的缔结
 - 惊恐地凝视
 - 惠高木惠
@@ -657,12 +642,14 @@
 - 我刚睡醒
 - 我是美铝
 - 拳皇贞德
+- 撅撅镇传奇
 - 斯德哥爾摩重度患者
 - 方糖于杯中回转
 - 旷世灬水
 - 星涵是蠢狼
 - 昭雪
 - 是剑猫啊
+- 普瑞缇安
 - 暗影無形
 - 板蓝根
 - 枫
@@ -777,7 +764,9 @@
 - DeepDark010
 - EdminZ
 - Eleus7
+- Eloy4399
 - Eudemonism00
+- Euphrenia
 - EvolveCrow
 - FLCnhzmry
 - Fe-debuff
@@ -849,7 +838,6 @@
 - bibibibiye
 - blackteawww
 - blackuoi
-- branpurnae
 - bwhmtyp
 - creeping1023
 - dfs3251
@@ -870,6 +858,7 @@
 - ilokju
 - istkburgerking
 - iwndgqowkrbyw
+- kalahaha123-hue
 - kateW223
 - kinogi
 - kuri4002
