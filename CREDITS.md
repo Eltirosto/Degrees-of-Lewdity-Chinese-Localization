@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20260222
+> 20260301
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -213,6 +213,7 @@
 - Biantai456123
 - Birdmanonline
 - Bisan
+- Bitscat
 - Bleph
 - BlueWasabi
 - Bonnie9895
@@ -351,6 +352,7 @@
 - LalunRrosmarin
 - Lambda017
 - Laognf
+- Laonuo
 - LarryL
 - LazyCat718
 - Leaf03
@@ -361,6 +363,7 @@
 - Linshide
 - Little One
 - LittleJinTRE
+- Liujiaji14
 - Liuyu1122
 - Lixingyi0823
 - Lizo
@@ -432,6 +435,7 @@
 - PONTIFEXJULIAN
 - PeryFox
 - Pl816098
+- Plastic jellyfish
 - Plm
 - PolarisLin
 - PolliaJ
@@ -446,6 +450,7 @@
 - Qing Jue
 - Qsx0391
 - R18gWhen
+- Rain31415
 - Redesilow
 - Remilia
 - RetuEase
@@ -477,7 +482,9 @@
 - Skipod
 - SkyF
 - SoraL
+- Soyorin
 - SpispsW
+- Ssksbbab
 - Stagger
 - Star1825
 - Starrrr
@@ -496,6 +503,7 @@
 - Trlaitioer
 - Tsunhui217
 - TuShanmxy
+- Txs
 - USB mw
 - UnknownMZ
 - Upghs2336
@@ -546,6 +554,7 @@
 - Yukiviyugmail
 - Yukki
 - YunyouLi
+- Yurigui
 - Yuying
 - Yuyu-o
 - Yyn12251
@@ -702,6 +711,7 @@
 - 耶耶耶
 - 肉欲大入
 - 色温
+- 艾娃
 - 花愛雪
 - 芸
 - 菜地里的大白菜
@@ -710,6 +720,7 @@
 - 蚊子
 - 西里斯小店
 - 討厭組合包
+- 许欢
 - 象牙幽灵抄抄我的
 - 轻灵
 - 轻语的风
@@ -720,6 +731,7 @@
 - 阿蒙3673
 - 陈泽
 - 陌年微凉
+- 隨風飄逸
 - 雁棲
 - 零环零理想
 - 霜蓝梦凝
@@ -815,6 +827,7 @@
 - SnapSora
 - Sphaela
 - Stellablackxjevin
+- StrangeCookies
 - TillMist
 - Trenza1ore
 - UphealLaw
@@ -853,7 +866,6 @@
 - godfandog
 - haitun202
 - hphhh222
-- hyakuyamikaera
 - iau713713713-crypto
 - ilokju
 - istkburgerking
@@ -862,6 +874,7 @@
 - kateW223
 - kinogi
 - kuri4002
+- kyuusanngyou19990901-lab
 - lemon1119
 - len0112
 - liangchengjiuren
@@ -892,7 +905,6 @@
 - robot1415
 - ruuu219
 - ryou1016
-- salagadoola
 - scarletea
 - scarywhale
 - sgj123456

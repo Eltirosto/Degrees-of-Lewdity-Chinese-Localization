@@ -203,10 +203,22 @@
 
 ---
 
+
+
 ## 更新日志
+
+<!-- region Changelog -->
 <details>
 <summary>点击展开</summary>
 
+> 2026.03.01
+> - 发布 `dol-0.5.8.10-chs-3.0.3a` 版
+>   - 游戏本体更新至 v0.5.8.10
+>   - 修改了几处关于艾弗里情人节剧情的文本翻译 [@issue/541][issue541]
+>   - 修复了衣柜相关问题 [@issue-dc/147][issue-dc147] [@issue-dc/148][issue-dc148]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2026.02.22
 > - 发布 `dol-0.5.8.9-chs-2.0.1a` 版
 >   - 游戏本体更新至 v0.5.8.9
@@ -1176,6 +1188,8 @@
 
 </details>
 
+<!-- endregion -->
+
 [blog]: https://vrelnir.blogspot.com/
 [wiki-en]: https://degreesoflewdity.miraheze.org/wiki
 [wiki-cn]: https://degreesoflewditycn.miraheze.org/wiki
@@ -1196,6 +1210,7 @@
 
 [issue32-comment]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/32#issuecomment-1754443351
 
+<!-- region Issues -->
 [issue2]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/2
 [issue3]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/3
 [issue5]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/5
@@ -1516,6 +1531,7 @@
 [issue535]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/535
 [issue538]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/538
 [issue539]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/539
+[issue541]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/541
 
 
 [issue-dc1]: https://discord.com/channels/1103864219620884560/1203589492565348362
@@ -1663,3 +1679,6 @@
 [issue-dc144]: https://discord.com/channels/1103864219620884560/1469698568938979422
 [issue-dc145]: https://discord.com/channels/1103864219620884560/1471188034710929613
 [issue-dc146]: https://discord.com/channels/1103864219620884560/1472382120075853915
+[issue-dc147]: https://discord.com/channels/1103864219620884560/1476130006051721236
+[issue-dc148]: https://discord.com/channels/1103864219620884560/1476237180060827841
+<!-- endregion -->
