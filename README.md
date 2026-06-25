@@ -211,6 +211,18 @@
 <details>
 <summary>点击展开</summary>
 
+> 2026.06.25
+> - 发布 `dol-0.5.10.12-chs-1.0.6a` 版
+>   - 游戏本体更新至 v0.5.10.12
+>   - 修正了存档界面误导性文本 [@issue/542][issue/542]
+>   - 修复了与烙印、纹身相关的问题 [@issue/543][issue/543] [@issue/546][issue/546]
+>   - 修复了码头打工午休出现的问题 [@issue-dc/155][issue-dc/155]
+>   - 修复了狼穴相关剧情文本的问题 [@issue-dc/156][issue-dc/156]
+>   - 修复了绝望轮回剧情相关问题 [@issue-dc/157][issue-dc/157]
+>   - 修正了艾弗里约会剧情打牌文本 [@issue-dc/158][issue-dc/158]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2026.04.01
 > - 发布 `dol-0.5.8.10-chs-3.1.3a` 版
 >   - 修复了扶他刮毛报错 [@issue/544][issue/544] [@issue-dc/150][issue-dc/150]
@@ -1543,8 +1555,11 @@
 [issue/538]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/538
 [issue/539]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/539
 [issue/541]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/541
+[issue/542]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/542
+[issue/543]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/543
 [issue/544]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/544
 [issue/545]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/545
+[issue/546]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/546
 
 
 [issue-dc/1]: https://discord.com/channels/1103864219620884560/1203589492565348362
@@ -1700,4 +1715,8 @@
 [issue-dc/152]: https://discord.com/channels/1103864219620884560/1484498858598727690
 [issue-dc/153]: https://discord.com/channels/1103864219620884560/1485227025215131722
 [issue-dc/154]: https://discord.com/channels/1103864219620884560/1486790729085747395
+[issue-dc/155]: https://discord.com/channels/1103864219620884560/1517781688652927026
+[issue-dc/156]: https://discord.com/channels/1103864219620884560/1513164190859399198
+[issue-dc/157]: https://discord.com/channels/1103864219620884560/1488167589220974683
+[issue-dc/158]: https://discord.com/channels/1103864219620884560/1507216100142616687
 <!-- endregion -->
