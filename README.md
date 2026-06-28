@@ -211,6 +211,15 @@
 <details>
 <summary>点击展开</summary>
 
+> 2026.06.28
+> - 发布 `dol-0.5.10.12-chs-1.0.8a` 版
+>   - 修复了汉化版游戏APK包与旧版APK包签名不一致的问题
+>   - 修复了关于食谱的问题
+>   - 修复了一些文本错漏 [@issue-dc/159][issue-dc/159]
+>   - 真的修复了与烙印、纹身相关的问题 [@issue-dc/160][issue-dc/160]
+>   - 修复了与手持物品相关的问题 [@issue/559][issue/559] [@issue/560][issue/560]
+>   - 修复了一些其他已知问题
+> 
 > 2026.06.25
 > - 发布 `dol-0.5.10.12-chs-1.0.7a` 版
 >   - 修复了汉化包字符解析问题
@@ -1565,6 +1574,8 @@
 [issue/544]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/544
 [issue/545]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/545
 [issue/546]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/546
+[issue/559]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/559
+[issue/560]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/560
 
 
 [issue-dc/1]: https://discord.com/channels/1103864219620884560/1203589492565348362
@@ -1724,4 +1735,6 @@
 [issue-dc/156]: https://discord.com/channels/1103864219620884560/1513164190859399198
 [issue-dc/157]: https://discord.com/channels/1103864219620884560/1488167589220974683
 [issue-dc/158]: https://discord.com/channels/1103864219620884560/1507216100142616687
+[issue-dc/159]: https://discord.com/channels/1103864219620884560/1520280441020616864
+[issue-dc/160]: https://discord.com/channels/1103864219620884560/1520225903316172931
 <!-- endregion -->

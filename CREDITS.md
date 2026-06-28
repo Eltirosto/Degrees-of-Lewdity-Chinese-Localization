@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20260625
+> 20260628
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -242,6 +242,7 @@
 - As12d
 - Asd20031424
 - Asda52361
+- Asdfghjklzx
 - Aseaweed
 - Asgore
 - Ash1122
@@ -290,8 +291,10 @@
 - Charil
 - Charl the Internet User
 - Charlotteee
+- Chasinx
 - Cheam
 - ChenItse
+- Cherrie0925
 - CherryQWQ
 - ChiESe
 - Chiangchiang
@@ -417,6 +420,7 @@
 - Hjbpyzn
 - Hmsterror
 - Homohu
+- HongXuan
 - Hs90419a
 - Hsuan3
 - Htw
@@ -650,6 +654,7 @@
 - Qiaoqiao
 - Qime
 - Qing Jue
+- Qiqi77uu9
 - Qqwwwwww
 - Qsx0391
 - Qwertyuiop1237465
@@ -721,6 +726,7 @@
 - Starrrr
 - Startear
 - Stasi
+- Stone1789
 - Strike-AI
 - Stys
 - Sudiyana
@@ -746,12 +752,6 @@
 - Trlaitioer
 - Tsunhui217
 - Tu xiu
-- TuShanmxy
-- Tuuo5800
-- Twilightask
-- Twing1314
-- Txs
-- USB mw
 
 </details>
 
@@ -765,6 +765,7 @@
 - 1Shirotori
 - 1diotDoomSpira1
 - 283952
+- 3naka
 - 466153334
 - ACE-DustofStars
 - AEEESEEEA
@@ -865,6 +866,7 @@
 - bomu114514
 - bwhmtyp
 - celestial-breeze
+- chairsssssss
 - creeping1023
 - cvknyf597f-byte
 - darkwithlight
@@ -911,6 +913,7 @@
 - morrisan428
 - nasekaoru202
 - newbie-forever
+- nuoshengg-cyber
 - orishimo010
 - ouo30
 - pcwindy
@@ -955,12 +958,11 @@
 - xzyl4303
 - y5353030
 - yanm66
-- yimoandloucy
 - yinleirenlxy
 - yuban01652
 - yukko12345
 - yundixx
-- zhengxiaoyao0716
+- zakobakasen
 - zombie0424
 - zsbxws
 - zufengsama
