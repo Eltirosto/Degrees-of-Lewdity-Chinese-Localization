@@ -114,7 +114,7 @@
 
 ### Star 数
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Eltirosto/Degrees-of-Lewdity-Chinese-Localization&type=Date)](https://star-history.com/#Eltirosto/Degrees-of-Lewdity-Chinese-Localization&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=Eltirosto/Degrees-of-Lewdity-Chinese-Localization&type=Date)](https://star-history.dera.page/#Eltirosto/Degrees-of-Lewdity-Chinese-Localization&Date)
 
 ---
 
