@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欲都孤儿 - 在线版选择页</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link type="image/png" rel="icon" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAGJUExURUdwTM5+RYZPI4BVKoRNH4lQIwAAAHU7H6xoMo1SInlRG4ZMIYNGIa5oNJdaLKtnNK5qNo5VHMJ3QKdkMZ1cMJ5dLqBfLaJgMqRfMJhYKYdQKNGvo6FhM6tkNJRVJ4tGF8B4QZ1cLaliM5FUJ5ZWKPbXxuPBs5NWJ4xSJKhiNJlZKPrp39Krmb2qpKBdLdGom927oo9SI7qHZJpaKbiWiruhmYlRIpVbNtqHTP/u4rVpOqhiMr9xP61jM7FnN7hrO7ttPptbK89+RumaVteFSL90PadbHN2PSKVYHLN1S6ZgMuO7n+3j3P/s34NOI/3p3ZRXKadjNOCPUOOTUsh6Qs59QPCiWsh3O7ZmKrh1Oo9NGMJ2Qp9YJrhqOrBkLtvSz694UpBSIOCUU7CFaNikhKdoOq9ySfHby6OZlHR4f6FvRp9TFpVTIP7o15t7ZqmHbY2YqODEruXEr7K3wC5ejfrNsODi5s+omPTazSJSgb29whxOfvLTxfzk1b+Ma8PEyfPj2+Hm63iNotY+v8UAAAA4dFJOUwD8PQYhfQEEtkkJKhexXbrGEu+WdaXC/rPoRln8+HUL++r0vIX1kPSx4p7s9q7OOP6Y1P1r/av8OyD8ogAAAOZJREFUGBk1wIWWglAUBdCjggzqdHd3N/chpWKP6HR3d3d/ubhcbtjczuIiW4kXeVypQ8oJVFR6YHOXBeelPLPaBUB0SAtLy6FwMBLZaGsAULMYWlldM/374XVlq90Drj4eiJrb5zLbPdrUO1ohMtkfvUjdxGMnB6ra6YLIZO0y9f94fUene0oXIDJZ0xN/Hw9EZ4bWAvj6FZah57d3otvjZh+AEd3I0O+PRbQTqxMA9Kks/fJlvVpzidoq2Jy9k0b6+/N+7LCJL0cO5x2fmX2a4Ad4AQVT01dDw6MoEHoGk0TJ7kbYsoQUMAKQPM6bAAAAAElFTkSuQmCC">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            /* Light Theme (Default) */
+            --base-bg: #F2F2F7;
+            --surface-white: rgba(255, 255, 255, 0.6);
+            --surface-white-hover: rgba(255, 255, 255, 0.75);
+            --surface-solid: rgba(255, 255, 255, 0.85);
+            --text-primary: #1C1C1E;
+            --text-secondary: #6B6B6F;
+            --text-tertiary: #8E8E93;
+            --accent-primary: #1C1C1E;
+            --accent-primary-hover: #2C2C2E;
+            --accent-secondary: #06B6D4;
+            --accent-secondary-hover: #0891B2;
+            --border-light: rgba(255, 255, 255, 0.6);
+            --border-outer: rgba(209, 209, 214, 0.4);
+            --shadow-float: 0 24px 48px -12px rgba(0, 0, 0, 0.08);
+            --shadow-card: 0 12px 32px -8px rgba(0, 0, 0, 0.06);
+            --shadow-inset: inset 0 2px 4px rgba(0, 0, 0, 0.04);
+            --icon-bg: rgba(0, 0, 0, 0.04);
+            --icon-bg-accent: rgba(6, 182, 212, 0.12);
+        }
+
+        [data-theme="dark"] {
+            --base-bg: #1C1C1E;
+            --surface-white: rgba(44, 44, 46, 0.8);
+            --surface-white-hover: rgba(58, 58, 60, 0.85);
+            --surface-solid: rgba(44, 44, 46, 0.95);
+            --text-primary: #F5F5F7;
+            --text-secondary: #A1A1A6;
+            --text-tertiary: #6E6E73;
+            --accent-primary: #F5F5F7;
+            --accent-primary-hover: #FFFFFF;
+            --accent-secondary: #22D3EE;
+            --accent-secondary-hover: #67E8F9;
+            --border-light: rgba(255, 255, 255, 0.1);
+            --border-outer: rgba(255, 255, 255, 0.08);
+            --shadow-float: 0 24px 48px -12px rgba(0, 0, 0, 0.4);
+            --shadow-card: 0 12px 32px -8px rgba(0, 0, 0, 0.3);
+            --shadow-inset: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+            --icon-bg: rgba(255, 255, 255, 0.08);
+            --icon-bg-accent: rgba(34, 211, 238, 0.2);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+            background: var(--base-bg);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 32px 24px;
+        }
+
+        /* Theme Toggle */
+        .theme-toggle {
+            position: fixed;
+            top: 24px;
+            right: 24px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--surface-solid);
+            backdrop-filter: blur(40px);
+            -webkit-backdrop-filter: blur(40px);
+            padding: 8px;
+            border-radius: 50px;
+            border: 1px solid var(--border-outer);
+            box-shadow: var(--shadow-card);
+        }
+
+        .theme-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            color: var(--text-tertiary);
+        }
+
+        .theme-btn:hover {
+            background: var(--icon-bg);
+        }
+
+        .theme-btn.active {
+            background: var(--accent-primary);
+            color: var(--base-bg);
+        }
+
+        .theme-btn i {
+            width: 20px;
+            height: 20px;
+            stroke-width: 2;
+        }
+
+        /* Banner Section */
+        .banner-section {
+            position: relative;
+            width: 100%;
+            border-radius: 50px;
+            overflow: hidden;
+            margin-bottom: 32px;
+            background: var(--surface-white);
+            backdrop-filter: blur(60px);
+            -webkit-backdrop-filter: blur(60px);
+            border: 1px solid var(--border-light);
+            box-shadow: var(--shadow-float), inset 0 1px 0 var(--border-light);
+            transition: all 0.3s ease;
+        }
+
+        .banner-inner {
+            padding: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner-inner img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 28px;
+        }
+
+        /* Glass Card */
+        .glass-card {
+            background: var(--surface-white);
+            backdrop-filter: blur(50px);
+            -webkit-backdrop-filter: blur(50px);
+            border-radius: 40px;
+            padding: 40px;
+            margin-bottom: 32px;
+            border: 1px solid var(--border-light);
+            box-shadow: var(--shadow-card), inset 0 1px 0 var(--border-light), 0 0 0 1px var(--border-outer);
+            transition: all 0.3s ease;
+        }
+
+        /* Section Title */
+        .section-label {
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--text-tertiary);
+            margin-bottom: 8px;
+        }
+
+        .section-title {
+            font-size: 1.75rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 24px;
+        }
+
+        /* Description Text */
+        .description {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .highlight {
+            color: var(--accent-secondary);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .highlight:hover {
+            text-decoration: underline;
+        }
+
+        /* Button Group */
+        .button-group {
+            display: flex;
+            gap: 16px;
+            margin-top: 32px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 14px 28px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            letter-spacing: -0.01em;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            border: none;
+            cursor: pointer;
+            box-shadow: var(--shadow-card);
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        .btn-primary {
+            background: var(--accent-primary);
+            color: var(--base-bg);
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-primary-hover);
+            box-shadow: var(--shadow-float);
+        }
+
+        .btn-secondary {
+            background: var(--accent-secondary);
+            color: #FFFFFF;
+        }
+
+        [data-theme="dark"] .btn-secondary {
+            color: #1C1C1E;
+        }
+
+        .btn-secondary:hover {
+            background: var(--accent-secondary-hover);
+            box-shadow: var(--shadow-float);
+        }
+
+        .btn svg {
+            width: 18px;
+            height: 18px;
+        }
+
+        .btn i {
+            width: 18px;
+            height: 18px;
+            stroke-width: 2;
+        }
+
+        /* Game Entries Grid */
+        .entries-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 24px;
+            margin-bottom: 48px;
+        }
+
+        .entry-card {
+            background: var(--surface-white);
+            backdrop-filter: blur(50px);
+            -webkit-backdrop-filter: blur(50px);
+            border-radius: 40px;
+            padding: 40px;
+            text-align: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid var(--border-light);
+            box-shadow: var(--shadow-card), inset 0 1px 0 var(--border-light), 0 0 0 1px var(--border-outer);
+        }
+
+        .entry-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-float), inset 0 1px 0 var(--border-light), 0 0 0 1px var(--border-outer);
+        }
+
+        .entry-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            background: var(--icon-bg);
+            box-shadow: var(--shadow-inset);
+        }
+
+        .entry-icon i {
+            color: var(--text-secondary);
+            width: 24px;
+            height: 24px;
+            stroke-width: 1.5;
+        }
+
+        .entry-card.compat-mode .entry-icon {
+            background: var(--icon-bg-accent);
+        }
+
+        .entry-card.compat-mode .entry-icon i {
+            color: var(--accent-secondary);
+        }
+
+        .entry-title {
+            font-size: 1.375rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        .entry-description {
+            font-size: 0.9rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            margin-bottom: 28px;
+        }
+
+        .entry-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            background: var(--accent-primary);
+            color: var(--base-bg);
+            border: none;
+            cursor: pointer;
+            box-shadow: var(--shadow-card);
+        }
+
+        .entry-btn:active {
+            transform: scale(0.95);
+        }
+
+        .entry-btn:hover {
+            background: var(--accent-primary-hover);
+            box-shadow: var(--shadow-float);
+        }
+
+        .entry-card.compat-mode .entry-btn {
+            background: var(--accent-secondary);
+            color: #FFFFFF;
+        }
+
+        [data-theme="dark"] .entry-card.compat-mode .entry-btn {
+            color: #1C1C1E;
+        }
+
+        .entry-card.compat-mode .entry-btn:hover {
+            background: var(--accent-secondary-hover);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 24px;
+            color: var(--text-tertiary);
+            font-size: 0.85rem;
+        }
+
+        footer p {
+            font-weight: 500;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 16px;
+            }
+
+            .theme-toggle {
+                top: 16px;
+                right: 16px;
+                padding: 6px;
+            }
+
+            .theme-btn {
+                width: 36px;
+                height: 36px;
+            }
+
+            .banner-inner {
+                padding: 24px;
+            }
+
+            .banner-section {
+                border-radius: 28px;
+            }
+
+            .glass-card {
+                padding: 28px 24px;
+                border-radius: 28px;
+            }
+
+            .entries-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .entry-card {
+                padding: 32px 24px;
+                border-radius: 28px;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<!-- Theme Toggle -->
+<div class="theme-toggle">
+    <button class="theme-btn" id="theme-light" title="浅色模式">
+        <i data-lucide="sun"></i>
+    </button>
+    <button class="theme-btn" id="theme-system" title="跟随系统">
+        <i data-lucide="monitor"></i>
+    </button>
+    <button class="theme-btn" id="theme-dark" title="深色模式">
+        <i data-lucide="moon"></i>
+    </button>
+</div>
+
+<div class="container">
+    <!-- Banner Section -->
+    <section class="banner-section">
+        <div class="banner-inner">
+            <img src="banner.png" alt="欲都孤儿">
+        </div>
+    </section>
+
+    <!-- Intro Section -->
+    <section class="glass-card">
+        <span class="section-label">INTRODUCTION</span>
+        <h2 class="section-title">简要说明</h2>
+        <p class="description">本页面为欲都孤儿汉化版游戏在线游玩选择页面，请根据你使用的设备具体情况选择对应模式</p>
+        <p class="description">在线版默认会自动加载<a class="highlight">汉化包</a>与<a class="highlight">图片包</a>，目前无法卸载。此外，在线版也可以从你的设备本地加载其它模组</p>
+
+        <div class="button-group">
+            <a href="https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization" class="btn btn-primary" target="_blank">
+                <i data-lucide="github"></i>
+                返回仓库
+            </a>
+            <a href="download.html" class="btn btn-secondary" target="_blank">
+                <i data-lucide="download"></i>
+                游戏下载
+            </a>
+        </div>
+    </section>
+
+    <!-- Game Mode Selection -->
+    <section class="entries-grid">
+        <div class="entry-card">
+            <div class="entry-icon">
+                <i data-lucide="monitor"></i>
+            </div>
+            <h2 class="entry-title">在线版普通模式</h2>
+            <p class="entry-description">适用于高版本 Chrome、Firefox 或 Edge 浏览器内核，推荐优先选择普通模式</p>
+            <a href="Degrees%20of%20Lewdity%20VERSION.html.mod.html" class="entry-btn" id="normal-mode-btn">
+                启动普通模式
+            </a>
+        </div>
+
+        <div class="entry-card compat-mode">
+            <div class="entry-icon">
+                <i data-lucide="shield-check"></i>
+            </div>
+            <h2 class="entry-title">在线版兼容模式</h2>
+            <p class="entry-description">针对较旧版本的浏览器内核进行了一定程度的兼容，如果普通模式下无法正常加载模组管理器，请选择兼容模式</p>
+            <a href="Degrees%20of%20Lewdity%20VERSION.html.mod-polyfill.html" class="entry-btn" id="compat-mode-btn">
+                启动兼容模式
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2023 欲都孤儿汉化组 · 本页面托管于 GitHub Pages</p>
+    </footer>
+</div>
+
+<script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+
+    // Theme Management
+    const ThemeManager = {
+        STORAGE_KEY: 'dol-theme-preference',
+
+        init() {
+            this.lightBtn = document.getElementById('theme-light');
+            this.systemBtn = document.getElementById('theme-system');
+            this.darkBtn = document.getElementById('theme-dark');
+
+            // Load saved preference or default to system
+            const saved = localStorage.getItem(this.STORAGE_KEY) || 'system';
+            this.setTheme(saved);
+
+            // Event listeners
+            this.lightBtn.addEventListener('click', () => this.setTheme('light'));
+            this.systemBtn.addEventListener('click', () => this.setTheme('system'));
+            this.darkBtn.addEventListener('click', () => this.setTheme('dark'));
+
+            // Listen for system theme changes
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+                if (localStorage.getItem(this.STORAGE_KEY) === 'system') {
+                    this.applyTheme(e.matches ? 'dark' : 'light');
+                }
+            });
+        },
+
+        setTheme(preference) {
+            localStorage.setItem(this.STORAGE_KEY, preference);
+
+            // Update button states
+            this.lightBtn.classList.toggle('active', preference === 'light');
+            this.systemBtn.classList.toggle('active', preference === 'system');
+            this.darkBtn.classList.toggle('active', preference === 'dark');
+
+            // Apply actual theme
+            if (preference === 'system') {
+                const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                this.applyTheme(isDark ? 'dark' : 'light');
+            } else {
+                this.applyTheme(preference);
+            }
+        },
+
+        applyTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+        }
+    };
+
+    // Initialize theme manager
+    ThemeManager.init();
+</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+aliases:
+  decoration:
+    img: &img
+      border: 1px
+      borderStyle: dashed dashed none
+    unused: &unused
+      border: 0px
+sugarcube-2:
+  macros:
+    banner:
+      description: |-
+        Prints a weather-aware banner or modded banner
+
+        If you can see the banner below you are developing in a modded environment with a banner present
+
+        ![static](./misc/banner.png)
+    img:
+      name: img
