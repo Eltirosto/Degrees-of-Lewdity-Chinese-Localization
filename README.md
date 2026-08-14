@@ -211,6 +211,29 @@
 <details>
 <summary>点击展开</summary>
 
+> 2026.08.15
+> - 发布 `dol-0.5.11.9-chs-1.0.0a` 版
+>   - 修复了与受孕相关的问题 [@issue/562][issue/562] [@issue/568][issue/568] [@issue/571][issue/571] [@issue/572][issue/572] [@issue-dc/163][issue-dc/163] [@issue-dc/164][issue-dc/164] [@issue-dc/169][issue-dc/169] [@issue-dc/172][issue-dc/172] [@issue-dc/174][issue-dc/174]
+>   - 修复了与日志相关的问题 [@issue/563][issue/563]
+>   - 改进了红月守望者画作的故事翻译 [@issue/564][issue/564]
+>   - 修复了流浪狗收容所相关的问题 [@issue/570][issue/570]
+>   - 修复了图标名称相关问题 [@issue-dc/161][issue-dc/161]
+>   - 修复了在学校场景出现的问题 [@issue-dc/162][issue-dc/162]
+>   - 修复了在气球摊场景出现的问题 [@issue-dc/165][issue-dc/165]
+>   - 修复了右手战斗菜单的汉化缺失 [@issue-dc/166][issue-dc/166]
+>   - 修复了家具店壁纸的汉化缺失 [@issue-dc/167][issue-dc/167]
+>   - 修复了惠特尼相关剧情的汉化缺失 [@issue-dc/168][issue-dc/168]
+>   - 修复了与怀孕属性相关的问题 [@issue-dc/170][issue-dc/170]
+>   - 修复了衣柜服装编辑器相关的问题 [@issue-dc/171][issue-dc/171]
+>   - 修复了凯拉尔剧情相关的问题 [@issue-dc/173][issue-dc/173]
+>   - 修复了医院相关场景的汉化缺失 [@issue-dc/175][issue-dc/175]
+>   - 修复了一些翻译问题 [@issue-dc/176][issue-dc/176] [@issue-dc/180][issue-dc/180] [@issue-dc/185][issue-dc/185]
+>   - 修复了罗宾相关的翻译问题 [@issue-dc/177][issue-dc/177]
+>   - 修正了一些译名 [@issue-dc/178][issue-dc/178] [@issue-dc/179][issue-dc/179] [@issue-dc/181][issue-dc/181] [@issue-dc/182][issue-dc/182] [@issue-dc/183][issue-dc/183] [@issue-dc/184][issue-dc/184]
+>   - 修复了一些陈年问题，感谢 Lucky Punghina [@issue-dc/186][issue-dc/186]
+>   - 修复了一些其他已知问题
+> 
+> 
 > 2026.06.28
 > - 发布 `dol-0.5.10.12-chs-1.0.8a` 版
 >   - 修复了汉化版游戏APK包与旧版APK包签名不一致的问题
@@ -219,6 +242,7 @@
 >   - 真的修复了与烙印、纹身相关的问题 [@issue-dc/160][issue-dc/160]
 >   - 修复了与手持物品相关的问题 [@issue/559][issue/559] [@issue/560][issue/560]
 >   - 修复了一些其他已知问题
+> 
 > 
 > 2026.06.25
 > - 发布 `dol-0.5.10.12-chs-1.0.7a` 版
@@ -1576,6 +1600,13 @@
 [issue/546]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/546
 [issue/559]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/559
 [issue/560]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/560
+[issue/562]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/562
+[issue/563]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/563
+[issue/564]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/564
+[issue/568]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/568
+[issue/570]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/570
+[issue/571]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/571
+[issue/572]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/572
 
 
 [issue-dc/1]: https://discord.com/channels/1103864219620884560/1203589492565348362
@@ -1737,4 +1768,30 @@
 [issue-dc/158]: https://discord.com/channels/1103864219620884560/1507216100142616687
 [issue-dc/159]: https://discord.com/channels/1103864219620884560/1520280441020616864
 [issue-dc/160]: https://discord.com/channels/1103864219620884560/1520225903316172931
+[issue-dc/161]: https://discord.com/channels/1103864219620884560/1521268721375510548
+[issue-dc/162]: https://discord.com/channels/1103864219620884560/1521268721375510548
+[issue-dc/163]: https://discord.com/channels/1103864219620884560/1521319241071067146
+[issue-dc/164]: https://discord.com/channels/1103864219620884560/1521518244882550855
+[issue-dc/165]: https://discord.com/channels/1103864219620884560/1521557005406441622
+[issue-dc/166]: https://discord.com/channels/1103864219620884560/1521794752121409637
+[issue-dc/167]: https://discord.com/channels/1103864219620884560/1521964224836800612
+[issue-dc/168]: https://discord.com/channels/1103864219620884560/1522461421596577874
+[issue-dc/169]: https://discord.com/channels/1103864219620884560/1523215854681067600
+[issue-dc/170]: https://discord.com/channels/1103864219620884560/1523266423084945439
+[issue-dc/171]: https://discord.com/channels/1103864219620884560/1525289531195260938
+[issue-dc/172]: https://discord.com/channels/1103864219620884560/1525352566970515517
+[issue-dc/173]: https://discord.com/channels/1103864219620884560/1526708908310269952
+[issue-dc/174]: https://discord.com/channels/1103864219620884560/1528032627859128360
+[issue-dc/175]: https://discord.com/channels/1103864219620884560/1528850315603087480
+[issue-dc/176]: https://discord.com/channels/1103864219620884560/1535304307153436722
+[issue-dc/177]: https://discord.com/channels/1103864219620884560/1524676730537775198
+[issue-dc/178]: https://discord.com/channels/1103864219620884560/1528321270259908708
+[issue-dc/179]: https://discord.com/channels/1103864219620884560/1531250823064064060
+[issue-dc/180]: https://discord.com/channels/1103864219620884560/1532088368522067968
+[issue-dc/181]: https://discord.com/channels/1103864219620884560/1534222049768247358
+[issue-dc/182]: https://discord.com/channels/1103864219620884560/1534574984641511545
+[issue-dc/183]: https://discord.com/channels/1103864219620884560/1534625484204277760
+[issue-dc/184]: https://discord.com/channels/1103864219620884560/1537370341276655636
+[issue-dc/185]: https://discord.com/channels/1103864219620884560/1537803420226822174
+[issue-dc/186]: https://discord.com/channels/1103864219620884560/1537861775511261335
 <!-- endregion -->
