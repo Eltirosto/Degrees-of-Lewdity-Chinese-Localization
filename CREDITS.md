@@ -1,5 +1,5 @@
 ## 欲都孤儿 贡献者名单
-> 20260815
+> 20261002
 ### 为汉化做出过贡献的诸位（排名不分先后）：
 <details>
 <summary>点击展开</summary>
@@ -73,6 +73,7 @@
 - RandyLuaW(燃灯琉璃)
 - Saltedfish1g
 - SatoriKochiya
+- SecretSealer
 - SenriYuki
 - SilverSturgeon(银鲟鱼)
 - Smiling0Potato(Smiling Potato)
@@ -114,6 +115,7 @@
 - lynchYANG
 - mao0316
 - maxnb233
+- memodiary(memodiary)
 - minami29(minami)
 - misaka2047
 - miyako4828(miyako4828)
@@ -152,15 +154,40 @@
 <details>
 <summary>点击展开</summary>
 
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
+-  
 - +++嫉妒
+- .wuxy
+- 00ttsqq
 - 00v143
 - 05 Guured
+- 0830a
 - 0p9o8i7u
 - 100Zhi
 - 100天
 - 101de9
 - 111998wxl
 - 114511q
+- 11w1
 - 12344321q'w'w'q
 - 1237hc907a
 - 1344535564qwa
@@ -171,6 +198,8 @@
 - 19543739060lwj
 - 1996912qaz
 - 1tt1e 1219
+- 200603chen
+- 2010Y
 - 2403428122a
 - 2403428122a1
 - 259172社
@@ -204,13 +233,18 @@
 - ASDA
 - AYAKAii
 - Aaccy
+- Aakkp
+- Aala
+- Ab10
 - Abcd0715
 - Abeidou
 - Access
 - AceEchoey
 - Acloud
+- Adambeck
 - AdiosEden
 - Adsgrdh
+- Adthem
 - Afterglow
 - Agatha Carlyle
 - AgustD
@@ -234,8 +268,11 @@
 - Amyamy
 - AnHe
 - Anangel
+- Anata
 - Andy861112
+- Ann370
 - AnnieCat
+- AnnikaAA
 - Ansona0529
 - Anzhinuo
 - Aoilen
@@ -246,6 +283,8 @@
 - ArtisTodd
 - Aryaku
 - As12d
+- Asanameee
+- Asd11288k
 - Asd20031424
 - Asda52361
 - Asdfghjklzx
@@ -265,6 +304,7 @@
 - B373973072
 - BQA
 - BV1yp4y1x7Sb
+- Babee
 - Babycare
 - Bad apple
 - Baijia
@@ -273,6 +313,7 @@
 - Beambook
 - Bee1
 - Benchang72
+- Bendyyy
 - Biantai456123
 - Bicai
 - Bioo
@@ -288,16 +329,20 @@
 - Bowen
 - BowlGi
 - Busuanzi
+- Buzhidaoqusha
 - Bwmgd
 - Bz02
 - C635190850
+- CAFFEINS
 - Caf43rer
+- CaffeineX0101
 - Capaletric
 - Cassey
 - Cat 02
 - Catlight
 - Ccb114514
 - Celialapin
+- Cepheus
 - Cff
 - Charil
 - Charl the Internet User
@@ -307,6 +352,7 @@
 - Chelsea0812
 - Chen20081123
 - ChenItse
+- Cherii
 - Cherrie0925
 - CherryQWQ
 - ChiESe
@@ -324,6 +370,7 @@
 - Cocopon
 - Cocosheep
 - Code03227
+- Copyrights
 - Creeping
 - Crumb fish
 - Csh
@@ -331,6 +378,8 @@
 - Cxq666O
 - Cynthia118
 - Cyy12345
+- D14134
+- D239129
 - DAX666
 - DBF300
 - DEIR
@@ -351,12 +400,14 @@
 - Deperens
 - Deseando
 - DestroyerS
+- Digoccc
 - Dknife
 - Dkwih4487
 - Dlamere
 - Dling
 - Dlmily
 - DmsHunk
+- Doctor555
 - DolAaJi
 - Doloris
 - Dolpc
@@ -378,26 +429,33 @@
 - Eldegoss
 - Eldk
 - EmailChan
+- Emememek
 - Emily102101081
 - Emily1997829
 - Ensadc
 - Enyu
 - Ephra1982
+- EpicKakapo2.0
+- Erinjonas8
 - Errorzzr
 - Essic
 - Estella Clockwork
 - Eudemonism00
 - EvieEva
+- Eyb
 - F.melody
 - F82731848
 - FCSfish
 - FLLFFL
 - FXIZ
 - Fairy rui
+- Falling Angle
 - Featherhell
+- Febowo
 - Fei qiu
 - FelixCh168
 - Fengyan
+- Ff0125
 - Fffffffffffffffffff
 - Fgftgh
 - Flammis023
@@ -415,11 +473,14 @@
 - Fxsh
 - Fy950
 - GTH520
+- Galgame
 - Ghost08
 - GhostMiku117
+- Gjijbv
 - Gloriaync
 - Gmpo238
 - GnOr
+- Godfandog
 - Gold-wx
 - GraySparrow
 - Guize
@@ -441,21 +502,26 @@
 - Happy1041
 - Haruhihoshi
 - Hawkmoth
+- Hgtea
 - Hhfiiobn
 - Higuas
+- Hinarin
 - Hinata01
 - Hiroko
 - Hjbpyzn
 - Hmsterror
 - Homohu
 - HongXuan
+- Hotcream
 - Hs90419a
 - Hsuan3
 - Htw
 - Huangxiaoan10
+- Huanying7788
 - Huazhi
 - Huh 0310
 - Huihuihui
+- Hujikang110
 - Huliheban
 - Humeneee
 - Humenle
@@ -475,15 +541,22 @@
 - IyLer
 - JIN-SE
 - JIZ
+- JL501
+- JUSTJJ
 - JZDOF
 - Jack DOL
 - JayVejas
 - Jecbcqzlsumnwnb
+- JiaM
+- Jiang11
 - Jiangjiang
 - Jiangjieshi
+- Jiezhou
 - Jingheimoan
 - Jingyin1010
 - Jitm
+- Jiucai248080
+- Jjjjjjjjjjj
 - Jjjxj
 - Jjssnsjj
 - Jk34
@@ -491,20 +564,28 @@
 - Jljyboki
 - Jly13
 - Jojo41525
+- JuMao
 - Judy1233456
+- June2007
+- June200717
 - Jvs
+- K1431802000
 - K2496745900
 - Kacastic
 - Kadmz
 - Kagamine rinrin
 - Kagamineslover
 - Kaidezhishang
+- Kaiteiza
 - Kalopsia
 - Kamoeth
+- Kamui1001
 - Kanaeee
 - Kanelink
 - KannnouAyaka
+- Kate0718
 - Kb2090
+- KeatsZhuowan
 - Kenny08
 - Khaos423
 - Ki2333
@@ -516,24 +597,30 @@
 - Kirina
 - Kkkkjl
 - Kkoun
+- Klmx
 - Klmx12138
 - Kochiya kotomi
+- Koiii
 - Koishi114514
 - Koishiiiiiiiii
 - Konjac
 - Koooooi
 - KotomiKochiya
 - Kouno Toushi
+- Ku07
 - Kuame
 - Kuriyama
 - Kurumi Walnut
 - Kwylygz1
 - KylarLoveLoveLove
 - Kyrill1127
+- L13001
+- L2622089652
 - LLLLouise
 - LLYDG
 - LONGKONG
 - Ladiangory
+- Ladyhahaha
 - Laiet
 - LalunRrosmarin
 - Lambda017
@@ -545,14 +632,18 @@
 - LazyCat718
 - Leaf03
 - LeannaEllis
+- Leochen
 - Leon960417
+- Leona121o
 - Leonithas
 - Leslie560912
 - Lgait
 - Lifeir
 - Lilian Yu
+- Lilyanna
 - Ling6100923
 - Lingqishi1995
+- Lingyin
 - Linley
 - Linshide
 - Little One
@@ -561,15 +652,18 @@
 - Liujiaji14
 - Liuyu1122
 - Lixingyi0823
+- Liz009
 - Lizi00
 - Lizo
 - Llang
 - Lnlts
 - Loiili
 - LonZzz
+- Loongmao
 - LoopSpiner
 - Lotusmoon
 - Lovelyu0
+- Lucifer.lue
 - Lucky Punghina
 - LuckyAnt
 - Lujingran
@@ -581,18 +675,21 @@
 - Luohe
 - LupusXLass1404
 - Luvi
+- Luvxixi
 - Luz333
 - Luzzy
 - Lww
 - Lyjjl
 - Lynn723
 - Lynor
+- Lzgr
 - Lzz
 - MCxiaoai
 - MGfort
 - ML99
 - MOW0
 - Machao
+- MagicFox
 - MagicalAstrogy
 - Magnusangel
 - Maiagaru
@@ -627,6 +724,7 @@
 - Mimooo
 - Mimoooo
 - Minaca
+- MinervAy
 - Minnm
 - MirahezeGDPR 58d4bc504cb219e9109e79d70aff4022
 - MirahezeGDPR a2839233912c10967f81a42673979de9
@@ -640,6 +738,7 @@
 - Mmy
 - Mo yu 037
 - MochaAD
+- Moji
 - Molee
 - Moliqiu1
 - Momo(afk)
@@ -652,6 +751,7 @@
 - Motoori Era
 - Mou79512
 - Mp5k
+- Mugou
 - Mutsumi-futa
 - Mwt 823
 - Mx666
@@ -664,94 +764,17 @@
 - Nailao
 - NaiveHa
 - Nate151514
+- NatsukiTassel
 - Nekovo
+- Newgard
 - Nic0t1ner
 - Night232
 - NightRain
 - Nigredo420
+- Niuniu090211
+- Nnniiinnnggg
 - NoDFB
 - Noah404
-- Nonavere
-- NotAracham
-- Null0034
-- Number Sir
-- Nyano
-- O13
-- OAOa
-- OYAOYA
-- Ofooo
-- Oneoff2526
-- OoMEOWoO
-- Orchid712
-- Otokam
-- OvO13
-- OwOQAQAwA
-- OwOx
-- PC1597532684
-- PONTIFEXJULIAN
-- Peachhhh0615
-- PeryFox
-- Phumass1
-- Pl816098
-- Plastic jellyfish
-- Plm
-- Pluviophile
-- PolarisLin
-- PolliaJ
-- Primacy
-- Profound
-- Prooming
-- PrunusSerrulata
-- Purelewd
-- Purelewd1
-- Putini
-- Pyy
-- Q1453160001
-- Q299814377
-- QJY
-- QQBB
-- QQai
-- Qaq75391
-- Qian ge
-- Qiaoqiao
-- Qiluoxing521
-- Qime
-- Qing Jue
-- Qiqi77uu9
-- Qq2090295989
-- Qqqiaozzz
-- Qqwwwwww
-- Qsx0391
-- QwertQWERT123
-- Qwertyuiop1237465
-- Qwp
-- Qy0306
-- R18gWhen
-- Raiden Hoshi
-- Rain31415
-- Rearkhy152
-- Redesilow
-- Remilia
-- RetuEase
-- Rhine
-- Rhy-cea
-- Ria311
-- Ricoincolor
-- Rikako
-- Rimu1129
-- RobbinA
-- RobinSuKi
-- Roboko
-- Rongrongzi
-- Ronniechoyy
-- RonseThurro
-- Rrrr221101
-- Ryara
-- Ryo0513
-- S0870217
-- SHAOYU
-- Sadistic
-- Sakuya
 
 </details>
 
@@ -794,6 +817,7 @@
 - Gionaqiaonai
 - He1l0-520
 - Jemella7
+- JohnLiao501
 - Kagamine-Rinrin
 - Kenita-OSBORN
 - KulfVolk
@@ -803,11 +827,13 @@
 - MCxiaoai
 - Maenoko
 - Maildd4158
+- Makinohara1452
 - Melicha114
 - MillianaEP
 - Minta15
 - Moliyi
 - MorningLights
+- Neko-Yukari
 - Nekofoxmiu
 - Nemunemu233
 - Nep-Timeline
@@ -816,8 +842,6 @@
 - Opera0420
 - Paul-16098
 - Pewds233
-- PichuChen
-- PingouinFerreux
 - Pony-CW
 - Qkat9
 - RL3461
@@ -929,6 +953,7 @@
 - shugu2731-blip
 - si1ence1895
 - sm1234xt
+- sqxy090123
 - sugy491366
 - thetes10304
 - toritorisuki
@@ -958,6 +983,7 @@
 - y5353030
 - yanm66
 - yinleirenlxy
+- yuanzheng999
 - yuban01652
 - yukko12345
 - yundixx

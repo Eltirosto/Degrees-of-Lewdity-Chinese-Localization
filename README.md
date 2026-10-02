@@ -211,8 +211,17 @@
 <details>
 <summary>点击展开</summary>
 
+> 2026.10.02
+> - 发布 `dol-0.5.12.13-chs-1.0.1a` 版
+>   - 游戏本体更新至 v0.5.12.13
+>   - 修复了饮料贴图名称问题 [@issue/569][issue/569]
+>   - 模组加载器现在可以一次性选择多个模组加载了 [@issue/577][issue/577]
+>   - 修复了一些其它已知问题
+> 
+> 
 > 2026.08.15
 > - 发布 `dol-0.5.11.9-chs-1.0.0a` 版
+>   - 游戏本体更新至 v0.5.11.9
 >   - 修复了与受孕相关的问题 [@issue/562][issue/562] [@issue/568][issue/568] [@issue/571][issue/571] [@issue/572][issue/572] [@issue-dc/163][issue-dc/163] [@issue-dc/164][issue-dc/164] [@issue-dc/169][issue-dc/169] [@issue-dc/172][issue-dc/172] [@issue-dc/174][issue-dc/174]
 >   - 修复了与日志相关的问题 [@issue/563][issue/563]
 >   - 改进了红月守望者画作的故事翻译 [@issue/564][issue/564]
@@ -1604,9 +1613,11 @@
 [issue/563]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/563
 [issue/564]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/564
 [issue/568]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/568
+[issue/569]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/569
 [issue/570]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/570
 [issue/571]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/571
 [issue/572]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/572
+[issue/577]: https://github.com/Eltirosto/Degrees-of-Lewdity-Chinese-Localization/issues/577
 
 
 [issue-dc/1]: https://discord.com/channels/1103864219620884560/1203589492565348362
